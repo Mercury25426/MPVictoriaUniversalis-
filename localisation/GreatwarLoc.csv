@@ -1,0 +1,13 @@
+dismantle_declared;Dismantled
+dismantle_cb;Great War Dismantle;Grande Guerre;Gesamtkrieg;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_desc;Force an enemy to dismantle their empire, pay reperations, and to limit their army;;;;;;;;;;;;x,,,
+dismantle_cb_short;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_setup;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add;Great War Dismantle;Grande Guerre;Gr��er Krieg;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add_desc;Force an enemy to dismantle their empire, pay reperations, and to limit their army;;;;;;;;;;;;x,,,
+dismantle_cb_add_short;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add_setup;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add_new;Great War Dismantle;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add_new_desc;Force an enemy to dismantle their empire, pay reperations, and to limit their army;;;;;;;;;;;;x,,,
+dismantle_cb_add_new_short;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+dismantle_cb_add_new_setup;Force $RECIPIENT$ to dismantle their empire;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,

@@ -1,0 +1,217 @@
+#Genocide - Set Up
+country_event = {
+	id = 4433
+	title = "EVTNAME4433"
+	desc = "EVTDESC4433"
+	picture = "concentration_camp"
+	
+	trigger = {
+		NOT = { has_country_modifier = preparations_to_kill }
+		has_country_flag = preparations_to_kill
+	}
+		
+	mean_time_to_happen = { days = 1 }
+		
+	option = {
+		name = "EVTOPTA4433" #Religion
+		random_owned = { limit = { owner = { NOT = { has_country_flag = animists_run } } } owner = { set_country_flag = animists_run } }
+		country_event = 4434
+	}
+		
+	option = {
+		name = "EVTOPTB4433" #Ethnicity
+		random_owned = { limit = { owner = { NOT = { has_country_flag = animists_run } } } owner = { set_country_flag = animists_run } }
+		country_event = 4435 
+	}
+}
+	
+#Genocide - Set Up - Religious	
+country_event = {
+	id = 4434
+	title = "EVTNAME4434"
+	desc = "EVTDESC4434"
+	picture = "concentration_camp"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA4434" #Everyone - Colonial Only
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { any_pop = { is_state_religion = no } is_colonial = yes }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_state_religion = no location = { is_colonial = yes } }
+			militancy = 4
+			consciousness = 8
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 } 
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4434" #Everyone - Non-Colonial Only
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { any_pop = { is_state_religion = no } is_colonial = no }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_state_religion = no location = { is_colonial = no } }
+			militancy = 9
+			consciousness = 9
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 } 
+		}
+	}
+		
+	option = {
+		name = "EVTOPTC4434" #Really Everyone
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { any_pop = { is_state_religion = no } }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_state_religion = no }
+			militancy = 9
+			consciousness = 9
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 } 
+		}
+	}
+	
+	option = {
+		name = "EVTOPTD4434" #Going in specifics
+		country_event = 443007
+		}
+	
+	option = {
+		name = "EVTOPTE4434" #go back and try again
+		country_event = 4433
+		}
+	}
+	
+#Genocide - Set Up - Ethnic	
+country_event = {
+	id = 4435
+	title = "EVTNAME4435"
+	desc = "EVTDESC4435"
+	picture = "concentration_camp"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_country_flag = everywhere_genocide_only
+		clr_country_flag = non_colonial_genocide_only
+		clr_country_flag = colonial_genocide_only
+	}
+	
+	option = {
+		name = "EVTOPTA4435" #Colonial Only
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { is_colonial = yes has_national_minority = yes }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_primary_culture = no is_accepted_culture = no location = { is_colonial = yes } }
+			militancy = 4
+			consciousness = 3
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 }
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4435" #Non-Colonial Only
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { has_national_minority = yes is_colonial = no }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_primary_culture = no is_accepted_culture = no location = { is_colonial = no } }
+			militancy = 9
+			consciousness = 9
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 }
+		}
+	}
+		
+	option = {
+		name = "EVTOPTC4435" #I don't make any distinctions, really
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		clr_country_flag = preparations_to_kill
+		any_owned = {
+			limit = { has_national_minority = yes }
+			add_province_modifier = { name = genocide duration = 1825 }
+		}
+		any_pop = {
+			limit = { is_primary_culture = no is_accepted_culture = no }
+			militancy = 9
+			consciousness = 7
+			random_list = {
+				25 = { reduce_pop = 0.7 }
+				25 = { reduce_pop = 0.6 }
+				25 = { reduce_pop = 0.5 }
+				25 = { reduce_pop = 0.4 }
+			}
+		}
+		any_country = {
+			limit = { NOT = { relation = { who = THIS value = 0 } } }
+			casus_belli = { target = THIS type = humiliate months = 24 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTE4434" #go back and try again
+		country_event = 4433
+	}
+}

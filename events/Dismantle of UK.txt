@@ -1,0 +1,45 @@
+country_event = {
+	id = 69696
+	news = yes
+	news_desc_long = "Englanddeadlong"
+	news_desc_medium = "Englanddeadsmedium"
+	news_desc_short = "Englanddeadshort"
+	title = "Englandisdead"
+	desc = "Englandisdeaddescription"
+	picture = "queenvictoria"
+		 
+		trigger = { 
+			tag = ENG
+			NOT = { has_global_flag = united_kingdom_no_more }
+			SCO = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+			IRE = {
+				exists = yes
+				NOT = { vassal_of = ENG }
+			}
+		}
+	
+
+	
+		option = {
+			name = "Englandisbased"
+			set_global_flag = united_kingdom_no_more
+			ENG_300 = { add_core = ENL }
+			ENG_277 = { add_core = ENL }
+			ENG_280 = { add_core = ENL }
+			ENG_284 = { add_core = ENL }
+			ENG_291 = { add_core = ENL }
+			ENG_296 = { add_core = ENL }
+			ENG_280 = { add_core = ENL }
+			ENG_294 = { add_core = ENL }
+			517 = { add_core = ENL }
+			ENG = {
+				all_core = { remove_core = ENG }
+			}
+			change_tag = ENL
+		}
+		
+		}
+	}

@@ -1,0 +1,436 @@
+political_decisions = {
+
+	repeal_the_corn_laws = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			NOT = {
+				has_country_flag = corn_laws_repealed_flag
+			}
+		}
+		allow = {
+			OR = {
+				average_militancy = 2
+				average_consciousness = 3
+			}
+		}
+
+		effect = {
+			remove_country_modifier = corn_laws
+			any_pop = {
+				militancy = -1
+				consciousness = 1
+			}
+			set_country_flag = corn_laws_repealed_flag
+		}
+	}
+
+	found_the_bbc = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			year = 1900
+			NOT = {
+				has_country_flag = we_are_live_from_london
+			}
+		}
+
+		allow = {
+			invention = national_radio_networks
+		}
+
+		effect = {
+			any_country = {
+				relation = {
+					who = THIS
+					value = 5
+				}
+			}
+			any_pop = {
+				militancy = -0.5
+			}
+			prestige = 10
+			set_country_flag = we_are_live_from_london
+		}
+	}
+
+	the_scotland_yard = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			NOT = {
+				has_country_flag = elementary_my_dear_watson # I know, he never says it in the books, yadiyadi.
+			}
+		}
+
+		allow = {
+			realism = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = the_yard
+				duration = -1
+			}
+			set_country_flag = elementary_my_dear_watson
+		}
+	}
+
+	ionian_islands_question = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			ION = {
+				vassal_of = ENG
+			}
+			ION = { ai = yes }
+			NOT = {
+				truce_with = GRE
+			}			
+		}
+
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+		}
+
+		effect = {
+			relation = {
+				who = GRE
+				value = 50
+			}
+			diplomatic_influence = {
+				who = GRE
+				value = 50
+			}
+			prestige = 10
+			badboy = -4
+			GRE = {
+				inherit = ION
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						year = 1864 
+						month = 4
+					}
+				}
+			}
+			modifier = {
+				factor = 1			
+				relation = {
+					who = GRE
+					value = 0
+				}
+			}
+		}
+	}
+
+	rhodesia_charter = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			owns = 2068
+			owns = 2069
+			owns = 2070
+			owns = 2071
+			owns = 2072
+			owns = 2073
+			owns = 2635
+			NOT = {
+				has_country_flag = ian_would_be_proud
+			}
+		}
+
+		allow = {
+			invention = mission_to_civilize
+		}
+
+		effect = {
+			prestige = 10
+			2068 = {
+				change_province_name = "Salisbury"
+				state_scope = {
+					change_region_name = "Southern Rhodesia"
+					any_owned = {
+						add_core = RHO
+					}
+				}
+			}
+			set_country_flag = ian_would_be_proud
+		}
+	}
+
+	north_borneo_protectorate = {
+		picture = map_borneo
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			NOT = {
+				owns = 1393
+				owns = 1394
+				owns = 1395
+			}
+			OR = {
+				1393 = { owner = { civilized = no ai = yes } }
+				1394 = { owner = { civilized = no ai = yes } }
+				1395 = { owner = { civilized = no ai = yes } }
+			}
+			NOT = { has_country_flag = north_borneo_protectorate }
+		}
+
+		allow = {
+			invention = colonial_negotiations
+			OR = {
+				ai = yes
+				1393 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+				1394 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+				1395 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = north_borneo_protectorate
+			badboy = 2
+			random_country = {
+				limit = {
+					NOT = { tag = THIS }
+					owns = 1393
+					ai = yes
+					civilized = no
+				}
+				country_event = { id = 36973 days = 0 }
+			}
+			random_country = {
+				limit = {
+					NOT = { tag = THIS }
+					owns = 1394
+					ai = yes
+					civilized = no
+				}
+				country_event = { id = 36973 days = 0 }
+			}
+			random_country = {
+				limit = {
+					NOT = { tag = THIS }
+					owns = 1395
+					ai = yes
+					civilized = no
+				}
+				country_event = { id = 36973 days = 0 }
+			}
+		}
+	}
+
+	federated_malay_states = {
+		picture = map_malaysia
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+			}
+			NOT = { owns = 1390 }
+			owns = 1384
+			1390 = {
+				owner = {
+					ai = yes
+					civilized = no
+				}
+			}
+			NOT = { has_country_flag = federated_malay_states }
+		}
+
+		allow = {
+			invention = colonial_negotiations
+			war = no
+			OR = {
+				ai = yes
+				1390 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = federated_malay_states
+			badboy = 2
+			random_country = {
+				limit = {
+					NOT = { tag = THIS }
+					owns = 1390
+					ai = yes
+					civilized = no
+				}
+				country_event = { id = 36974 days = 0 }
+			}
+		}
+	}
+reclaim_the_UK = {
+		picture = reform_the_UK
+		potential = {
+			tag = ENL
+			NOT = { has_country_flag = reclaimed_the_uk }
+		}
+		
+		allow = {
+			war = no
+			is_disarmed = no
+			has_recently_lost_war = no
+			is_greater_power = yes
+			OR = {
+				owns = 269
+				war_policy = jingoism
+			}
+		}
+		
+		effect = {
+			set_country_flag = reclaimed_the_uk
+			prestige = 10
+			ENG_254 = { add_core = ENL }
+			ENG_273 = { add_core = ENL }
+			ENG_266 = { add_core = ENL }
+			ENG_263 = { add_core = ENL }
+			ENG_258 = { add_core = ENL }
+			ENG_260 = { add_core = ENL }
+			ENG_254 = { add_core = ENL }
+			ENG_269 = { add_core = ENL }
+			any_country = {
+				limit = {
+					any_owned_province = {
+						OR = {
+							is_core = SCO
+							is_core = WHA
+							region = ENG_254
+						}
+					}
+					NOT = { tag = THIS }
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -100 }
+			}
+		}
+	}
+	
+	reform_the_UK = {
+		potential = {
+			tag = ENL
+			has_country_flag = reclaimed_the_uk
+			NOT = { exists = ENG }
+		}
+		
+		allow = {
+			war = no
+			owns = 300
+			269 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+			273 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+			254 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			all_core = {
+				remove_core = ENL
+				add_core = ENG
+			}
+			change_tag = ENG
+			random_country = {
+				limit = {
+					tag = SCO
+					exists = yes
+					ai = yes
+				}
+				SCO = { all_core = { add_core = ENG } }
+				THIS = { inherit = SCO }
+			}
+			random_country = {
+				limit = {
+					tag = SCO
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}
+			random_country = {
+				limit = {
+					tag = WHA
+					exists = yes
+					ai = yes
+				}
+				THIS = { inherit = WHA }
+			}
+			random_country = {
+				limit = {
+					tag = WHA
+					exists = yes
+					ai = no
+				}
+				country_event = 11101
+			}			
+			any_country = {
+				limit = {
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+						tag = SCO
+						tag = WHA
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = SCO
+							is_core = WHA
+							region = ENG_254
+						}
+					}
+					secede_province = THIS
+				}
+			}
+		}
+	}
+}

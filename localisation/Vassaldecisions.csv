@@ -1,0 +1,9 @@
+release_vassals_title;§YManage Vassals;;;;;;;;;;;;;;;;;;;;;;;x
+release_vassals_desc;Trigger an event that lets you free all your vassals.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91306;Manage Vassals;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91306;Choose to release all vassals or do nothing.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91306;Free vassals.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTB91306;Do nothing.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91307;Freedom!;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91307;Our overlord has granted us freedom from their vassalage.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91307;Huzzah!;;;;;;;;;;;;;;;;;;;;;;;x

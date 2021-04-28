@@ -1,0 +1,41 @@
+stormtrooper = {
+	icon = 23
+	
+	type = land
+	sprite = stormtrooper
+	active = no
+	unit_type = infantry
+	primary_culture = yes
+	floating_flag = no
+
+	#Core Abilities
+	priority = 18
+	max_strength = 3
+	default_organisation = 40
+	maximum_speed = 4.00
+	weighted_value = 9.0
+
+
+	#Building Costs
+	build_time = 90
+	build_cost = {
+		small_arms = 20
+		canned_food = 20
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		small_arms = 0.24
+		ammunition = 0.60
+		canned_food = 0.3
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 16
+	defence = 5
+	discipline = 2
+	support = 0.0
+	maneuver = 4
+}
