@@ -1097,11 +1097,12 @@ assimilation_chance =
 			NOT = { has_culture_core = yes }
 			location = {
 					OR = {
-						continent = europe
-						continent = asia
+						continent = north_america
+						continent = south_america
+						continent = oceania
 					}
 				}
-	}
+			}
 
 	###FLAGS###
 	modifier = {
@@ -1126,6 +1127,7 @@ assimilation_chance =
 		has_culture_core = yes
 		country = { has_country_flag = assimilation_idea }
 
+	}
 }
 
 #general conversion mtth, same for all pops

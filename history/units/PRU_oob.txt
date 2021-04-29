@@ -186,6 +186,26 @@ SAX = {
 
 	military_access = yes
 }
+HOL = {
+
+	value = 100
+
+	level = 3
+
+	influence_value = 25
+
+	military_access = yes
+}
+DEN = {
+
+	value = 100
+
+	level = 3
+
+	influence_value = 25
+
+	military_access = yes
+}
 
 WEI = {
 
