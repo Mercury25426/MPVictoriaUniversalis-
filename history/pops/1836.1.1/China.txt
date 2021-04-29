@@ -71,7 +71,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1045725
+        size = 418290
     }
 
     aristocrats = {
@@ -101,7 +101,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 162900
+        size = 65160
     }
 
     aristocrats = {
@@ -131,7 +131,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 19075
+        size = 7630
     }
 
     bureaucrats = {
@@ -149,7 +149,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 250
+        size = 100
     }
 }
 #Chizhou (5088000/1272000 POPS)
@@ -211,7 +211,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1080950
+        size = 432380
     }
 
     aristocrats = {
@@ -241,7 +241,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 76450
+        size = 30580
     }
 }
 #Fengyang (2224000/556000 POPS)
@@ -291,7 +291,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 495100
+        size = 198040
     }
 
     aristocrats = {
@@ -321,7 +321,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 10950
+        size = 4380
     }
 }
 #Huizhou (4476000/1119000 POPS)
@@ -383,7 +383,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 980575
+        size = 392230
     }
 
     aristocrats = {
@@ -413,7 +413,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 37800
+        size = 15120
     }
 }
 #Luzhou (4484000/1121000 POPS)
@@ -475,7 +475,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1008275
+        size = 403310
     }
 
     aristocrats = {
@@ -505,7 +505,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 11850
+        size = 4740
     }
 }
 #Ningguo (4312000/1078000 POPS)
@@ -567,7 +567,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 980900
+        size = 392360
     }
 }
 #Sizhou (2688000/672000 POPS)
@@ -617,7 +617,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 611525
+        size = 244610
     }
 }
 #Taiping (4180000/1045000 POPS)
@@ -679,7 +679,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 950900
+        size = 380360
     }
 }
 #Yingzhou (2320000/580000 POPS)
@@ -723,7 +723,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 528075
+        size = 211230
     }
 }
 #Fengtian Region (2888000)
@@ -1077,7 +1077,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 288450
+        size = 115380
     }
 
     aristocrats = {
@@ -1107,7 +1107,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 27300
+        size = 10920
     }
 
     aristocrats = {
@@ -1155,7 +1155,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 588250
+        size = 235300
     }
 
     aristocrats = {
@@ -1185,7 +1185,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 32825
+        size = 13130
     }
 
     bureaucrats = {
@@ -1203,7 +1203,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 200
+        size = 80
     }
 }
 #Jianning (2520000/630000POPS)
@@ -1235,7 +1235,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 176600
+        size = 70640
     }
 
     aristocrats = {
@@ -1265,7 +1265,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 22750
+        size = 9100
     }
 
     aristocrats = {
@@ -1307,7 +1307,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 374025
+        size = 149610
     }
 }
 #Quanzhou (2804000/701000 POPS)
@@ -1345,7 +1345,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 216625
+        size = 86650
     }
 
     aristocrats = {
@@ -1387,7 +1387,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 396725
+        size = 158690
     }
 }
 #Tingzhou (6064000/1516000 POPS)
@@ -1419,7 +1419,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 178375
+        size = 71350
     }
 
     aristocrats = {
@@ -1473,7 +1473,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 739175
+        size = 295670
     }
 
     aristocrats = {
@@ -1515,7 +1515,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 462400
+        size = 184960
     }
 }
 #Zhangzhou (5132000/1283000 POPS)
@@ -1559,7 +1559,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 216450
+        size = 86580
     }
 
     aristocrats = {
@@ -1589,7 +1589,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 95125
+        size = 38050
     }
 }
 #Gansu Region (16020000)
@@ -1659,7 +1659,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 864225
+        size = 345690
     }
 
     aristocrats = {
@@ -1689,7 +1689,7 @@
     farmers = {
         culture = kazak
         religion = sunni
-        size = 7325
+        size = 2930
     }
 
     aristocrats = {
@@ -1719,7 +1719,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 60975
+        size = 24390
     }
 
     aristocrats = {
@@ -1761,7 +1761,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 434900
+        size = 173960
     }
 
     bureaucrats = {
@@ -1779,7 +1779,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 200
     }
 }
 #Gongchang (2256000/554000 POPS)
@@ -1945,7 +1945,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 635600
+        size = 254240
     }
 
     aristocrats = {
@@ -1975,7 +1975,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 24600
+        size = 9840
     }
 
     aristocrats = {
@@ -2005,7 +2005,7 @@
     farmers = {
         culture = kazak
         religion = sunni
-        size = 3650
+        size = 1460
     }
 
     aristocrats = {
@@ -2035,7 +2035,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 153800
+        size = 61520
     }
 }
 #Ningxia (956000/239000 POPS)
@@ -2073,7 +2073,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 138350
+        size = 55340
     }
 
     aristocrats = {
@@ -2103,7 +2103,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 18250
+        size = 7300
     }
 
     aristocrats = {
@@ -2133,7 +2133,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 60975
+        size = 24390
     }
 }
 #Pingliang (3168000/792000 POPS)
@@ -2183,7 +2183,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 697075
+        size = 278830
     }
 
     aristocrats = {
@@ -2213,7 +2213,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 23675
+        size = 9470
     }
 }
 #Guangdong Region (21706000)
@@ -2277,7 +2277,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 168400
+        size = 67360
     }
 
     aristocrats = {
@@ -2307,7 +2307,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 49400
+        size = 19760
     }
 
     aristocrats = {
@@ -2337,7 +2337,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 33675
+        size = 13470
     }
 
     aristocrats = {
@@ -2367,7 +2367,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 149250
+        size = 59700
     }
 
     aristocrats = {
@@ -2397,7 +2397,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 14575
+        size = 5830
     }
 
     aristocrats = {
@@ -2487,7 +2487,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 501775
+        size = 200710
     }
 
     bureaucrats = {
@@ -2505,7 +2505,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 200
     }
 }
 #Chaozhou (3600000/900000 POPS)
@@ -2543,7 +2543,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 339475
+        size = 135790
     }
 
     aristocrats = {
@@ -2573,7 +2573,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 25550
+        size = 10220
     }
 
     aristocrats = {
@@ -2615,7 +2615,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 449750
+        size = 179900
     }
 }
 #Gaozhou (3788000/947000 POPS)
@@ -2647,7 +2647,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 17300
+        size = 6920
     }
 
     aristocrats = {
@@ -2701,34 +2701,34 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 844950
+        size = 337980
     }
 }
 #Hong Kong (6000/1500 POPS)
 1496 = {
-    clergymen = {
-        culture = yue
-        religion = mahayana
-        size = 25
-    }
+	clergymen = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
 
-    artisans = {
-        culture = yue
-        religion = mahayana
-        size = 75
-    }
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 75
+	}
 
-    soldiers = {
-        culture = yue
-        religion = mahayana
-        size = 12
-    }
+	soldiers = {
+		culture = yue
+		religion = mahayana
+		size = 25
+	}
 
-    labourers = {
-        culture = yue
-        religion = mahayana
-        size = 55000
-    }
+	farmers = {
+		culture = yue
+		religion = mahayana
+		size = 1375
+	}
 }
 #Waizao (2200000/550000 POPS)
 1497 = {
@@ -2759,7 +2759,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 146525
+        size = 58610
     }
 
     aristocrats = {
@@ -2789,7 +2789,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 89775
+        size = 35910
     }
 
     aristocrats = {
@@ -2825,7 +2825,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 265725
+        size = 106290
     }
 }
 #Hainan (3424000/856000 POPS) #asian_minor = li
@@ -2857,7 +2857,7 @@
     farmers = {
         culture = min
         religion = mahayana
-        size = 169275
+        size = 67710
     }
 
     aristocrats = {
@@ -2905,7 +2905,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 563350
+        size = 225340
     }
 
     aristocrats = {
@@ -2935,7 +2935,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 46425
+        size = 18570
     }
 }
 #Shaozhou (2384000/596000 POPS)
@@ -2973,7 +2973,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 107400
+        size = 42960
     }
 
     aristocrats = {
@@ -3009,7 +3009,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 251175
+        size = 100470
     }
 
     aristocrats = {
@@ -3045,7 +3045,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 183875
+        size = 73550
     }
 }
 #Zhaoqing (1772000/443000 POPS)
@@ -3089,7 +3089,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 403150
+        size = 161260
     }
 }
 #Ruled by Portugal in 1836
@@ -3210,7 +3210,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 79850
+        size = 31940
     }
 
     aristocrats = {
@@ -3246,7 +3246,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 358550
+        size = 143420
     }
 
     aristocrats = {
@@ -3276,7 +3276,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 112800
+        size = 45120
     }
 
     aristocrats = {
@@ -3306,7 +3306,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 9100
+        size = 3640
     }
 
     bureaucrats = {
@@ -3324,7 +3324,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 150
+        size = 60
     }
 }
 #Guilin (4668000/1167000 POPS)
@@ -3362,7 +3362,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 237525
+        size = 95010
     }
 
     aristocrats = {
@@ -3404,7 +3404,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 483325
+        size = 193330
     }
 
     aristocrats = {
@@ -3440,7 +3440,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 283975
+        size = 113590
     }
 
     aristocrats = {
@@ -3470,7 +3470,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 59225
+        size = 23690
     }
 }
 #Pangle (1424000/356000 POPS)
@@ -3502,7 +3502,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 72900
+        size = 29160
     }
 
     aristocrats = {
@@ -3532,7 +3532,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 143800
+        size = 57520
     }
 
     aristocrats = {
@@ -3562,7 +3562,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 106525
+        size = 42610
     }
 
     aristocrats = {
@@ -3592,7 +3592,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 900
+        size = 360
     }
 }
 #Guizhou Region (5516000)
@@ -3644,7 +3644,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 234025
+        size = 93610
     }
 
     aristocrats = {
@@ -3674,7 +3674,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 4550
+        size = 1820
     }
 
     aristocrats = {
@@ -3704,7 +3704,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 1775
+        size = 710
     }
 
     aristocrats = {
@@ -3734,7 +3734,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 13650
+        size = 5460
     }
 
     bureaucrats = {
@@ -3752,7 +3752,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 100
+        size = 40
     }
 }
 #Anshun (1876000/469000 POPS)
@@ -3790,7 +3790,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 273500
+        size = 109400
     }
 
     aristocrats = {
@@ -3820,7 +3820,7 @@
     farmers = {
         culture = zhuang
         religion = animist
-        size = 111050
+        size = 44420
     }
 
     aristocrats = {
@@ -3850,7 +3850,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 35500
+        size = 14200
     }
 
     aristocrats = {
@@ -3880,7 +3880,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 7375
+        size = 2950
     }
 }
 #Zhenyuan (2484000/621000 POPS)
@@ -4084,7 +4084,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 817525
+        size = 327010
     }
 
     aristocrats = {
@@ -4114,7 +4114,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 49600
+        size = 19840
     }
 
     clergymen = {
@@ -4144,7 +4144,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 1100
+        size = 440
     }
 }
 #Guide (3248000/812000 POPS)
@@ -4194,7 +4194,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 704350
+        size = 281740
     }
 
     aristocrats = {
@@ -4224,7 +4224,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 34575
+        size = 13830
     }
 }
 #Henan (3304000/826000 POPS)
@@ -4274,7 +4274,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 716425
+        size = 286570
     }
 
     aristocrats = {
@@ -4304,7 +4304,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 35500
+        size = 14200
     }
 }
 #Huaiqing (4524000/1131000 POPS)
@@ -4372,7 +4372,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 962625
+        size = 385050
     }
 
     aristocrats = {
@@ -4402,7 +4402,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 49050
+        size = 19620
     }
 }
 #Chenzhou (3268000/817000 POPS)
@@ -4452,7 +4452,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 710075
+        size = 284030
     }
 
     aristocrats = {
@@ -4482,7 +4482,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 33675
+        size = 13470
     }
 }
 #Nanyang (3100000/775000 POPS)
@@ -4532,7 +4532,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 705750
+        size = 282300
     }
 }
 #Runing (2936000/734000 POPS)
@@ -4588,7 +4588,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 650475
+        size = 260190
     }
 }
 #Weihui (4120000/1030000 POPS)
@@ -4774,7 +4774,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 732150
+        size = 292860
     }
 
     aristocrats = {
@@ -4804,7 +4804,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 21225
+        size = 8490
     }
 
     aristocrats = {
@@ -4834,7 +4834,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 15475
+        size = 6190
     }
 
     bureaucrats = {
@@ -4852,7 +4852,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 1100
+        size = 440
     }
 }
 #Dean (4128000/1032000 POPS)
@@ -4914,7 +4914,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 939275
+        size = 375710
     }
 }
 #Huangzhou (3312000/828000 POPS)
@@ -4964,7 +4964,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 723800
+        size = 289520
     }
 
     aristocrats = {
@@ -4994,7 +4994,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 15475
+        size = 6190
     }
 
     aristocrats = {
@@ -5024,7 +5024,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 14575
+        size = 5830
     }
 }
 #Anlu (3328000/832000 POPS)
@@ -5080,7 +5080,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 702750
+        size = 281100
     }
 
     aristocrats = {
@@ -5110,7 +5110,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 38225
+        size = 15290
     }
 
     aristocrats = {
@@ -5140,7 +5140,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 16400
+        size = 6560
     }
 }
 #Jingzhou (3264000/816000 POPS)
@@ -5190,7 +5190,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 729000
+        size = 291600
     }
 
     aristocrats = {
@@ -5220,7 +5220,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 14575
+        size = 5830
     }
 }
 #Shinan (3244000/811000 POPS)
@@ -5270,7 +5270,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 705750
+        size = 282300
     }
 
     aristocrats = {
@@ -5300,7 +5300,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 31900
+        size = 12760
     }
 
     aristocrats = {
@@ -5330,7 +5330,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 900
+        size = 360
     }
 }
 #Wuchang (3324000/831000 POPS)
@@ -5386,7 +5386,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 755700
+        size = 302280
     }
 
     aristocrats = {
@@ -5416,7 +5416,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 900
+        size = 360
     }
 }
 #Xiangyang (3788000/947000 POPS)
@@ -5466,7 +5466,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 730475
+        size = 292190
     }
 
     aristocrats = {
@@ -5496,7 +5496,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 131050
+        size = 52420
     }
 
     aristocrats = {
@@ -5526,7 +5526,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 900
+        size = 360
     }
 }
 #Hunan Region (20584000)
@@ -5602,7 +5602,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 924225
+        size = 369690
     }
 
     aristocrats = {
@@ -5632,7 +5632,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 2750
+        size = 1100
     }
 
     bureaucrats = {
@@ -5650,7 +5650,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 750
+        size = 300
     }
 }
 #Changde (1616000/404000 POPS)
@@ -5688,7 +5688,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 368650
+        size = 147460
     }
 
     aristocrats = {
@@ -5718,7 +5718,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 35500
+        size = 14200
     }
 }
 #Baoqing (3852000/963000 POPS)
@@ -5774,7 +5774,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 764600
+        size = 305840
     }
 
     aristocrats = {
@@ -5804,7 +5804,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 111950
+        size = 44780
     }
 }
 #Hengzhou (3796000/949000 POPS)
@@ -5860,7 +5860,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 769975
+        size = 307990
     }
 
     aristocrats = {
@@ -5890,7 +5890,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 93750
+        size = 37500
     }
 }
 #Yuezhou (1192000/298000 POPS)
@@ -6020,7 +6020,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 688975
+        size = 275590
     }
 }
 #Yongzhou (2980000/745000 POPS)
@@ -6070,7 +6070,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 571500
+        size = 228600
     }
 
     aristocrats = {
@@ -6100,7 +6100,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 106500
+        size = 42600
     }
 }
 #Inner Mongolia Region (1176000)
@@ -6184,7 +6184,6 @@
         religion = mahayana
         size = 1175
     }
-
 }
 #Jirim Chuulghan (152000/38000 POPS)
 1533 = {
@@ -6217,7 +6216,6 @@
         religion = gelugpa
         size = 17500
     }
-
 }
 #Tongliao (152000/38000 POPS)
 3257 = {
@@ -6298,7 +6296,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 29375
+        size = 11750
     }
 }
 #Yeke Juu Chuulghan (456000/114000 POPS)
@@ -6330,7 +6328,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 101925
+        size = 40770
     }
 
     clergymen = {
@@ -6348,7 +6346,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1875
+        size = 750
     }
 }
 #Jiangsu Region (37612000)
@@ -6448,7 +6446,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 389300
+        size = 155720
     }
 
     aristocrats = {
@@ -6502,7 +6500,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 284425
+        size = 113770
     }
 
     bureaucrats = {
@@ -6520,7 +6518,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 1100
+        size = 440
     }
 }
 #Huaian (3148000/787000 POPS)
@@ -6552,7 +6550,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 50075
+        size = 20030
     }
 
     aristocrats = {
@@ -6600,7 +6598,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 666150
+        size = 266460
     }
 }
 #Changzhou (6124000/1531000 POPS)
@@ -6728,7 +6726,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 1113500
+        size = 445400
     }
 
     aristocrats = {
@@ -6758,7 +6756,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 176550
+        size = 70620
     }
 }
 #Shanghai (268000/71000 POPS)
@@ -6858,7 +6856,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 986400
+        size = 394560
     }
 
     aristocrats = {
@@ -6888,7 +6886,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 163825
+        size = 65530
     }
 }
 #Taicangzhou (5528000/1382000 POPS)
@@ -6950,7 +6948,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 1008300
+        size = 403320
     }
 
     aristocrats = {
@@ -6986,7 +6984,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 249350
+        size = 99740
     }
 }
 #Tongzhou (5520000/1380000 POPS)
@@ -7054,7 +7052,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 1173925
+        size = 469570
     }
 
     aristocrats = {
@@ -7084,7 +7082,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 81925
+        size = 32770
     }
 }
 #Xuzhou (2156000/539000 POPS)
@@ -7122,7 +7120,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 96250
+        size = 38500
     }
 
     aristocrats = {
@@ -7164,7 +7162,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 382225
+        size = 152890
     }
 }
 #Yangzhou (3348000/837000 POPS)
@@ -7196,7 +7194,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 101950
+        size = 40780
     }
 
     aristocrats = {
@@ -7244,7 +7242,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 660000
+        size = 264000
     }
 }
 #Zhenjiang (3120000/790000 POPS)
@@ -7288,7 +7286,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 532375
+        size = 212950
     }
 
     aristocrats = {
@@ -7324,7 +7322,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 186575
+        size = 74630
     }
 }
 #Jiangxi Region (25864000)
@@ -7382,7 +7380,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 471175
+        size = 188470
     }
 
     aristocrats = {
@@ -7424,7 +7422,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 140075
+        size = 56030
     }
 
     aristocrats = {
@@ -7454,7 +7452,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 1800
+        size = 720
     }
 
     aristocrats = {
@@ -7484,7 +7482,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 31825
+        size = 12730
     }
 
     bureaucrats = {
@@ -7502,7 +7500,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 200
     }
 }
 #Guangxin (2960000/740000 POPS)
@@ -7546,7 +7544,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 478675
+        size = 191470
     }
 
     aristocrats = {
@@ -7576,7 +7574,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 138325
+        size = 55330
     }
 
     aristocrats = {
@@ -7606,7 +7604,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 56425
+        size = 22570
     }
 }
 #Jian (6692000/1673000 POPS)
@@ -7674,7 +7672,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 474900
+        size = 189960
     }
 
     aristocrats = {
@@ -7770,7 +7768,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 931150
+        size = 372460
     }
 }
 #Jianchang (1656000/414000 POPS)
@@ -7808,7 +7806,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 262050
+        size = 104820
     }
 
     aristocrats = {
@@ -7838,7 +7836,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 114675
+        size = 45870
     }
 }
 #Jiujiang (3924000/981000 POPS)
@@ -7888,7 +7886,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 687975
+        size = 275190
     }
 
     aristocrats = {
@@ -7918,7 +7916,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 175650
+        size = 70260
     }
 
     aristocrats = {
@@ -7948,7 +7946,7 @@
     farmers = {
         culture = hakka
         religion = mahayana
-        size = 29775
+        size = 11910
     }
 }
 #Ganzhou (4940000/1235000 POPS)
@@ -8162,7 +8160,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 526000
+        size = 210400
     }
 
     aristocrats = {
@@ -8192,7 +8190,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 137425
+        size = 54970
     }
 }
 #Manchuria Region (6764000)
@@ -8318,7 +8316,6 @@
         religion = mahayana
         size = 50
     }
-
 }
 #Daqing (1105960/276490 POPS)
 3251 = {
@@ -8515,7 +8512,6 @@
         religion = animist
         size = 25
     }
-
 }
 #Ninguta (763800/190950 POPS)
 1554 = {
@@ -8926,7 +8922,7 @@
     farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 81200
+        size = 32480
     }
 
     aristocrats = {
@@ -8950,7 +8946,7 @@
     farmers = {
         culture = kazak
         religion = sunni
-        size = 1800
+        size = 720
     }
 
     clergymen = {
@@ -8968,7 +8964,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 1800
+        size = 720
     }
 
     aristocrats = {
@@ -8998,7 +8994,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 16400
+        size = 6560
     }
 
     bureaucrats = {
@@ -9016,7 +9012,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 100
+        size = 40
     }
 }
 #Balekungomi (364000/91000 POPS)
@@ -9110,7 +9106,6 @@
         religion = gelugpa
         size = 950
     }
-
 }
 #Kegudo (432000/108000 POPS)
 1558 = {
@@ -9141,7 +9136,7 @@
     farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 33600
+        size = 13440
     }
 
     aristocrats = {
@@ -9165,7 +9160,7 @@
     farmers = {
         culture = kazak
         religion = sunni
-        size = 10925
+        size = 4370
     }
 
     aristocrats = {
@@ -9189,7 +9184,7 @@
     farmers = {
         culture = kazak
         religion = animist
-        size = 10025
+        size = 4010
     }
 
     aristocrats = {
@@ -9219,7 +9214,7 @@
     farmers = {
         culture = mongol
         religion = gelugpa
-        size = 42775
+        size = 17110
     }
 }
 #Shaanxi Region (9100000)
@@ -9277,7 +9272,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 685300
+        size = 274120
     }
 
     aristocrats = {
@@ -9307,7 +9302,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 38225
+        size = 15290
     }
 
     bureaucrats = {
@@ -9325,7 +9320,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 200
     }
 }
 #Yenan (1088000/272000 POPS)
@@ -9731,7 +9726,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1265600
+        size = 506240
     }
 
     aristocrats = {
@@ -9761,7 +9756,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 64625
+        size = 25850
     }
 
     bureaucrats = {
@@ -9779,7 +9774,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 1500
+        size = 600
     }
 }
 #Caozhou (3704000/926000 POPS)
@@ -9835,7 +9830,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 842948
+        size = 337179
     }
 }
 #Laizhou (3636000/909000 POPS)
@@ -9897,7 +9892,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 827200
+        size = 330880
     }
 }
 #Qingdao (24000/6000 POPS)
@@ -9985,7 +9980,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 895450
+        size = 358180
     }
 }
 #Taian (3688000/922000 POPS)
@@ -10041,7 +10036,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 839025
+        size = 335610
     }
 }
 #Weihaiwei (28000/7000 POPS)
@@ -10129,7 +10124,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 840850
+        size = 336340
     }
 }
 #Yizhou (3944000/986000 POPS)
@@ -10191,7 +10186,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 892275
+        size = 356910
     }
 }
 #Shanxi Region (15220000)
@@ -10267,7 +10262,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 988950
+        size = 395580
     }
 
     aristocrats = {
@@ -10297,7 +10292,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 12750
+        size = 5100
     }
 
     bureaucrats = {
@@ -10315,7 +10310,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 375
+        size = 150
     }
 }
 #Fenzhou (3412000/853000 POPS)
@@ -10451,7 +10446,6 @@
         religion = sunni
         size = 50
     }
-
 }
 #Luan (3748000/937000 POPS)
 1574 = {
@@ -10506,7 +10500,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 845400
+        size = 338160
     }
 
     aristocrats = {
@@ -10536,7 +10530,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 7300
+        size = 2920
     }
 }
 #Pingyang (3392000/848000 POPS)
@@ -10666,7 +10660,6 @@
         religion = sunni
         size = 37
     }
-
 }
 #Datong (232000/58000 POPS)
 1576 = {
@@ -10723,7 +10716,6 @@
         religion = sunni
         size = 12
     }
-
 }
 #Sichuan Region (34604000)
 #under the rule of China in 1836
@@ -10786,7 +10778,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 872700
+        size = 349080
     }
 }
 #Chengdu (2312000/578000 POPS)
@@ -10866,7 +10858,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 474150
+        size = 189660
     }
 
     bureaucrats = {
@@ -10884,7 +10876,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 750
+        size = 300
     }
 }
 #Baotung (4268000/1067000 POPS)
@@ -10988,7 +10980,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 1001025
+        size = 400410
     }
 }
 #Jiading (4080000/1020000 POPS)
@@ -11032,7 +11024,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 454100
+        size = 181640
     }
 
     aristocrats = {
@@ -11068,7 +11060,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 336750
+        size = 134700
     }
 
     aristocrats = {
@@ -11098,7 +11090,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 101025
+        size = 40410
     }
 
     aristocrats = {
@@ -11128,7 +11120,7 @@
     farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 36400
+        size = 14560
     }
 }
 #Kuizhou (4292000/1073000 POPS)
@@ -11190,7 +11182,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 976450
+        size = 390580
     }
 }
 #Longan (2796000/699000 POPS)
@@ -11422,7 +11414,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 1041900
+        size = 416760
     }
 }
 #Tongchuan (3024000/756000 POPS)
@@ -11472,7 +11464,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 687925
+        size = 275170
     }
 }
 #Yibin (2888000/722000 POPS)
@@ -11516,7 +11508,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 390400
+        size = 156160
     }
 
     aristocrats = {
@@ -11546,7 +11538,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 99200
+        size = 39680
     }
 
     aristocrats = {
@@ -11576,7 +11568,7 @@
     farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 167400
+        size = 66960
     }
 }
 #Yazhou (2528000/632000 POPS)
@@ -11620,7 +11612,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 411325
+        size = 164530
     }
 
     aristocrats = {
@@ -11650,7 +11642,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 7325
+        size = 2930
     }
 
     aristocrats = {
@@ -11680,7 +11672,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 8200
+        size = 3280
     }
 
     aristocrats = {
@@ -11710,7 +11702,7 @@
     farmers = {
         culture = tibetan
         religion = gelugpa
-        size = 148350
+        size = 59340
     }
 }
 #Yunnan Region (5652000)
@@ -11774,7 +11766,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 619825
+        size = 247930
     }
 
     aristocrats = {
@@ -11804,7 +11796,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 9100
+        size = 3640
     }
 
     aristocrats = {
@@ -11834,7 +11826,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 5475
+        size = 2190
     }
 
     aristocrats = {
@@ -11864,7 +11856,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 9000
+        size = 3600
     }
 
     aristocrats = {
@@ -11894,7 +11886,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 47325
+        size = 18930
     }
 
     bureaucrats = {
@@ -11912,7 +11904,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 250
+        size = 100
     }
 }
 #Dali (1216000/304000 POPS)
@@ -11944,7 +11936,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 6375
+        size = 2550
     }
 
     aristocrats = {
@@ -11980,7 +11972,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 245650
+        size = 98260
     }
 
     aristocrats = {
@@ -12010,7 +12002,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 24575
+        size = 9830
     }
 }
 #Paer (1420000/355000 POPS)
@@ -12042,7 +12034,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 100100
+        size = 40040
     }
 
     aristocrats = {
@@ -12072,7 +12064,7 @@
     farmers = {
         culture = nanfaren
         religion = sunni
-        size = 3650
+        size = 1460
     }
 
     aristocrats = {
@@ -12102,7 +12094,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 80100
+        size = 32040
     }
 
     aristocrats = {
@@ -12132,7 +12124,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 3650
+        size = 1460
     }
 
     aristocrats = {
@@ -12162,7 +12154,7 @@
     farmers = {
         culture = yi
         religion = animist
-        size = 29175
+        size = 11670
     }
 
     aristocrats = {
@@ -12192,7 +12184,7 @@
     farmers = {
         culture = yue
         religion = mahayana
-        size = 106525
+        size = 42610
     }
 }
 #Zhejiang Region (9948000)
@@ -12256,7 +12248,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 222950
+        size = 89180
     }
 
     aristocrats = {
@@ -12298,7 +12290,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 104075
+        size = 41630
     }
 
     aristocrats = {
@@ -12328,7 +12320,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 3650
+        size = 1460
     }
 
     aristocrats = {
@@ -12358,7 +12350,7 @@
     farmers = {
         culture = min
         religion = animist
-        size = 6375
+        size = 2550
     }
 
     bureaucrats = {
@@ -12376,7 +12368,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 500
+        size = 200
     }
 }
 #Huzhou (376000/94000 POPS)
@@ -12408,7 +12400,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 33675
+        size = 13470
     }
 
     aristocrats = {
@@ -12438,7 +12430,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 51875
+        size = 20750
     }
 }
 #Jiaxing (344000/86000 POPS)
@@ -12470,7 +12462,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 43675
+        size = 17470
     }
 
     aristocrats = {
@@ -12500,7 +12492,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 34625
+        size = 13850
     }
 }
 #Jinhua (2064000/516000 POPS)
@@ -12544,7 +12536,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 383125
+        size = 153250
     }
 
     aristocrats = {
@@ -12574,7 +12566,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 12750
+        size = 5100
     }
 
     aristocrats = {
@@ -12604,7 +12596,7 @@
     farmers = {
         culture = min
         religion = animist
-        size = 73725
+        size = 29490
     }
 }
 #Ningbo (1156000/289000 POPS)
@@ -12636,7 +12628,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 151975
+        size = 60790
     }
 
     aristocrats = {
@@ -12666,7 +12658,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 111025
+        size = 44410
     }
 }
 #Shaoxing (872000/218000 POPS)
@@ -12698,7 +12690,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 80100
+        size = 32040
     }
 
     aristocrats = {
@@ -12728,7 +12720,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 118325
+        size = 47330
     }
 }
 #Taizhou (1684000/421000 POPS)
@@ -12772,7 +12764,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 383125
+        size = 153250
     }
 }
 #Wenzhou (1764000/ 441000 POPS)
@@ -12816,7 +12808,7 @@
     farmers = {
         culture = nanfaren
         religion = mahayana
-        size = 382225
+        size = 152890
     }
 
     aristocrats = {
@@ -12846,7 +12838,7 @@
     farmers = {
         culture = miao
         religion = animist
-        size = 19125
+        size = 7650
     }
 }
 #Zhili Region (34868000)
@@ -12976,7 +12968,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 979650
+        size = 391860
     }
 
     aristocrats = {
@@ -13012,7 +13004,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 31250
+        size = 12500
     }
 
     aristocrats = {
@@ -13054,7 +13046,7 @@
     farmers = {
         culture = manchu
         religion = mahayana
-        size = 10750
+        size = 4300
     }
 }
 #Chengde (5051320/1262830 POPS)
@@ -13152,7 +13144,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1076130
+        size = 430452
     }
 
     aristocrats = {
@@ -13182,7 +13174,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 12750
+        size = 5100
     }
 }
 #Chaoyang (711000/177750 POPS)
@@ -13220,7 +13212,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 150000
+        size = 60000
     }
 }
 #Qinhuangdao (847940/211985 POPS)
@@ -13258,7 +13250,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 184100
+        size = 73640
     }
 }
 #Daming (3364000/841000 POPS)
@@ -13314,7 +13306,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 765325
+        size = 306130
     }
 }
 #Jizhou (4496000/1124000 POPS)
@@ -13424,7 +13416,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 939050
+        size = 375620
     }
 }
 #Tangshan (4428000/1107000 POPS)
@@ -13674,7 +13666,7 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1243925
+        size = 497570
     }
 
     aristocrats = {
@@ -13704,7 +13696,7 @@
     farmers = {
         culture = beifaren
         religion = sunni
-        size = 35500
+        size = 14200
     }
 }
 #Zhongding (5240000/1310000 POPS)
@@ -13820,97 +13812,94 @@
     farmers = {
         culture = beifaren
         religion = mahayana
-        size = 1107625
+        size = 443050
     }
 }
-
 #Guangzhouwan (94500/23625 POPS)
 3259 = {
-	aristocrats = {
-		culture = yue
-		religion = mahayana
-		size = 100
-	}
+    aristocrats = {
+        culture = yue
+        religion = mahayana
+        size = 100
+    }
 
-	clergymen = {
-		culture = yue
-		religion = mahayana
-		size = 125
-	}
+    clergymen = {
+        culture = yue
+        religion = mahayana
+        size = 125
+    }
 
-	artisans = {
-		culture = yue
-		religion = mahayana
-		size = 2500
-	}
+    artisans = {
+        culture = yue
+        religion = mahayana
+        size = 2500
+    }
 
-	soldiers = {
-		culture = yue
-		religion = mahayana
-		size = 1000
-	}
+    soldiers = {
+        culture = yue
+        religion = mahayana
+        size = 1000
+    }
 
-	farmers = {
-		culture = yue
-		religion = mahayana
-		size = 20000
-	}
+    farmers = {
+        culture = yue
+        religion = mahayana
+        size = 20000
+    }
 }
-
-
 #Tientsin (5964000/1491000 POPS)
 3260 = {
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 500
-	}
+    aristocrats = {
+        culture = beifaren
+        religion = mahayana
+        size = 500
+    }
 
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 525
-	}
+    clergymen = {
+        culture = beifaren
+        religion = mahayana
+        size = 525
+    }
 
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 1525
-	}
+    soldiers = {
+        culture = beifaren
+        religion = mahayana
+        size = 1525
+    }
 
-	labourers = {
-		culture = beifaren
-		religion = mahayana
-		size = 25000
-	}
+    labourers = {
+        culture = beifaren
+        religion = mahayana
+        size = 25000
+    }
 
-	aristocrats = {
-		culture = beifaren
-		religion = mahayana
-		size = 150
-	}
+    aristocrats = {
+        culture = beifaren
+        religion = mahayana
+        size = 150
+    }
 
-	clergymen = {
-		culture = beifaren
-		religion = mahayana
-		size = 400
-	}
+    clergymen = {
+        culture = beifaren
+        religion = mahayana
+        size = 400
+    }
 
-	artisans = {
-		culture = beifaren
-		religion = mahayana
-		size = 2000
-	}
+    artisans = {
+        culture = beifaren
+        religion = mahayana
+        size = 2000
+    }
 
-	soldiers = {
-		culture = beifaren
-		religion = mahayana
-		size = 400
-	}
+    soldiers = {
+        culture = beifaren
+        religion = mahayana
+        size = 400
+    }
 
-	labourers = {
-		culture = beifaren
-		religion = mahayana
-		size = 13450
-	}
+    labourers = {
+        culture = beifaren
+        religion = mahayana
+        size = 13450
+    }
 }

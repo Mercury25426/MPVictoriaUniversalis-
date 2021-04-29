@@ -113,19 +113,19 @@
     artisans = {
         culture = pashtun
         religion = sunni
-        size = 3000
+        size = 1000
     }
 
     soldiers = {
         culture = pashtun
         religion = sunni
-        size = 7000
+        size = 1500
     }
 
     farmers = {
         culture = pashtun
         religion = sunni
-        size = 20325
+        size = 27825
     }
 }
 #Dalbandin (88000/22000 POPS)
@@ -183,7 +183,7 @@
     clergymen = {
         culture = baluchi
         religion = sunni
-        size = 500
+        size = 250
     }
 
     artisans = {
@@ -195,13 +195,19 @@
     soldiers = {
         culture = baluchi
         religion = sunni
-        size = 7000
+        size = 5000
     }
 
     farmers = {
         culture = baluchi
         religion = sunni
-        size = 16925
+        size = 18925
+    }
+
+    slaves = {
+        culture = kilombero #african_minor
+        religion = animist
+        size = 4000
     }
 }
 #Under the Rule of Makran 1836
@@ -216,7 +222,7 @@
     bureaucrats = {
         culture = baluchi
         religion = sunni
-        size = 25
+        size = 50
     }
 
     officers = {
@@ -228,7 +234,7 @@
     clergymen = {
         culture = baluchi
         religion = sunni
-        size = 600
+        size = 300
     }
 
     artisans = {
@@ -246,7 +252,13 @@
     farmers = {
         culture = baluchi
         religion = sunni
-        size = 27800
+        size = 25800
+    }
+
+    slaves = {
+        culture = kilombero #african_minor
+        religion = animist
+        size = 5000
     }
 }
 #Kashmir Region (1208000)
@@ -926,7 +938,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 71050
+        size = 28420
     }
 
     aristocrats = {
@@ -956,7 +968,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 16575
+        size = 6630
     }
 }
 #Shahpur (1132000/283000 POPS)
@@ -1190,7 +1202,7 @@
     farmers = {
         culture = panjabi
         religion = sikh
-        size = 21000
+        size = 8400
     }
 
     aristocrats = {
@@ -1220,7 +1232,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 73450
+        size = 29380
     }
 
     aristocrats = {
@@ -1250,7 +1262,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 59150
+        size = 23660
     }
 
     aristocrats = {
@@ -1280,7 +1292,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 58950
+        size = 23580
     }
 }
 #Under Rule of Britain 1836
@@ -1313,7 +1325,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 3775
+        size = 1510
     }
 
     aristocrats = {
@@ -1349,7 +1361,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 52525
+        size = 21010
     }
 
     aristocrats = {
@@ -1379,7 +1391,7 @@
     farmers = {
         culture = nepali
         religion = hindu
-        size = 70750
+        size = 28300
     }
 
     aristocrats = {
@@ -1449,7 +1461,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 79425
+        size = 31770
     }
 
     aristocrats = {
@@ -1497,7 +1509,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 179400
+        size = 71760
     }
 
     aristocrats = {
@@ -1527,7 +1539,7 @@
     farmers = {
         culture = panjabi
         religion = sikh
-        size = 15250
+        size = 6100
     }
 
     bureaucrats = {
@@ -1565,7 +1577,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 57625
+        size = 23050
     }
 
     aristocrats = {
@@ -1595,7 +1607,7 @@
     farmers = {
         culture = panjabi
         religion = sikh
-        size = 29875
+        size = 11950
     }
 
     aristocrats = {
@@ -1625,7 +1637,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 206250
+        size = 82500
     }
 }
 #Dehra Dun (952000/238000 POPS)
@@ -1657,7 +1669,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 16250
+        size = 6500
     }
 
     aristocrats = {
@@ -1687,7 +1699,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 157250
+        size = 62900
     }
 
     aristocrats = {
@@ -1717,7 +1729,7 @@
     farmers = {
         culture = nepali
         religion = hindu
-        size = 45000
+        size = 18000
     }
 }
 #Meerut (1580000/395000 POPS)
@@ -1749,7 +1761,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 24375
+        size = 9750
     }
 
     aristocrats = {
@@ -1785,7 +1797,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 338000
+        size = 135200
     }
 }
 #Agra (4180000/1045000 POPS)
@@ -1817,7 +1829,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 85500
+        size = 34200
     }
 
     aristocrats = {
@@ -1901,7 +1913,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 822250
+        size = 328900
     }
 }
 #Kanpur (3720000/930000 POPS)
@@ -1975,7 +1987,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 693750
+        size = 277500
     }
 
     aristocrats = {
@@ -2005,7 +2017,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 118375
+        size = 47350
     }
 }
 #Allahabad (3008000/752000 POPS)
@@ -2073,7 +2085,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 553600
+        size = 221440
     }
 
     aristocrats = {
@@ -2103,7 +2115,7 @@
     farmers = {
         culture = kanauji
         religion = sunni
-        size = 88500
+        size = 35400
     }
 }
 #Benares (2512000/628000 POPS)
@@ -2123,7 +2135,7 @@
     artisans = {
         culture = kanauji
         religion = sunni
-        size = 10000
+        size = 70000
     }
 
     soldiers = {
@@ -2132,10 +2144,10 @@
         size = 750
     }
 
-    farmers = {
+    labourers = {
         culture = kanauji
         religion = sunni
-        size = 60000
+        size = 1000
     }
 
     aristocrats = {
@@ -2153,43 +2165,55 @@
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
     }
 
     artisans = {
         culture = kanauji
         religion = hindu
-        size = 10000
+        size = 60000
+    }
+
+    artisans = {
+        culture = kanauji
+        religion = hindu
+        size = 60000
+    }
+
+    artisans = {
+        culture = kanauji
+        religion = hindu
+        size = 47250
     }
 
     soldiers = {
@@ -2198,10 +2222,10 @@
         size = 6000
     }
 
-    farmers = {
+    labourers = {
         culture = kanauji
         religion = hindu
-        size = 467250
+        size = 9000
     }
 }
 #Gorakhpur (2476000/619000 POPS)
@@ -2233,7 +2257,7 @@
     farmers = {
         culture = kanauji
         religion = sunni
-        size = 41625
+        size = 16650
     }
 
     aristocrats = {
@@ -2275,7 +2299,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 526250
+        size = 210500
     }
 }
 #Ruled by Awadh in 1836 (4820000)
@@ -2338,7 +2362,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 48125
+        size = 19250
     }
 
     aristocrats = {
@@ -2386,7 +2410,7 @@
     farmers = {
         culture = avadhi
         religion = shiite
-        size = 5525
+        size = 2210
     }
 
     aristocrats = {
@@ -2428,7 +2452,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 528500
+        size = 211400
     }
 }
 #Fyzabad (2064000/516000 POPS)
@@ -2466,7 +2490,7 @@
     farmers = {
         culture = avadhi
         religion = hindu
-        size = 454500
+        size = 181800
     }
 
     aristocrats = {
@@ -2496,7 +2520,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 21400
+        size = 8560
     }
 }
 #Bihar Region : 10724000
@@ -2548,7 +2572,7 @@
     farmers = {
         culture = bihari
         religion = hindu
-        size = 573750
+        size = 229500
     }
 
     aristocrats = {
@@ -2584,7 +2608,7 @@
     farmers = {
         culture = bihari
         religion = sunni
-        size = 103750
+        size = 41500
     }
 
     bureaucrats = {
@@ -2640,7 +2664,7 @@
     farmers = {
         culture = bihari
         religion = hindu
-        size = 644500
+        size = 257800
     }
 
     aristocrats = {
@@ -2670,7 +2694,7 @@
     farmers = {
         culture = bihari
         religion = sunni
-        size = 61500
+        size = 24600
     }
 }
 #Kharswari (2740000/685000 POPS)
@@ -2908,7 +2932,7 @@
     farmers = {
         culture = bihari
         religion = hindu
-        size = 385250
+        size = 154100
     }
 
     aristocrats = {
@@ -2938,7 +2962,7 @@
     farmers = {
         culture = bihari
         religion = sunni
-        size = 50375
+        size = 20150
     }
 }
 #Bengal Region : 28454000
@@ -3050,7 +3074,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 956500
+        size = 382600
     }
 
     aristocrats = {
@@ -3086,7 +3110,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 53250
+        size = 21300
     }
 
     aristocrats = {
@@ -3196,7 +3220,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 516250
+        size = 206500
     }
 
     aristocrats = {
@@ -3232,7 +3256,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 172500
+        size = 69000
     }
 }
 #Bardwan (4456000/1114000 POPS)
@@ -3294,7 +3318,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 954875
+        size = 381950
     }
 
     clergymen = {
@@ -3318,7 +3342,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 87600
+        size = 35040
     }
 }
 #Dacca (5276000/1319000 POPS)
@@ -3404,7 +3428,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 637000
+        size = 254800
     }
 
     aristocrats = {
@@ -3446,7 +3470,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 538000
+        size = 215200
     }
 }
 #Rajshahi (2332000/583000 POPS)
@@ -3484,7 +3508,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 357750
+        size = 143100
     }
 
     aristocrats = {
@@ -3514,7 +3538,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 183500
+        size = 73400
     }
 }
 #Jessore (2372000/593000 POPS)
@@ -3552,7 +3576,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 350750
+        size = 140300
     }
 
     aristocrats = {
@@ -3582,7 +3606,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 203500
+        size = 81400
     }
 }
 #Chittagong (5884000/1471000 POPS)
@@ -3674,7 +3698,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 730500
+        size = 292200
     }
 
     aristocrats = {
@@ -3716,7 +3740,7 @@
     farmers = {
         culture = bengali
         religion = hindu
-        size = 551000
+        size = 220400
     }
 
     aristocrats = {
@@ -3746,7 +3770,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 21000
+        size = 8400
     }
 }
 #Andaman Islands (14000/3500 POPS)
@@ -3812,7 +3836,7 @@
     farmers = {
         culture = assamese
         religion = hindu
-        size = 140000
+        size = 56000
     }
 
     bureaucrats = {
@@ -3842,7 +3866,7 @@
     farmers = {
         culture = assamese
         religion = sunni
-        size = 45750
+        size = 18300
     }
 
     clergymen = {
@@ -3866,7 +3890,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 53500
+        size = 21400
     }
 }
 #Imphal (616000/154000 POPS)
@@ -3898,7 +3922,7 @@
     farmers = {
         culture = manipuri
         religion = hindu
-        size = 88250
+        size = 35300
     }
 
     clergymen = {
@@ -3922,7 +3946,7 @@
     farmers = {
         culture = assamese
         religion = sunni
-        size = 28125
+        size = 11250
     }
 
     aristocrats = {
@@ -3952,7 +3976,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 25000
+        size = 10000
     }
 }
 #Dibrugarh (392000/98000 POPS)
@@ -4058,7 +4082,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 89125
+        size = 35650
     }
 
     clergymen = {
@@ -4082,7 +4106,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 51125
+        size = 20450
     }
 }
 #Orissa Region  (1588000)
@@ -4128,13 +4152,13 @@
     farmers = {
         culture = oriya
         religion = hindu
-        size = 215500
+        size = 86200
     }
 
     farmers = {
         culture = bengali
         religion = sunni
-        size = 1100
+        size = 440
     }
 
     bureaucrats = {
@@ -4179,7 +4203,7 @@
     farmers = {
         culture = oriya
         religion = hindu
-        size = 63150
+        size = 25260
     }
 
     aristocrats = {
@@ -4209,7 +4233,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 19325
+        size = 7730
     }
 
     clergymen = {
@@ -4221,7 +4245,7 @@
     farmers = {
         culture = bengali
         religion = sunni
-        size = 2925
+        size = 1170
     }
 }
 #Sambalpur (208000/52000 POPS)
@@ -4329,7 +4353,7 @@
     farmers = {
         culture = rajput
         religion = hindu
-        size = 29450
+        size = 11780
     }
 
     aristocrats = {
@@ -4359,7 +4383,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 8325
+        size = 3330
     }
 
     bureaucrats = {
@@ -4410,7 +4434,7 @@
     farmers = {
         culture = rajput
         religion = hindu
-        size = 95025
+        size = 38010
     }
 
     clergymen = {
@@ -4434,7 +4458,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 5325
+        size = 2130
     }
 }
 #Under rule of Jodhpur 1836
@@ -4491,7 +4515,7 @@
     farmers = {
         culture = rajput
         religion = hindu
-        size = 263050
+        size = 105220
     }
 
     clergymen = {
@@ -4521,7 +4545,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 7100
+        size = 2840
     }
 }
 #Under rule of Bikaner 1836
@@ -4560,13 +4584,13 @@
     soldiers = {
         culture = rajput
         religion = hindu
-        size = 16000
+        size = 7000
     }
 
     farmers = {
         culture = rajput
         religion = hindu
-        size = 226625
+        size = 93050
     }
 
     clergymen = {
@@ -4590,7 +4614,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 2825
+        size = 1130
     }
 }
 #Under rule of Jaipur 1836
@@ -4641,7 +4665,7 @@
     farmers = {
         culture = rajput
         religion = hindu
-        size = 317000
+        size = 126800
     }
 
     aristocrats = {
@@ -4677,7 +4701,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 59050
+        size = 23620
     }
 }
 #Under rule of Mewar 1836
@@ -4728,7 +4752,7 @@
     farmers = {
         culture = rajput
         religion = hindu
-        size = 300600
+        size = 120240
     }
 
     clergymen = {
@@ -4752,7 +4776,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 900
+        size = 360
     }
 }
 #Central Provinces Region (8044000)
@@ -4798,7 +4822,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 255075
+        size = 102030
     }
 
     clergymen = {
@@ -4822,7 +4846,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 8650
+        size = 3460
     }
 }
 #Under rule of Indore 1836
@@ -4867,7 +4891,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 232400
+        size = 92960
     }
 
     clergymen = {
@@ -4891,7 +4915,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 2875
+        size = 1150
     }
 }
 #Under rule of Bhopal 1836
@@ -5041,7 +5065,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 84050
+        size = 33620
     }
 
     aristocrats = {
@@ -5071,7 +5095,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 59600
+        size = 23840
     }
 
     clergymen = {
@@ -5089,7 +5113,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 950
+        size = 380
     }
 }
 #Rewah (748000/187000 POPS)
@@ -5127,7 +5151,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 117600
+        size = 47040
     }
 
     clergymen = {
@@ -5145,7 +5169,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 1925
+        size = 770
     }
 
     aristocrats = {
@@ -5175,7 +5199,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 53700
+        size = 21480
     }
 }
 #under British rule 1836 (3620000)
@@ -5256,7 +5280,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 620150
+        size = 248060
     }
 
     clergymen = {
@@ -5286,7 +5310,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 25950
+        size = 10380
     }
 
     bureaucrats = {
@@ -5324,7 +5348,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 125000
+        size = 50000
     }
 
     clergymen = {
@@ -5348,7 +5372,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 11200
+        size = 4480
     }
 }
 #Nagpur Region (5028000)
@@ -5400,7 +5424,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 330850
+        size = 132340
     }
 
     clergymen = {
@@ -5424,7 +5448,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 28300
+        size = 11320
     }
 
     aristocrats = {
@@ -5454,7 +5478,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 57100
+        size = 22840
     }
 }
 #Raipur (804000/201000 POPS)
@@ -5486,7 +5510,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 70550
+        size = 28220
     }
 
     aristocrats = {
@@ -5516,7 +5540,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 114225
+        size = 45690
     }
 }
 #Bilsapur (672000/168000 POPS)
@@ -5548,7 +5572,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 74300
+        size = 29720
     }
 
     aristocrats = {
@@ -5578,7 +5602,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 80050
+        size = 32020
     }
 }
 #Under rule of Hyderabad 1836
@@ -5611,7 +5635,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 280500
+        size = 112200
     }
 
     clergymen = {
@@ -5635,7 +5659,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 11500
+        size = 4600
     }
 }
 #Under Rule of Bastar 1836
@@ -5680,7 +5704,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 59400
+        size = 23760
     }
 
     clergymen = {
@@ -5698,7 +5722,7 @@
     farmers = {
         culture = telegu
         religion = sunni
-        size = 4500
+        size = 1800
     }
 
     aristocrats = {
@@ -5728,7 +5752,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 33850
+        size = 13540
     }
 }
 #Under Native Rule 1836
@@ -5767,7 +5791,7 @@
     farmers = {
         culture = kanauji
         religion = hindu
-        size = 97600
+        size = 39040
     }
 
     aristocrats = {
@@ -5797,7 +5821,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 30000
+        size = 12000
     }
 }
 #Hyderabad Region (6396000)
@@ -5831,19 +5855,19 @@
     artisans = {
         culture = telegu
         religion = hindu
-        size = 2000
+        size = 2500
     }
 
     soldiers = {
         culture = telegu
         religion = hindu
-        size = 3500
+        size = 2500
     }
 
     farmers = {
         culture = telegu
         religion = hindu
-        size = 330250
+        size = 132100
     }
 
     aristocrats = {
@@ -5891,19 +5915,19 @@
     artisans = {
         culture = avadhi
         religion = sunni
-        size = 6000
+        size = 6500
     }
 
     soldiers = {
         culture = avadhi
         religion = sunni
-        size = 7000
+        size = 2500
     }
 
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 13875
+        size = 7150
     }
 
     aristocrats = {
@@ -5933,7 +5957,7 @@
     farmers = {
         culture = avadhi
         religion = shiite
-        size = 1835
+        size = 734
     }
 }
 #Aurangabad (1244000/311000 POPS)
@@ -5965,7 +5989,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 249750
+        size = 99900
     }
 
     aristocrats = {
@@ -5995,7 +6019,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 36900
+        size = 14760
     }
 }
 #Nizamabad (1052000/263000 POPS)
@@ -6027,7 +6051,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 208350
+        size = 83340
     }
 
     aristocrats = {
@@ -6057,7 +6081,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 33700
+        size = 13480
     }
 }
 #Gulbarga (784000/196000 POPS)
@@ -6089,7 +6113,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 176300
+        size = 70520
     }
 
     aristocrats = {
@@ -6119,7 +6143,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 4525
+        size = 1810
     }
 }
 #Warangal (1560000/390000 POPS)
@@ -6151,7 +6175,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 354325
+        size = 141730
     }
 
     aristocrats = {
@@ -6181,7 +6205,7 @@
     farmers = {
         culture = avadhi
         religion = sunni
-        size = 5350
+        size = 2140
     }
 }
 #Sind Region (1864000)
@@ -6439,7 +6463,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 164650
+        size = 65860
     }
 
     clergymen = {
@@ -6457,7 +6481,7 @@
     farmers = {
         culture = gujarati
         religion = animist
-        size = 18400
+        size = 7360
     }
 
     aristocrats = {
@@ -6499,7 +6523,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 20775
+        size = 8310
     }
 
     bureaucrats = {
@@ -6543,7 +6567,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 212000
+        size = 84800
     }
 
     aristocrats = {
@@ -6573,7 +6597,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 24375
+        size = 9750
     }
 }
 #Under Rule of Beroda 1836 (3396000)
@@ -6618,7 +6642,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 416500
+        size = 166600
     }
 
     aristocrats = {
@@ -6648,7 +6672,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 850
+        size = 340
     }
 }
 #Beroda (1580000/395000 POPS)
@@ -6698,7 +6722,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 344300
+        size = 137720
     }
 
     aristocrats = {
@@ -6728,7 +6752,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 1850
+        size = 740
     }
 }
 #Under Native Rule 1836
@@ -6773,7 +6797,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 451500
+        size = 180600
     }
 
     aristocrats = {
@@ -6809,7 +6833,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 17200
+        size = 6880
     }
 }
 #Mandvi (312000/78000 POPS)
@@ -6847,7 +6871,7 @@
     farmers = {
         culture = gujarati
         religion = hindu
-        size = 59050
+        size = 23620
     }
 
     aristocrats = {
@@ -6877,7 +6901,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 5780
+        size = 2312
     }
 }
 #Bombay Presidency Region : 7848000
@@ -6941,7 +6965,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 405000
+        size = 162000
     }
 
     artisans = {
@@ -6965,7 +6989,7 @@
     farmers = {
         culture = marathi
         religion = catholic
-        size = 2000
+        size = 800
     }
 
     clergymen = {
@@ -6983,7 +7007,7 @@
     farmers = {
         culture = gujarati
         religion = animist
-        size = 38125
+        size = 15250
     }
 
     soldiers = {
@@ -7037,7 +7061,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 97250
+        size = 38900
     }
 
     clergymen = {
@@ -7055,7 +7079,7 @@
     farmers = {
         culture = sindi
         religion = shiite
-        size = 2075
+        size = 830
     }
 
     aristocrats = {
@@ -7117,7 +7141,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 181750
+        size = 72700
     }
 
     aristocrats = {
@@ -7147,7 +7171,7 @@
     farmers = {
         culture = sindi
         religion = sunni
-        size = 4775
+        size = 1910
     }
 }
 #Poona (1196000/299000 POPS)
@@ -7185,7 +7209,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 255500
+        size = 102200
     }
 
     aristocrats = {
@@ -7215,7 +7239,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 9375
+        size = 3750
     }
 }
 #Bijapur (1044000/261000 POPS)
@@ -7247,13 +7271,13 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 226500
+        size = 90600
     }
 
     farmers = {
         culture = marathi
         religion = catholic
-        size = 9000
+        size = 3600
     }
 
     aristocrats = {
@@ -7283,7 +7307,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 4750
+        size = 1900
     }
 }
 #Kolhapur (880000/220000 POPS)
@@ -7321,7 +7345,7 @@
     farmers = {
         culture = marathi
         religion = hindu
-        size = 197700
+        size = 79080
     }
 
     aristocrats = {
@@ -7351,7 +7375,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 3775
+        size = 1510
     }
 }
 #Belgaum (1252000/313000 POPS)
@@ -7383,7 +7407,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 249250
+        size = 99700
     }
 
     clergymen = {
@@ -7401,7 +7425,7 @@
     farmers = {
         culture = gujarati
         religion = animist
-        size = 14350
+        size = 5740
     }
 
     aristocrats = {
@@ -7431,7 +7455,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 19450
+        size = 7780
     }
 }
 #Ruled by Portugal in 1836
@@ -7576,7 +7600,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 268750
+        size = 107500
     }
 
     artisans = {
@@ -7588,7 +7612,7 @@
     farmers = {
         culture = telegu
         religion = sunni
-        size = 1100
+        size = 440
     }
 
     bureaucrats = {
@@ -7632,7 +7656,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 395000
+        size = 158000
     }
 
     aristocrats = {
@@ -7662,7 +7686,7 @@
     farmers = {
         culture = telegu
         religion = sunni
-        size = 5575
+        size = 2230
     }
 }
 #Nellore (1056000/264000 POPS)
@@ -7694,7 +7718,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 234500
+        size = 93800
     }
 
     aristocrats = {
@@ -7724,13 +7748,13 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 6625
+        size = 2650
     }
 
     farmers = {
         culture = kannada
         religion = shiite
-        size = 1100
+        size = 440
     }
 }
 #Kurnool (1256000/314000 POPS)
@@ -7762,7 +7786,7 @@
     farmers = {
         culture = telegu
         religion = hindu
-        size = 265875
+        size = 106350
     }
 
     aristocrats = {
@@ -7792,7 +7816,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 22225
+        size = 8890
     }
 }
 #Madras Presidency Region : 9780000
@@ -7886,7 +7910,7 @@
     farmers = {
         culture = tamil
         religion = hindu
-        size = 839000
+        size = 335600
     }
 
     clergymen = {
@@ -7904,7 +7928,7 @@
     farmers = {
         culture = tamil
         religion = catholic
-        size = 16125
+        size = 6450
     }
 
     clergymen = {
@@ -7922,7 +7946,7 @@
     farmers = {
         culture = tamil
         religion = protestant
-        size = 13125
+        size = 5250
     }
 
     aristocrats = {
@@ -7964,7 +7988,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 138500
+        size = 55400
     }
 
     aristocrats = {
@@ -8032,7 +8056,7 @@
     farmers = {
         culture = tamil
         religion = hindu
-        size = 323250
+        size = 129300
     }
 
     aristocrats = {
@@ -8062,7 +8086,7 @@
     farmers = {
         culture = tamil
         religion = sunni
-        size = 9475
+        size = 3790
     }
 }
 #Madurai (1720000/430000 POPS)
@@ -8100,7 +8124,7 @@
     farmers = {
         culture = tamil
         religion = hindu
-        size = 375250
+        size = 150100
     }
 
     aristocrats = {
@@ -8130,7 +8154,7 @@
     farmers = {
         culture = tamil
         religion = sunni
-        size = 19300
+        size = 7720
     }
 }
 #Coimbatore (2116000/529000 POPS)
@@ -8168,7 +8192,7 @@
     farmers = {
         culture = tamil
         religion = hindu
-        size = 444000
+        size = 177600
     }
 
     aristocrats = {
@@ -8198,7 +8222,7 @@
     farmers = {
         culture = tamil
         religion = sunni
-        size = 41250
+        size = 16500
     }
 }
 #Under the rule of France 1836
@@ -8319,7 +8343,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 129950
+        size = 51980
     }
 
     aristocrats = {
@@ -8349,7 +8373,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 6625
+        size = 2650
     }
 }
 #Mysore (872000/218000 POPS)
@@ -8393,7 +8417,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 190150
+        size = 76060
     }
 
     aristocrats = {
@@ -8429,7 +8453,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 4625
+        size = 1850
     }
 }
 #Chitaldroog (416000/104000 POPS)
@@ -8461,7 +8485,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 92000
+        size = 36800
     }
 
     aristocrats = {
@@ -8491,7 +8515,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 3850
+        size = 1540
     }
 }
 #Ruled by Britain 1836 (1136000)
@@ -8530,7 +8554,7 @@
     farmers = {
         culture = kannada
         religion = hindu
-        size = 238825
+        size = 95530
     }
 
     aristocrats = {
@@ -8560,7 +8584,7 @@
     farmers = {
         culture = kannada
         religion = sunni
-        size = 18300
+        size = 7320
     }
 }
 #Malabar Region  (2656000)
@@ -8600,7 +8624,7 @@
     farmers = {
         culture = malayalam
         religion = hindu
-        size = 171750
+        size = 68700
     }
 
     aristocrats = {
@@ -8630,7 +8654,7 @@
     farmers = {
         culture = malayalam
         religion = sunni
-        size = 77375
+        size = 30950
     }
 
     aristocrats = {
@@ -8660,7 +8684,7 @@
     farmers = {
         culture = malayalam
         religion = orthodox
-        size = 28425
+        size = 11370
     }
 
     aristocrats = {
@@ -8690,7 +8714,7 @@
     farmers = {
         culture = malayalam
         religion = catholic
-        size = 34250
+        size = 13700
     }
 }
 #Under Rule of Travancore 1836 (1284000)
@@ -8723,7 +8747,7 @@
     farmers = {
         culture = malayalam
         religion = hindu
-        size = 128000
+        size = 51200
     }
 
     aristocrats = {
@@ -8753,7 +8777,7 @@
     farmers = {
         culture = malayalam
         religion = sunni
-        size = 29550
+        size = 11820
     }
 
     clergymen = {
@@ -8771,7 +8795,7 @@
     farmers = {
         culture = malayalam
         religion = shiite
-        size = 950
+        size = 380
     }
 
     aristocrats = {
@@ -8801,7 +8825,7 @@
     farmers = {
         culture = malayalam
         religion = orthodox
-        size = 12925
+        size = 5170
     }
 
     aristocrats = {
@@ -8831,7 +8855,7 @@
     farmers = {
         culture = malayalam
         religion = catholic
-        size = 10675
+        size = 4270
     }
 }
 #Trivandrum (476000/119000 POPS)
@@ -8875,7 +8899,7 @@
     farmers = {
         culture = malayalam
         religion = hindu
-        size = 64675
+        size = 25870
     }
 
     aristocrats = {
@@ -8905,7 +8929,7 @@
     farmers = {
         culture = malayalam
         religion = sunni
-        size = 14550
+        size = 5820
     }
 
     clergymen = {
@@ -8923,7 +8947,7 @@
     farmers = {
         culture = malayalam
         religion = shiite
-        size = 275
+        size = 110
     }
 
     aristocrats = {
@@ -8953,7 +8977,7 @@
     farmers = {
         culture = malayalam
         religion = orthodox
-        size = 12825
+        size = 5130
     }
 
     aristocrats = {
@@ -8983,7 +9007,7 @@
     farmers = {
         culture = malayalam
         religion = catholic
-        size = 8125
+        size = 3250
     }
 }
 #Himalaya Region (56000) #see Nepal.txt and Bhutan.txt for balance of region
