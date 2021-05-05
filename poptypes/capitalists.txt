@@ -3,7 +3,6 @@ color = { 18 129 10 }
 strata = rich
 state_capital_only = yes
 
-demote_migrant = yes
 
 rebel =
 {
@@ -21,13 +20,12 @@ can_build = yes
 
 everyday_needs = {
 	paper = 20
-	luxury_clothes = 20
-	luxury_furniture = 20
+	luxury_clothes = 30
+	luxury_furniture = 25
 	wine = 20
 	cigarettes = 20
 	coffee = 20
 	pharmaceuticals = 20
-	opium = 20
 }
 
 life_needs = {
@@ -43,14 +41,14 @@ luxury_needs = {
 	pharmaceuticals = 40
 	cigarettes = 40
 	telephones = 80
-	automobiles = 40
+	automobiles = 80
 	aeroplanes = 20
 	radio = 80
 	fuel = 80
 	clipper_convoy = 40
 	steamer_convoy = 20
-	luxury_clothes = 20
-	luxury_furniture = 10
+	luxury_clothes = 30
+	luxury_furniture = 25
 }
 
 
@@ -500,94 +498,52 @@ promote_to =
 			modifier = {
 				factor = 2
 				education_spending = 0.1
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.2
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.3
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.4
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.5
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.6
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.7
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.8
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.9
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.99
-			}
-		}
-		group = {
-			modifier = {
-				factor = -1
-				education_spending = 0.1
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.2
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.3
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.4
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.5
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.6
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.7
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.8
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.9
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.99
-				location = { is_colonial = yes }
+				location = { is_colonial = no }
 			}
 		}
 		group = {		
@@ -667,10 +623,6 @@ promote_to =
 		modifier = {
 			factor = -100
 			clergymen = 0.04
-			country = {
-				ai = no
-				school_reforms = compulsory_schools
-			}
 		}
 	}
 }
@@ -686,8 +638,13 @@ ideologies = {
 		}
 		modifier = {
 			factor = -100
-			is_primary_culture = no
-			is_accepted_culture = no
+			OR = {
+				country = { government = colonial_company }
+				AND = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+			}
 		}
 		modifier = {
 			factor = 1.5

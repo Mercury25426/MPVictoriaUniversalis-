@@ -5,7 +5,7 @@ monitor = {
 	type = naval
 	sprite = Raider
 	active = no
-	unit_type = big_ship
+	unit_type = light_ship
 	capital = yes
 	move_sound = steam_move
 	select_sound = steam_selected
@@ -41,9 +41,9 @@ monitor = {
 	}
 	
 	#Naval Abilties
-	hull = 16
-	gun_power = 4
+	hull = 20
+	gun_power = 12
 	fire_range = 0.65
-	torpedo_attack = 22
+	torpedo_attack = 20
 }
 

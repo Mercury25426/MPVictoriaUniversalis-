@@ -15,7 +15,7 @@ battleship = {
 	#Core Abilities
 	priority = 40
 	max_strength = 150
-	default_organisation = 75
+	default_organisation = 100
 	maximum_speed = 9
 	weighted_value = 50.0
 	can_build_overseas = yes
@@ -42,7 +42,7 @@ battleship = {
 	}
 	
 	#Naval Abilties
-	hull = 40
+	hull = 50
 	gun_power = 50
 	fire_range = 0.75
 	evasion = 0

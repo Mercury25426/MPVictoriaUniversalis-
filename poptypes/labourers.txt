@@ -7,16 +7,15 @@ equivalent = farmers
 
 everyday_needs = {
 	telephones = 1.6
-	automobiles = 0.4
+	automobiles = 0.8
 	radio = 0.8
 	cigarettes = 4.8
 	pharmaceuticals = 3.2
-	opium = 0.5
 	tea = 6.4
 	coffee = 4
 	liquor = 8
 	regular_clothes = 9.6
-	furniture = 9.6
+	furniture = 8.8
 	wine = 4.8
 	canned_food = 3.2
 	explosives = 1.6
@@ -33,16 +32,15 @@ life_needs = {
 
 luxury_needs = {	
 	telephones = 1.6
-	automobiles = 0.4
+	automobiles = 0.8
 	radio = 0.8
 	cigarettes = 4.8
 	pharmaceuticals = 3.2
-	opium = 0.5
 	tea = 6.4
 	coffee = 4
 	liquor = 8
 	regular_clothes = 9.6
-	furniture = 9.6
+	furniture = 8.8
 	wine = 4.8
 	canned_food = 3.2
 	explosives = 1.6
@@ -55,47 +53,110 @@ country_migration_target =
 
 	modifier = {
 		factor = 0
-		NOT = { has_country_flag = bulgarian }
-		THIS = { has_pop_culture = bulgarian }
+		has_global_flag = population_exchange_in_progress
+		OR = {
+			AND = {
+				NOT = { primary_culture = bulgarian }
+				THIS = { has_pop_culture = bulgarian }
+			}
+			AND = {
+				NOT = { primary_culture = greek }
+				THIS = { has_pop_culture = greek }
+			}
+			AND = {
+				NOT = { primary_culture = turkish }
+				THIS = { has_pop_culture = turkish }
+			}
+		}
 	}
 	modifier = {
 		factor = 10
-		has_country_flag = bulgarian
-		THIS = { has_pop_culture = bulgarian }
-	}
-	modifier = {
-		factor = 0
-		NOT = { has_country_flag = greek }
-		THIS = { has_pop_culture = greek }
+		has_global_flag = population_exchange_in_progress
+		OR = {
+			AND = {
+				primary_culture = bulgarian
+				THIS = { has_pop_culture = bulgarian }
+			}
+			AND = {
+				primary_culture = greek
+				THIS = { has_pop_culture = greek }
+			}
+			AND = {
+				primary_culture = turkish
+				THIS = { has_pop_culture = turkish }
+			}
+		}
 	}
 	modifier = {
 		factor = 10
-		has_country_flag = greek
-		THIS = { has_pop_culture = greek }
-	}
-	modifier = {
-		factor = 0
-		NOT = { has_country_flag = turkish }
-		THIS = { has_pop_culture = turkish }
+		primary_culture = ashkenazi
+		THIS = {
+			OR = {
+				has_pop_culture = ashkenazi
+				has_pop_culture = sephardic
+			}
+		}
 	}
 	modifier = {
 		factor = 10
-		has_country_flag = turkish
-		THIS = { has_pop_culture = turkish }
-	}
-	modifier = {
-		factor = 0
-		NOT = { has_country_flag = boer_republic }
+		primary_culture = boer
 		THIS = { has_pop_culture = boer }
 	}
 	modifier = {
-		factor = 10
-		has_country_flag = boer_republic
-		THIS = { has_pop_culture = boer }
+		factor = 0
+		OR = {
+			AND = {
+				NOT = { primary_culture = spanish }
+				THIS = { country = { has_country_flag = spanish_vassal } }
+			}
+			AND = {
+				NOT = { has_country_flag = spanish_vassal }
+				THIS = { country = { has_country_flag = spanish_reconquista } }
+			}
+		}
 	}
 	modifier = {
 		factor = 10
-		has_country_flag = sunni_country
+		OR = {
+			AND = {
+				primary_culture = spanish
+				THIS = { country = { has_country_flag = spanish_vassal } }
+			}
+			AND = {
+				has_country_flag = spanish_vassal
+				THIS = { country = { has_country_flag = spanish_reconquista } }
+			}
+		}
+	}
+	modifier = {
+		factor = 0
+		OR = {
+			AND = {
+				NOT = { primary_culture = portuguese }
+				THIS = { country = { has_country_flag = portuguese_vassal } }
+			}
+			AND = {
+				NOT = { has_country_flag = portuguese_vassal }
+				THIS = { country = { has_country_flag = portuguese_reconquista } }
+			}
+		}
+	}
+	modifier = {
+		factor = 10
+		OR = {
+			AND = {
+				primary_culture = portuguese
+				THIS = { country = { has_country_flag = portuguese_vassal } }
+			}
+			AND = {
+				has_country_flag = portuguese_vassal
+				THIS = { country = { has_country_flag = portuguese_reconquista } }
+			}
+		}
+	}
+	modifier = {
+		factor = 10
+		primary_culture = turkish
 		has_global_flag = circassian_genocide_in_progress
 		THIS = { has_pop_culture = north_caucasian }
 	}
@@ -138,29 +199,56 @@ country_migration_target =
 			government = fascist_dictatorship
 			government = absolute_monarchy
 		}
-		NOT = { THIS = { is_culture_group = caucasian } }
 	}
 	modifier = {
 		factor = 0.01
 		OR = {
-			AND = {
-				continent = africa
-				THIS = { NOT = { has_pop_culture = boer } }
-				OR = {
-					NOT = { primary_culture = british }
-					THIS = { NOT = { has_pop_culture = british } }
-				}
-			}
-			AND = {
-				continent = asia
-				OR = {
-					NOT = { primary_culture = british }
-					THIS = { NOT = { has_pop_culture = british } }
-				}
-			}
+			continent = africa
+			continent = asia
 			continent = europe
 		}
-		NOT = { THIS = { is_culture_group = caucasian } }
+		OR = {
+			AND = {
+				NOT = { primary_culture = ashkenazi }
+				NOT = { primary_culture = sephardic }
+			}
+			AND = {
+				THIS = { NOT = { has_pop_culture = ashkenazi } }
+				THIS = { NOT = { has_pop_culture = sephardic } }
+			}
+		}
+		OR = {
+			NOT = { primary_culture = boer }
+			THIS = { NOT = { has_pop_culture = boer } }
+		}
+		OR = {
+			NOT = { primary_culture = turkish }
+			THIS = { NOT = { has_pop_culture = north_caucasian } }
+		}
+		OR = {
+			NOT = { primary_culture = british }
+			THIS = { NOT = { has_pop_culture = british } }
+		}
+		OR = {
+			NOT = { primary_culture = turkish }
+			THIS = { NOT = { has_pop_culture = turkish } }
+		}
+		OR = {
+			NOT = { primary_culture = bulgarian }
+			THIS = { NOT = { has_pop_culture = bulgarian } }
+		}
+		OR = {
+			NOT = { primary_culture = greek }
+			THIS = { NOT = { has_pop_culture = greek } }
+		}
+		OR = {
+			NOT = { primary_culture = british }
+			THIS = { NOT = { has_pop_culture = british } }
+		}
+		OR = {
+			NOT = { primary_culture = portuguese }
+			THIS = { NOT = { has_pop_culture = brazilian } }
+		}
 	}
 	modifier = {
 		factor = 0
@@ -169,15 +257,10 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 0
-		has_country_flag = jan_mayen
-	}
-	modifier = {
-		factor = 1.25
-		is_sphere_leader_of = THIS
-	}
-	modifier = {
-		factor = 1.25
-		in_sphere = THIS
+		OR = {
+			has_country_flag = jan_mayen
+			has_country_flag = ghostland
+		}
 	}
 	modifier = {
 		factor = 0.95
@@ -207,6 +290,14 @@ country_migration_target =
 		}
 		NOT = { month = 6 }
 		THIS = {
+			country = {
+				NOT = {
+					OR = {
+						has_country_flag = portuguese_reconquista
+						has_country_flag = spanish_reconquista
+					}
+				}
+			}
 			OR = {
 				is_culture_group = germanic
 				is_culture_group = beneluxian
@@ -218,7 +309,6 @@ country_migration_target =
 				is_culture_group = turko_semitic
 				is_culture_group = central_asian
 				is_culture_group = south_asian
-				is_culture_group = american_cultures
 				is_culture_group = west_african
 				is_culture_group = iberian
 				is_culture_group = czecho_slovak_culture_group
@@ -232,6 +322,14 @@ country_migration_target =
 		continent = south_america
 		month = 6
 		THIS = {
+			country = {
+				NOT = {
+					OR = {
+						has_country_flag = portuguese_reconquista
+						has_country_flag = spanish_reconquista
+					}
+				}
+			}
 			OR = {
 				is_culture_group = germanic
 				is_culture_group = beneluxian
@@ -243,7 +341,6 @@ country_migration_target =
 				is_culture_group = turko_semitic
 				is_culture_group = central_asian
 				is_culture_group = south_asian
-				is_culture_group = american_cultures
 				is_culture_group = west_african
 				is_culture_group = iberian
 				is_culture_group = czecho_slovak_culture_group
@@ -254,18 +351,21 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 0.01
-		OR = {
-			continent = south_america
-		}
+		continent = south_america
 		NOT = { month = 6 }
 		THIS = {
+			country = {
+				NOT = {
+					OR = {
+						has_country_flag = portuguese_reconquista
+						has_country_flag = spanish_reconquista
+					}
+				}
+			}
 			OR = {
 				is_culture_group = polish_culture_group
 				is_culture_group = arab
 				is_culture_group = oceanic
-				is_culture_group = native_american
-				is_culture_group = neo_european_cultures
-				is_culture_group = african_diaspora_cultures
 				is_culture_group = central_african
 				is_culture_group = italian
 				is_culture_group = french
@@ -274,7 +374,6 @@ country_migration_target =
 				is_culture_group = levantine
 				is_culture_group = iranian_turanian
 				is_culture_group = east_asian
-				is_culture_group = latin_american_cultures
 				is_culture_group = east_african
 				is_culture_group = southern_african
 			}
@@ -288,13 +387,18 @@ country_migration_target =
 		}
 		month = 6
 		THIS = {
+			country = {
+				NOT = {
+					OR = {
+						has_country_flag = portuguese_reconquista
+						has_country_flag = spanish_reconquista
+					}
+				}
+			}
 			OR = {
 				is_culture_group = polish_culture_group
 				is_culture_group = arab
 				is_culture_group = oceanic
-				is_culture_group = native_american
-				is_culture_group = neo_european_cultures
-				is_culture_group = african_diaspora_cultures
 				is_culture_group = central_african
 				is_culture_group = italian
 				is_culture_group = french
@@ -303,7 +407,6 @@ country_migration_target =
 				is_culture_group = levantine
 				is_culture_group = iranian_turanian
 				is_culture_group = east_asian
-				is_culture_group = latin_american_cultures
 				is_culture_group = east_african
 				is_culture_group = southern_african
 			}
@@ -330,7 +433,7 @@ migration_target =
 				state_id = 893
 			}
 		}
-		THIS = { is_culture_group = caucasian }
+		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
 	}
 	modifier = {
@@ -1095,94 +1198,52 @@ promote_to =
 			modifier = {
 				factor = 2
 				education_spending = 0.1
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.2
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.3
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.4
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.5
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.6
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.7
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.8
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.9
+				location = { is_colonial = no }
 			}
 			modifier = {
 				factor = 2
 				education_spending = 0.99
-			}
-		}
-		group = {
-			modifier = {
-				factor = -1
-				education_spending = 0.1
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.2
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.3
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.4
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.5
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.6
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.7
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.8
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.9
-				location = { is_colonial = yes }
-			}
-			modifier = {
-				factor = -1
-				education_spending = 0.99
-				location = { is_colonial = yes }
+				location = { is_colonial = no }
 			}
 		}
 		group = {		
@@ -1262,10 +1323,6 @@ promote_to =
 		modifier = {
 			factor = -100
 			clergymen = 0.04
-			country = {
-				ai = no
-				school_reforms = compulsory_schools
-			}
 		}
 	}
 }
@@ -1281,8 +1338,13 @@ ideologies = {
 		}
 		modifier = {
 			factor = -100
-			is_primary_culture = no
-			is_accepted_culture = no
+			OR = {
+				country = { government = colonial_company }
+				AND = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+			}
 		}
 		modifier = {
 			factor = 1.5

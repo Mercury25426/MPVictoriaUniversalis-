@@ -23,7 +23,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	pharmaceuticals = 1
+	#pharmaceuticals = 1
 }
 
 country_migration_target =

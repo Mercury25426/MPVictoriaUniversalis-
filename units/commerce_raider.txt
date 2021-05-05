@@ -5,7 +5,7 @@ commerce_raider = {
 	type = naval
 	sprite = Raider
 	active = no
-	unit_type = big_ship
+	unit_type = light_ship
 	capital = yes
 	move_sound = steam_move
 	select_sound = steam_selected
@@ -40,9 +40,9 @@ commerce_raider = {
 	}
 	
 	#Naval Abilties
-	hull = 4
-	gun_power = 2
+	hull = 8
+	gun_power = 7
 	fire_range = 0.3
-	torpedo_attack = 3
+	torpedo_attack = 7
 }
 

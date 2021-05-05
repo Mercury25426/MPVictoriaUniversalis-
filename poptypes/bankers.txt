@@ -24,39 +24,40 @@ life_needs = {
 
 
 luxury_needs = {
-	rubber = 25000
-	tropical_wood = 10000
+	rubber = 5000
+	tropical_wood = 2500
 	silk = 2500
-	dye = 5000
+	dye = 2500
 	explosives = 2000
 	artillery = 1500
 	barrels = 500
 	aeroplanes = 500
 	small_arms = 2500
 	ammunition = 5000
-	canned_food = 10000
-	opium = 3500
-	cotton = 10000
-	tea_leaves = 10000
-	coffee_beans = 5000
-	tobacco = 15000
+	canned_food = 7500
+	cotton = 2500
+	fabric = 10000
+	tea_leaves = 5000
+	coffee_beans = 2500
+	tobacco = 2500
 	wool = 20000
 	sulphur = 2500
-	timber = 12500
-	lumber = 12500
+	timber = 10000
+	lumber = 10000
 	coal = 7500
-	iron = 10000
-	oil = 10000
+	iron = 2500
+	oil = 2500
 	clipper_convoy = 2500
 	steamer_convoy = 1500
 	fuel = 1000
 	cement = 5000
 	steel = 5000
 	machine_parts = 2500
-	grain = 40000
-	fruit = 25000
-	fish = 20000
-	cattle = 20000
+	grain = 30000
+	fruit = 20000
+	fish = 15000
+	cattle = 15000
+	opium = 2500
 }
 
 

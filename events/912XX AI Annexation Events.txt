@@ -1381,7 +1381,7 @@ country_event = {
 		any_country = {
 			relation = {
 				who = JAN
-				value = -200
+				value = -400
 			}
 		}
 	}

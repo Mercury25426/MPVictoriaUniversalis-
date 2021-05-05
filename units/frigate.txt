@@ -31,15 +31,14 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.16
-		artillery = 0.05 #0.08
+		clipper_convoy = 0.12
+		artillery = 0.04 #0.08
 	}
 	
 	#Naval Abilties
-	hull = 2
-	gun_power = 2
+	hull = 3
+	gun_power = 3
 	fire_range = 0.2
 	evasion = 0
-	torpedo_attack = 0
 }
 

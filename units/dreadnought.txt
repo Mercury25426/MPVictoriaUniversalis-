@@ -14,8 +14,8 @@ dreadnought = {
 	
 	#Core Abilities
 	priority = 60
-	max_strength = 200
-	default_organisation = 85
+	max_strength = 150
+	default_organisation = 100
 	maximum_speed = 10
 	weighted_value = 100.0
 
@@ -41,8 +41,8 @@ dreadnought = {
 	}
 	
 	#Naval Abilties
-	hull = 50
-	gun_power = 75
+	hull = 65
+	gun_power = 65
 	fire_range = 0.80
 	evasion = 0
 }
