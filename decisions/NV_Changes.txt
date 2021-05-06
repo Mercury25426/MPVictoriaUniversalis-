@@ -217,9 +217,6 @@ political_decisions = {
 	switch_to_unity_equality = {
 		picture = switch_to_unity
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_equality
 		}
@@ -227,11 +224,11 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				ruling_party_ideology = reactionary
-				ruling_party_ideology = conservative
-				conservative = 40
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				socialist = 40
 			}
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -257,9 +254,6 @@ political_decisions = {
 	switch_to_unity_order = {
 		picture = switch_to_unity
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_order
 		}
@@ -267,11 +261,11 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-				socialist = 40
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = conservative
+				conservative = 40
 			}
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -297,9 +291,6 @@ political_decisions = {
 	switch_to_prosperity_equality = {
 		picture = switch_to_prosperity
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_equality
 		}
@@ -307,7 +298,44 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
+			OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				socialist = 40
+			}
+			NOT = { has_country_modifier = national_confusion }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = nv_prosperity_modifier
+				duration = 1
+			}
+			prestige = 20
+			nationalvalue = nv_prosperity
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	switch_to_prosperity_liberty = {
+		picture = switch_to_prosperity
+		potential = {
+			civilized = yes
+			nationalvalue = nv_liberty
+		}
+		
+		allow = {
+			war = no
+			prestige = 100
+			nationalism_n_imperialism = 1
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
@@ -334,52 +362,9 @@ political_decisions = {
 		}
 	}
 	
-	switch_to_prosperity_liberty = {
-		picture = switch_to_prosperity
-		potential = {
-			OR = {
-
-			}
-			civilized = yes
-			nationalvalue = nv_liberty
-		}
-		
-		allow = {
-			war = no
-			prestige = 100
-			revolution_n_counterrevolution = 1
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-				socialist = 40
-			}
-			NOT = { has_country_modifier = national_confusion }
-		}
-		
-		effect = {
-			add_country_modifier = {
-				name = nv_prosperity_modifier
-				duration = 1
-			}
-			prestige = 20
-			nationalvalue = nv_prosperity
-			add_country_modifier = {
-				name = national_confusion
-				duration = 3650
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	switch_to_glory_liberty = {
 		picture = switch_to_glory
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_liberty
 		}
@@ -387,13 +372,11 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				government = proletarian_dictatorship
-				government = fascist_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				jingoism = 15
+				ruling_party_ideology = liberal
+				ruling_party_ideology = anarcho_liberal
+				liberal = 40
 			}
 			OR = {
 				jingoism = 15
@@ -423,9 +406,6 @@ political_decisions = {
 	switch_to_glory_might = {
 		picture = switch_to_glory
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_might
 		}
@@ -433,11 +413,14 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-				liberal = 40
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = absolute_monarchy
+				jingoism = 15
 			}
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -463,9 +446,6 @@ political_decisions = {
 	switch_to_dominion_might = {
 		picture = switch_to_dominion
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_might
 		}
@@ -473,11 +453,14 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = reactionary
-				conservative = 40
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = absolute_monarchy
+				jingoism = 15
 			}
 			NOT = { has_country_modifier = national_confusion }
 		}
@@ -503,9 +486,6 @@ political_decisions = {
 	switch_to_dominion_order = {
 		picture = switch_to_dominion
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_order
 		}
@@ -513,13 +493,11 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			OR = {
-				government = proletarian_dictatorship
-				government = fascist_dictatorship
-				government = presidential_dictatorship
-				government = bourgeois_dictatorship
-				jingoism = 15
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+				conservative = 40
 			}
 			OR = {
 				jingoism = 15
@@ -548,9 +526,6 @@ political_decisions = {
 
 	switch_to_fraternity = {
 		potential = {
-			OR = {
-
-			}
 			civilized = yes
 			nationalvalue = nv_equality
 		}
@@ -558,7 +533,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -590,7 +565,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -623,7 +598,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -656,7 +631,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -691,7 +666,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -722,7 +697,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -753,7 +728,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		
@@ -785,7 +760,7 @@ political_decisions = {
 		allow = {
 			war = no
 			prestige = 100
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			NOT = { has_country_modifier = national_confusion }
 		}
 		

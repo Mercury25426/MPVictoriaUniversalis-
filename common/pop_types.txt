@@ -436,39 +436,39 @@ demotion_chance =
 	}
 	group = {
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.9 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.8 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.7 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.6 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.5 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.4 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.3 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.2 }
 		}
 		modifier = {
-			factor = -0.08
+			factor = -0.05
 			not = { literacy = 0.1 }
 		}
 	}
@@ -678,23 +678,19 @@ migration_chance =
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = 
 {
-	factor = 0.4
+	factor = 0.04
 	modifier = {
-		factor = -100
+		factor = -10
 		location = {
 			NOT = { total_pops = 1000 }
 		}
 	}
 	modifier = {
-		factor = -2.0
+		factor = -2
 		strata = rich
 	}
 	modifier = {
-		factor = -0.005
-		state_scope = { is_colonial = no }
-	}
-	modifier = {
-		factor = -0.3
+		factor = -3
 		NOT = {
 			OR = {
 				is_primary_culture = yes
@@ -703,84 +699,129 @@ colonialmigration_chance =
 		}
 	}
 	modifier = {
-		factor = 0.1
-		country = { colonial_policy = settlement }
+		factor = 0.6
+		country = { colonial_migration = high_colonial_migration }
 	}
 	modifier = {
-		factor = 0.05
-		country = { colonial_policy = civilizing }
+		factor = 0.4
+		country = { colonial_migration = medium_colonial_migration }
+	}
+	modifier = {
+		factor = 0.2
+		country = { colonial_migration = low_colonial_migration }
+	}
+	modifier = {
+		factor = -0.1
+		country = { colonial_migration = no_colonial_migration }
 	}
 	group = {
 		modifier = {
-			factor = -0.01
+			factor = -0.06
 			country = {
 				total_pops = 1000000
-				colonial_policy = settlement
+				colonial_migration = high_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.06
+			country = {
+				total_pops = 3500000
+				colonial_migration = high_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.12
+			country = {
+				total_pops = 7500000
+				colonial_migration = high_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.12
+			country = {
+				total_pops = 17500000
+				colonial_migration = high_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.12
+			country = {
+				total_pops = 30000000
+				colonial_migration = high_colonial_migration
+			}
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.04
+			country = {
+				total_pops = 1000000
+				colonial_migration = medium_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.04
+			country = {
+				total_pops = 3500000
+				colonial_migration = medium_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.08
+			country = {
+				total_pops = 7500000
+				colonial_migration = medium_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.08
+			country = {
+				total_pops = 17500000
+				colonial_migration = medium_colonial_migration
+			}
+		}
+		modifier = {
+			factor = -0.08
+			country = {
+				total_pops = 30000000
+				colonial_migration = medium_colonial_migration
+			}
+		}
+	}
+	group = {
+		modifier = {
+			factor = -0.02
+			country = {
+				total_pops = 1000000
+				colonial_migration = low_colonial_migration
 			}
 		}
 		modifier = {
 			factor = -0.02
 			country = {
 				total_pops = 3500000
-				colonial_policy = settlement
+				colonial_migration = low_colonial_migration
 			}
 		}
 		modifier = {
-			factor = -0.02
+			factor = -0.04
 			country = {
 				total_pops = 7500000
-				colonial_policy = settlement
+				colonial_migration = low_colonial_migration
 			}
 		}
 		modifier = {
-			factor = -0.02
+			factor = -0.04
 			country = {
 				total_pops = 17500000
-				colonial_policy = settlement
+				colonial_migration = low_colonial_migration
 			}
 		}
 		modifier = {
-			factor = -0.02
+			factor = -0.04
 			country = {
 				total_pops = 30000000
-				colonial_policy = settlement
-			}
-		}
-	}
-	group = {
-		modifier = {
-			factor = -0.005
-			country = {
-				total_pops = 1000000
-				colonial_policy = civilizing
-			}
-		}
-		modifier = {
-			factor = -0.01
-			country = {
-				total_pops = 3500000
-				colonial_policy = civilizing
-			}
-		}
-		modifier = {
-			factor = -0.01
-			country = {
-				total_pops = 7500000
-				colonial_policy = civilizing
-			}
-		}
-		modifier = {
-			factor = -0.01
-			country = {
-				total_pops = 17500000
-				colonial_policy = civilizing
-			}
-		}
-		modifier = {
-			factor = -0.01
-			country = {
-				total_pops = 30000000
-				colonial_policy = civilizing
+				colonial_migration = low_colonial_migration
 			}
 		}
 	}

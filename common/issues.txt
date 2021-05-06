@@ -11,6 +11,7 @@ party_issues = {
 			education_efficiency_modifier = 0.05
 			max_tariff = 0.25
 			min_tariff = -0.25
+			factory_input = -0.05
 		}
 		globalism = {
 			max_tariff = 0
@@ -509,33 +510,23 @@ political_reforms = {
 		}
 	}
 
-	colonial_policy = {
-		settlement = {
+	colonial_migration = {
+		high_colonial_migration = {
+			tax_efficiency = -0.06
+			allow = { colonial_nation = yes }
+		}
+
+		medium_colonial_migration = {
 			tax_efficiency = -0.04
-			non_accepted_pop_consciousness_modifier = 0.04
-			non_accepted_pop_militancy_modifier = 0.04
-			core_pop_militancy_modifier = -0.02
-			core_pop_consciousness_modifier = -0.02
-			administrative_multiplier = 5
 			allow = { colonial_nation = yes }
 		}
 
-		civilizing = {
+		low_colonial_migration = {
 			tax_efficiency = -0.02
-			prestige = 0.1
-			global_assimilation_rate = 0.05
-			education_efficiency_modifier = 0.1
-			allow = {
-				colonial_nation = yes 
-			}
-		}
-
-		indirect_rule = {
-			suppression_points_modifier = 0.25
 			allow = { colonial_nation = yes }
 		}
 
-		no_colonies = {
+		no_colonial_migration = {
 			allow = { colonial_nation = no }
 		}
 	}

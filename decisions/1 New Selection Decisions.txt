@@ -20,156 +20,67 @@ release_vassals = {
 #########################################################################
 # 							PROVINCE SUPPLY								#
 #########################################################################
-zcreate_supply_depot = {
-	picture = supply_depot
-	alert = yes
-	potential = {
-		NOT = { any_owned_province = { has_province_modifier = supply_depot } }
-		ai = no
-	}
-	allow = {
-		money = 500000
-		any_owned_province = { has_building = province_selector }
-	}
-	effect = {
-		treasury = -500000
-		random_owned = {
-			limit = { has_building = province_selector }
-			add_province_modifier = { name = supply_depot duration = -1 }
-			province_selector = -1
-		}
-	}
-}
 
-zdismantle_supply_depot = {
-	picture = supply_depot
+zcountry_decrease_colonial_migration = {
+	picture = pioneers
 	alert = no
 	potential = {
-		any_owned_province = { has_province_modifier = supply_depot }
 		ai = no
+		colonial_nation = yes
+		NOT = { colonial_migration = no_colonial_migration }
 	}
 	allow = {
 	}
 	effect = {
-		any_owned = {
-			limit = { has_province_modifier = supply_depot }
-			remove_province_modifier = supply_depot
+		random_owned = {
+			limit = {
+				owner = { colonial_migration = low_colonial_migration }
+			}
+			owner = { political_reform = no_colonial_migration }
+		}
+		random_owned = {
+			limit = {
+				owner = { colonial_migration = medium_colonial_migration }
+			}
+			owner = { political_reform = low_colonial_migration }
+		}
+		random_owned = {
+			limit = {
+				owner = { colonial_migration = high_colonial_migration }
+			}
+			owner = { political_reform = medium_colonial_migration }
 		}
 	}
 }
 
-zscorch_earth = {
-	picture = scorched_earth
-	alert = yes
+zcountry_increase_colonial_migration = {
+	picture = pioneers
+	alert = no
 	potential = {
-		war = yes
 		ai = no
-		any_owned_province = { has_building = province_selector }
+		colonial_nation = yes
+		NOT = { colonial_migration = high_colonial_migration }
 	}
 	allow = {
-		any_owned_province = {
-			has_building = province_selector
-		}
-		OR = {
-			government = theocracy
-			government = tribal_society
-			government = proletarian_dictatorship
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
-			government = fascist_dictatorship
-			government = absolute_monarchy
-		}
-		
 	}
 	effect = {
-		prestige_factor = -0.05
-		add_country_modifier = { name = earth_scorched duration = 180 }
 		random_owned = {
-			limit = { has_building = province_selector }
-			state_scope = {
-				any_owned = {
-					limit = {
-						OR = {
-							terrain = farmlands
-							terrain = plains
-						}
-					}
-					add_province_modifier = {
-						name = scorched_earth_10
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
-				any_owned = {
-					limit = {
-						terrain = steppe
-					}
-					add_province_modifier = {
-						name = scorched_earth_8
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							terrain = woods
-							terrain = hills
-							terrain = forest
-						}
-					}
-					add_province_modifier = {
-						name = scorched_earth_6
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							terrain = mountain
-							terrain = coastal_desert
-						}
-					}
-					add_province_modifier = {
-						name = scorched_earth_2
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							terrain = jungle
-							terrain = marsh
-						}
-					}
-					add_province_modifier = {
-						name = scorched_earth_1
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							terrain = arctic
-							terrain = desert
-						}
-					}
-					add_province_modifier = {
-						name = scorched_earth_0
-						duration = 365
-					}
-					province_selector = -1
-					railroad = -7
-				}
+			limit = {
+				owner = { colonial_migration = medium_colonial_migration }
 			}
+			owner = { political_reform = high_colonial_migration }
+		}
+		random_owned = {
+			limit = {
+				owner = { colonial_migration = low_colonial_migration }
+			}
+			owner = { political_reform = medium_colonial_migration }
+		}
+		random_owned = {
+			limit = {
+				owner = { colonial_migration = no_colonial_migration }
+			}
+			owner = { political_reform = low_colonial_migration }
 		}
 	}
 }
@@ -307,89 +218,404 @@ zscorch_earth = {
 #########################################################################
 # 					RESEARCH AND DEVELOPMENT							#
 #########################################################################
-	zcountry_decrease_rnd = {
-		picture = research_and_development
-		alert = no
-		potential = {
-			ai = no
-			NOT = { research_and_development = no_rnd }
-		}
-			
-		allow = {
-			NOT = { research_and_development = no_rnd }
-		}
-			
-		effect = {
-			political_reform = no_rnd
-		}		
+zcountry_decrease_rnd = {
+	picture = research_and_development
+	alert = no
+	potential = {
+		ai = no
+		NOT = { research_and_development = no_rnd }
+	}
+		
+	allow = {
+		NOT = { research_and_development = no_rnd }
+	}
+		
+	effect = {
+		political_reform = no_rnd
+	}
+}
+
+zcountry_increase_rnd = {
+	picture = research_and_development
+	alert = yes
+	potential = {
+		NOT = { research_and_development = futuristic_rnd }
 	}
 
-	zcountry_increase_rnd = {
-		picture = research_and_development
-		alert = yes
-		potential = {
-			NOT = { research_and_development = futuristic_rnd }
-		}
-			
-		allow = {
-			civilized = yes
-			OR = {
-				AND = {
+	allow = {
+		civilized = yes
+		OR = {
+			AND = {
+				research_and_development = no_rnd
+				literacy = 0.1
+				NOT = { literacy = 0.2 }
+			}
+			AND = {
+				OR = {
 					research_and_development = no_rnd
-					literacy = 0.1
-				}
-				AND = {
 					research_and_development = rudimentary_rnd
-					literacy = 0.2
 				}
-				AND = {
+				literacy = 0.2
+				NOT = { literacy = 0.3 }
+			}
+			AND = {
+				OR = {
+					research_and_development = no_rnd
+					research_and_development = rudimentary_rnd
 					research_and_development = very_low_rnd
-					literacy = 0.3
 				}
-				AND = {
+				literacy = 0.3
+				NOT = { literacy = 0.4 }
+			}
+			AND = {
+				OR = {
+					research_and_development = no_rnd
+					research_and_development = rudimentary_rnd
+					research_and_development = very_low_rnd
 					research_and_development = low_rnd
-					literacy = 0.4
 				}
-				AND = {
+				literacy = 0.4
+				NOT = { literacy = 0.5 }
+			}
+			AND = {
+				OR = {
+					research_and_development = no_rnd
+					research_and_development = rudimentary_rnd
+					research_and_development = very_low_rnd
+					research_and_development = low_rnd
 					research_and_development = basic_rnd
-					literacy = 0.5
 				}
-				AND = {
-					research_and_development = moderate_rnd
-					literacy = 0.6
+				literacy = 0.5
+				NOT = { literacy = 0.6 }
+			}
+			AND = {
+				NOT = {
+					OR = {
+						research_and_development = acceptable_rnd
+						research_and_development = good_rnd
+						research_and_development = very_good_rnd
+						research_and_development = advanced_rnd
+						research_and_development = futuristic_rnd
+					}
 				}
-				AND = {
-					research_and_development = acceptable_rnd
-					literacy = 0.7
+				literacy = 0.6
+				NOT = { literacy = 0.7 }
+			}
+			AND = {
+				NOT = {
+					OR = {
+						research_and_development = good_rnd
+						research_and_development = very_good_rnd
+						research_and_development = advanced_rnd
+						research_and_development = futuristic_rnd
+					}
 				}
-				AND = {
-					research_and_development = good_rnd
-					literacy = 0.8
+				literacy = 0.7
+				NOT = { literacy = 0.8 }
+			}
+			AND = {
+				NOT = {
+					OR = {
+						research_and_development = very_good_rnd
+						research_and_development = advanced_rnd
+						research_and_development = futuristic_rnd
+					}
 				}
-				AND = {
-					research_and_development = very_good_rnd
-					literacy = 0.9
+				literacy = 0.8
+				NOT = { literacy = 0.9 }
+			}
+			AND = {
+				NOT = {
+					OR = {
+						research_and_development = advanced_rnd
+						research_and_development = futuristic_rnd
+					}
 				}
-				AND = {
-					research_and_development = advanced_rnd
-					literacy = 0.99
-				}
+				literacy = 0.9
+				NOT = { literacy = 0.99 }
+			}
+			AND = {
+				NOT = { research_and_development = futuristic_rnd }
+				literacy = 0.99
 			}
 		}
-			
-		effect = {
-			random_owned = { limit = { owner = { research_and_development = advanced_rnd } } owner = { political_reform = futuristic_rnd } }
-			random_owned = { limit = { owner = { research_and_development = very_good_rnd } } owner = { political_reform = advanced_rnd } }
-			random_owned = { limit = { owner = { research_and_development = good_rnd } } owner = { political_reform = very_good_rnd } }
-			random_owned = { limit = { owner = { research_and_development = acceptable_rnd } } owner = { political_reform = good_rnd } }
-			random_owned = { limit = { owner = { research_and_development = moderate_rnd } } owner = { political_reform = acceptable_rnd } }
-			random_owned = { limit = { owner = { research_and_development = basic_rnd } } owner = { political_reform = moderate_rnd } }
-			random_owned = { limit = { owner = { research_and_development = low_rnd } } owner = { political_reform = basic_rnd } }
-			random_owned = { limit = { owner = { research_and_development = very_low_rnd } } owner = { political_reform = low_rnd } }
-			random_owned = { limit = { owner = { research_and_development = rudimentary_rnd } } owner = { political_reform = very_low_rnd } }
-			random_owned = { limit = { owner = { research_and_development = no_rnd } } owner = { political_reform = rudimentary_rnd } }			
-		}		
 	}
+
+	effect = {
+		random_owned = {
+			limit = {
+				owner = { literacy = 0.99 }
+			}
+			owner = { political_reform = futuristic_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.99 }
+					literacy = 0.9
+				}
+			}
+			owner = { political_reform = advanced_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.9 }
+					literacy = 0.8
+				}
+			}
+			owner = { political_reform = very_good_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.8 }
+					literacy = 0.7
+				}
+			}
+			owner = { political_reform = good_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.7 }
+					literacy = 0.6
+				}
+			}
+			owner = { political_reform = acceptable_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.6 }
+					literacy = 0.5
+				}
+			}
+			owner = { political_reform = moderate_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.5 }
+					literacy = 0.4
+				}
+			}
+			owner = { political_reform = basic_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.4 }
+					literacy = 0.3
+				}
+			}
+			owner = { political_reform = low_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.3 }
+					literacy = 0.2
+				}
+			}
+			owner = { political_reform = very_low_rnd }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = { literacy = 0.2 }
+					literacy = 0.1
+				}
+			}
+			owner = { political_reform = rudimentary_rnd }
+		}
+	}		
+}
+
+#########################################################################
+# 							COLONIAL POLICY								#
+#########################################################################
+
+zstate_colonial_policy = {
+	picture = colonial_policy
+	potential = {
+		ai = no
+		colonial_nation = yes
+	}
+	allow = {
+		any_owned_province = {
+			is_colonial = yes
+			has_building = province_selector
+		}
+	}
+	effect = {
+		random_owned = {
+			limit = {
+				has_building = province_selector
+				is_colonial = yes
+			}
+			province_selector = -1
+			province_event = { id = 91520 days = 0 }
+		}
+	}
+}
+
+
+#########################################################################
+# 							PROVINCE SUPPLY								#
+#########################################################################
+zcreate_supply_depot = {
+picture = supply_depot
+alert = yes
+potential = {
+	NOT = { any_owned_province = { has_province_modifier = supply_depot } }
+	ai = no
+}
+allow = {
+	money = 500000
+	any_owned_province = { has_building = province_selector }
+}
+effect = {
+	treasury = -500000
+	random_owned = {
+		limit = { has_building = province_selector }
+		add_province_modifier = { name = supply_depot duration = -1 }
+		province_selector = -1
+	}
+}
+}
+
+zdismantle_supply_depot = {
+picture = supply_depot
+alert = no
+potential = {
+	any_owned_province = { has_province_modifier = supply_depot }
+	ai = no
+}
+allow = {
+}
+effect = {
+	any_owned = {
+		limit = { has_province_modifier = supply_depot }
+		remove_province_modifier = supply_depot
+	}
+}
+}
+
+zscorch_earth = {
+picture = scorched_earth
+alert = yes
+potential = {
+	war = yes
+	ai = no
+	any_owned_province = { has_building = province_selector }
+}
+allow = {
+	any_owned_province = {
+		has_building = province_selector
+	}
+	OR = {
+		government = theocracy
+		government = tribal_society
+		government = proletarian_dictatorship
+		government = presidential_dictatorship
+		government = bourgeois_dictatorship
+		government = fascist_dictatorship
+		government = absolute_monarchy
+	}
+	NOT = { has_country_modifier = earth_scorched }
+}
+effect = {
+	prestige_factor = -0.05
+	random_owned = {
+		limit = { has_building = province_selector }
+		state_scope = {
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = farmlands
+						terrain = plains
+					}
+				}
+				add_province_modifier = {
+					name = scorched_earth_10
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+			any_owned = {
+				limit = {
+					terrain = steppe
+				}
+				add_province_modifier = {
+					name = scorched_earth_8
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = woods
+						terrain = hills
+						terrain = forest
+					}
+				}
+				add_province_modifier = {
+					name = scorched_earth_6
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = mountain
+						terrain = coastal_desert
+					}
+				}
+				add_province_modifier = {
+					name = scorched_earth_2
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = jungle
+						terrain = marsh
+					}
+				}
+				add_province_modifier = {
+					name = scorched_earth_1
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						terrain = arctic
+						terrain = desert
+					}
+				}
+				add_province_modifier = {
+					name = scorched_earth_0
+					duration = 365
+				}
+				province_selector = -1
+				railroad = -7
+			}
+		}
+	}
+}
+}
 
 #########################################################################
 # 							BABY BOOMS									#
@@ -2897,7 +3123,270 @@ zscorch_earth = {
 			}
 		}
 	}
+	zstate_agriculture_expansion_500k = {
+		picture = rgo_expansion
+		potential = {
+			ai = no
+			any_owned_province = {
+				has_building = province_selector
+				NOT = {
+					state_scope = { total_pops = 500000 }
+				}
+			}
+		}
+		allow = {
+			money = 500000
+			any_owned_province = {
+				has_building = province_selector
+				NOT = {
+					state_scope = { total_pops = 500000 }
+					has_province_modifier = agriculture_expansion
+				}
+				NOT = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= sulphur
+						trade_goods= oil
+						trade_goods= precious_metal
+					}
+				}
+			}
+		}
+		effect = {
+			money = -500000
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = { state_scope = { total_pops = 500000 } }
+					NOT = { has_province_modifier = agriculture_expansion }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = agriculture_expansion
+							duration = -1
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
 
+	zstate_agriculture_expansion_1M = {
+		picture = rgo_expansion
+		potential = {
+			ai = no
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 500000 }
+				NOT = {
+					state_scope = { total_pops = 1000000 }
+				}
+			}
+		}
+		allow = {
+			money = 1000000
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 500000 }
+				NOT = {
+					state_scope = { total_pops = 1000000 }
+					has_province_modifier = agriculture_expansion
+				}
+				NOT = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= sulphur
+						trade_goods= oil
+						trade_goods= precious_metal
+					}
+				}
+			}
+		}
+		effect = {
+			money = -1000000
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 500000 }
+					NOT = { state_scope = { total_pops = 1000000 } }
+					NOT = { has_province_modifier = agriculture_expansion }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = agriculture_expansion
+							duration = -1
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	zstate_agriculture_expansion_2M = {
+		picture = rgo_expansion
+		potential = {
+			ai = no
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 1000000 }
+				NOT = {
+					state_scope = { total_pops = 2000000 }
+				}
+			}
+		}
+		allow = {
+			money = 2000000
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 1000000 }
+				NOT = {
+					state_scope = { total_pops = 2000000 }
+					has_province_modifier = agriculture_expansion
+				}
+				NOT = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= sulphur
+						trade_goods= oil
+						trade_goods= precious_metal
+					}
+				}
+			}
+		}
+		effect = {
+			money = -2000000
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 1000000 }
+					NOT = { state_scope = { total_pops = 2000000 } }
+					NOT = { has_province_modifier = agriculture_expansion }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = agriculture_expansion
+							duration = -1
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	zstate_agriculture_expansion_4M = {
+		picture = rgo_expansion
+		potential = {
+			ai = no
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 2000000 }
+				NOT = {
+					state_scope = { total_pops = 4000000 }
+				}
+			}
+		}
+		allow = {
+			money = 4000000
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 2000000 }
+				NOT = {
+					state_scope = { total_pops = 4000000 }
+					has_province_modifier = agriculture_expansion
+				}
+				NOT = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= sulphur
+						trade_goods= oil
+						trade_goods= precious_metal
+					}
+				}
+			}
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 2000000 }
+					NOT = { state_scope = { total_pops = 4000000 } }
+					NOT = { has_province_modifier = agriculture_expansion }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = agriculture_expansion
+							duration = -1
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
+
+	zstate_agriculture_expansion_4M+ = {
+		picture = rgo_expansion
+		potential = {
+			ai = no
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 4000000 }
+			}
+		}
+		allow = {
+			money = 6000000
+			any_owned_province = {
+				has_building = province_selector
+				state_scope = { total_pops = 4000000 }
+				NOT = {
+					has_province_modifier = agriculture_expansion
+				}
+				NOT = {
+					OR = {
+						trade_goods= coal
+						trade_goods= iron
+						trade_goods= sulphur
+						trade_goods= oil
+						trade_goods= precious_metal
+					}
+				}
+			}
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					state_scope = { total_pops = 4000000 }
+					NOT = { has_province_modifier = agriculture_expansion }
+				}
+				state_scope = {
+					any_owned = {
+						add_province_modifier = {
+							name = agriculture_expansion
+							duration = -1
+						}
+						province_selector = -1
+					}
+				}
+			}
+		}
+	}
 	zprovince_agriculture_expansion = {
 		picture = rgo_expansion
 		potential = {
@@ -4770,6 +5259,7 @@ zscorch_earth = {
 		allow = {
 			any_owned_province = { 
 				has_building = province_selector
+				is_colonial = no
 			}
 			NOT = {
 				any_owned_province = { 
@@ -4783,6 +5273,7 @@ zscorch_earth = {
 				limit = {
 					has_building = province_selector
 					NOT = { has_province_modifier = province_attract_immigrants }
+					is_colonial = no
 				}
 				add_province_modifier = { name = province_attract_immigrants duration = -1 }
 				province_selector = -1
