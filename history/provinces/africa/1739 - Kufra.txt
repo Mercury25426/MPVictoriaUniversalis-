@@ -6,5 +6,5 @@ life_rating = 10
 owner = CYR
 controller = CYR
 remove_core = TRI
-life_rating = 32
+life_rating = 35
 }

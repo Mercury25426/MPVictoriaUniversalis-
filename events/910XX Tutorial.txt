@@ -63,7 +63,7 @@ country_event = {
 	id = 91004
 	title = "EVTNAME91004"
 	desc = "EVTDESC91004"
-	picture = tutorial_revanchism
+	picture = tutorial_research
 	
 	
 	is_triggered_only = yes
@@ -83,7 +83,7 @@ country_event = {
 	id = 91005
 	title = "EVTNAME91005"
 	desc = "EVTDESC91005"
-	picture = tutorial_promotion
+	picture = tutorial_colonial_policy
 	
 	
 	is_triggered_only = yes
@@ -103,7 +103,7 @@ country_event = {
 	id = 91006
 	title = "EVTNAME91006"
 	desc = "EVTDESC91006"
-	picture = tutorial_economy
+	picture = tutorial_generals
 
 	is_triggered_only = yes
 	
@@ -122,7 +122,7 @@ country_event = {
 	id = 91007
 	title = "EVTNAME91007"
 	desc = "EVTDESC91007"
-	picture = tutorial_combat
+	picture = tutorial_revanchism
 
 	is_triggered_only = yes
 	
@@ -141,7 +141,7 @@ country_event = {
 	id = 91008
 	title = "EVTNAME91008"
 	desc = "EVTDESC91008"
-	picture = tutorial_generals
+	picture = tutorial_promotion
 
 	is_triggered_only = yes
 	
@@ -180,7 +180,7 @@ country_event = {
 	id = 91010
 	title = "EVTNAME91010"
 	desc = "EVTDESC91010"
-	picture = tutorial_research
+	picture = tutorial_economy
 	
 	is_triggered_only = yes
 	

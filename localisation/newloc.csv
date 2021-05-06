@@ -32,3 +32,14 @@ FRA_hms_government;Kingdom of France;x
 FRA_prussian_constitutionalism;Kingdom of France;x
 FRA_proletarian_dictatorship;Commune of France;x
 FRA_democracy;French Republic;x
+EVTNAME91521;Choosing a Colonial Policy;;;;;;;;;x;;;;
+EVTDESC91521;We must decide how to govern our newly acquired colonies. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Colonial Policy" decision.;;;;;;;;;x;;;;
+zcountry_decrease_colonial_migration_title;§YDecrease Colonial Migration;;;;;;;;;x;;;;
+zcountry_decrease_colonial_migration_desc;Decrease Colonial Migration reform level by one;;;;;;;;;x;;;;
+zcountry_increase_colonial_migration_title;§YIncrease Colonial Migration;;;;;;;;;x;;;;
+zcountry_increase_colonial_migration_desc;Increase Colonial Migration reform level by one;;;;;;;;;x;;;;
+EVTOPTA91521;Indirect Rule: §RNo Colonial Migration;;;;;;;;;x;;;;
+EVTOPTB91521;Civilizing: §R-50% RGO throughput modifier;;;;;;;;;x;;;;
+EVTOPTC91521;Settlement: §RNegative non-accepted POP pop growth;;;;;;;;;x;;;;
+indirect_rule;Indirect Rule;;;;;;;;;x;;;;
+settlement;Settlement\n§WAnnual Non-Accepted Population Growth: §R-1%.;;;;;;;;;x;;;;

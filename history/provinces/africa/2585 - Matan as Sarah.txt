@@ -5,6 +5,6 @@ life_rating = 10
 1913.1.1 = {
 owner = CYR
 controller = CYR
-life_rating = 32
+life_rating = 35
 remove_core = TRI
 }

@@ -5,5 +5,5 @@ life_rating = 10
 owner = FRA
 controller = FRA
 colonial = 2
-life_rating = 32
+life_rating = 35
 }

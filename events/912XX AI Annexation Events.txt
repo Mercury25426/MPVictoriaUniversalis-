@@ -394,7 +394,6 @@ country_event = {
 		exists = EGY
 		is_greater_power = yes
 		is_sphere_leader_of = EGY
-		ai = yes
 		EGY = {
 			ai = yes
 			civilized = no

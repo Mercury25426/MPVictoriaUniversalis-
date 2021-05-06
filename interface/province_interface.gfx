@@ -388,10 +388,5 @@ spriteTypes = {
 		effectFile = "gfx\\FX\\buttonstate.fx"
    		norefcount = yes
 	}
-	spriteType = {
-		name = "GFX_politics_nationalvalue"
-		texturefile = "gfx\\interface\\politics_nationalvalue.tga"
-		noOfFrames = 17
-	}
 	
 }

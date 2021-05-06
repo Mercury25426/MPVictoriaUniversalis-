@@ -1,178 +1,94 @@
 # Audax Validator "!" Ignore_1004
 # Audax Validator "!" Ignore_1009
 
-country_event = {
-	id = 91501 #Deciding a Colonial Policy
-	title = "EVTNAME91501"
-	desc = "EVTDESC91501"
-	picture = colonial_policy
-
-	trigger = {
-		civilized = yes
-		colonial_policy = no_colonies
-		colonial_nation = yes
-		NOT = { has_country_flag = is_now_colonial }
-		NOT = { has_country_flag = deciding_colonial_policy }
-	}
-
-	immediate = {
-		set_country_flag = deciding_colonial_policy
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVT91501OPTA"
-		clr_country_flag = deciding_colonial_policy
-		political_reform = settlement
-		any_pop = { 
-			limit = {
-				is_primary_culture = no
-				is_accepted_culture = no
-				location = {
-					is_colonial = yes
-				}
-			}
-			militancy = 5
-		}
-		set_country_flag = is_now_colonial
-		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = 3.5
-				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
-				}
-			}
-			modifier = {
-				factor = 10
-				OR = {
-					tag = ENG
-					tag = NET
-					tag = JAP
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					is_greater_power = no
-					is_secondary_power = no
-				}
-			}
-			modifier = {
-				factor = 1.5
-				government = absolute_monarchy
-			}
-			modifier = {
-				factor = 0.5
-				government = democracy
-			}
-			modifier = {
-				factor = 0.5
-				war_policy = pacifism
-			}
-			modifier = {
-				factor = 1.2
-				militancy = 3
-			}
-			modifier = {
-				factor = 1.2
-				militancy = 5
-			}
-		}
-	}
-
-	option = {
-		name = "EVT91501OPTB"
-		clr_country_flag = deciding_colonial_policy
-		political_reform = civilizing
-		any_pop = { 
-			limit = {
-				is_state_religion = no
-				location = {
-					is_colonial = yes
-				}
-			}
-			militancy = 5
-		}
-		set_country_flag = is_now_colonial 
-		ai_chance = {
-			factor = 40
-			modifier = {
-				factor = 0
-				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT = { is_greater_power = yes }
-			}
-			modifier = {
-				factor = 1.5
-				government = democracy
-			}
-			modifier = {
-				factor = 1.5
-				war_policy = pacifism
-			}
-			modifier = {
-				factor = 1.5
-				religious_policy = moralism
-			}
-		}
-	}
-
-	option = {
-		name = "EVT91501OPTC"
-		clr_country_flag = deciding_colonial_policy
-		political_reform = indirect_rule
-		any_pop = { 
-			limit = {
-				is_primary_culture = yes
-				is_accepted_culture = yes
-				location = {
-					is_colonial = yes
-				}
-			}
-			militancy = 5
-		}
-		set_country_flag = is_now_colonial 
-		ai_chance = {
-			factor = 40
-			modifier = {
-				factor = 2
-				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
-				}
-			}
-			modifier = {
-				factor = 1.5
-				government = absolute_monarchy
-			}
-			modifier = {
-				factor = 1.5
-				government = democracy
-			}
-			modifier = {
-				factor = 1.5
-				war_policy = pacifism
-			}
-		}
-	}
-
-}
+#country_event = {
+#	id = 91501 #Deciding a Colonial Policy
+#	title = "EVTNAME91501"
+#	desc = "EVTDESC91501"
+#	picture = colonial_policy
+#
+#	trigger = {
+#		civilized = yes
+#		colonial_migration = no_colonial_migration
+#		colonial_nation = yes
+#		NOT = { has_country_flag = is_now_colonial }
+#		NOT = { has_country_flag = deciding_colonial_migration }
+#	}
+#
+#	immediate = {
+#		set_country_flag = deciding_colonial_migration
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "EVTOPTA91501"
+#		clr_country_flag = deciding_colonial_migration
+#		political_reform = high_colonial_migration
+#		set_country_flag = is_now_colonial
+#		ai_chance = {
+#			factor = 0.2
+#			modifier = {
+#				factor = 5
+#				OR = {
+#					tag = ENG
+#					tag = FRA
+#					is_culture_group = germanic
+#				}
+#			}
+#			modifier = {
+#				factor = 0
+#				is_greater_power = no
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTB91501"
+#		clr_country_flag = deciding_colonial_migration
+#		political_reform = medium_colonial_migration
+#		set_country_flag = is_now_colonial 
+#		ai_chance = {
+#			factor = 0.2
+#			modifier = {
+#				factor = 0
+#				NOT = { rank = 16 }
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTC91501"
+#		clr_country_flag = deciding_colonial_migration
+#		political_reform = low_colonial_migration
+#		set_country_flag = is_now_colonial 
+#		ai_chance = {
+#			factor = 0.3
+#			modifier = {
+#				factor = 1.5
+#				is_secondary_power = yes
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTD91501"
+#		clr_country_flag = deciding_colonial_migration
+#		political_reform = no_colonial_migration
+#		set_country_flag = is_now_colonial 
+#		ai_chance = {
+#			factor = 0.3
+#			modifier = {
+#				factor = 3
+#				NOT = {
+#					rank = 24
+#				}
+#			}
+#		}
+#	}
+#}
 
 country_event = {
 	id = 91502 #No Colonies Colonial Policy
@@ -183,14 +99,12 @@ country_event = {
 	trigger = {
 		civilized = yes
 		OR = {
-		colonial_policy = indirect_rule
-		colonial_policy = civilizing
-		colonial_policy = settlement
+			colonial_migration = high_colonial_migration
+			colonial_migration = medium_colonial_migration
+			colonial_migration = low_colonial_migration
+			has_country_flag = is_now_colonial
 		}
 		colonial_nation = no
-		NOT = {
-			#ai = yes
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -199,7 +113,7 @@ country_event = {
 	
 	option = {
 		name = "EVT91502OPTA"
-		political_reform = no_colonies
+		political_reform = no_colonial_migration
 		clr_country_flag = is_now_colonial
 	}
 }
@@ -838,6 +752,122 @@ country_event = {
 				remove_province_modifier = colonial_mine_nerf1
 				remove_province_modifier = colonial_mine_nerf2
 				remove_province_modifier = colonial_mine_nerf3
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 91520
+	title = "EVTNAME91520"
+	desc = "EVTDESC91520"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91520"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = civilizing
+				remove_province_modifier = settlement
+				add_province_modifier = { name = indirect_rule duration = -1 }
+			}
+		}
+	}
+	#option = {
+	#	name = "EVTOPTB91520"
+	#	state_scope = {
+	#		any_owned = {
+	#			remove_province_modifier = indirect_rule
+	#			remove_province_modifier = settlement
+	#			add_province_modifier = { name = civilizing duration = -1 }
+	#		}
+	#	}
+	#}
+	option = {
+		name = "EVTOPTC91520"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = civilizing
+				remove_province_modifier = indirect_rule
+				add_province_modifier = { name = settlement duration = -1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91521
+	title = "EVTNAME91521"
+	desc = "EVTDESC91521"
+	picture = "colonial_policy"
+
+	trigger = {
+		any_owned_province = {
+			is_colonial = yes
+			NOT = {
+				OR = {
+					has_province_modifier = indirect_rule
+					has_province_modifier = civilizing
+					has_province_modifier = settlement
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA91521"
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {
+					OR = {
+						has_province_modifier = indirect_rule
+						has_province_modifier = civilizing
+						has_province_modifier = settlement
+					}
+				}
+			}
+			add_province_modifier = { name = indirect_rule duration = -1 }
+		}
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				OR = {
+					colonial_migration = high_colonial_migration
+					colonial_migration = medium_colonial_migration
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC91521"
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {
+					OR = {
+						has_province_modifier = indirect_rule
+						has_province_modifier = civilizing
+						has_province_modifier = settlement
+					}
+				}
+			}
+			add_province_modifier = { name = settlement duration = -1 }
+		}
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				colonial_migration = no_colonial_migration
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					colonial_migration = high_colonial_migration
+					colonial_migration = medium_colonial_migration
+				}
 			}
 		}
 	}

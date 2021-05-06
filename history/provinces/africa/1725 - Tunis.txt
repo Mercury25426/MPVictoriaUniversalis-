@@ -4,7 +4,10 @@ add_core = TUN
 trade_goods = grain
 life_rating = 35
 1913.1.1 = {
-	owner = FRA
-	controller = FRA
 	naval_base = 6
+}
+1913.1.1 = {
+owner = FRA
+controller = FRA
+colonial = 2
 }

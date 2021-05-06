@@ -6,5 +6,5 @@ life_rating = 15
 owner = ENG
 controller = ENG
 colonial = 2
-life_rating = 32
+life_rating = 35
 }

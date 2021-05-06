@@ -403,7 +403,6 @@ political_reforms = {
 			rgo_throughput = -0.02
 			factory_throughput = -0.02
 			global_immigrant_attract = -0.01
-			land_unit_start_experience = 
 			education_efficiency_modifier = -0.05
 		}
 		one_year_draft = {
@@ -515,8 +514,8 @@ political_reforms = {
 			tax_efficiency = -0.04
 			non_accepted_pop_consciousness_modifier = 0.04
 			non_accepted_pop_militancy_modifier = 0.04
-			core_pop_militancy_modifier = -0.04
-			core_pop_consciousness_modifier = -0.04
+			core_pop_militancy_modifier = -0.02
+			core_pop_consciousness_modifier = -0.02
 			administrative_multiplier = 5
 			allow = { colonial_nation = yes }
 		}

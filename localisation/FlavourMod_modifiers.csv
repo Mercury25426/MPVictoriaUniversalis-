@@ -96,7 +96,6 @@ civilizing;Civilizing Mission;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 civilizing_l;Civilizing Mission;Civilizing;Civilizing;;Civilizing;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 civilizing_desc;即This colonial policy will give a 佈+0.005即 chance bonus to colonial migration per every 10% literacy to accepted culture POPs, e.g. a 25% literacy POP will get a 佈+0.01即 chance bonus and a 90% literacy pop will get 佈+0.045即 chance bonus.劬;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 movement_civilizing;Civilizing;;;;;;;;;;;;x;;;;;;;;;;;;;;
-settlement;Settlement;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 settlement_l;Settlement;Settlement;Settlement;;Settlement;;;;;;;;;x;;;;;;;;;;;;;;,,,,,
 settlement_desc;即This colonial policy will give a 佈+0.01即 chance bonus to colonial migration per every 10% literacy to accepted culture POPs, e.g. a 25% literacy POP will get a 佈+0.02即 chance bonus and a 90% literacy pop will get 佈+0.09即 chance bonus.劬;;;;;;;;;;;;x;;;;;;;;;;;;;;
 movement_settlement;Settlement;;;;;;;;;;;;x;;;;;;;;;;;;;;

@@ -9,5 +9,5 @@ owner = ENG
 controller = ENG
 remove_core = OMA
 colonial = 2
-life_rating = 32
+life_rating = 35
 }

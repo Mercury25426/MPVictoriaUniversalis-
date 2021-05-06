@@ -250,12 +250,6 @@ guiTypes = {
 				maxHeight = 16	
 				format = left
 			}
-		iconType = {
-			name = "national_value"
-			spriteType = "GFX_politics_nationalvalue"
-			position = { x = 30 y = 47 }
-			Orientation = "UPPER_LEFT"
-		}
 			
 			iconType = {
 				name = "employment_ratio"
