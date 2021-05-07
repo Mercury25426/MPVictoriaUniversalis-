@@ -784,7 +784,10 @@ country_event = {
 	major = yes
 	
 	trigger = {
+		OR = {
+		nationalvalue = nv_enlightenment
 		nationalvalue = nv_progress
+		}
 		civilized = yes
 	}
 	
@@ -869,65 +872,6 @@ country_event = {
 		}
 		ai_chance = { factor = 75 }
 	}
-}
-
-country_event = {
-	id = 18541
-	title = "EVTNAME18540" #Post-civilizing event to choose NV
-	desc = "EVTDESC18540"
-	major = yes
-	
-	trigger = {
-		OR = {
-			nationalvalue = nv_loyalty
-			nationalvalue = nv_enlightenment
-		}
-		civilized = yes
-	}
-	
-	mean_time_to_happen = {
-		days = 10
-	}
-	
-	option = {
-		name = "We shall embrace the ideal of Liberty."
-		remove_country_modifier = national_confusion
-		prestige = 5
-		nationalvalue = nv_liberty
-		remove_country_modifier = educational_reform
-		remove_country_modifier = military_reform
-		remove_country_modifier = western_influences
-		remove_country_modifier = uncivilized_isolationism
-		remove_country_modifier = trade_restrictions
-		remove_country_modifier = sayings_of_the_dutch
-		remove_country_modifier = extraterritoriality_granted
-		remove_country_modifier = nothing_stops_progress
-		remove_country_modifier = slow_down_progress
-		remove_country_modifier = shastar_vidya
-		remove_country_modifier = muhammad_alis_reforms
-		any_owned = {
-			remove_province_modifier = western_presence
-			remove_province_modifier = foreign_smugglers
-			remove_province_modifier = foreign_trading_post
-			remove_province_modifier = local_opium_habit
-			remove_province_modifier = european_military_mission
-			remove_province_modifier = legation_quarter
-			remove_province_modifier = kettler_denkmal
-		}
-		add_country_modifier = {
-			name = just_civilized
-			duration = 365
-		}
-		add_country_modifier = {
-			name = national_confusion
-			duration = 1825
-		}
-		any_pop = {
-			militancy = -5
-		}
-		ai_chance = { factor = 25 }
-	}
-	
 	option = {
 		name = "We shall embrace the ideal of Order."
 		remove_country_modifier = national_confusion
@@ -967,6 +911,8 @@ country_event = {
 		ai_chance = { factor = 75 }
 	}
 }
+
+
 
 country_event = {
 	id = 18542

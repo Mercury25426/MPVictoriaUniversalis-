@@ -28,6 +28,9 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
+		colonial_company = absolute_monarchy
+		theocracy = absolute_monarchy
+		tribal_society = absolute_monarchy
 	}
 	
 	
@@ -237,6 +240,9 @@ fascist_rebels = {
 		prussian_constitutionalism = fascist_dictatorship
 		hms_government = fascist_dictatorship
 		democracy = fascist_dictatorship
+		colonial_company = fascist_dictatorship
+		theocracy = fascist_dictatorship
+		tribal_society = fascist_dictatorship
 	}
 	
 	
@@ -449,6 +455,9 @@ communist_rebels = {
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
 		democracy = proletarian_dictatorship
+		colonial_company = proletarian_dictatorship
+		theocracy = proletarian_dictatorship
+		tribal_society = proletarian_dictatorship
 	}
 	
 	
@@ -677,6 +686,9 @@ anarcho_liberal_rebels = {
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
+		colonial_company = bourgeois_dictatorship
+		theocracy = bourgeois_dictatorship
+		tribal_society = bourgeois_dictatorship
 	}
 	
 	
@@ -884,6 +896,9 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		colonial_company = colonial_company
+		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 	
 	
@@ -1103,6 +1118,9 @@ pan_nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		colonial_company = colonial_company
+		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1290,42 +1308,42 @@ pan_nationalist_rebels = {
 	#}
 	
 
-# Country scope
-demands_enforced_trigger = {
-	capital_scope = {
-		controlled_by = REB
-		province_control_days = 30
-	}
-}
-
-demands_enforced_effect = {
-	political_reform = wealth_voting
-	political_reform = population_equal_weight
-	political_reform = yes_meeting
-	political_reform = free_press
-	political_reform = non_socialist
-	political_reform = secret_ballots
-	random_country = {
-		limit = {
-			is_culture_group = THIS
-			OR = {
-				is_greater_power = yes
-				tag = WAL
-				tag = MOL
-				tag = SER
-			}
-			NOT = {
-				tag = AUS
-				tag = KUK
-				is_cultural_union = yes
-			}
-			NOT = {
-				cultural_union = { exists = yes }
-			}
+	# Country scope
+	demands_enforced_trigger = {
+		capital_scope = {
+			controlled_by = REB
+			province_control_days = 30
 		}
-		country_event = { id=11100 days=0 }
 	}
-}
+	
+	demands_enforced_effect = {
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		random_country = {
+			limit = {
+				is_culture_group = THIS
+				OR = {
+					is_greater_power = yes
+					tag = WAL
+					tag = MOL
+					tag = SER
+				}
+				NOT = {
+					tag = AUS
+					tag = KUK
+					is_cultural_union = yes
+				}
+				NOT = {
+					cultural_union = { exists = yes }
+				}
+			}
+			country_event = { id=11100 days=0 }
+		}
+	}
 }
 
 ###################################
@@ -1347,6 +1365,9 @@ carlist_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		colonial_company = colonial_company
+		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 	
 	
@@ -1530,6 +1551,9 @@ boxer_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		colonial_company = absolute_monarchy
+		theocracy = absolute_monarchy
+		tribal_society = absolute_monarchy
 	}
 	
 	
@@ -1710,6 +1734,9 @@ red_shirts = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		colonial_company = colonial_company
+		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 
 	defection = pan_nationalist		# If the country seeks independence, defection specifies what type of provinces it wants.
@@ -1941,6 +1968,9 @@ liberal_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
+		colonial_company = democracy
+		theocracy = democracy
+		tribal_society = democracy
 	}
 	
 	
@@ -2152,6 +2182,9 @@ unciv_reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		colonial_company = absolute_monarchy
+		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 	
 	
@@ -2607,7 +2640,9 @@ partisan_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		colonial_company = colonial_company
 		theocracy = theocracy
+		tribal_society = tribal_society
 	}
 	
 	
@@ -2827,6 +2862,9 @@ republican_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
+		colonial_company = democracy
+		theocracy = democracy
+		tribal_society = democracy
 	}
 	
 	
