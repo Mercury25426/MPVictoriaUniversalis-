@@ -3858,7 +3858,7 @@ country_event = {
 		set_country_flag = chinese_tuberculosis
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21000 }
+			country_event = { id = 21000 days = 0 }
 		}
 	}
 
@@ -3879,7 +3879,7 @@ country_event = {
 		set_country_flag = chinese_famine
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21010 }
+			country_event = { id = 21010  days = 0 }
 		}
 	}
 
@@ -3900,7 +3900,7 @@ country_event = {
 		set_country_flag = chinese_typhoid
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21020 }
+			country_event = { id = 21020  days = 0 }
 		}
 	}
 
@@ -3925,7 +3925,7 @@ country_event = {
 		set_country_flag = chinese_influenza
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21030 }
+			country_event = { id = 21030  days = 0 }
 		}
 	}
 
@@ -3946,7 +3946,7 @@ country_event = {
 		set_country_flag = chinese_smallpox
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21040 }
+			country_event = { id = 21040  days = 0 }
 		}
 	}
 
@@ -3967,7 +3967,7 @@ country_event = {
 		set_country_flag = second_chinese_famine
 		any_country = {
 			limit = { has_country_flag = chinese }
-			country_event = { id = 21010 }
+			country_event = { id = 21010  days = 0 }
 		}
 	}
 

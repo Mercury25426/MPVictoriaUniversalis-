@@ -253,7 +253,7 @@ province_event = {
 					consciousness = 3
 				}
 			}
-			prestige = -2
+			owner = { prestige = -2 }
 
 	}
 	option = {

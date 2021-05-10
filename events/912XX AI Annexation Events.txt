@@ -1099,6 +1099,8 @@ country_event = {
 	id = 91281
 	title = "German East Africa"
 
+	fire_only_once = yes
+
 	trigger = {
 		OR = {
 			civilized = no
@@ -1126,6 +1128,8 @@ country_event = {
 country_event = {
 	id = 91282
 	title = "German East Africa 2"
+
+	fire_only_once = yes
 
 	trigger = {
 		OR = {
@@ -1155,7 +1159,9 @@ country_event = {
 
 country_event = {
 	id = 91283
-		title = "British East Africa 1"
+	title = "British East Africa 1"
+
+	fire_only_once = yes
 
 	trigger = {
 		year = 1880
@@ -1193,6 +1199,8 @@ country_event = {
 country_event = {
 	id = 91284
 	title = "British East Africa 2"
+
+	fire_only_once = yes
 
 	trigger = {
 		year = 1880
@@ -1232,6 +1240,8 @@ country_event = {
 country_event = {
 	id = 91285
 	title = "British East Africa 3"
+	
+	fire_only_once = yes
 
 	trigger = {
 		OR = {
@@ -1261,6 +1271,8 @@ country_event = {
 country_event = {
 	id = 91286
 	title = "Italian East Africa 1"
+	
+	fire_only_once = yes
 
 	trigger = {
 		OR = {
@@ -1295,6 +1307,8 @@ country_event = {
 country_event = {
 	id = 91287
 	title = "British East Africa 4"
+	
+	fire_only_once = yes
 
 	trigger = {
 		year = 1880
@@ -1337,7 +1351,9 @@ country_event = {
 
 country_event = {
 	id = 91288
-		title = "British East Africa 5"
+	title = "British East Africa 5"
+	
+	fire_only_once = yes
 
 	trigger = {
 		year = 1880

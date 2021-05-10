@@ -48,7 +48,7 @@ party_issues = {
 			}
 		}
 		interventionism = {
-			factory_owner_cost = 0.8
+			factory_owner_cost = 0.5
 			
 			rules = {
 				build_factory = no

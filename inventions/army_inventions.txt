@@ -29,6 +29,9 @@ post_napoleonic_army_doctrine = {
 		irregular = {
 			defence = 1
 		}
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 cuirassier_activation = {
@@ -108,6 +111,9 @@ signal_detachments = {
 		}
 		irregular = {
 			defence = 0.5
+		}
+		army_base = {
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -362,7 +368,7 @@ stormtrooper_training = {
 			defence = 1
 		}
 		army_base = {
-			supply_consumption = 0.1
+			supply_consumption = 0.15
 		}
 	}
 }
@@ -408,6 +414,7 @@ firepower_vs_mobility = {
 		}
 		army_base = {
 			maximum_speed = 1
+			supply_consumption = 0.15
 		}
 	}
 }
@@ -451,6 +458,9 @@ human_wave_vs_spearhead = {
 		}
 		irregular = {
 			defence = 3.5
+		}
+		army_base = {
+			supply_consumption = 0.15
 		}
 	}
 }
@@ -547,35 +557,35 @@ breech_loaded_rifle_armament = {
 		activate_unit = guard
 		infantry = {
 			attack = 2
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		guard = {
 			attack = 2
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		engineer = {
 			attack = 2
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		dragoon = {
 			attack = 2
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		hussar = {
 			attack = 2
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		cuirassier = {
 			attack = 2
-			supply_consumption = 0.10
+			supply_consumption = 0.15
 		}
 		cavalry = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 		irregular = {
 			attack = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.15
 		}
 	}
 }
@@ -970,7 +980,8 @@ low_echelon_fire_support = {
 	}
 	effect = {
 		artillery = {
-			attack = 1
+			defence = 1
+			supply_consumption = 0.10
 		}
 	}
 }
@@ -986,7 +997,8 @@ counter_battery_fire = {
 	}
 	effect = {
 		artillery = {
-			attack = 1
+			defence = 1
+			supply_consumption = 0.10
 		}
 	}
 }
@@ -1053,7 +1065,7 @@ telegraph_coordination = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.10
+			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1122,7 +1134,7 @@ empirical_combat_efficiency_matrix = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.1
+			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1455,6 +1467,9 @@ field_training = {
 	}
 	effect = {
 		morale = 0.15
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 
@@ -1474,6 +1489,9 @@ army_academic_training = {
 	}
 	effect = {
 		morale = 0.15
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 
@@ -1496,6 +1514,7 @@ army_continuous_issuing_of_orders = {
 	effect = {
 		army_base = {
 			maximum_speed = 1
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -1516,6 +1535,10 @@ army_delegated_power = {
 	}
 	effect = {
 		morale = 0.15
+		morale = 0.1
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 

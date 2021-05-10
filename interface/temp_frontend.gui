@@ -290,7 +290,7 @@ guiTypes = {
 		
 		#############     NORMAL   MAIN  MENU 
 		#############
-		##############################   
+		##############################   size originally x=420
 		
 		windowType = {
 			name ="mainmenu_panel"
