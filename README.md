@@ -1,2 +1,6 @@
 # MPVictoriaUniversalis
- Based mod OMEGALULWWWWW
+
+
+## Custom Victoria Universalis
+
+[Wiki Link](https://github.com/Mercury25426/MPVictoriaUniversalis-/wiki)
