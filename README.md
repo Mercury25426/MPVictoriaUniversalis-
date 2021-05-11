@@ -1,6 +1,5 @@
 # MPVictoriaUniversalis
 
+## [Download](https://github.com/Mercury25426/MPVictoriaUniversalis-/releases)
 
-## Custom Victoria Universalis
-
-[Wiki Link](https://github.com/Mercury25426/MPVictoriaUniversalis-/wiki)
+## [Wiki Link](https://github.com/Mercury25426/MPVictoriaUniversalis-/wiki)
