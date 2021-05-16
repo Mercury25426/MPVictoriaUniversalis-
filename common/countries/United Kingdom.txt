@@ -1,4 +1,6 @@
 color = { 239  96  88 }
+absolute_monarchy = { 189  46  28 }
+proletarian_dictatorship = { 113 0 0 }
 graphical_culture = BritishGC
 
 

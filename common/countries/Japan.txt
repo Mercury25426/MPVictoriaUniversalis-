@@ -1,4 +1,6 @@
 color = { 255 230 230 }
+proletarian_dictatorship = { 113 0 0 }
+fascist_dictatorship = { 248 51 22 }
 absolute_monarchy = { 194  123  47 }
 proletarian_dictatorship = { 199  67  44 }
 democracy = { 244  121  158 }

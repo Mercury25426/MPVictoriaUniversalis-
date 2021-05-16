@@ -3,6 +3,7 @@ graphical_culture = ChineseGC
 absolute_monarchy = { 255  234  154 }
 prussian_constitutionalism = { 255  234  154 }
 hms_government = { 255  234  154 }
+proletarian_dictatorship = { 238 28 37 }
 
 party = {
 	name = "CHI_conservative"
