@@ -533,13 +533,13 @@ political_reforms = {
 
 	centralization = {
 		totalitarianism = {
-			tax_efficiency = 0.02
-			research_points_modifier = -0.5
+			tax_efficiency = 0.03
+			research_points_modifier = -0.4
 			global_pop_militancy_modifier = 0.02
 			global_immigrant_attract = -1
-			cb_generation_speed_modifier = 0.25
+			cb_generation_speed_modifier = 1
 			administration_efficiency = -0.2
-			suppression_points_modifier = 0.2
+			suppression_points_modifier = 1
 			allow = {
 				has_country_flag = revolution_n_counterrevolution_invented
 				has_country_flag = communist_or_fascist_dictatorship
