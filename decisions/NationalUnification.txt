@@ -208,6 +208,7 @@ political_decisions = {
 					tag = ECU
 					tag = CLM
 					tag = VNZ
+					tag = IMP
 				}
 			}
 		}
@@ -237,6 +238,7 @@ political_decisions = {
 						is_greater_power = yes
 						tag = AUS
 						tag = KUK
+						tag = IMP
 					}
 					is_culture_group = THIS
 					in_sphere = THIS
@@ -333,6 +335,52 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_culture_group = germanic
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_IMP = {
+		picture = romanempire
+		news = yes
+		news_desc_long = "Rome, and our people"
+		news_desc_medium = "The Roman Empire is ready to claim its ashes"
+		news_desc_short = "Rome, our new target"
+		potential = {
+			is_culture_group = italian
+			tag = ITA
+			NOT = {
+			exists = IMP
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 100
+			war = no
+			851 = { owned_by = THIS }
+			826 = { owned_by = THIS }
+			834 = { owned_by = THIS }
+			780 = { owned_by = THIS }
+			770 = { owned_by = THIS }
+			
+		}
+		
+		effect = {
+			clr_country_flag = confederalism
+			political_reform = unitary
+			prestige = 200
+			change_tag = IMP
+			add_accepted_culture = albanian
+			add_accepted_culture = greek
+			add_accepted_culture = croat
+			any_country = {
+				limit = {
+					is_culture_group = italian
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }

@@ -79,3 +79,11 @@ EVTOPTC91521;Settlement: §RNegative non-accepted POP pop growth;;;;;;;;;x;;;;
 zstate_colonial_policy_title;§GColonial Policy;;;;;;;;;x;;;;
 colonial_migration;Colonial Migration;;;;;;;;;x;;;;
 zstate_colonial_policy_desc;Triggers a province event that allows you to choose a colonial policy for the selected state.;;;;;;;;;x;;;;
+IMP;Imperium Romanum;x
+IMP_ADJ;Roman;x
+IMP_democracy;Publius Romanum;x
+IMP_proletarian_dictatorship;Operantur Publica Romanorum;x
+IMP_fascist_dictatorship;Imperium Maius;x
+claim_catalonia_desc;We must reclaim our right French subjects of the south;x
+form_IMP_title;"I found Rome a city of bricks and left it a city of marble." -Augustus;x
+form_IMP_desc;Our great roman empire will be reclaimed, but our new inhabitants, the croats, albanians, and the once great greeks are now under our grasp, let it be known we will be vying for more!;x

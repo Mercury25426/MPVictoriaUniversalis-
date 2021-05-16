@@ -498,6 +498,11 @@ ITA = {
     color2= { 152 85 92  }
     color3= { 80 79 88  }
 }
+IMP = {
+    color1= { 255 255 255  }
+    color2= { 122 65 72  }
+    color3= { 60 69 68  }
+}
 
 # Manhattan Commune
 MAN = {

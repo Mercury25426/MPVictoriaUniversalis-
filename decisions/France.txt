@@ -102,13 +102,12 @@ walloon_autonomy = {
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
-			has_global_flag = walloon_autonomy
+			has_country_flag = walloon_autonomy
+			NOT = { has_global_flag = claim_catalonia }
 		}
 		
 		allow = {
-			OR =  {
-				SPA = { exists = yes is_greater_power = no NOT = { relation = { who = THIS value = 100 } } }
-			}
+			
 			OR = {
 				AND = {
 					owns = 573

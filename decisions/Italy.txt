@@ -41,6 +41,7 @@ political_decisions = {
 			primary_culture = north_italian
 			NOT = {
 				exists = ITA
+				exists = IMP
 			}
 		}
 		
@@ -115,6 +116,7 @@ political_decisions = {
 			primary_culture = south_italian
 			NOT = {
 				exists = ITA
+				exists = IMP
 			}
 		}
 		
