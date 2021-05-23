@@ -507,6 +507,7 @@ political_decisions = {
 			set_country_flag = emancipation
 			prestige = 5
 			add_accepted_culture = afro_american
+			add_accpeted_culture = creole
 			political_reform = no_slavery
 			any_pop = {
 				limit = {

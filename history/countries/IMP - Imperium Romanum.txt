@@ -4,6 +4,7 @@ culture = south_italian
 culture = albanian
 culture = greek
 culture = croat
+culture = romansh
 religion = catholic
 government = hms_government
 plurality = 0.12

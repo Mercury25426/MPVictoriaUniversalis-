@@ -3301,91 +3301,91 @@
 #New Orleans (128000/32000 POPS)
 139 = {
 	aristocrats = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 225
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 15250
 	}
 
 	aristocrats = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 4550
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = jewish
 		size = 50
 	}
 
 	clergymen = {
-		culture = afro_american
+		culture = creole
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_american
+		culture = creole
 		religion = catholic
 		size = 650
 	}
 
 	farmers = {
-		culture = afro_american
+		culture = creole
 		religion = catholic
 		size = 3325
 	}
 
 	slaves = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 10000
 	}
@@ -3393,109 +3393,109 @@
 #Baton Rouge (72000/18000 POPS)
 140 = {
 	aristocrats = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 50
 	}
 
 	officers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 45
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 175
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 3430
 	}
 
 	aristocrats = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 125
 	}
 
 	bureaucrats = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 50
 	}
 
 	officers = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 30
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = dixie
+		culture = acadian
 		religion = catholic
 		size = 3470
 	}
 
 	clergymen = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 10
 	}
 
 	slaves = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 9875
 	}
@@ -3503,55 +3503,55 @@
 #Lake Charles (36000/9000 POPS)
 141 = {
 	aristocrats = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 175
 	}
 
 	soldiers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 100
 	}
 
 	labourers = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 3525
 	}
 
 	clergymen = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 75
 	}
 
 	labourers = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 1485
 	}
 
 	slaves = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 3425
 	}
@@ -3571,7 +3571,7 @@
 	}
 
 	artisans = {
-		culture = dixie
+		culture = acadian
 		religion = protestant
 		size = 2635
 	}
@@ -3601,7 +3601,7 @@
 	}
 
 	labourers = {
-		culture = afro_american
+		culture = creole
 		religion = protestant
 		size = 2885
 	}

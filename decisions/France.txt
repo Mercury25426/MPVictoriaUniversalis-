@@ -103,7 +103,7 @@ walloon_autonomy = {
 			is_greater_power = yes
 			capital = 425
 			has_country_flag = walloon_autonomy
-			NOT = { has_global_flag = claim_catalonia }
+			NOT = { has_country_flag = claim_catalonia }
 		}
 		
 		allow = {
@@ -126,7 +126,7 @@ walloon_autonomy = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = siezing_catalonia }
+			FRA = { set_country_flag = claim_catalonia }
 			badboy = 10
 			498 = { add_core = THIS }
 			499 = { add_core = THIS }
