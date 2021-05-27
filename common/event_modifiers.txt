@@ -45,6 +45,7 @@ indochina = {
 	icon = 17
 }
 
+
 land_of_opportunity = {
 	global_immigrant_attract = 4.5
 	icon = 13
