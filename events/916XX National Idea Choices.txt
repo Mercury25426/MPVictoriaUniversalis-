@@ -117,7 +117,10 @@ country_event = {
 			any_owned = {
 				limit = {
 					is_colonial = yes
+					OR = {
 					has_province_modifier = settlement
+					has_country_flag = burgundian_genocide
+					}
 				}
 				any_pop = {
 					limit = {

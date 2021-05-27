@@ -18,6 +18,7 @@ country_event = {
 
 	option = {				
 		name = "EVTOPTA90900"
+		country_event = { id=21021 days=0 }
 		set_global_flag = the_dragon_wakes
 		remove_country_modifier = early_qing_reforms 
 		remove_country_modifier = late_qing_reforms 
@@ -620,7 +621,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 		modifier = {
 			factor = 0.5
 			average_militancy = 3
@@ -925,8 +926,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1072,8 +1073,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1218,8 +1219,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1363,8 +1364,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1509,8 +1510,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1654,8 +1655,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1801,8 +1802,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1947,8 +1948,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -1976,7 +1977,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 		modifier = {
 			factor = 0.5
 			average_militancy = 3
@@ -2283,8 +2284,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -2431,8 +2432,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -2578,8 +2579,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -2724,8 +2725,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -2871,8 +2872,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -3017,8 +3018,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -3165,8 +3166,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT
@@ -3312,8 +3313,8 @@ country_event = {
 			define_general = {
 				name = "§RChiang Kai-shek§W"
 				picture = asian_general_7
-				personality = defence_2.1
-				background = attack_3.1
+				personality = defence_5.1
+				background = attack_5.1
 			}
 		}
 		change_tag_no_core_switch = KMT

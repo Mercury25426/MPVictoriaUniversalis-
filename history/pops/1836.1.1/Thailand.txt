@@ -8,6 +8,12 @@
 		size = 4500
 	}
 
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
+
 	bureaucrats = {
 		culture = thai
 		religion = theravada
@@ -124,6 +130,12 @@
 		size = 1575
 	}
 
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
+
 	clergymen = {
 		culture = thai
 		religion = theravada
@@ -167,7 +179,11 @@
 		religion = theravada
 		size = 400
 	}
-
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 	artisans = {
 		culture = thai
 		religion = theravada
@@ -229,6 +245,11 @@
 		religion = theravada
 		size = 650
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 
 	clergymen = {
 		culture = thai
@@ -261,6 +282,11 @@
 		religion = theravada
 		size = 800
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 
 	clergymen = {
 		culture = thai
@@ -292,6 +318,11 @@
 		culture = thai
 		religion = theravada
 		size = 575
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
 	}
 
 	clergymen = {
@@ -363,7 +394,11 @@
 		religion = theravada
 		size = 450
 	}
-
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 	bureaucrats = {
 		culture = thai
 		religion = theravada
@@ -467,7 +502,11 @@
 		religion = theravada
 		size = 700
 	}
-
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 	clergymen = {
 		culture = thai
 		religion = theravada
@@ -528,6 +567,11 @@
 		culture = thai
 		religion = theravada
 		size = 625
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
 	}
 
 	clergymen = {
@@ -623,7 +667,11 @@
 		religion = theravada
 		size = 550
 	}
-
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 	bureaucrats = {
 		culture = thai
 		religion = theravada
@@ -702,6 +750,12 @@
 		culture = thai
 		religion = theravada
 		size = 400
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
 	}
 
 	clergymen = {
@@ -797,6 +851,11 @@
 		religion = theravada
 		size = 400
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
 
 	bureaucrats = {
 		culture = thai
@@ -870,6 +929,11 @@
 		culture = thai
 		religion = theravada
 		size = 425
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
 	}
 
 	clergymen = {
@@ -966,6 +1030,12 @@
 		size = 75
 	}
 
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
+	}
+
 	clergymen = {
 		culture = thai
 		religion = theravada
@@ -1052,6 +1122,11 @@
 		culture = malay
 		religion = sunni
 		size = 550
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 1000
 	}
 
 	clergymen = {

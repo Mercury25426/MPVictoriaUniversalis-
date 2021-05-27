@@ -123,6 +123,13 @@ country_event = {
 			random_owned = {
 				limit = {
 					owner = { land_reform = yes_land_reform }
+				}
+				owner = { activate_technology = early_classical_theory_and_critique 
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = { land_reform = yes_land_reform }
 				}	
 				owner = {
 					activate_technology = freedom_of_trade

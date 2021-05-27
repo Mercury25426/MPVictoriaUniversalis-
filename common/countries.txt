@@ -17,6 +17,7 @@ USA		= "countries/USA.txt"
 JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
+LOU     = "countries/Louisiania.txt"
 
 
 # Scandinavia
@@ -204,6 +205,8 @@ SXI		="countries/Shanxi.txt"
 YNN		="countries/Yunnan.txt"
 XBI		="countries/Xibei San Ma.txt"
 XIN		="countries/Xinjiang.txt"
+INC		="countries/Indochina.txt"
+BUI		="countries/Ordensstaat Indochina.txt"
 
 # North America
 CAL		="countries/Californian Republic.txt"

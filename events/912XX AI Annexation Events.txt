@@ -395,8 +395,7 @@ country_event = {
 		is_greater_power = yes
 		is_sphere_leader_of = EGY
 		EGY = {
-			ai = yes
-			civilized = no
+	
 		}
 		revolution_n_counterrevolution = 1
 		capital_scope = { NOT = { continent = asia } }

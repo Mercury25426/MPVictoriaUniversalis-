@@ -131,6 +131,15 @@ country_migration_target =
 		}
 	}
 	modifier = {
+		factor = 100
+		AND = {
+		has_country_flag = indochina_formed_french
+		primary_culture = french
+		}
+		has_global_flag = indochina_formed_french
+		THIS = { has_pop_culture = french }
+	}
+	modifier = {
 		factor = 10
 		OR = {
 			AND = {

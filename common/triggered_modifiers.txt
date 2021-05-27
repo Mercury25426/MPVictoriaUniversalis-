@@ -786,6 +786,14 @@ great_power_immigration = {
 	icon = 7
 }
 
+indochina_attract = {
+	trigger = {
+		has_country_flag = indochina_formed_french
+	}
+	global_immigrant_attract = 50
+	icon = 7
+}
+
 ########## MOBILIZATION TECHS ##########
 
 mob1_trigger = {

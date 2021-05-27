@@ -854,6 +854,20 @@ emigration_chance =
 		continent = asia
 		has_pop_culture = british
 	}
+	modifier = {
+		factor = 2
+		has_pop_culture = north_german
+		country = {
+			NOT = { tag = BUI }
+			has_country_flag = indochina_formed_german
+		}
+	}
+	modifier = {
+		factor = -0.2
+		country = { has_country_flag = indochina_formed_german  }
+		}
+	
+	
 	group = {
 		modifier = {
 			factor = 0.03
@@ -1033,6 +1047,14 @@ emigration_chance =
 		}
 	}
 	modifier = {
+		factor = -0.5
+		has_pop_culture = french
+		country = {
+			has_country_flag = indochina_formed_french
+			}
+		}
+	
+	modifier = {
 		factor = 1
 		OR = {
 			has_pop_culture = ashkenazi
@@ -1131,10 +1153,11 @@ assimilation_chance =
 	}
 		modifier = {
 			factor = -20
+			country = { NOT = { has_country_flag = burgundian_genocide }}
 			militancy = 7
 		}
 		modifier = {
-			factor = 20
+			factor = 5
 			NOT = { has_culture_core = yes }
 			location = {
 					OR = {
@@ -1168,6 +1191,16 @@ assimilation_chance =
 		has_culture_core = yes
 		country = { has_country_flag = assimilation_idea }
 
+	}
+	modifier = {
+		factor = 10
+		has_culture_core = yes
+		country = { has_country_flag = burgundian_genocide }
+	}
+	modifier = {
+		factor = 0.1
+		NOT = { has_culture_core = yes }
+		country = { has_country_flag = burgundian_genocide }
 	}
 }
 

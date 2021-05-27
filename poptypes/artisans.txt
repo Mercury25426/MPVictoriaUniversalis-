@@ -173,6 +173,16 @@ country_migration_target =
 		has_global_flag = circassian_genocide_in_progress
 		THIS = { has_pop_culture = north_caucasian }
 	}
+	
+	modifier = {
+		factor = 100
+		AND = {
+		has_country_flag = indochina_formed_french
+		primary_culture = french
+		}
+		has_global_flag = indochina_formed_french
+		THIS = { has_pop_culture = french }
+	}
 	modifier = {
 		factor = 10
 		OR = {

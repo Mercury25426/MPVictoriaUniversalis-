@@ -17,6 +17,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = early_qing_reforms
+			add_country_modifier = { name = education_china_reforms duration = -1 }
 			add_country_modifier = { name = early_qing_reforms duration = -1 }
 			any_pop = {
 				scaled_militancy = {
@@ -27,6 +28,61 @@ political_decisions = {
 					ideology = reactionary
 					factor = 5
 				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	low_appease_the_people = {
+		picture = lin_zexu
+		potential = {
+			tag = CHI
+			civilization_progress = 0.10
+			NOT = {
+				civilization_progress = 0.60
+				OR = {
+					has_country_modifier = appeased
+				}
+			}
+			civilized = no
+		}
+		allow = {
+			NOT = { has_country_modifier = appeased }
+			civilized = no
+		}
+		effect = {
+			add_country_modifier = { name = appeased duration = 365 }
+			money = -100000
+			any_pop = {
+				militancy = -3
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	high_appease_the_people = {
+		picture = lin_zexu
+		potential = {
+			tag = CHI
+			civilization_progress = 0.60
+			NOT = {
+				OR = {
+					has_country_modifier = appeased
+				}
+			}
+			civilized = no
+		}
+		allow = {
+			NOT = { has_country_modifier = appeased }
+			civilized = no
+		}
+		effect = {
+			add_country_modifier = { name = appeased duration = 365 }
+			money = -500000
+			any_pop = {
+				militancy = -6
 			}
 		}
 		ai_will_do = {

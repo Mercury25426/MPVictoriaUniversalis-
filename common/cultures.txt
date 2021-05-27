@@ -76,9 +76,28 @@ germanic = {
 		"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
 		"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" 
 		"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+		}
+
+		burgundian = { 
+			color = { 76 46 76 }
+			first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
+			Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Günther
+			Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jürgen Karl
+			Konrad Leonhard Leopold Ludwig Lukas Manfred Maximilian Michael Nikolaus Otto
+			Pascal Paul Peter Reinhard Rudolf Ruprecht Stefan Theodor Wilhelm Wolfgang }
+			
+			last_names = { Behncke Brommy Cordemann Dreyer Droste Groener "Herwarth von Bittenfeld" Heppendorf Hoffmann Krohn Ludendorff Schree
+			"Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bülow" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg" 
+			"von Boyen" "von Braunschweig" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover" 
+			"von Hessen-Darmstadt" "von Hessen-Kassel" "von Hindenburg" "von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld"
+			"von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch" "von Ravensberg" 
+			"von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" 
+			"von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" 
+			"von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
+		}
 	
 	union = GER
-	}
+
 }
 beneluxian = {
 	leader = european
@@ -312,7 +331,32 @@ british = {
 	}
 	
 }
-
+romansh = {
+	leader = european
+	unit = ItalianGC
+	romansh = {
+		color = { 255 219 0 }
+		first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
+		Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
+		Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
+		Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
+		Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
+		Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
+		Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
+		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}
+}
 italian = {
 	leader = european
 	unit = ItalianGC
@@ -441,6 +485,7 @@ french = {
 	
 }
 
+	leader = 
 south_slavic = {
 	leader = european
 	unit = AustriaHungaryGC
@@ -1861,9 +1906,41 @@ american_cultures = {
 		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
 		}
 		radicalism = 10
+		
 	}
 	union = USA
 }
+	creole = {
+	leader = african
+	unit = AfricanGC
+	creole = {
+		color = { 37 32 124 }
+		first_names = { Adolphe Alberto Alcee Alex Alexandre Alexis Alphonse Andre Antoine Armand Auguste Augustin 
+		Aime Baptiste Bartholome Bernard Brazil Charles, Charlot Christophe Clement Edouard Emile Eugene Ferdinand 
+		Gabriel Guillaume Gustave Henri Ignace Isidore Jacques Jean Joseph Jules Julien Laurent Manuel Marcel Marcos 
+		Martin Mathieu Michel Phillipe Prosper Rafael Raimond Raphael Rene Robert Simon Theodore Thomas Tomas Valentin 
+		Valentine Victor Vincent Virgil Xavier }
+		
+		last_names = { Herbert Landry Broussard LeBlanc Guidry Fontenot Richard Boundreaux Thibodeaux Breaux Trahan 
+		Guillory Bourgeois Bergeron Bordelon Benoit Romero Theriot Melancon Cormier }
+	}
+}
+
+	acadian = {
+	leader = european
+	unit = EuropeanGC
+	acadian = {
+		color = { 7 62 155 }
+		first_names = { Adolphe Alberto Alcee Alex Alexandre Alexis Alphonse Andre Antoine Armand Auguste Augustin 
+		Aime Baptiste Bartholome Bernard Brazil Charles, Charlot Christophe Clement Edouard Emile Eugene Ferdinand 
+		Gabriel Guillaume Gustave Henri Ignace Isidore Jacques Jean Joseph Jules Julien Laurent Manuel Marcel Marcos 
+		Martin Mathieu Michel Phillipe Prosper Rafael Raimond Raphael Rene Robert Simon Theodore Thomas Tomas Valentin 
+		Valentine Victor Vincent Virgil Xavier }
+		
+		last_names = { Herbert Landry Broussard LeBlanc Guidry Fontenot Richard Boundreaux Thibodeaux Breaux Trahan 
+		Guillory Bourgeois Bergeron Bordelon Benoit Romero Theriot Melancon Cormier }
+		}
+	}
 
 neo_european_cultures = {
 	leader = european

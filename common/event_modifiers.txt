@@ -16,6 +16,57 @@ Bull_market = {
 	education_efficiency_modifier = 0.20
 	icon = 49
 }
+shadow_state = {
+	ruling_party_support = 1
+	core_pop_consciousness_modifier = -0.2
+	core_pop_militancy_modifier = -0.2
+	global_immigrant_attract = -10
+	icon = 19
+}
+the_three_realms = {
+	land_organisation = 0.2
+	unit_start_experience = 0.3
+	land_unit_start_experience = 50
+	war_exhaustion = -10
+	icon = 15
+}
+purge_the_rot = {
+	global_assimilation_rate = 1
+	non_accepted_pop_consciousness_modifier = 0.3 
+	non_accepted_pop_militancy_modifier = 0.3
+	icon = 18
+}
+small_immigration_boom = {
+	global_immigrant_attract = 1
+	icon = 17
+}
+indochina = {
+	global_immigrant_attract = 2
+	icon = 17
+}
+
+land_of_opportunity = {
+	global_immigrant_attract = 4.5
+	icon = 13
+}
+
+swiss_banking = {
+	tax_efficiency = 0.1
+	tariff_efficiency_modifier = 0.25
+	icon = 9
+}
+
+freedom_of_religion = {
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = 0.01
+	global_immigrant_attract = 0.3
+	global_assimilation_rate = 0.1
+	icon = 5
+}
+
+foreign_claims = {
+	icon = 7
+}
 economic_trend = {
 	icon = 9
 }
@@ -1769,12 +1820,19 @@ early_qing_reforms = {
 	global_pop_militancy_modifier = 0.2
 	icon = 3
 }
+education_china_reforms = {
+	education_efficiency_modifier = 0.6
+	global_pop_militancy_modifier = 0.1
+	icon = 3
+}
 
 late_qing_reforms = {
 	research_points = 2
 	icon = 3
 }
-
+appeased = {
+	
+}
 chinese_farm_size = {
 	farm_rgo_size = -0.6
 	icon = 14
@@ -1784,7 +1842,13 @@ taiping_mobilization = {
 	mobilisation_size = 0.01
 	icon = 15
 }
-
+#### INC - INDOCHINA ####
+education_siam_reforms = {
+	education_efficiency_modifier = 1.5
+	research_points = 2
+	global_pop_militancy_modifier = 0.05
+	icon = 3
+}
 #### EIC - INDIA ####
 #### EIC - INDIA ####
 direct_rule = {

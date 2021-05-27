@@ -99,7 +99,65 @@ country_event = {
 				reduce_pop = 0.99
 				militancy = 2
 			}
+	}	
+}
+country_event = {
+	id = 21021
+	title = "他媽的習近平"
+	desc = "如果能讀到這篇，我為你感到驕傲"
+	picture = "china"
+	
+	trigger = {
+			CHI = {civilized = yes}
+			tag = CHI
+		NOT = {
+			has_country_flag = infinitysnap
+			has_country_flag = jan_mayen
+		}
 	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "No, I don't think I will"
+			any_pop = {
+				reduce_pop = 0.25
+			}
+			set_country_flag = infinitysnap
+	}
+	
+}
+
+country_event = {
+	id = 21022
+	title = "Russia Buff"
+	desc = "Sir we don't have enough pops, god help the pain"
+	picture = "disease"
+	
+	trigger = {
+			tag = RUS
+		NOT = {
+			OR = {
+			has_country_flag = russiabuff
+			has_country_flag = jan_mayen
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "No, I don't think I will"
+			any_pop = {
+				reduce_pop = 1.05
+			}
+			set_country_flag = russiabuff
+	}
+	
 }
 
 #Strange Influenza

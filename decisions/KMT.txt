@@ -1,0 +1,48 @@
+political_decisions = {
+    reclaim_tibet = {
+        potential = {
+            NOT = {
+                has_country_flag = tibet_claimed
+            }
+		    tag = KMT
+		    civilized = yes
+		    exists = TIB
+	    }
+        allow = {
+
+            is_greater_power = yes
+            war = no
+        }
+        effect = {
+            set_country_flag = tibet_claimed
+            badboy = 6
+            TIB_1591 = { add_core = THIS }
+        }
+    }
+    accept_the_coast = {
+        potential = {
+		    tag = KMT
+		    civilized = yes
+            has_country_flag = coast_accepted
+            NOT = {
+                OR = {
+                    accepted_culture = yue
+                    accepted_culture = hakka
+                    accepted_culture = min
+                }
+            }
+	    }
+        allow = {
+            is_greater_power = yes
+            war = no
+            revolution_n_counterrevolution = 1
+            
+        }
+        effect = {
+            set_country_flag = coast_accepted
+            add_accepted_culture = yue
+            add_accepted_culture = hakka
+            add_accepted_culture = min
+        }
+    }
+}
