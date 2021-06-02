@@ -6,6 +6,7 @@
 		religion = jewish
 		size = 75
 	}
+	
 
 	artisans = {
 		culture = ashkenazi
@@ -54,6 +55,12 @@
 		religion = protestant
 		size = 97300
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
+	
 }
 #Rotterdam (567000/141750 POPS)
 376 = {
@@ -61,6 +68,11 @@
 		culture = dutch
 		religion = protestant
 		size = 750
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {
@@ -107,6 +119,11 @@
 		religion = protestant
 		size = 300
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = dutch
@@ -138,6 +155,11 @@
 		culture = dutch
 		religion = protestant
 		size = 300
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {
@@ -184,6 +206,11 @@
 		culture = dutch
 		religion = protestant
 		size = 400
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	officers = {
@@ -253,6 +280,11 @@
 		religion = protestant
 		size = 300
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = dutch
@@ -284,6 +316,11 @@
 		culture = dutch
 		religion = protestant
 		size = 300
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	bureaucrats = {
@@ -341,6 +378,11 @@
 		religion = jewish
 		size = 500
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	aristocrats = {
 		culture = dutch
@@ -380,6 +422,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 250
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	aristocrats = {
@@ -437,6 +484,11 @@
 		religion = protestant
 		size = 500
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = dutch
@@ -481,6 +533,11 @@
 		religion = protestant
 		size = 300
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = dutch
@@ -512,6 +569,11 @@
 		culture = dutch
 		religion = protestant
 		size = 150
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {

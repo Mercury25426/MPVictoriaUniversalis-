@@ -6,6 +6,11 @@
 		religion = jewish
 		size = 25
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clerks = {
 		culture = ashkenazi
@@ -188,6 +193,11 @@
 		religion = catholic
 		size = 1150
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	bureaucrats = {
 		culture = flemish
@@ -225,6 +235,11 @@
 		culture = flemish
 		religion = catholic
 		size = 1750
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {
@@ -281,6 +296,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 25
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	artisans = {
@@ -350,6 +370,11 @@
 		religion = catholic
 		size = 650
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = flemish
@@ -413,6 +438,11 @@
 		culture = wallonian
 		religion = catholic
 		size = 850
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	officers = {
@@ -518,6 +548,11 @@
 		religion = catholic
 		size = 100
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	artisans = {
 		culture = flemish
@@ -610,6 +645,12 @@
 		religion = catholic
 		size = 100
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
+
 
 	artisans = {
 		culture = flemish
@@ -684,6 +725,11 @@
 		religion = catholic
 		size = 550
 	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
+	}
 
 	clergymen = {
 		culture = wallonian
@@ -745,6 +791,11 @@
 		culture = wallonian
 		religion = catholic
 		size = 250
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {
@@ -808,6 +859,11 @@
 		culture = wallonian
 		religion = catholic
 		size = 450
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 2000
 	}
 
 	clergymen = {
