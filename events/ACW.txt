@@ -55,7 +55,6 @@ country_event = {
 					province_id = 222
 				}
 			}
-			remove_core = USA
 			secede_province = CSA
 		}
 		CSA = {

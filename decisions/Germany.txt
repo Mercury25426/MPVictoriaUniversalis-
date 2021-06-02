@@ -679,6 +679,7 @@ political_decisions = {
 	rknor = {
 		picture = reichs
 		potential = {
+			government = fascist_dictatorship
 			OR = {
 				tag = GRA
 				tag = GER
@@ -694,8 +695,8 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = NWG
-			SWE_313 = { add_core = NWG }
 			SWE_308 = { add_core = NWG }
+			SWE_309 = { add_core = NWG }
 			release = NWG
 			create_vassal = NWG
 			release = NWG
@@ -928,6 +929,7 @@ political_decisions = {
 		}
 	}
 		purge = {
+		picture = reichs
 			potential = {
 				NOT = { has_country_flag = move }
 				OR = {

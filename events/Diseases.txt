@@ -153,7 +153,7 @@ country_event = {
 	option = {
 		name = "No, I don't think I will"
 			any_pop = {
-				reduce_pop = 1.05
+				reduce_pop = 1.1
 			}
 			set_country_flag = russiabuff
 	}
