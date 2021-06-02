@@ -538,6 +538,7 @@ political_decisions = {
 	rkukraine = {
 		picture = reichs
 		potential = {
+			RUK = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -580,6 +581,7 @@ political_decisions = {
 	rkcau = {
 		picture = reichs
 		potential = {
+			CAU = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -615,6 +617,7 @@ political_decisions = {
 	rkpol = {
 		picture = reichs
 		potential = {
+			GGN = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -648,6 +651,7 @@ political_decisions = {
 	rkbohemia = {
 		picture = reichs
 		potential = {
+			PBM = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -680,13 +684,13 @@ political_decisions = {
 		picture = reichs
 		potential = {
 			government = fascist_dictatorship
+			NWG = { exists = no }
 			OR = {
 				tag = GRA
 				tag = GER
 				tag = AUS
 				tag = DNB
 				tag = KUK
-				tag = NWG
 			}
 		}
 		allow = {
@@ -694,7 +698,6 @@ political_decisions = {
 			owns = 306
 		}
 		effect = {
-			set_country_flag = NWG
 			SWE_308 = { add_core = NWG }
 			SWE_309 = { add_core = NWG }
 			release = NWG
@@ -711,6 +714,7 @@ political_decisions = {
 	rkfrs = {
 		picture = reichs
 		potential = {
+			FRS = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -765,6 +769,7 @@ political_decisions = {
 	rknetherlands = {
 		picture = reichs
 		potential = {
+			HOI = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -796,6 +801,7 @@ political_decisions = {
 	rkbelgien = {
 		picture = reichs
 		potential = {
+			BEE = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -840,6 +846,7 @@ political_decisions = {
 	rkostland = {
 		picture = reichs
 		potential = {
+			OST = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA
@@ -855,7 +862,6 @@ political_decisions = {
 			owns = 944
 			owns = 949
 			owns = 361
-			owns = 954
 		}
 		effect = {
 			set_country_flag = ost
@@ -880,6 +886,7 @@ political_decisions = {
 	rkmoscow = {
 		picture = reichs
 		potential = {
+			MCW = { exists = no }
 			government = fascist_dictatorship
 			OR = {
 				tag = GRA

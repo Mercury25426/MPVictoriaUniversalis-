@@ -2060,7 +2060,7 @@ south_africa_immigrant_attract = {
 direct_rule = {
 	prestige = -1
 	research_points_on_conquer = -1
-	supply_consumption = -0.75
+	supply_consumption = -2
 	tax_efficiency = -0.03
 }
 ######FRS######

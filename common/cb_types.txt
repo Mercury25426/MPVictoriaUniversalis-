@@ -1160,9 +1160,9 @@ acquire_state_fascist = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1
+	badboy_factor = 0.5
 	prestige_factor = 5
-	peace_cost_factor = 5
+	peace_cost_factor = 0.25
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2010,7 +2010,7 @@ make_puppet = {
 			}
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = {	total_pops = 2000000 }
+		NOT = {	total_pops = 10000000 }
 		is_greater_power = no
 		is_vassal = no
 	}
@@ -2024,6 +2024,7 @@ make_puppet = {
 	#}
 	
 	po_make_puppet = yes
+	po_add_to_sphere = yes
 
 	war_name = WAR_PUPPET_NAME
 	
@@ -2969,12 +2970,10 @@ install_communist_gov_cb_puppet = {
 			# There are some amount of communist already in the country
 				
 			# If reciever current gov is not proletarian_dictatorship
-			NOT = {
-				government = proletarian_dictatorship
-			}
 			
 			# If reciever is not a great power
 			is_greater_power = no
+			NOT = {	total_pops = 10000000 }
 		}
 				NOT = {
 			OR = {
@@ -2984,6 +2983,7 @@ install_communist_gov_cb_puppet = {
 		}
 	}
 	po_make_puppet = yes
+	po_add_to_sphere = yes
 
 	po_install_communist_gov_type = yes
 
@@ -3212,9 +3212,7 @@ install_fascist_gov_cb_puppet =  {
 			# There are some amount of fascistt already in the country
 				
 			# If reciever current gov is not proletarian_dictatorship
-			NOT = {
-				government = fascist_dictatorship
-			}
+			NOT = {	total_pops = 10000000 }
 			
 			# If reciever is not a great power
 			is_greater_power = no
@@ -3227,6 +3225,7 @@ install_fascist_gov_cb_puppet =  {
 		}
 	}
 	po_make_puppet = yes
+	po_add_to_sphere = yes
 
 
 	war_name = WAR_NAME

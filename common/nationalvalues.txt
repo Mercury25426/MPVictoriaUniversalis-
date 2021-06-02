@@ -96,11 +96,11 @@ nv_supremacy = {
 	non_accepted_pop_militancy_modifier = 0.05
 	war_exhaustion = -0.2
 	leadership_modifier = 0.3
-	unit_start_experience = 0.5
+	unit_start_experience = 0.05
 	supply_consumption = -0.1
 	assimilation_rate = -0.1
 	global_immigrant_attract = -1
-	army_tech_research_bonus = 0.2
+	army_tech_research_bonus = 0.1
 	land_organisation = 0.1
 	culture_tech_research_bonus = -0.1
 }
@@ -109,7 +109,7 @@ nv_prosperity = {
 	core_pop_militancy_modifier = -0.02
 	social_reform_desire = -0.2
 	global_immigrant_attract = 0.3
-	commerce_tech_research_bonus = 0.2
+	commerce_tech_research_bonus = 0.1
 	tax_efficiency = 0.1
 	tariff_efficiency_modifier = 0.1
 	poor_everyday_needs = 0.3
@@ -129,7 +129,7 @@ nv_productivity = {
 	middle_everyday_needs = -0.1
 	rich_everyday_needs = -0.1
 	research_points_modifier = -0.05
-	industry_tech_research_bonus = 0.2
+	industry_tech_research_bonus = 0.1
 	social_reform_desire = -0.2
 }
 

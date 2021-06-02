@@ -36,7 +36,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA4434" #Everyone - Colonial Only
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { any_pop = { is_state_religion = no } is_colonial = yes }
@@ -61,7 +61,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB4434" #Everyone - Non-Colonial Only
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { any_pop = { is_state_religion = no } is_colonial = no }
@@ -86,7 +86,7 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTC4434" #Really Everyone
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { any_pop = { is_state_religion = no } }
@@ -137,7 +137,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA4435" #Colonial Only
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { is_colonial = yes has_national_minority = yes }
@@ -162,7 +162,7 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTB4435" #Non-Colonial Only
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { has_national_minority = yes is_colonial = no }
@@ -187,7 +187,7 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTC4435" #I don't make any distinctions, really
-		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 50 } }
+		random_owned = { limit = { owner = { NOT = { has_country_flag = preparations_to_kill } } } owner = { badboy = 15 } }
 		clr_country_flag = preparations_to_kill
 		any_owned = {
 			limit = { has_national_minority = yes }

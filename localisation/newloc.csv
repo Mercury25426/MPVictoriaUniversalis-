@@ -298,7 +298,7 @@ rkukraine_desc;The crimea region and surrounding ones, have many many German min
 rkcau_title;Establish Reichskommissariat Kaukasien;x
 rkcau_desc;The caucasus has a good German minority on the Volga river, we will prop them up with a state inwhich they can rule.;x
 rkpol_title;Establish Generalgouvernement;x
-rk_pol_desc;To continue the eradication of the poles and jews, we have set up a state in order to cleanse them.;x
+rkpol_desc;To continue the eradication of the poles and jews, we have set up a state in order to cleanse them.;x
 rkbohemia_title;Establish Protektorat Bohmen und Mahren;x
 rkbohemia_desc;To continue the Czech German culture pot, we must leave them under a protectorate rather complete absolute control.;x
 rknetherlands_title;Establish Reichskommissariat Niederlande;x
@@ -333,3 +333,4 @@ complete_humiliation;Complete Humiliation;x
 complete_humiliation_desc;After losing to the Germans far too many times, this is our fate.;x
 form_BOG_title;Form Burgundy;x
 form_BOG_desc;We have finally sealed it, the return of the great kingdom, maybe even soon empire, but not rest, we need to expand further.;x
+UBP_354;Latvia;x

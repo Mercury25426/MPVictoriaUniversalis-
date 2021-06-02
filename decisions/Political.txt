@@ -913,6 +913,8 @@ political_decisions = {
 		NOT = { has_country_modifier = prussian1_general_staff }
 		NOT = {
 		OR = {
+		tag = NWG
+		tag = TUR
 		tag = TKG
 		tag = BOG
 		tag = BEL
@@ -1285,6 +1287,7 @@ political_decisions = {
 		tag = BOG
 		tag = GGN
 		tag = PBM
+		tag = NWG
 		AND = {
 		tag = GRA
 		government = fascist_dictatorship
@@ -1339,7 +1342,7 @@ political_decisions = {
 
 
 	}
-}
+
 	
 		turkish_high_command = {
 		picture = turkish_general_staff
