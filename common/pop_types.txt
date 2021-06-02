@@ -1193,14 +1193,22 @@ assimilation_chance =
 
 	}
 	modifier = {
-		factor = 10
+		factor = 15
 		has_culture_core = yes
-		country = { has_country_flag = burgundian_genocide }
+		OR = {
+			country = { has_country_flag = burgundian_genocide }
+			country = { has_country_flag = germansettlement }
+			country = { has_country_flag = burgundianconversion }
+		}
 	}
 	modifier = {
-		factor = 0.1
+		factor = 0.15
 		NOT = { has_culture_core = yes }
-		country = { has_country_flag = burgundian_genocide }
+		OR = {
+			country = { has_country_flag = burgundian_genocide }
+			country = { has_country_flag = germansettlement }
+			country = { has_country_flag = burgundianconversion }
+		}
 	}
 }
 

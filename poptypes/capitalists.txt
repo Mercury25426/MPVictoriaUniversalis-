@@ -647,6 +647,14 @@ ideologies = {
 			}
 		}
 		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_glory
+			}
+		}
+		modifier = {
 			factor = 1.5
 			ruling_party_ideology = fascist 
 		}
@@ -726,6 +734,14 @@ ideologies = {
 			factor = 0.5
 			NOT = { militancy = 6 }
 		}		
+		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_might
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_glory
+			}
+		}
 		modifier = {
 			factor = 0.5
 			consciousness = 6
@@ -827,6 +843,17 @@ ideologies = {
 			militancy = 6
 		}
 		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_unity
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_dominion
+			nationalvalue = nv_glory
+			nationalvalue = nv_might
+			}
+		}
+		modifier = {
 			factor = 1.1
 			NOT = { militancy = 4 }
 		}
@@ -924,8 +951,12 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			nationalvalue = nv_equality
-			NOT = { ruling_party_ideology = communist }
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_fraternity
+			nationalvalue = nv_unity
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -1037,6 +1068,14 @@ ideologies = {
 		modifier = {
 			factor = 2
 			country = { has_country_flag = colorado_rebels }
+		}
+		modifier = {
+			factor = 1.4
+			OR = {
+			nationalvalue = nv_freedom
+			nationalvalue = nv_liberty
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 1.2
@@ -1157,6 +1196,14 @@ ideologies = {
 			factor = 0.1
 			NOT = { militancy = 6 }
 			NOT = { government = bourgeois_dictatorship }
+		}
+		modifier = {
+			factor = 1.4
+			OR = {
+			nationalvalue = nv_freedom
+			nationalvalue = nv_liberty
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 1.5

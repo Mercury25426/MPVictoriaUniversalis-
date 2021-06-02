@@ -490,4 +490,130 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+	###########Fascist Decisions
+	fatherland_altar = {
+	picture = build_vittoriano
+		potential = {
+			owns = 749
+			NOT = { has_country_flag = vittoriano_built }
+			tag = ITA
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+				government = fascist_dictatorship
+			}
+			NOT = { has_country_flag = vittoriano_built }
+		}
+		
+		allow = {
+			money = 10000
+			realism = 1
+		}
+		
+		effect = {
+			treasury = -10000
+			prestige = 20
+			any_pop = { militancy = -1 }
+			set_country_flag = vittoriano_built
+			random_list = {
+				25 = {
+				add_country_modifier = {
+				name = monument_under_construction
+				duration = 3285
+					}
+				}
+				25 = {
+				add_country_modifier = {
+				name = monument_under_construction
+				duration = 3650
+					}
+				}
+				25 = {
+				add_country_modifier = {
+				name = monument_under_construction
+				duration = 4380
+					}
+				}
+				25 = {
+				add_country_modifier = {
+				name = monument_under_construction
+				duration = 5110
+					}
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+		conquest_of_the_adriatic = {
+	picture = conquest_adriatic
+		potential = {
+		OR = {
+			tag = ITA
+			tag = IMP
+		}
+			NOT = { has_country_flag = conquest_adriatic_happened }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			war_policy = jingoism
+			OR = {
+				government = absolute_monarchy
+				government = fascist_dictatorship
+			}
+		}
+		
+		effect = {
+			badboy = 2
+			set_country_flag = conquest_adriatic_happened
+			AUS_780 = { add_core = ITA }
+			774 = { add_core = ITA }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reclaim_italian_lands = {
+	picture = reclaim_italian_lands
+		potential = {
+		OR = {
+			tag = ITA
+			tag = IMP
+		}
+			NOT = { has_country_flag = reclaim_italian_lands }
+			has_country_flag = conquest_adriatic_happened
+		}
+		
+		allow = {
+			is_greater_power = yes
+			OR = {
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = fascist
+				government = absolute_monarchy
+				government = fascist_dictatorship
+			}
+			war_policy = jingoism
+		}
+		
+		effect = {
+			badboy = 10
+			set_country_flag = reclaim_italian_lands
+			add_accepted_culture = maltese
+			SAR_466 = { add_core = ITA }
+			826	= { add_core = ITA }
+			852 = { add_core = ITA }
+			853 = { add_core = ITA }
+			854 = { add_core = ITA }
+			473 = { add_core = ITA }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -4,6 +4,7 @@ culture = hungarian
 culture = czech
 culture = slovene
 culture = croat
+culture = bohemian
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

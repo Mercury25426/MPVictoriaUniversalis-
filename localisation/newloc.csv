@@ -14,7 +14,7 @@ rhenish;Rhenish;x
 FRA_monarchy;French Empire;x
 walloon_autonomy;West of the Rhine;x
 GRA;Deutsches Kaiserreich;x
-GRA_fascist_dictatorship;Deutsches Fuhrerreich;x
+GRA_fascist_dictatorship;Großgermanisches Reich;x
 GRA_democracy;Deutsches Republik;x
 GRA_proletarian_dictatorship;Deutsches Werktetige;x
 GRA_ADJ;Germanic;x
@@ -137,3 +137,196 @@ yunnan_expansion_inc_bui2_desc;They are inferior, they are jewish;;;;;;;;;;;;x
 request_uk_land_inc_bui_title;Aryans? I think not;;;;;;;;;;;x
 request_uk_land_inc_bui_desc;Give land;;;;;;;;;;;;x
 indochina_desc;We are not but a band of natives, no no no, we are but a French colony.;x
+great_war;Total War;Guerre Totale;Größer Krieg;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+great_war_desc;We are in a state of total war with our enemies. We must rise up as one, or risk the destruction of our entire way of life.;;;;;;;;;;;;;x,,
+great_war2;The Demands of War;Les Demandes de la Guerre;Die Nachfragen des Krieges;;;;;;;;;;;x,,,
+great_war2_desc;Massive shortages are causing our people's enthusiasm for war to dim.;;;;;;;;;;;;;x,,,
+great_war3;Is It All For Nothing?;Est-il Tout Pour Rien?;Ist Alles Für Nichts?;;;;;;;;;;;x,,,
+great_war3_desc;If we do not end the war soon, things will go very badly for us.;;;;;;;;;;;;;x,,
+acquire_state_fascist;Acquire State Fascist;x
+acquire_state_fascist_desc;You can acquire states for low infamy and almost no warscore as a fascist state;x
+acquire_state_fascist_short;Acquire $STATE$;x
+acquire_state_fascist_setup;Acquire $STATE$ from $RECIPIENT$;x
+install_communist_gov_cb_puppet;Install communist puppet;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_communist_gov_cb_puppet_desc;Install the communist puppet government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+install_communist_gov_cb_puppet_setup;Install the communist puppet government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+install_communist_gov_cb_puppet_short;Install communist puppet;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+remove_cores;Remove Cores;;;;;;;;;;;;;;;x
+remove_cores_desc;Remove Cores;;;;;;;;;;;;;;;x
+remove_cores_short;Make $RECIPIENT$ remove cores on $THIRD$;;;;;;;;;;;;;;;x
+remove_cores_setup;Remove cores on $THIRD$;;;;;;;;;;;;;;;x
+fatherland_altar_title;Build an Altar for the Fatherland;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+fatherland_altar_desc;There's a proposal in the cabinet to build an Altar of the Fatherland (Altare della Patria) in honor of the main engineer of a unified Italy to be built in Rome, in a site between the Piazza Venezia and the Capitoline Hill. The main architect, Giuseppe Sacconi, envisions a monument made of marble, with huge bronze statues of our heroes and Quadrigas heralding the coming of a unified Italy, for all Italians. We should pick up this project and build the monument so all nations can see the glory of our great nation.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+reclaim_italian_lands_title;Reclaim Our Historical Lands;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+reclaim_italian_lands_desc;A growing sentiment in our country calls for the unification of the territory that is rightfully ours. Savoie, once part of Sardinia-Piedmont, is an integral part of Italy where many Italians live. Corsica and Malta, clear extensions of our territory, are islands that logically belong to the Italian people and Corfu is the clear extension of our Dalmatian claims, lands that were once a part of Venice. We need to do everything in our power to give to the Italians the land that is their right.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+conquest_of_the_adriatic_title;Conquest of the Adriatic;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+conquest_of_the_adriatic_desc;The Adriatic Sea, a region that is historically Italian, is within our grasp and many Italians live in the lands around it to this day. It's time to assert our hegemony on the territory around it, safeguarding the Italians that still live there.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+MEX_97;Utah;x
+USA_205;South Carolina;x
+USA_241;Connecticut;x
+USA_242;Rhode Island;x
+USA_246;Vermont;x
+USA_247;New Hampshire;x
+USA_248;Maine;x
+USA_222;Delaware;x
+MEX_94;Nevada;x
+RUS_719;Bialystock;x
+RUS_711;Southern Posen;x
+AUS_Fuckoff;Eastern Sudetenland;x
+install_fascist_gov_cb_puppet;Install fascist puppet;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_fascist_gov_cb_puppet_desc;Install the fascist puppet government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+install_fascist_gov_cb_puppet_setup;Install the fascist puppet government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+install_fascist_gov_cb_puppet_short;Install fascist puppet;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_fascist_gov_cb;Install fascist government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_fascist_gov_cb_desc;Install the Fascist Government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+install_fascist_gov_cb_setup;Install the Fascist Government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+install_fascist_gov_cb_short;Install Fascist Government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+uninstall_fascist_gov_cb;Dismantle Fascist Government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+uninstall_fascist_gov_cb_desc;Dismantle the Fascist Government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+uninstall_fascist_gov_cb_short;Dismantle Fascist Government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+uninstall_fascist_gov_cb_setup;Dismantle the Fascist Government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+discrimination;Discrimination;x
+discrimination_desc;A good deal of our inhabitants, some would say subhuman, are getting angry under our regime.;x
+oppressed;Subhuman Anger;x
+oppressed_desc;A subhuman terror of a wicked wrench are vile and are ready for a revolution, genocide them if you can.;x
+jimcrow;Jim Crow Era;x
+jimcrow_desc;Betweens the 1870s to the 1970s, African Americans are other colored people were being discriminated against using jim crow laws in order to keep in check by whites.;x
+install_democratic_gov_cb;Install Democratic Government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+install_democratic_gov_cb_desc;Install the Democratic Government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+install_democratic_gov_cb_setup;Install the Democratic Government. If achieved, the country will be automatically added into our sphere.;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+install_democratic_gov_cb_short;Install Democratic Government;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+american_high_command_title;§RUnited §WStates §BArmed Forces;x
+american_high_command;§RUnited §WStates §BArmed Forces;x
+american_high_command_desc;The United States Armed Forces are the military forces of the United States of America.[10] It consists of the Army, Marine Corps, Navy, Air Force, Space Force, and Coast Guard.[11][12] The president of the United States is the commander-in-chief of the Armed Forces and forms military policy with the Department of Defense (DoD) and Department of Homeland Security (DHS), both federal executive departments, acting as the principal organs by which military policy is carried out. All six armed services are among the eight uniformed services of the United States.[13];x
+british_high_command_title;§WThe §RRoyal §WNavy;x
+british_high_command;§WThe §RRoyal §WNavy;x
+british_high_command_desc;The Royal Navy (RN) is the United Kingdom's naval warfare force. Although warships were used by English and Scottish kings from the early medieval period, the first major maritime engagements were fought in the Hundred Years' War against the Kingdom of France. The modern Royal Navy traces its origins to the early 16th century; the oldest of the UK's armed services, and it is, consequently, known as the Senior Service.;x
+burgundian_high_command_title;§RLeibstandarte §bSS §RAdolf §bHitler;x
+burgundian_high_command;§RLeibstandarte §bSS §RAdolf §bHitler;x
+burgundian_high_command_desc;The Schutzstaffel (SS also stylized with Armanen runes. ('Protection Squadron') was a major paramilitary organization under Adolf Hitler and the Nazi Party in Nazi Germany, and later throughout German-occupied Europe during World War II. It began with a small guard unit known as the Saal-Schutz ("Hall Security") made up of party volunteers to provide security for party meetings in Munich. In 1925, Heinrich Himmler joined the unit, which had by then been reformed and given its final name. Under his direction (1929–1945) it grew from a small paramilitary formation during the Weimar Republic to one of the most powerful organizations in Nazi Germany;x
+italian_high_command_desc;The Italian Army (Italian: Esercito Italiano) is the land-based component of the Italian Armed Forces of the Italian Republic. The army's history dates back to the Italian unification in the 1850s and 1860s. The army fought in colonial engagements in China, Libya, Northern Italy against the Austro-Hungarian Empire during World War I, Abyssinia before World War II and in World War II in Albania, Balkans, North Africa, the Soviet Union, and Italy itself. During the Cold War, the army prepared itself to defend against a Warsaw Pact invasion from the east. Since the end of the Cold War, the army has seen extensive peacekeeping service and combat in Afghanistan and Iraq. Its best-known combat vehicles are the Dardo infantry fighting vehicle, the Centauro tank destroyer and the Ariete tank and among its aircraft the Mangusta attack helicopter, recently deployed in UN missions. The headquarters of the Army General Staff are located in Rome opposite the Quirinal Palace, where the president of Italy resides. The army is an all-volunteer force of active-duty personnel.;x
+italian_high_command_title;§GEsercito §RItaliano;x
+italian_high_command;§GEsercito §RItaliano;x
+russian_high_command_desc;The Stavka was the high command of the armed forces in the Russian Empire and the Soviet Union. In Imperial Russia Stavka refers to the administrative staff, and to the General Headquarters in the late 19th-century Imperial Russian armed forces and subsequently in the Soviet Union. In Western literature it is sometimes written in uppercase (STAVKA), although whether it is an acronym is a subject of debate. Stavka may refer to its members, as well as to the headquarters location (its original meaning from the old Russian word , 'tent').;x
+russian_high_command_title;§GStavka;x
+russian_high_command;§GStavka;x
+soviet_high_command_desc;The Stavka was the high command of the armed forces in the Russian Empire and the Soviet Union. In Imperial Russia Stavka refers to the administrative staff, and to the General Headquarters in the late 19th-century Imperial Russian armed forces and subsequently in the Soviet Union. In Western literature it is sometimes written in uppercase (STAVKA), although whether it is an acronym is a subject of debate. Stavka may refer to its members, as well as to the headquarters location (its original meaning from the old Russian word , 'tent').;x
+soviet_high_command_title;§RThe Stavka;x
+soviet_high_command;§GThe Stavka;x
+swiss_high_command_desc;The Swiss National Redoubt (German: Schweizer Reduit French: Réduit national Italian: Ridotto nazionale Romansh: Reduit nazional) was a defensive plan developed by the Swiss government beginning in the 1880s to respond to foreign invasion. In the opening years of the Second World War the plan was expanded and refined to deal with a potential German invasion. The term "National Redoubt" primarily refers to the fortifications begun in the 1880s that secured the mountainous central part of Switzerland, providing a defended refuge for a retreating Swiss Army.;x
+swiss_high_command_title;§RSwiss §WNational §RRedoubt;x
+swiss_high_command;§RSwiss §WNational §RRedoubt;x
+french_high_command_desc;The French Armed Forces (French: Forces armées françaises) encompass the Army, the Navy, the Air and Space Force, the National Guard and the Gendarmerie of the French Republic. The President of France heads the armed forces as chef des armées. France has the sixth largest defence budget in the world and the first in the European Union (EU). It has the largest armed forces in size in the European Union.[5] According to Credit Suisse, the French Armed Forces are ranked as the world's sixth-most powerful military.[6];x
+french_high_command_title;§BForces §Warmées §Rfrançaises;x
+french_high_command;§BForces §Warmées §Rfrançaises;x
+turkish_high_command_desc;The Ottoman Army was reorganized along modern Western European lines during the Tanzimat modernization period and functioned during the decline and dissolution period that is roughly between 1861 (though as a unit First Army dates 1842) and 1918, end of World War I for the Ottomans. The last reorganization occurred during the Second Constitutional Era.[1];x
+turkish_high_command_title;§RModern §WOsmanli §ROrdusu;x
+turkish_high_command;§RModern §WOsmanli §ROrdusu;x
+austrian_high_command_desc;The Austro-Hungarian Army (German: Landstreitkräfte Österreich-Ungarns Hungarian: Császári és Királyi Hadsereg) was the ground force of the Austro-Hungarian Dual Monarchy from 1867 to 1918. It was composed of three parts: the joint army (Gemeinsame Armee, "Common Army", recruited from all parts of the country), the Imperial Austrian Landwehr (recruited from Cisleithania), and the Royal Hungarian Honvéd (recruited from Transleithania). In the wake of fighting between the Austrian Empire and the Hungarian Kingdom and the two decades of uneasy co-existence following, Hungarian soldiers served either in mixed units or were stationed away from Hungarian areas. With the Austro-Hungarian Compromise of 1867 the new tripartite army was brought into being. It existed until the disestablishment of the Austro-Hungarian Empire following World War I in 1918. The joint "Imperial and Royal Army" (kaiserlich und königliche Armee or k.u.k.) units were generally poorly trained and had very limited access to new equipment because the governments of the Austrian and Hungarian parts of the empire often preferred to generously fund their own units instead of outfitting all three army branches equally. All of the Honvédség and the Landwehr regiments were composed of three battalions, while the joint army k.u.k. regiments had four. The long-standing white infantry uniforms were replaced in the later half of the 19th century with dark blue tunics,[1] which in turn were replaced by the pike grey M1908 uniform used in the initial stages of World War I. In September 1915, field gray was adopted as the new official uniform colour.[2] As the KuK Army was plagued with supply shortages, when the new Field-gray uniforms were first introduced, remaining stocks of the preexisting Pike-grey uniforms remained in use alongside the newer Feldgrau model. The last known surviving member of the Austro-Hungarian Army was World War I veteran Franz Künstler, who died in May 2008 at the age of 107.;x
+austrian_high_command_title;§WLandstreitkräfte Österreich-Ungarns;x
+austrian_high_command;§WLandstreitkräfte Österreich-Ungarns;x
+chinese_high_command_desc;e People's Liberation Army (PLA) is the regular armed forces of the People's Republic of China (PRC) and the armed wing of the PRC's founding and ruling political party, the Chinese Communist Party (CCP).[6] Besides the Central Military Commission (CMC) and several minor units directly under it, the PLA has five major service branches: the Ground Force, Navy, Air Force, Rocket Force, and the Strategic Support Force. A majority of military units around the country are assigned to one of five theater commands by geographical location. The PLA is the world's largest military force and constitutes the second largest defense budget in the world. It is also one of the fastest modernizing militaries in the world, and has been termed as a potential military superpower, with significant regional defense and rising global power projection capabilities.[7][8][2][9][10][11][12] Per Business Insider in 2018, the PLA is the world's second-most powerful military.[13][14];x
+chinese_high_command_title;§RPeople's Liberation Army;x
+chinese_high_command;§RPeople's Liberation Army;x
+german_high_command_desc;The Oberkommando der Wehrmacht High Command of the Armed Forces[1]) was the High Command of the Wehrmacht (armed forces) of Nazi Germany. Created in 1938, the OKW replaced the Reich War Ministry and had nominal oversight over the Heer (army), the Kriegsmarine (navy), and the Luftwaffe (air force). Rivalry with the armed services branch commands, mainly with the Army High Command (the OKH), prevented the OKW from becoming a unified German General Staff in an effective chain of command. It did help coordinate operations between the three services. During the war, the OKW, subordinate to Adolf Hitler as Supreme Commander of the Wehrmacht, acquired more and more operational powers. By 1942, OKW had responsibility for all theatres except for the Eastern Front against the Soviet Union. However, Hitler manipulated the system in order to prevent any one command from taking a dominant role in decision making.[2] This "divide and conquer" method helped put most military decisions in Hitler's own hands, which at times included even those affecting engagements at the battalion level.[2];x
+german_high_command_title;§ROberste §bHeeresleitung;x
+german_high_command;§ROberste §bHeeresleitung;x
+japanese_high_command_desc;The Imperial Japanese Army[a] was the official ground-based armed force of the Empire of Japan from 1868 to 1945. It was controlled by the Imperial Japanese Army General Staff Office and the Ministry of the Army, both of which were nominally subordinate to the Emperor of Japan as supreme commander of the army and the Imperial Japanese Navy. Later an Inspectorate General of Aviation became the third agency with oversight of the army. During wartime or national emergencies, the nominal command functions of the emperor would be centralized in an Imperial General Headquarters (IGHQ), an ad hoc body consisting of the chief and vice chief of the Army General Staff, the Minister of the Army, the chief and vice chief of the Naval General Staff, the Inspector General of Aviation, and the Inspector General of Military Training.;x
+japanese_high_command_title;§RDai-§WNippon §RTeikoku Rikugun;x
+japanese_high_command;§RDai-§WNippon §RTeikoku Rikugun;x
+spanish_high_command_desc;The Spanish Army (Spanish: Ejército de Tierra lit. "Army of the Land/Ground") is the terrestrial army of the Spanish Armed Forces responsible for land-based military operations. It is one of the oldest active armies — dating back to the late 15th century.;x
+spanish_high_command_title;§REjército §Yde §RTierra;x
+spanish_high_command;§REjército §Yde §RTierra;x
+dutch_high_command_title;§ONederlandse §Bkrijgsmacht;x
+dutch_high_command;§ONederlandse §Bkrijgsmacht;x
+dutch_high_command_desc;The Netherlands Armed Forces (Dutch: Nederlandse krijgsmacht) are the military services of the Kingdom of the Netherlands. The core of the armed forces consists of the four service branches: the Royal Netherlands Navy (Koninklijke Marine), the Royal Netherlands Army (Koninklijke Landmacht), the Royal Netherlands Air Force (Koninklijke Luchtmacht) and the Royal Netherlands Marechaussee (Koninklijke Marechaussee). The service branches are supplemented by various joint support organisations. In addition, local conscript forces exist on the Dutch Caribbean islands of Aruba (AruMil) and Curaçao (CurMil). These operate under the auspices of the Royal Netherlands Navy and the Netherlands Marine Corps.;x
+general_staff_title;§gGeneral Staff;x
+general_staff_desc;A general staff is essentially a proto version of what would become the German high command under WW1 and WW2, simple in nature, but can is extremely effective if the usage is correct.;x
+general_staff;§WGeneral Staff;x
+BAG;Bagirimi;x
+BAG_ADJ;Farian;x
+BYZ;Byzantine Empire;;;;;;;;;;;;;;;;;;;;x
+BYZ_ADJ;Byzantine;;;;;;;;;;;;;;;;x
+BYZ_democracy;Byzantine Federation;;;;;;;;;;;;;x
+BYZ_presidential_dictatorship;Byzantine Federation;;;;;;;;;;;;;x
+BYZ_bourgeois_dictatorship;Byzantine Federation;;;;;;;;;;;;;x
+BYZ_proletarian_dictatorship;Socialist Balkan Union;;;;;;;;;;;;;x
+SAU;South African Union;x
+SAU_liberal;Afrikaner Bond;Afrikaner Bond;Afrikaner Bond;;Afrikaner Bond;;;;;;;;;x;;;;
+SAU_conservative;Progressive Party;Parti progressiste;Progressive Party;;Partido progresista;;;;;;;;;x;;;;
+SAU_socialist;Labour Party;Parti travailliste;Labour Party;;Partido Laborista;;;;;;;;;x;;;;
+SAU_conservative_2;Unionist Party;Parti unioniste;Unionist Party;;Partido Unionista;;;;;;;;;x;;;;
+SAU_liberal_2;South African Party;Parti sud-africain;South African Party;;Partido Sudafricano;;;;;;;;;x;;;;
+SAU_conservative_3;National Party;Parti national;National Party;;Partido Nacional;;;;;;;;;x;;;;
+SAU_reactionary;Nationalist Party;Parti nationaliste;Nationalist Party;;Partido Nacionalista;;;;;;;;;x;;;;
+SAU_anarcho_liberal;Radical Party;Parti radical;Radical Party;;Partido Radical;;;;;;;;;x;;;;
+SAU_communist;Communist Party;Parti communiste ;Communist Party;;Partido Comunista;;;;;;;;;x;;;;
+SAU_fascist;Fascist Party;Parti fasciste;Fascist Party;;Partido Fascista;;;;;;;;;x;;;;
+PBM;Protektorat Bohmen und Mahren;x
+PBM_ADJ;Bohemian;x
+HOI;Reichskommissariat Niederlande;x
+HOI_ADJ;Dutch-German;x
+BOG;Burgundy;x
+BOG_proletarian_dictatorship;People's Republic of Burgundy;x
+BOG_fascist_dictatorship;Ordensstaat Burgund;x
+BOG_absolute_monarchy;Burgundian Empire;x
+BOG_ADJ;Burgundian;x
+FRS;French State;x
+FRS_ADJ;French;x
+NWG;Reichskommissariat Norwegen;x
+NWG_ADJ;Norwegian;x
+RUK;Reichskommissariat Ukraine;x
+RUK_ADJ;Marine-German;x
+OST;Reichskommissariat Ostland;x
+OST_ADJ;Ost-German;x
+MCW;Reichskommissariat Moskowien;x
+MCW_ADJ;Baltic-German;x
+CAU;Reichskommissariat Kaukasien;x
+CAU_ADJ;Volga-German;x
+CTR;Confederation of the Rhine;x
+CTR_ADJ;Rhenish;x
+GGN;Generalgouvernement;x
+GGN_ADJ;German;x
+BEE;Reichskommissariat Belgien;x
+BEE;Belgien-German;x
+rkmoscow_title;Establish Reichskommissariat Moskowien;x
+rkmoscow_desc;Even though the slav bastards mostly inhabit this region, we do have some German minorities here, all this region will be under signifigant observation.;x
+rkostland_title;Establish Reichskommissariat Ostland;x
+rkostland_desc;The eastern Germans, or Ost-Germans, are Germans that settled east of Germany proper, they are also inhabitated by Baltic-Germans, we have a good enough size of Germans in order to create puppet state.;x
+rkukraine_title;Establish Reichskommissariat Ukraine;x
+rkukraine_desc;The crimea region and surrounding ones, have many many German minorities, we will prop them up a state inwhich to rule.;x
+rkcau_title;Establish Reichskommissariat Kaukasien;x
+rkcau_desc;The caucasus has a good German minority on the Volga river, we will prop them up with a state inwhich they can rule.;x
+rkpol_title;Establish Generalgouvernement;x
+rk_pol_desc;To continue the eradication of the poles and jews, we have set up a state in order to cleanse them.;x
+rkbohemia_title;Establish Protektorat Bohmen und Mahren;x
+rkbohemia_desc;To continue the Czech German culture pot, we must leave them under a protectorate rather complete absolute control.;x
+rknetherlands_title;Establish Reichskommissariat Niederlande;x
+rknetherlands_desc;The Dutch are similar to the Norwegians in the fact that they are Aryan, but should be more integrated within the reich.;x
+rknor_title;Establish Reichskommissariat Norwegen;x
+rknor_desc;The Norwegians are Aryan, so we aren't going to ethnically cleanse them, instead lets leave them under Norwegian rule, but under our iron fist.;x
+rkfrs_title;Establish the French State;x
+rkfrs_desc;After conquering the French, we mine as well set up a puppet state to retain dominance and stability;x
+rkbelgien_title;Establish Reichskommissariat Belgien;x
+rkbelgien_desc;Even though they are similar to the Dutch in many ways, they are still French, they are still inferior, we know and we will subjugate them.;x
+GER_fascist_dictatorship;German Reich;x
+form_south_african_union_title;The Formation of the South African Union;;;;;;;;;x;;;;
+form_south_african_union_desc;After war after war, our strength grows numerous, and our enemies falter, it is time to reorganize ourselves into the new South African Union, Boer and British alike, additionally, we have another problem to be dealt with..;;;;;;;;;x;;;;
+northern_expansion_title;North Cape Expansion.;;;;;;;;;x;;;;
+northern_expansion_desc;Our people, most especially the boers have been moving into the vast bush, it seems like we are able to formally colonize the territory.;;;;;;;;;x;;;;
+MIL_FROM_TROOPS;Troops;x
+balticgerman;Baltic-German;x
+eastgerman;Ost-German;x
+volgagerman;Volga-German;x
+bohemian;Bohemian;x
+marinegerman;Marine-German;x
+germansettlement;German Settlement;x
+germansettlement_desc;Planned all the way from the the early 1900s, the German state has been always trying to settle eastern Europe and her holdings, today is that day we actually do.;x
+purge_title;Settle the Germans in the East;§GThis will enable immigration from Germany, and Austria, and the other Reichskommissariats.;x
+prussian1_general_staff;§lGeneral Staff;x
+prussian1_general_staff_title;§lGeneral Staff;x
+prussian1_general_staff_desc;General staffs are essentially proto high commands, most simiarily in WW1 and WW2 where the German Empire/Reich created officer planning organizations which would warplan at peace.;x
+burgundianconversion;Burgundian Conversion;x
+burgundianconversion_desc;After the great formation of this state, we ought to make everyone under one culture, the Burgundian culture.;x
+complete_humiliation;Complete Humiliation;x
+complete_humiliation_desc;After losing to the Germans far too many times, this is our fate.;x

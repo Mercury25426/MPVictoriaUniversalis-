@@ -535,4 +535,431 @@ political_decisions = {
 			set_global_flag = ruhr_boom_has_happened
 		}
 	}
-}
+	rkukraine = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+				tag = RUS
+			}
+		}
+		allow = {
+			owns = 957
+			owns = 959
+			owns = 971
+			owns = 964
+			owns = 973
+			owns = 962
+			owns = 1019
+		}
+		effect = {
+			set_country_flag = ruk
+			RUS_955 = { add_core = RUK }
+			RUS_958 = { add_core = RUK }
+			RUS_965 = { add_core = RUK }
+			RUS_980 = { add_core = RUK }
+			RUS_964 = { add_core = RUK }
+			RUS_1019 = { add_core = RUK }
+			RUS_962 = { add_core = RUK }
+			release = RUK
+			create_vassal = RUK
+			release = RUK
+			create_vassal = RUK
+			diplomatic_influence = {
+				who = RUK
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rkcau = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+				tag = RUS
+			}
+		}
+		allow = {
+			owns = 1051
+			owns = 1095
+			owns = 1055
+			owns = 1104
+		}
+		effect = {
+			set_country_flag = cau
+			RUS_1090 = { add_core = CAU }
+			RUS_1048 = { add_core = CAU }
+			RUS_1102 = { add_core = CAU }
+			release = CAU
+			create_vassal = CAU
+			release = CAU
+			create_vassal = CAU
+			diplomatic_influence = {
+				who = CAU
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rkpol = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+				tag = RUS
+			}
+		}
+		allow = {
+			owns = 706
+		}
+		effect = {
+			set_country_flag = ggn
+			RUS_710 = { add_core = GGN }
+			AUS_702 = { add_core = GGN }
+			AUS_704 = { add_core = GGN }
+			AUS_705 = { add_core = GGN }
+			release = GGN
+			create_vassal = GGN
+			release = GGN
+			create_vassal = GGN
+			diplomatic_influence = {
+				who = GGN
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rkbohemia = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 625
+			owns = 631
+		}
+		effect = {
+			set_country_flag = pbm
+			AUS_625 = { add_core = PBM }
+			AUS_631 = { add_core = PBM }
+			release = PBM
+			create_vassal = PBM
+			release = PBM
+			create_vassal = PBM
+			diplomatic_influence = {
+				who = PBM
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rknor = {
+		picture = reichs
+		potential = {
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+				tag = NWG
+			}
+		}
+		allow = {
+			owns = 313
+			owns = 306
+		}
+		effect = {
+			set_country_flag = NWG
+			SWE_313 = { add_core = NWG }
+			SWE_308 = { add_core = NWG }
+			release = NWG
+			create_vassal = NWG
+			release = NWG
+			create_vassal = NWG
+			diplomatic_influence = {
+				who = NWG
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rkfrs = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 425
+			owns = 407
+			owns = 408
+			owns = 438
+			owns = 428
+			owns = 402
+			owns = 411
+			owns = 416
+			owns = 435
+		}
+		effect = {
+			set_country_flag = FRS
+			FRA_415 = { add_core = FRS }
+			FRA_451 = { add_core = FRS }
+			FRA_435 = { add_core = FRS }
+			FRA_418 = { add_core = FRS }
+			FRA_425 = { add_core = FRS }
+			FRA_403 = { add_core = FRS }
+			FRA_407 = { add_core = FRS }
+			FRA_428 = { add_core = FRS }
+			FRA_438 = { add_core = FRS }
+			FRA_442 = { add_core = FRS }
+			FRA_458 = { add_core = FRS }
+			FRA_442 = { add_core = FRS }
+			FRA_455 = { add_core = FRS }
+			FRA_448 = { add_core = FRS }
+			FRA_467 = { add_core = FRS }
+			FRA_445 = { add_core = FRS }
+			FRA_420 = { add_core = FRS }
+			release = FRS
+			create_vassal = FRS
+			release = FRS
+			create_vassal = FRS
+			diplomatic_influence = {
+				who = FRS
+				value = 300
+			}
+			badboy = -15
+		}
+	}
+
+	rknetherlands = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 375
+			owns = 384
+			owns = 380
+		}
+		effect = {
+			set_country_flag = hoi
+			NET_375 = { add_core = HOI }
+			NET_381 = { add_core = HOI }
+			NET_385 = { add_core = HOI }
+			release = HOI
+			create_vassal = HOI
+			diplomatic_influence = {
+				who = HOI
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+	rkbelgien = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 387
+			owns = 389
+			owns = 392
+			owns = 398
+			owns = 413
+			owns = 404
+			owns = 399
+		}
+		effect = {
+			set_country_flag = hoi
+			BEL_387 = { add_core = BEE }
+			BEL_388 = { add_core = BEE }
+			BEL_394 = { add_core = BEE }
+			BEL_398 = { add_core = BEE }
+			BEL_413 = { add_core = BEE }
+			BEL_404 = { add_core = BEE }
+			FRA_399 = { add_core = BEE }
+			FRA_413 = { add_core = BEE }
+			FRA_404 = { add_core = BEE }
+			release = BEE
+			create_vassal = BEE
+			release = BEE
+			create_vassal = BEE
+			diplomatic_influence = {
+				who = BEE
+				value = 300
+			}
+			badboy = -5
+		}
+	}
+
+	rkostland = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 939
+			owns = 718
+			owns = 944
+			owns = 949
+			owns = 361
+			owns = 954
+		}
+		effect = {
+			set_country_flag = ost
+			RUS_707 = { add_core = OST }
+			RUS_360 = { add_core = OST }
+			RUS_718 = { add_core = OST }
+			RUS_947 = { add_core = OST }
+			RUS_964 = { add_core = OST }
+			UBP_354 = { add_core = OST }
+			UBP_349 = { add_core = OST }
+			release = OST
+			create_vassal = OST
+			release = OST
+			create_vassal = OST
+			diplomatic_influence = {
+				who = OST
+				value = 300
+			}
+			badboy = -10
+		}
+	}
+	rkmoscow = {
+		picture = reichs
+		potential = {
+			government = fascist_dictatorship
+			OR = {
+				tag = GRA
+				tag = GER
+				tag = AUS
+				tag = DNB
+				tag = KUK
+			}
+		}
+		allow = {
+			owns = 1007
+			owns = 1004
+			owns = 994
+			owns = 1014
+			owns = 1009
+			owns = 1012
+			owns = 1017
+			owns = 1019
+			owns = 1025
+			owns = 1020
+			owns = 1037
+		}
+		effect = {
+			set_country_flag = mos
+			RUS_994 = { add_core = MCW }
+			RUS_1003 = { add_core = MCW }
+			RUS_943 = { add_core = MCW }
+			RUS_1014 = { add_core = MCW }
+			RUS_977 = { add_core = MCW }
+			RUS_1025 = { add_core = MCW }
+			RUS_998 = { add_core = MCW }
+			RUS_1020 = { add_core = MCW }
+			RUS_1008 = { add_core = MCW }
+			RUS_1012 = { add_core = MCW }
+			RUS_1041 = { add_core = MCW }
+			RUS_979 = { add_core = MCW }
+			RUS_1035 = { add_core = MCW }
+			release = MCW
+			create_vassal = MCW
+			release = MCW
+			create_vassal = MCW
+			diplomatic_influence = {
+				who = MCW
+				value = 300
+			}
+			badboy = -20
+		}
+	}
+		purge = {
+			potential = {
+				NOT = { has_country_flag = move }
+				OR = {
+					tag = MCW
+					tag = OST
+					tag = CAU
+					tag = GGN
+					tag = PBM
+					tag = RUK
+					AND = {
+						tag = GER
+						government = fascist_dictatorship
+						}
+					AND = {
+						tag = GRA
+						government = fascist_dictatorship
+						}
+					tag = HOI
+					}
+			}
+			allow = {
+				war = no
+			}
+			effect = {
+				set_country_flag = move
+				set_country_flag = germansettlement
+				add_country_modifier = {
+					name = germansettlement
+					duration = -1
+				}
+			}
+				
+			}
+			
+	}

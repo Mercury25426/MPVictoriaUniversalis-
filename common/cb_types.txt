@@ -39,6 +39,11 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = { 
+acquire_state_fascist
+install_fascist_gov_cb
+install_fascist_gov_cb_puppet
+uninstall_fascist_gov_cb
+install_democratic_gov_cb
 add_to_sphere
 take_from_sphere
 acquire_all_cores
@@ -72,6 +77,7 @@ unification_annex_casus_belli
 rude_boy
 annex
 install_communist_gov_cb
+install_communist_gov_cb_puppet
 uninstall_communist_gov_cb
 great_war_penalty_cb
 take_capital
@@ -101,6 +107,7 @@ dismantle_cb_add_new
 acquire_tiny_state
 restore_puppet_province
 chincha_war
+remove_cores
 }
 # Great War CB's
 dismantle_cb = {
@@ -439,7 +446,7 @@ conquest = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -1018,7 +1025,7 @@ acquire_state = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -1082,6 +1089,177 @@ acquire_state = {
 				NOT = { is_core = CHI }
 				owner = { civilized = yes }
 			}
+		}
+		OR = {
+			#AI and Player can take a neighboring state
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			
+			#Player can take a neighboring state neighboring a neighboring state
+			AND = {
+				THIS = { ai = no }
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
+					}
+				}
+			}
+			
+			#AI/Player can take a coastal state
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					num_of_ports = 1
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+						ai = no
+					}
+				}
+			}
+			
+			#Player can take any state neighboring a coastal state
+			AND = {
+				any_owned_province = {
+					any_neighbor_province = {
+						state_scope = { any_owned_province = { port = yes } }
+					}
+				}
+				THIS = {
+					ai = no
+					num_of_ports = 1
+				}
+			}
+		}
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+# Fascist imperialism
+acquire_state_fascist = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 1
+	prestige_factor = 5
+	peace_cost_factor = 5
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			government = fascist_dictatorship
+		}
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = { has_country_flag = chinese }
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			NOT = { has_country_flag = jan_mayen }
+		}
+		NOT = {
+			AND = { 
+				OR = {
+					tag = EGY
+					tag = TUR
+					tag = RUS
+				}
+				THIS = { has_country_modifier = oriental_truce }
+			}
+		}
+		NOT = {
+			AND = {
+				has_country_flag = gamer
+				civilized = no
+			}
+		}
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+		OR = {
+			AND = {
+				civilized = yes
+				THIS = {
+					civilized = yes
+				}
+			}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = no
+				}
+			}
+		}
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+		OR = {
+			NOT = {
+				OR = {
+					tag = AUS
+					tag = KUK
+				}
+			}
+			THIS = {
+				OR = {
+					ai = no
+					NOT = {
+						OR = {
+							tag = PRU
+							tag = NGF
+						}
+					}
+				}
+			}
+		}
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			owner = { civilized = yes }
 		}
 		OR = {
 			#AI and Player can take a neighboring state
@@ -2030,7 +2208,7 @@ demand_concession_casus_belli = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -2156,7 +2334,7 @@ establish_protectorate_casus_belli = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}		
@@ -2248,7 +2426,7 @@ establish_small_protectorate_casus_belli = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}		
@@ -2663,7 +2841,7 @@ install_communist_gov_cb = {
 	months = 12
 	crisis = no
 
-	badboy_factor = 1
+	badboy_factor = 1.25
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -2704,7 +2882,91 @@ install_communist_gov_cb = {
 			#}
 			
 			# There are some amount of communist already in the country
-			communist = 0.1
+				
+			# If reciever current gov is not proletarian_dictatorship
+			NOT = {
+				government = proletarian_dictatorship
+			}
+			
+			# If reciever is not a great power
+		}
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+	
+	po_install_communist_gov_type = yes
+	po_remove_prestige = yes
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+	}
+}
+####Install Communist Puppet
+install_communist_gov_cb_puppet = {
+	sprite_index = 12
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 2
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			# If actor is a great power
+			is_greater_power = yes
+			
+			# If actor gov truly communist
+			government = proletarian_dictatorship
+			
+			# If actor ruling party is communist
+			ruling_party_ideology = communist
+		}
+		
+		AND = {
+			# If reciever ruling party is not a communist
+			#NOT = {
+			#	ruling_party_ideology = communist
+			#}
+			
+			# There are some amount of communist already in the country
 				
 			# If reciever current gov is not proletarian_dictatorship
 			NOT = {
@@ -2721,7 +2983,8 @@ install_communist_gov_cb = {
 			}
 		}
 	}
-	
+	po_make_puppet = yes
+
 	po_install_communist_gov_type = yes
 
 	war_name = WAR_NAME
@@ -2743,7 +3006,6 @@ install_communist_gov_cb = {
 		political_reform = underground_parties
 	}
 }
-
 # Revert from Communist Government
 uninstall_communist_gov_cb = {
 	sprite_index = 13
@@ -2755,7 +3017,7 @@ uninstall_communist_gov_cb = {
 	# so they can revert those countries government.
 	constructing_cb = no
 
-	badboy_factor = 1
+	badboy_factor = 1.25
 	prestige_factor = 1
 	peace_cost_factor = 5
 	penalty_factor = 1
@@ -2794,7 +3056,7 @@ uninstall_communist_gov_cb = {
 			}
 		}
 	}
-	
+	po_remove_prestige = yes
 	po_uninstall_communist_gov_type = yes
 
 	war_name = WAR_NAME
@@ -2808,6 +3070,359 @@ uninstall_communist_gov_cb = {
 	}
 }
 
+# Install fascist government
+install_fascist_gov_cb = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 1.25
+	prestige_factor = 1
+	peace_cost_factor = 25
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			# If actor is a great power
+			is_greater_power = yes
+			
+			# If actor gov truly fascist
+			government = fascist_dictatorship
+			
+			# If actor ruling party is fascist
+			ruling_party_ideology = fascist
+		}
+		
+		AND = {
+			# If reciever ruling party is not a fascist
+			#NOT = {
+			#	ruling_party_ideology = fascist
+			#}
+			
+			# There are some amount of fascist already in the country
+				
+			# If reciever current gov is not proletarian_dictatorship
+			NOT = {
+				government = fascist_dictatorship
+			}
+			
+			# If reciever is not a great power
+		}
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+	
+	po_remove_prestige = yes
+
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		THIS = {
+			set_country_flag = friendly_fascist
+			any_country = {
+				limit = {
+					OR = {
+						government = hms_government
+						government = democracy
+					}
+				}
+				relation = { who = THIS value = -50 }
+			}
+		}
+		country_event = 60110
+	}
+}
+####Install fascist Puppet
+install_fascist_gov_cb_puppet =  {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 2
+	prestige_factor = 1
+	peace_cost_factor = 50
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			# If actor is a great power
+			is_greater_power = yes
+			
+			# If actor gov truly fascist
+			government = fascist_dictatorship
+			
+			# If actor ruling party is fascist
+			ruling_party_ideology = fascist
+		}
+		
+			# If reciever ruling party is not a fascist
+			#NOT = {
+			#	ruling_party_ideology = fascist
+			#}
+			
+			# There are some amount of fascistt already in the country
+				
+			# If reciever current gov is not proletarian_dictatorship
+			NOT = {
+				government = fascist_dictatorship
+			}
+			
+			# If reciever is not a great power
+			is_greater_power = no
+		
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+	po_make_puppet = yes
+
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	on_po_accepted = {
+		THIS = {
+			set_country_flag = friendly_fascist
+			any_country = {
+				limit = {
+					OR = {
+						government = hms_government
+						government = democracy
+					}
+				}
+				relation = { who = THIS value = -50 }
+			}
+		}
+		country_event = 60110
+	}
+}
+# Revert from fascist Government
+uninstall_fascist_gov_cb = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	# Is automatically added to countries that intervened at while install_fascist_gov_cb
+	# so they can revert those countries government.
+	constructing_cb = no
+
+	badboy_factor = 1.25
+	prestige_factor = 1
+	peace_cost_factor = 10
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			# If actor ruling party is not fascist
+			NOT = {
+				ruling_party_ideology = fascist
+			}
+		}
+		
+		# If reciever current gov is fascist_dictatorship
+		government = fascist_dictatorship
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+
+	po_remove_prestige = yes
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+
+on_po_accepted = {
+	THIS = {
+		set_country_flag = friendly_fascist
+		any_country = {
+			limit = {
+				OR = {
+					government = hms_government
+					government = democracy
+				}
+			}
+			relation = { who = THIS value = -50 }
+		}
+	}
+	country_event = 60050
+	}
+}
+#Wilsonianism
+install_democratic_gov_cb = {
+	sprite_index = 14
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 1.25
+	prestige_factor = 1
+	peace_cost_factor = 25
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			# If actor is a great power
+			is_greater_power = yes
+			
+			# If actor gov truly democratic
+			government = democracy
+			
+			# If actor ruling party is democratic
+		}
+		
+			# If reciever ruling party is not a fascist
+			#NOT = {
+			#	ruling_party_ideology = fascist
+			#}
+			
+			# There are some amount of fascist already in the country
+				
+			# If reciever current gov is not proletarian_dictatorship
+			NOT = {
+				government = democracy
+			}
+			
+			# If reciever is not a great power
+				NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+	po_remove_prestige = yes
+
+	war_name = WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		THIS = {
+			set_country_flag = friendly_democrat
+			any_country = {
+				limit = {
+					OR = {
+						government = hms_government
+						government = democracy
+					}
+				}
+				relation = { who = THIS value = 25 }
+			}
+		}
+		country_event = 60050
+	}
+}
 
 # Great War Penalty
 great_war_penalty_cb = {
@@ -2837,7 +3452,7 @@ great_war_penalty_cb = {
     }
 
 
-	badboy_factor = 0.5
+	badboy_factor = 2
 	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -2917,7 +3532,7 @@ take_capital = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -3073,7 +3688,7 @@ acquire_small_state = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -3226,7 +3841,7 @@ acquire_massive_state = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -3373,7 +3988,7 @@ conquest_small = {
 		}		
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -3479,7 +4094,7 @@ conquest_tiny = {
 		}		
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -3625,7 +4240,7 @@ demand_for_ally = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -4132,12 +4747,12 @@ african_conquest = {
 		}
 		THIS = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				NOT = { has_country_flag = colonial_negotiations_invented }
 			}
 		}
 		AND = {
-			has_country_flag = sub_saharan_africa
+			has_country_flag = gamer
 			civilized = no
 		}
 		# only one state or unciv
@@ -4225,7 +4840,7 @@ european_acquire_african_state = {
 				tag = MAJ
 				tag = GEL
 				tag = DAR
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 			}
 			civilized = no
 		}
@@ -4301,7 +4916,7 @@ european_african_conquest = {
 				tag = MAJ
 				tag = GEL
 				tag = DAR
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 			}
 			civilized = no
 		}
@@ -4902,7 +5517,7 @@ negotiated_transfer = {
 		}
 		THIS = { ai = no }
 				NOT = {
-			OR {
+			OR = {
 				tag = JAN
 				tag = GHO
 			}
@@ -5181,7 +5796,7 @@ acquire_siberian_state = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -5293,7 +5908,7 @@ puppet_acquire_state = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1
+	badboy_factor = 0.5
 	prestige_factor = 0
 	peace_cost_factor = 0.5
 	penalty_factor = 1
@@ -5380,7 +5995,7 @@ acquire_tiny_state = {
 		}
 		NOT = {
 			AND = {
-				has_country_flag = sub_saharan_africa
+				has_country_flag = gamer
 				civilized = no
 			}
 		}
@@ -5404,7 +6019,7 @@ acquire_tiny_state = {
 			}
 		}
 				NOT = {
-			OR {
+			OR = {
 				tag = JAN
 				tag = GHO
 			}
@@ -5579,5 +6194,76 @@ chincha_war = {
 
 	on_po_accepted = {
 		2619 = { secede_province = SPA }
+	}
+}
+#Remove Cores CB
+remove_cores = {
+	sprite_index = 15
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = no
+	crisis = no
+
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	always = no
+
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = { has_global_flag = ww1_bookmark }
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		NOT = { is_our_vassal = THIS }
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+	}
+	all_allowed_states = yes
+	po_remove_cores = yes
+	po_remove_prestige = yes
+
+	war_name = WAR_LIBERATE_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		country_event = 2561 
 	}
 }

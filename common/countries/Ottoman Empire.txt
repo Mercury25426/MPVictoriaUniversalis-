@@ -5,7 +5,7 @@ graphical_culture = OttomanGC
 party = {
 	name = "TUR_reactionary"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = reactionary
 
@@ -19,7 +19,7 @@ party = {
 party = {
 	name = "TUR_conservative"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = conservative
 
@@ -33,7 +33,7 @@ party = {
 party = {
 	name = "TUR_liberal"
 	start_date = 1856.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -47,7 +47,7 @@ party = {
 party = {
 	name = "TUR_socialist"
 	start_date = 1874.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -61,7 +61,7 @@ party = {
 party = {
 	name = "TUR_communist"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = communist
 
@@ -75,7 +75,7 @@ party = {
 party = {
 	name = "TUR_liberal_2"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = liberal
 
@@ -89,7 +89,7 @@ party = {
 party = {
 	name = "TUR_socialist_2"
 	start_date = 1848.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = socialist
 
@@ -103,7 +103,7 @@ party = {
 party = {
 	name = "TUR_anarcho_liberal"
 	start_date = 1830.1.1
-	end_date = 2000.1.1
+	end_date = 9999.1.1
 
 	ideology = anarcho_liberal
 
@@ -116,8 +116,8 @@ party = {
 
 party = {
 	name = "TUR_fascist"
-	start_date = 1905.1.1
-	end_date = 2000.1.1
+	start_date = 1890.1.1
+	end_date = 9999.1.1
 
 	ideology = fascist
 

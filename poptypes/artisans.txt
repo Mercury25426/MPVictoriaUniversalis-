@@ -83,6 +83,24 @@ country_migration_target =
 		}
 	}
 	modifier = {
+		factor = 10000
+		OR = {
+		primary_culture = eastgerman
+		primary_culture = balticgerman
+		primary_culture = volgagerman
+		primary_culture = marinegerman
+		}
+		THIS = {
+		NOT = {
+		country = { has_country_modifier = germansettlement } 
+		}
+		OR = {
+		has_pop_culture = north_german 
+	 	has_pop_culture = south_german 
+		}
+		}
+	}
+	modifier = {
 		factor = 10
 		has_global_flag = population_exchange_in_progress
 		OR = {
@@ -184,6 +202,15 @@ country_migration_target =
 		THIS = { has_pop_culture = french }
 	}
 	modifier = {
+		factor = 750
+		AND = {
+			primary_culture = british
+			has_country_flag = african_union_formation
+		}
+		has_country_flag = african_union_formation
+		THIS = { has_pop_culture = british }
+	}
+	modifier = {	
 		factor = 10
 		OR = {
 			primary_culture = australian
@@ -1430,6 +1457,14 @@ ideologies = {
 			}
 		}
 		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_glory
+			}
+		}
+		modifier = {
 			factor = 1.5
 			ruling_party_ideology = fascist 
 		}
@@ -1504,6 +1539,14 @@ ideologies = {
 		modifier = {
 			factor = 1.2
 			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_might
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_glory
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -1604,6 +1647,17 @@ ideologies = {
 		modifier = {
 			factor = 2
 			country = { has_country_flag = blanco_rebels }
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_unity
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_dominion
+			nationalvalue = nv_glory
+			nationalvalue = nv_might
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -1707,8 +1761,12 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
-			nationalvalue = nv_equality
-			NOT = { ruling_party_ideology = communist }
+			OR = {
+			nationalvalue = nv_productivity
+			nationalvalue = nv_fraternity
+			nationalvalue = nv_unity
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -1821,8 +1879,12 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.2
+			OR = {
 			nationalvalue = nv_equality
-			ruling_party_ideology = communist
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_fraternity
+			nationalvalue = nv_unity
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1874,6 +1936,14 @@ ideologies = {
 		modifier = {
 			factor = 2
 			country = { has_country_flag = liberal_influence }
+		}
+		modifier = {
+			factor = 1.4
+			OR = {
+			nationalvalue = nv_freedom
+			nationalvalue = nv_liberty
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1998,6 +2068,14 @@ ideologies = {
 			factor = 0.1
 			NOT = { militancy = 6 }
 			NOT = { government = bourgeois_dictatorship }
+		}
+		modifier = {
+			factor = 1.4
+			OR = {
+			nationalvalue = nv_freedom
+			nationalvalue = nv_liberty
+			nationalvalue = nv_prosperity
+			}
 		}
 		modifier = {
 			factor = 1.5

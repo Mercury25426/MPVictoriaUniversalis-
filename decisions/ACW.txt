@@ -506,8 +506,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = emancipation
 			prestige = 5
-			add_accepted_culture = afro_american
-			add_accepted_culture = creole
 			political_reform = no_slavery
 			any_pop = {
 				limit = {
@@ -576,6 +574,9 @@ political_decisions = {
 				add_core = USA
 			}
 			MEX_100 = {
+				add_core = USA
+			}
+			MEX_97 = {
 				add_core = USA
 			}
 	

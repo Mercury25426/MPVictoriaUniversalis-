@@ -259,25 +259,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 77.25
 	}
 
 	artisans = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 206.0
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 51.5
 	}
 
 	farmers = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 3785.25
 	}
@@ -339,25 +339,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 25.75
 	}
 
 	artisans = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 206.0
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 25.75
 	}
 
 	farmers = {
-		culture = north_german
+		culture = eastgerman
 		religion = protestant
 		size = 772.5
 	}
@@ -499,25 +499,25 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 25.75
 	}
 
 	artisans = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 103.0
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 25.75
 	}
 
 	farmers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 875.5
 	}
@@ -528,43 +528,43 @@
 #Memel (172000/43000 POPS) #now part of Lithuania
 698 = {
 	aristocrats = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 772.5
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 206.0
 	}
 
 	artisans = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 2472.0
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 1030.0
 	}
 
 	farmers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 20085.0
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = balticgerman
 		religion = jewish
 		size = 5.15
 	}
 
 	artisans = {
-		culture = north_german
+		culture = balticgerman
 		religion = jewish
 		size = 149.35
 	}

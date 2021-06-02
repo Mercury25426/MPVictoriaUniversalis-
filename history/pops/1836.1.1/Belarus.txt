@@ -154,6 +154,12 @@
 		size = 14475
 	}
 
+	farmers = {
+		culture = eastgerman
+		religion = protestant
+		size = 4000
+	}
+
 	aristocrats = {
 		culture = polish
 		religion = catholic
@@ -292,6 +298,11 @@
 		culture = byelorussian
 		religion = orthodox
 		size = 44900
+	}
+	farmers = {
+		culture = eastgerman
+		religion = protestant
+		size = 4000
 	}
 
 	aristocrats = {

@@ -101,7 +101,9 @@ USA_196 = { 196 195 197 } #Alabama
 
 USA_200 = { 200 199 198 } #Florida
 
-USA_201 = { 201 202 204 205 206 2555 } #Georgia
+USA_201 = { 201 202 204 2555 } #Georgia
+
+USA_205 = { 205 206 } #SC
 
 
 USA_211 = { 211 212 213 214 215 216 } #Virginia
@@ -111,7 +113,9 @@ USA_220 = { 220 } #Disctric of Columbia
 
 USA_218 = {218 217}
 
-USA_219 = {219 222 221} #Maryland
+USA_219 = {219 221} #Maryland
+
+USA_222 = { 222 } #Delaware
 
 
 USA_223 = { 223 224 225 226 227 228 } #Pennsylvania
@@ -123,10 +127,18 @@ USA_231 = { 231 229 230 } #New Jersey
 USA_232 = { 232 233 234 235 236 237 238 239 240 } #New York
 
 
-USA_243 = { 243 244 245 241 242 } #Massachusetts
+USA_243 = { 243 244 245 } #Massachusetts
+
+USA_241 = { 241 } #connect4
+
+USA_242 = { 242 } #RI
 
 
-USA_247 = { 247 246 248 249 250 } #New England
+USA_247 = { 247 } #Vermont
+
+USA_246 = { 246 } #New Hampshire
+
+USA_248 = { 248 249 250 } #Maine
 
 
 USA_2556 = { 2556 209 207 208 210 } #North Carolina
@@ -345,7 +357,9 @@ TUS_744 = { 744 745 746 747 748 } #Toscana
 PAP_749 = { 749 750 751 752 } #Lazio
 
 
-MEX_94 = { 94 95 96 97 98 99 } #Nevada-Utah
+MEX_94 = { 94 95 96 } #Nevada
+
+MEX_97 = { 97 98 99 } #Utah
 
 
 MEX_100 = { 100 101 102 } #Arizona
@@ -499,7 +513,9 @@ EGY_1830 = { 1830 1831 1832 1839 1840 } #Sudan
 
 EGY_1842 = { 1842 1841} #Darfur
 
-ENG_68 = { 68 69 70 71 72 73 } #New Brunswick
+ENG_68 = { 68 70 71 72 73 } #New Brunswick
+
+ENG_69 = { 69 }
 
 POR_1999 = { 1954 1999 2001 } #North Angola
 
@@ -559,7 +575,9 @@ FRA_435 = { 435 434 437 } #Loire
 
 FRA_399 = { 399 400 401 } #Picardie
 
-FRA_467 = { 467 468 469 470 471 472 } #Provence
+FRA_467 = { 467 468 469 470 471 } #Provence
+
+FRA_472 = { 472 } #Nice
 
 FRA_473 = { 473 } #Corsica
 
@@ -579,7 +597,9 @@ FRA_420 = { 420 421 422 424 423 }
 
 FRA_428 = { 428 429 431 430 433 } #Bourgogne
 
-FRA_411 = { 411 414 413 } #Lorraine
+FRA_411 = { 411 414 } #Lorraine
+
+FRA_413 = { 413 } #Verdun
 
 FRA_407 = { 407 432 } #Franche Comte
 
@@ -1071,7 +1091,9 @@ RUS_340 = { 343 340 341 344 345 347 339 } #Southern Finland
 
 RUS_336 = { 336 337 338 342 346 } #Northern Finland
 
-UBP_349 = { 349 350 351 352 354 355 356 357 358 359 3256 } #Baltic States
+UBP_349 = { 349 350 351 352 } #Estonia
+
+UBP_354 = { 354 355 356 357 358 359 3256 } #Latvia
 
 RUS_360 = { 360 361 362 363 364 365 } #Lietuva
 
@@ -1273,7 +1295,9 @@ SAX_561 = { 561 563 562 } #Thuringia
 
 HEK_566 = { 566 537 536 554 } #Hessen
 
-RUS_706 = { 706 707 708 709 710 717} #Mazowieckie
+RUS_706 = { 707 708 709 } #Mazowieckie
+
+RUS_711 = { 710 717 } #Southern Posen
 
 SAR_720 = { 720 721 722 723 724 725 } #Piemonte
 
@@ -1285,13 +1309,15 @@ BOL_2305 = { 2305 2307 2308 2309 2578 } #Atacama
 
 RUS_718 = { 718 941 942 } #Minsk
 
-RUS_710 = { 711 712 713 715 716 } #Wielkopolskie
+RUS_710 = { 711 712 713 715 716 706 } #Wielkopolskie
 
 RUS_965 = { 965 970 971 } #Cherson
 
 RUS_958 = { 958 959 960 961 } #Kiev
 
-RUS_707 = { 719 936 937 938 939 940 } #Brest
+RUS_707 = { 937 938 939 940 } #Brest
+
+RUS_719 = { 719 936 } #Bialystock
 
 FRA_801 = { 801 2551 2553 2336 } #Taihiti
 FRA_801 = { 801 2551 2553 2336 } #Taihiti

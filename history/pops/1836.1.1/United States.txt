@@ -59,31 +59,31 @@
 #Yakutat (4000/1000 POPS)
 2 = {
 	aristocrats = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 900
 	}
@@ -91,31 +91,31 @@
 #Kenai (2400/600 POPS)
 3 = {
 	aristocrats = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 10
 	}
 
 	farmers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 550
 	}
@@ -185,31 +185,31 @@
 	}
 
 	aristocrats = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 2
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 3
 	}
 
 	artisans = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 15
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	farmers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 225
 	}
@@ -217,31 +217,31 @@
 #Fairbanks (2000/500 POPS)
 2599 = {
 	aristocrats = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	labourers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 450
 	}
@@ -249,31 +249,31 @@
 #Cordova (1600/360 POPS)
 2630 = {
 	aristocrats = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 20
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 5
 	}
 
 	farmers = {
-		culture = yankee
+		culture = russian
 		religion = protestant
 		size = 360
 	}
@@ -3080,31 +3080,31 @@
 #Laredo (6000/1500 POPS)
 138 = {
 	aristocrats = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 900
 	}
@@ -3237,31 +3237,31 @@
 #El Paso (9000/2250 POPS)
 136 = {
 	aristocrats = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = yankee
+		culture = texan
 		religion = protestant
 		size = 1800
 	}

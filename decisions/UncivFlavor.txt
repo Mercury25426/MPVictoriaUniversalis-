@@ -260,3 +260,4 @@ political_decisions = {
 			any_pop = { limit = { OR = { is_primary_culture = yes is_accepted_culture = yes } } militancy = -4 }
 		}
 	}
+}

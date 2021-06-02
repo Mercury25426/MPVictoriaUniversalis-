@@ -3093,7 +3093,7 @@ country_event = {
 			consciousness = 8
 		}
 	}
-}
+
 
 
 

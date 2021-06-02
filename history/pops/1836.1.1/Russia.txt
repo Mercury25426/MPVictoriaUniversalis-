@@ -1740,37 +1740,37 @@
 	}
 
 	aristocrats = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 700
 	}
 
 	officers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 6850
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = balticgerman
 		religion = protestant
 		size = 100
 	}
@@ -3881,49 +3881,49 @@
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = volgagerman
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = north_german
+		culture = volgagerman
 		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = volgagerman
 		religion = protestant
 		size = 200
 	}
 
 	farmers = {
-		culture = north_german
+		culture = volgagerman
 		religion = protestant
 		size = 14650
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = volgagerman
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = north_german
+		culture = volgagerman
 		religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = volgagerman
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = north_german
+		culture = volgagerman
 		religion = catholic
 		size = 6750
 	}
@@ -4076,6 +4076,12 @@
 		culture = russian
 		religion = orthodox
 		size = 2675
+	}
+
+	farmers = {
+		culture = volgagerman
+		religion = protestant
+		size = 500
 	}
 
 	aristocrats = {
@@ -4476,6 +4482,11 @@
 		religion = orthodox
 		size = 30625
 	}
+	farmers = {
+		culture = eastgerman
+		religion = orthodox
+		size = 4000
+	}
 
 	clergymen = {
 		culture = greek
@@ -4519,6 +4530,11 @@
 		culture = ukrainian
 		religion = orthodox
 		size = 6600
+	}
+	farmers = {
+		culture = eastgerman
+		religion = orthodox
+		size = 4000
 	}
 
 	aristocrats = {

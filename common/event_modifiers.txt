@@ -23,6 +23,9 @@ shadow_state = {
 	global_immigrant_attract = -10
 	icon = 19
 }
+monument_under_construction = {
+	icon = 13
+}
 the_three_realms = {
 	land_organisation = 0.2
 	unit_start_experience = 0.3
@@ -34,6 +37,43 @@ purge_the_rot = {
 	global_assimilation_rate = 1
 	non_accepted_pop_consciousness_modifier = 0.3 
 	non_accepted_pop_militancy_modifier = 0.3
+	icon = 18
+}
+germansettlement = {
+	global_assimilation_rate = 1
+	global_immigrant_attract = 1
+	icon = 17
+}
+burgundianconversion = {
+	global_assimilation_rate = 3
+	icon = 17
+}
+oppressed = {
+	badboy = 0.02
+	non_accepted_pop_consciousness_modifier = 0.1 
+	non_accepted_pop_militancy_modifier = 0.1
+	icon = 18
+}
+discrimination = {
+	badboy = 0.01
+	non_accepted_pop_consciousness_modifier = 0.05
+	non_accepted_pop_militancy_modifier = 0.05
+	icon = 18
+}
+jimcrow = {
+	badboy = 0.01
+	culture = { 
+		afro_american = { 	
+		non_accepted_pop_consciousness_modifier = 0.1
+		non_accepted_pop_militancy_modifier = 0.1
+		}
+	 }
+	 culture = { 
+		creole = { 	
+		non_accepted_pop_consciousness_modifier = 0.1
+		non_accepted_pop_militancy_modifier = 0.1
+		}
+	 }
 	icon = 18
 }
 small_immigration_boom = {
@@ -1449,7 +1489,7 @@ ruhr_boom = {
 	factory_throughput = 0.05
 	icon = 11
 }
-
+################General staffs
 prussian_general_staff = {
 	org_regain = 0.1
 	land_organisation = 0.1
@@ -1458,6 +1498,166 @@ prussian_general_staff = {
 	leadership = 2
 	icon = 15
 }
+prussian1_general_staff = {
+	org_regain = 0.1
+	land_organisation = 0.1
+	land_unit_start_experience = 5
+	reinforce_speed = 0.1
+	leadership = 2
+	icon = 15
+	badboy = 0.05
+}
+german_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.1
+	land_unit_start_experience = 5
+	reinforce_speed = 0.1
+	leadership = 3
+	icon = 15
+}
+british_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.1
+	naval_organisation = 0.2
+	naval_unit_start_experience = 5
+	reinforce_speed = 0.1
+	leadership = 1
+	icon = 15
+}
+italian_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.1
+	naval_organisation = 0.5
+	naval_unit_start_experience = 4
+	land_unit_start_experience = 1
+	reinforce_speed = 0.1
+	leadership = 1
+	icon = 15
+}
+russian_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.1
+	naval_organisation = 0.1
+	reinforce_speed = 0.1
+	leadership = 2
+	mobilisation_size = 0.01
+	icon = 15
+}
+soviet_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	reinforce_speed = 0.2
+	leadership = 1
+	mobilisation_size = 0.02
+	icon = 15
+}
+swiss_high_command = {
+	badboy = 0.05
+	org_regain = 0.3
+	land_organisation = 0.1
+	land_unit_start_experience = 10
+	reinforce_speed = 0.3
+	leadership = 1
+	mobilisation_size = 0.5
+	icon = 15
+}
+french_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.2
+	naval_organisation = 0.2
+	naval_unit_start_experience = 1
+	land_unit_start_experience = 2
+	reinforce_speed = 0.1
+	leadership = 1
+	mobilisation_size = 0.01
+	icon = 15
+}
+burgundian_high_command = {
+	badboy = 0.05
+	leadership = 3 
+	mobilisation_size = 0.03
+	icon = 15
+}
+spanish_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.2
+	naval_organisation = 0.4
+	naval_unit_start_experience = 3
+	land_unit_start_experience = 3
+	reinforce_speed = 0.1
+	leadership = 2
+	mobilisation_size = 0.03
+	icon = 15
+}
+turkish_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.1
+	naval_organisation = 0.4
+	naval_unit_start_experience = 2
+	land_unit_start_experience = 3
+	reinforce_speed = 0.1
+	leadership = 2
+	mobilisation_size = 0.03
+	icon = 15
+}
+japanese_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.2
+	naval_organisation = 0.5
+	naval_unit_start_experience = 5
+	reinforce_speed = 0.1
+	leadership = 3
+	icon = 15
+}
+chinese_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	reinforce_speed = 0.1
+	mobilisation_size = 0.05
+	icon = 15
+}
+austrian_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.4
+	naval_organisation = 0.1
+	land_unit_start_experience = 5
+	reinforce_speed = 0.1
+	leadership = 2
+	mobilisation_size = 0.01
+	icon = 15
+}
+american_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.2
+	naval_organisation = 0.2
+	naval_unit_start_experience = 2
+	land_unit_start_experience = 3
+	reinforce_speed = 0.1
+	leadership = 2
+	icon = 15
+}
+dutch_high_command = {
+	badboy = 0.05
+	org_regain = 0.1
+	land_organisation = 0.2
+	naval_organisation = 0.2
+	naval_unit_start_experience = 2
+	land_unit_start_experience = 3
+	reinforce_speed = 0.1
+	leadership = 3
+	icon = 15
+}
+
 
 die_wacht_am_rhein = {
 	mobilisation_size = 0.02
@@ -1850,13 +2050,24 @@ education_siam_reforms = {
 	global_pop_militancy_modifier = 0.05
 	icon = 3
 }
+#### SAU - SOUTH AFRICAN UNION ####
+south_africa_immigrant_attract = {
+	global_immigrant_attract = 75
+	icon = 17
+}
 #### EIC - INDIA ####
 #### EIC - INDIA ####
 direct_rule = {
 	prestige = -1
 	research_points_on_conquer = -1
-	supply_consumption = -0.3
+	supply_consumption = -0.75
 	tax_efficiency = -0.03
+}
+######FRS######
+complete_humiliation = {
+	prestige = -10
+	supply_consumption = -0.9
+	tax_efficiency = -0.05
 }
 
 indian_isolationism = {

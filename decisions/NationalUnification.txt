@@ -302,19 +302,18 @@ political_decisions = {
 		}
 	}
 		form_GRA = {
-		picture = kaiserreich
-		news = yes
-		news_desc_long = "What once was a growing empire has now become the greatest hegemon on the earth, boasting others and proclaiming sovereignty over Europe and the world"
-		news_desc_medium = "Germany has reformed into the kaiserreich"
-		news_desc_short = "The Kaiserreich is upon us"
-		potential = {
-			is_culture_group = germanic
-			tag = GER
-			NOT = {
-			exists = GRA
+			picture = kaiserreich
+			news = yes
+			news_desc_long = "What once was a growing empire has now become the greatest hegemon on the earth, boasting others and proclaiming sovereignty over Europe and the world"
+			news_desc_medium = "Germany has reformed into the kaiserreich"
+			news_desc_short = "The Kaiserreich is upon us"
+			potential = {
+				is_culture_group = germanic
+				tag = GER
+				NOT = {
+				exists = GRA
+				}
 			}
-		}
-		
 		allow = {
 			is_greater_power = yes
 			prestige = 400
@@ -343,6 +342,70 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	form_BOG = {
+		picture = burgundy
+		news = yes
+		news_desc_long = "The Belgians, the French, maybe even some Germans may be under our great reign"
+		news_desc_medium = "The lowlands have been unified"
+		news_desc_short = "Burgundy is upon un"
+		potential = {
+			is_culture_group = benluxian
+			NOT = {
+			exists = BOG
+			}
+		}
+	allow = {
+		is_greater_power = yes
+		prestige = 50
+		war = no
+		FRA_413 = { owned_by = THIS }
+		FRA_399 = { owned_by = THIS }
+		FRA_404 = { owned_by = THIS }
+		FRA_415 = { owned_by = THIS }
+		FRA_403 = { owned_by = THIS }
+		FRA_407 = { owned_by = THIS }
+		PRU_575 = { owned_by = THIS }
+		PRU_572 = { owned_by = THIS }
+	}
+	
+	effect = {
+		clr_country_flag = confederalism
+		political_reform = federalism
+		prestige = 300
+		any_pop = {
+			limit = { 
+				culture = burgundian
+			}
+			reduce_pop = 5
+		}
+		change_tag = BOG
+		set_country_flag = burgundianconversion
+		primary_culture = burgundian
+		remove_accepted_culture = flemish
+		remove_accepted_culture = dutch
+		remove_accepted_culture = rhenish
+		remove_accepted_culture = wallonian
+		add_country_modifier = burgundianconversion
+		FRA_413 = { add_core = THIS }
+		FRA_399 = { add_core = THIS }
+		FRA_404 = { add_core = THIS }
+		FRA_415 = { add_core = THIS }
+		FRA_403 = { add_core = THIS }
+		FRA_407 = { add_core = THIS }
+		PRU_575 = { add_core = THIS }
+		PRU_572 = { add_core = THIS }
+		any_country = {
+			limit = {
+				is_culture_group = beneluxian
+				in_sphere = THIS
+			}
+			country_event = { id=11101 days=0 }
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
 	}
 	form_IMP = {
 		picture = romanempire

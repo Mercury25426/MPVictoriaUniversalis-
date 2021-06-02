@@ -1209,3 +1209,44 @@ country_event = {
 		political_reform = non_secret_ballots
 	}
 }
+country_event = {
+	id = 900332
+	title = "Complete Humiliation"
+	desc = "After losing to the Germans, setback after setback, we are now under total rule, we are failures, we are non-aryan, we are subhuman."
+	picture = "complete_humiliation"
+
+	trigger = {
+		NOT = { has_country_modifier = complete_humiliation } 
+		tag = FRS
+	}
+	
+	fire_only_once = no
+
+	option = {
+		name = "Heil"
+		add_country_modifier = {
+			name = complete_humiliation
+			duration = -1
+		}
+	}
+	#Forever Destroyed
+country_event = {
+	id = 900333
+	title = "WE ARE FREE"
+	desc = "WE WILL KILL EVERYONE LAND GERMAN, KILL THEM, BURN THEM, I DON'T CARE BUTCHER THEM."
+	picture = frenchrevolt
+	
+	trigger = {
+		has_country_modifier = complete_humiliation
+		NOT = {
+			vassal_of = GER
+			vassal_of = GRA
+		}
+	}
+
+	option = {
+		name = "Time for Freedom"
+		remove_country_modifier = complete_humiliation
+	}
+}
+}

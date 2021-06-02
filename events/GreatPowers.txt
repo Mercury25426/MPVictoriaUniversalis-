@@ -859,5 +859,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA19362"
 		add_country_modifier = { name = hegemon duration = -1 }
+		badboy = -200
 	}
 }

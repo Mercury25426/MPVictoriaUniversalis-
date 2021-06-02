@@ -39,67 +39,67 @@
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 3000 
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 1550 
 	}
 
 	officers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 800 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 275
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 1300 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 20775 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 75
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 5000
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 75 
 	}
 
 	farmers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 1850 
 	}
@@ -150,55 +150,55 @@
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 1200 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 450
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 20000
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 17900
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 450  
 	}
 
 	labourers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 2000 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 50 
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 2925
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 25 
 	}
@@ -237,7 +237,7 @@
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 1250
 	}
@@ -580,67 +580,67 @@
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 2500  
 	}
 
 	bureaucrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 450 
 	}
 
 	officers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 250 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 675  
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 6500
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 700  
 	}
 
 	farmers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 57925 
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 80  
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 2500
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 50  
 	}
 
 	farmers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 1370   
 	}
@@ -684,49 +684,49 @@
 	}
 
 	aristocrats = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 1050  
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 300  
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 25350
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size = 300  
 	}
 
 	labourers = {
-		culture = south_german
+		culture = bohemian
 		religion = catholic
 		size =  3000
 	}
 
 	clergymen = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 50 
 	}
 
 	artisans = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 2925
 	}
 
 	soldiers = {
-		culture = south_german
+		culture = bohemian
 		religion = jewish
 		size = 25 
 	}

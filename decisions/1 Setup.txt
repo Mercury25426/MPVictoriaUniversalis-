@@ -53,6 +53,7 @@ political_decisions = {
 				add_country_modifier = { name = unequal_china_treaty duration = -1 }
 				add_country_modifier = { name = hegemon duration = -1 }
 				add_country_modifier = { name = crown_rule duration = -1 }
+				add_country_modifier = { name = direct_rule duration = -1 }
 			}
 			NET = {
 				any_owned = {
@@ -239,6 +240,8 @@ political_decisions = {
 			LOA = { set_country_flag = sub_saharan_africa }
 			TRZ = { set_country_flag = sub_saharan_africa }
 			ADR = { set_country_flag = sub_saharan_africa }
+			BAG = { set_country_flag = sub_saharan_africa }
+			WAD = { set_country_flag = sub_saharan_africa }
 			84 = {
 				labourers = {
 					reduce_pop = 0.1

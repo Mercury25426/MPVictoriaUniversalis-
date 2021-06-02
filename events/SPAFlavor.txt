@@ -461,7 +461,7 @@ country_event = {
 country_event = {
 
 	id = 37709
-	"EVTNAME37709"
+
 
 	trigger = {
 		tag = SPA

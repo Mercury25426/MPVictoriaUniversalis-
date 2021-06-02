@@ -2427,3 +2427,129 @@ country_event = {
 		}
 	}
 }
+
+#Minority Oppression
+country_event = {
+	id = 200000
+	title = "Minorities Oppressed"
+	desc = "Under a fascist system, the people are being oppressed, and many of them want change."
+	picture = "propaganda"
+	
+	trigger = {
+		NOT = { has_country_modifier = oppressed }
+		civilized = yes
+		government = fascist_dictatorship
+	}
+	
+	
+	
+	option = {
+		name = "§RKill Them"
+		add_country_modifier = {
+			name = oppressed
+			duration = -1
+		}			
+		}
+	}
+
+#Minorities free
+country_event = {
+	id = 200004
+	title = "Minorities Free"
+	desc = "Our system has changed, over minorities are free, I mean er, freer"
+	picture = "propaganda"
+	
+	trigger = {
+		country = { has_country_modifier = oppressed }
+		civilized = yes
+		NOT = { government = fascist_dictatorship }
+	}
+	
+	
+	
+	option = {
+		name = "§WFree Them"
+		remove_country_modifier = oppressed
+		}			
+	}
+#Minority Discrimination
+country_event = {
+	id = 200001
+	title = "Minorities Discriminated Against"
+	desc = "In a non-democratic militaristic system, we are ought to at least have some discrimination."
+	picture = "propaganda"
+	
+	trigger = {
+		NOT = { has_country_modifier = discrimination }
+		civilized = yes
+		OR = {
+		government = absolute_monarchy
+		government = proletarian_dictatorship
+		}
+	}
+	
+	
+	
+	option = {
+		name = "§RBeat Them"
+		add_country_modifier = {
+			name = discrimination
+			duration = -1
+		}			
+		}
+	}
+
+	#Minority Freedom for discrimination
+country_event = {
+	id = 200002
+	title = "Discrimination laws abolished"
+	desc = "Finally, a democratic system, our people are finally happy."
+	picture = "propaganda"
+	
+	trigger = {
+		country = { has_country_modifier = discrimination }
+		civilized = yes
+		NOT = {
+			OR = {
+			government = absolute_monarchy
+			government = proletarian_dictatorship
+			}
+		}
+	}
+	
+	
+	
+	option = {
+		name = "§WFree Them"
+		remove_country_modifier = discrimination
+		}			
+		}
+
+#Jim Crow
+country_event = {
+	id = 200003
+	title = "Jim Crow laws being Established"
+	desc = "The south seems to be continuing slavery..."
+	picture = "propaganda"
+	
+	trigger = {
+		NOT = { has_country_modifier = jimcrow }
+		civilized = yes
+		OR = {
+		tag = USA
+		tag = CSA
+		}
+		year = 1870
+	}
+	
+	
+	
+	option = {
+		name = "§BHose them"
+		add_country_modifier = {
+			name = jimcrow
+			duration = -1
+		}			
+		}
+	}
+
