@@ -189,7 +189,7 @@
 #Bruges (456000/114000 POPS)
 388 = {
 	aristocrats = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 1150
 	}
@@ -212,13 +212,13 @@
 	}
 
 	artisans = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 7000
 	}
 
 	soldiers = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 1200
 	}
@@ -494,7 +494,7 @@
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 63800
 	}
@@ -555,7 +555,7 @@
 	}
 
 	artisans = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 9900
 	}
@@ -591,7 +591,7 @@
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 10000
 	}
@@ -641,7 +641,7 @@
 #Charleroi (396000/99000 POPS)
 394 = {
 	clergymen = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 100
 	}
@@ -665,7 +665,7 @@
 	}
 
 	labourers = {
-		culture = flemish
+		culture = picard
 		religion = catholic
 		size = 2500
 	}
@@ -677,19 +677,19 @@
 	}
 
 	clergymen = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 875
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 20000
 	}
 
 	artisans = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 20000
 	}
@@ -881,11 +881,11 @@
 	soldiers = {
 		culture = wallonian
 		religion = catholic
-		size = 1100
+		size = 20000
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = picard
 		religion = catholic
 		size = 39125
 	}

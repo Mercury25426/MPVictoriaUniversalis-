@@ -3,24 +3,41 @@
 ##################################################################################################
 ######Economy based#########
 Bull_market = {
-	factory_throughput = 0.2
-	RGO_throughput = 0.2
-	poor_everyday_needs = 0.2
-	middle_everyday_needs = 0.2
-	rich_everyday_needs = 0.2
-	poor_luxury_needs = 0.2
-	middle_luxury_needs = 0.2
-	rich_luxury_needs = 0.2
-	loan_interest = -0.06
-	global_population_growth = 0.002
-	education_efficiency_modifier = 0.20
-	icon = 49
+	factory_throughput = 0.4
+	RGO_throughput = 0.4
+	poor_everyday_needs = 0.4
+	middle_everyday_needs = 0.4
+	rich_everyday_needs = 0.4
+	poor_luxury_needs = 0.4
+	middle_luxury_needs = 0.4
+	rich_luxury_needs = 0.4
+	loan_interest = -0.12
+	global_population_growth = 0.004
+	education_efficiency_modifier = 0.4
+	icon = 9
 }
+foreign_terrorist_brigades = {
+	core_pop_consciousness_modifier = 0.05
+	icon = 18
+	}
+foreign_terrorist_brigades1 = {
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.05
+	RGO_throughput = -0.05
+	factory_throughput = -0.05
+		icon = 18
+	}
 shadow_state = {
 	ruling_party_support = 1
 	core_pop_consciousness_modifier = -0.2
 	core_pop_militancy_modifier = -0.2
 	global_immigrant_attract = -10
+	icon = 19
+}
+gateway_to_america = {
+	immigrant_attract = 1.5
+	population_growth = 0.01
+	assimilation_rate = 1.5
 	icon = 19
 }
 monument_under_construction = {
@@ -31,7 +48,7 @@ the_three_realms = {
 	unit_start_experience = 0.3
 	land_unit_start_experience = 50
 	war_exhaustion = -10
-	icon = 15
+	icon = 17
 }
 purge_the_rot = {
 	global_assimilation_rate = 1
@@ -80,6 +97,10 @@ small_immigration_boom = {
 	global_immigrant_attract = 1
 	icon = 17
 }
+economy_idea = {
+
+	icon = 17
+}
 indochina = {
 	global_immigrant_attract = 2
 	icon = 17
@@ -115,36 +136,36 @@ recently_requested_trade = {
 	icon = 9
 }
 stock_market_crash = {
-	factory_throughput = -0.5
-	RGO_throughput = -0.5
-	poor_everyday_needs = -0.4
-	middle_everyday_needs = -0.4
-	rich_everyday_needs = -0.4
-	poor_luxury_needs = -0.4
-	middle_luxury_needs = -0.4
-	rich_luxury_needs = -0.4
-	loan_interest = 0.20
-	global_population_growth = -0.001
-	education_efficiency_modifier = -0.25
-	icon = 47
-}
-
-great_depression = {
 	factory_throughput = -0.8
 	RGO_throughput = -0.8
-	tax_efficiency = -0.15
 	poor_everyday_needs = -0.8
 	middle_everyday_needs = -0.8
 	rich_everyday_needs = -0.8
 	poor_luxury_needs = -0.8
 	middle_luxury_needs = -0.8
 	rich_luxury_needs = -0.8
-	loan_interest = 0.6
-	global_pop_militancy_modifier = 0.1
+	loan_interest = 0.3
+	global_population_growth = -0.001
+	education_efficiency_modifier = -0.4
+	icon = 10
+}
+
+great_depression = {
+	factory_throughput = -2
+	RGO_throughput = -2
+	tax_efficiency = -0.3
+	poor_everyday_needs = -2
+	middle_everyday_needs = -2
+	rich_everyday_needs = -2
+	poor_luxury_needs = -2
+	middle_luxury_needs = -2
+	rich_luxury_needs = -2
+	loan_interest = 2
+	global_pop_militancy_modifier = 0.2
 	global_pop_consciousness_modifier = 0.5
-	global_population_growth = -0.003
-	education_efficiency_modifier = -0.50
-	icon = 46
+	global_population_growth = -0.006
+	education_efficiency_modifier = -1
+	icon = 10
 }
 
 central_bank_established = {
@@ -154,39 +175,41 @@ central_bank_established = {
 }
 
 local_stock_exchange = {
-	local_factory_throughput = 0.05
+	local_factory_throughput = 0.1
 	pop_militancy_modifier = -0.02
+	population_growth = 0.001
+	immigrant_attract = 1
 	icon = 11
 }
 
 economic_boom = {
 	
-	factory_throughput = 0.8
-	RGO_throughput = 0.8
-	loan_interest = -0.10
-	poor_everyday_needs = 0.8
-	middle_everyday_needs = 0.8
-	rich_everyday_needs = 0.8
-	poor_luxury_needs = 0.8
-	middle_luxury_needs = 0.8
-	rich_luxury_needs = 0.8
-	global_population_growth = 0.004
-	education_efficiency_modifier = 1
-	icon = 50
+	factory_throughput = 1.2
+	RGO_throughput = 1.2
+	loan_interest = -0.2
+	poor_everyday_needs = 1.2
+	middle_everyday_needs = 1.2
+	rich_everyday_needs = 1.2
+	poor_luxury_needs = 1.2
+	middle_luxury_needs = 1.2
+	rich_luxury_needs = 1.2
+	global_population_growth = 0.008
+	education_efficiency_modifier = 2
+	icon = 9
 }
 
 recession = {
-	factory_throughput = -0.2
-	RGO_throughput = -0.2
-	poor_everyday_needs = -0.2
-	middle_everyday_needs = -0.2
-	rich_everyday_needs = -0.2
-	poor_luxury_needs = -0.2
-	middle_luxury_needs = -0.2
-	rich_luxury_needs = -0.2
-	loan_interest = 0.4
+	factory_throughput = -0.4
+	RGO_throughput = -0.4
+	poor_everyday_needs = -0.4
+	middle_everyday_needs = -0.4
+	rich_everyday_needs = -0.4
+	poor_luxury_needs = -0.4
+	middle_luxury_needs = -0.4
+	rich_luxury_needs = -0.4
+	loan_interest = 0.8
 	#education_efficiency_modifier = -0.25
-	icon = 48
+	icon = 10
 }
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
@@ -194,7 +217,7 @@ government_sanitarium = {
 	icon = 19
 }
 war_torn = {
-	pop_militancy_modifier = -0.1
+	pop_militancy_modifier = 0.1
 	local_factory_output = -0.25
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
@@ -920,18 +943,10 @@ stock_market_crash = {
 	factory_throughput = -0.2
 	rgo_output = -0.2
 	loan_interest = 0.05
-	icon = 12
+	icon = 10
 }
 
-great_depression = {
-	factory_throughput = -0.3
-	rgo_output = -0.3
-	tax_efficiency = -0.05
-	loan_interest = 0.02
-	pop_militancy_modifier = 0.2
-	pop_consciousness_modifier = 0.2
-	icon = 12
-}
+
 
 central_bank_established = {
 	max_loan_modifier = 1
@@ -940,16 +955,14 @@ central_bank_established = {
 }
 
 local_stock_exchange = {
-	local_rgo_output = 0.05
+	local_rgo_output = 0.1
 	pop_militancy_modifier = -0.02
+	population_growth = 0.001
+	immigrant_attract = 1
 	icon = 11
 }
 
-economic_boom = {
-	factory_throughput = 0.05
-	rgo_output = 0.05
-	icon = 11
-}
+
 
 
 ######CB generation######
@@ -1002,7 +1015,7 @@ french_growth_nerf = {
 
 nationalist_agitation = {
 	pop_consciousness_modifier = 0.2
-	pop_militancy_modifier = 0.05
+	pop_militancy_modifier = 0.3
 	icon = 4
 }
 
@@ -1090,6 +1103,7 @@ scorched_earth_10 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1098,6 +1112,7 @@ scorched_earth_8 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1106,6 +1121,7 @@ scorched_earth_6 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1114,6 +1130,7 @@ scorched_earth_2 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1122,6 +1139,7 @@ scorched_earth_1 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1130,6 +1148,7 @@ scorched_earth_0 = {
 	max_attrition = 10
 	local_rgo_throughput = -100
 	local_factory_throughput = -100
+	population_growth = -0.002
 	icon = 18
 }
 
@@ -1222,7 +1241,10 @@ small_baby_boom = {
 	population_growth = 0.001
 	icon = 19
 }
-
+russian_baby_boom = {
+	population_growth = 0.001
+	icon = 19
+	}
 suppression = {
 	pop_militancy_modifier = -0.15
 	pop_consciousness_modifier = -0.15
@@ -1230,14 +1252,20 @@ suppression = {
 }
 
 country_suppression = {
-	global_pop_militancy_modifier = -0.07
-	global_pop_consciousness_modifier = -0.07
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.1
 	tax_efficiency = -0.05
 	icon = 18
 }
 
 province_attract_immigrants = {
-	immigrant_attract = 1000
+	immigrant_attract = 100
+	immigrant_push = -1000
+	icon = 9
+}
+
+new_world_province_attract_immigrants = {
+	immigrant_attract = 50
 	immigrant_push = -1000
 	icon = 9
 }
@@ -1504,6 +1532,7 @@ prussian1_general_staff = {
 	land_unit_start_experience = 5
 	reinforce_speed = 0.1
 	leadership = 2
+	mobilisation_size = 0.02
 	icon = 15
 	badboy = 0.05
 }
@@ -1514,6 +1543,7 @@ german_high_command = {
 	land_unit_start_experience = 5
 	reinforce_speed = 0.1
 	leadership = 3
+	mobilisation_size = 0.02
 	icon = 15
 }
 british_high_command = {
@@ -1524,6 +1554,7 @@ british_high_command = {
 	naval_unit_start_experience = 5
 	reinforce_speed = 0.1
 	leadership = 1
+	mobilisation_size = 0.02
 	icon = 15
 }
 italian_high_command = {
@@ -1544,7 +1575,7 @@ russian_high_command = {
 	naval_organisation = 0.1
 	reinforce_speed = 0.1
 	leadership = 2
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
 	icon = 15
 }
 soviet_high_command = {
@@ -1615,6 +1646,7 @@ japanese_high_command = {
 	naval_unit_start_experience = 5
 	reinforce_speed = 0.1
 	leadership = 3
+	mobilisation_size = 0.03
 	icon = 15
 }
 chinese_high_command = {
@@ -1632,7 +1664,7 @@ austrian_high_command = {
 	land_unit_start_experience = 5
 	reinforce_speed = 0.1
 	leadership = 2
-	mobilisation_size = 0.01
+	mobilisation_size = 0.03
 	icon = 15
 }
 american_high_command = {
@@ -1644,6 +1676,7 @@ american_high_command = {
 	land_unit_start_experience = 3
 	reinforce_speed = 0.1
 	leadership = 2
+	mobilisation_size = 0.03
 	icon = 15
 }
 dutch_high_command = {
@@ -1655,6 +1688,7 @@ dutch_high_command = {
 	land_unit_start_experience = 3
 	reinforce_speed = 0.1
 	leadership = 3
+	mobilisation_size = 0.03
 	icon = 15
 }
 
@@ -1689,12 +1723,12 @@ irish_potato_blight = {
 }
 
 crown_rule = {
-	tax_efficiency = 0.03
-	max_tariff = 0.05
-	core_pop_militancy_modifier = -0.02
-	goods_demand = -0.05
-	prestige = 0.4
-	supply_consumption = 0.05
+	tax_efficiency = 0.1
+	max_tariff = 0.10
+	core_pop_militancy_modifier = -0.04
+	goods_demand = -0.15
+	prestige = 1
+	supply_consumption = 0.5
 	icon = 9
 }
 
@@ -1723,6 +1757,7 @@ la_guardia_civil = {
 #### FRA - France ####
 the_french_foreign_legion = {
 	prestige = 0.05
+	mobilisation_size = 0.01
 	global_immigrant_attract = 0.01	#1%..
 	icon = 17
 }
@@ -1810,6 +1845,7 @@ nv_order_modifier = {
 nv_freedom_modifier = {
 	global_immigrant_attract = 0.75
 	culture_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
 	non_accepted_pop_militancy_modifier = 0.03
 	poor_everyday_needs = 0.2
 	middle_everyday_needs = 0.2
@@ -1821,45 +1857,48 @@ nv_freedom_modifier = {
 }
 
 nv_fraternity_modifier = {
-	core_pop_militancy_modifier = -0.05
+	core_pop_militancy_modifier = -0.1
 	global_population_growth = -0.0003
-	social_reform_desire = 0.1
-	assimilation_rate = 0.3
-	culture_tech_research_bonus = 0.05
+	social_reform_desire = 1
+	assimilation_rate = 2
+	culture_tech_research_bonus = 0.2
 	icon = 3
 }
 
 nv_unity_modifier = {
-	core_pop_militancy_modifier = -0.02
-	core_pop_consciousness_modifier = -0.02
-	global_population_growth = -0.0002
-	factory_owner_cost = -0.1
-	social_reform_desire = 0.1
-	assimilation_rate = 0.1
-	rgo_output = 0.05
+	core_pop_militancy_modifier = -0.05
+	core_pop_consciousness_modifier = -0.05
+	factory_owner_cost = -0.2
+	social_reform_desire = 0.4
+	assimilation_rate = 0.3
+	rgo_output = 0.2
+	factory_throughput = 0.2
 	icon = 3
 }
 
 nv_supremacy_modifier = {
-	global_pop_militancy_modifier = -0.05
-	war_exhaustion = -0.1
+	core_pop_militancy_modifier = -0.05
+	non_accepted_pop_militancy_modifier = 0.05
+	war_exhaustion = -0.2
 	leadership_modifier = 0.3
-	unit_start_experience = 0.5
+	unit_start_experience = 0.05
 	supply_consumption = -0.1
 	assimilation_rate = -0.1
 	global_immigrant_attract = -1
 	army_tech_research_bonus = 0.1
+	land_organisation = 0.1
 	culture_tech_research_bonus = -0.1
+	mobilisation_size = 0.03
 	icon = 3
 }
 
 nv_prosperity_modifier = {
-	global_population_growth = -0.0002
 	core_pop_militancy_modifier = -0.02
-	social_reform_desire = 0.2
-	assimilation_rate = 0.1
-	global_immigrant_attract = 0.25
+	social_reform_desire = -0.2
+	global_immigrant_attract = 0.3
 	commerce_tech_research_bonus = 0.1
+	tax_efficiency = 0.1
+	tariff_efficiency_modifier = 0.1
 	poor_everyday_needs = 0.3
 	middle_everyday_needs = 0.3
 	rich_everyday_needs = 0.3
@@ -1871,9 +1910,9 @@ nv_prosperity_modifier = {
 
 nv_productivity_modifier = {
 	core_pop_consciousness_modifier = -0.05
-	rgo_output = 0.1
-	factory_throughput = 0.1
-	factory_owner_cost = -0.2
+	rgo_output = 0.2
+	factory_throughput = 0.2
+	factory_owner_cost = -0.3
 	poor_everyday_needs = -0.1
 	middle_everyday_needs = -0.1
 	rich_everyday_needs = -0.1
@@ -1884,28 +1923,30 @@ nv_productivity_modifier = {
 }
 
 nv_glory_modifier = {
-	army_tech_research_bonus = 0.05
-	navy_tech_research_bonus = 0.05
+	army_tech_research_bonus = 0.2
+	navy_tech_research_bonus = 0.2
 	non_accepted_pop_militancy_modifier = 0.02
 	poor_everyday_needs = 0.2
 	middle_everyday_needs = 0.2
 	rich_everyday_needs = 0.2
-	war_exhaustion = -0.01
+	war_exhaustion = -0.05
 	leadership_modifier = 0.1
 	unit_start_experience = 0.2
 	assimilation_rate = -0.1
+	commerce_tech_research_bonus = 0.1
 	icon = 3
 }
 
 nv_dominion_modifier = {
-	war_exhaustion = -0.02
+	war_exhaustion = -0.1
 	leadership_modifier = 0.2
 	unit_start_experience = 0.2
 	assimilation_rate = -0.1
 	factory_owner_cost = -0.1
 	supply_consumption = -0.05
 	core_pop_consciousness_modifier = -0.02
-	rgo_output = 0.05
+	rgo_output = 0.1
+	factory_throughput = 0.1
 	icon = 3
 }
 #### JAP - JAPAN ####
@@ -1991,7 +2032,26 @@ circassian_genocide = {
 	population_growth = -0.004
 	icon = 20
 }
+attractionlmao = {
+	global_immigrant_attract = 10
+	icon = 20
+}
+trail_of_tears = {
 
+	icon = 20
+}
+napoleon_iii = {
+	land_organisation = 0.1
+	mobilisation_size = 0.05
+	prestige = 0.1
+	icon = 21
+}
+
+napoleon_iii_legacy = {
+	mobilisation_size = 0.02
+	prestige = 0.5
+	icon = 22
+}
 polish_nationalism = {
 	pop_militancy_modifier = 0.1
 	pop_consciousness_modifier = 0.1
@@ -2238,7 +2298,7 @@ navy_build_speed_idea_modifier = {
 }
 
 expansion_idea = {
-	badboy = -0.03
+	badboy = -0.06
 	icon = 5
 }
 

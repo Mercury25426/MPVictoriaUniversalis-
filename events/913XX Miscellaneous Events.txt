@@ -102,9 +102,9 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				OR = {
+
 					continent = africa
-				}
+
 				NOT = { life_rating = 21 }
 			}
 			life_rating = 15
@@ -1018,6 +1018,15 @@ country_event = {
 				}
 			}
 			FRA = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			FRC = {
 				is_greater_power = no
 				exists = no
 				OR = {

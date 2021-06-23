@@ -30,7 +30,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -104,7 +104,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
@@ -178,7 +178,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
@@ -252,7 +252,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
@@ -326,7 +326,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -399,7 +399,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -472,7 +472,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 			num_of_ports = 1
@@ -546,7 +546,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -619,7 +619,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -692,7 +692,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -765,7 +765,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -838,7 +838,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		civilized = yes
@@ -912,7 +912,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -985,7 +985,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1058,7 +1058,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1131,7 +1131,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1204,7 +1204,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1277,7 +1277,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1350,7 +1350,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1423,7 +1423,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = { 
@@ -1497,7 +1497,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		average_militancy = 5
@@ -1577,7 +1577,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -1652,7 +1652,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -1727,7 +1727,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -1801,7 +1801,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -1876,7 +1876,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -1949,7 +1949,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2024,7 +2024,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		num_of_ports = 1
@@ -2100,7 +2100,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2175,7 +2175,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2248,7 +2248,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2323,7 +2323,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2398,7 +2398,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2474,7 +2474,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2548,7 +2548,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2622,7 +2622,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2696,7 +2696,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2770,7 +2770,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -2846,7 +2846,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3011,7 +3011,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3090,7 +3090,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3170,7 +3170,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3250,7 +3250,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3330,7 +3330,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3410,7 +3410,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3491,7 +3491,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 
 		}
@@ -3572,7 +3572,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3651,7 +3651,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3730,7 +3730,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3809,7 +3809,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3888,7 +3888,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -3967,7 +3967,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4046,7 +4046,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4129,7 +4129,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4208,7 +4208,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4288,7 +4288,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4368,7 +4368,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4448,7 +4448,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4529,7 +4529,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4609,7 +4609,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4689,7 +4689,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4769,7 +4769,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4849,7 +4849,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -4929,7 +4929,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5009,7 +5009,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5089,7 +5089,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5169,7 +5169,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5250,7 +5250,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5330,7 +5330,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5415,7 +5415,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5494,7 +5494,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5574,7 +5574,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5655,7 +5655,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5735,7 +5735,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5815,7 +5815,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5895,7 +5895,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -5975,7 +5975,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6056,7 +6056,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6134,7 +6134,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6214,7 +6214,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6294,7 +6294,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6375,7 +6375,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {
@@ -6455,7 +6455,7 @@ country_event = {
 			has_country_modifier = ambitious_union_boss
 			has_country_modifier = dour_economist
 			has_country_modifier = otto_von_bismarck
-			has_country_modifier = louis_napoleon_iii
+			has_country_modifier = napoleon_iii
 			has_country_modifier = power_vacuum
 		}
 		OR = {

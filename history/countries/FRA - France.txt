@@ -2,6 +2,9 @@ capital = 425
 primary_culture = french
 culture = french_canadian
 culture = romansh
+culture = breton
+culture = occitan
+culture = picard
 culture = acadian
 religion = catholic
 government = hms_government
@@ -33,11 +36,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = good_schools
 
-govt_flag = 
-{
-	government = hms_government
-	flag = democracy
-}
+
 
 # Technologies
 post_napoleonic_thought = 1

@@ -204,10 +204,16 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
+	modifier = {
+		factor = 10
 		OR = {
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -219,6 +225,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -482,6 +489,16 @@ migration_target =
 		}
 		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
+	}
+	modifier = {
+		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
 	}
 	modifier = {
 		factor = 0
@@ -1256,6 +1273,66 @@ promote_to =
 
 ideologies = {
 	
+
+
+populist = { 		
+		factor = 1 
+		
+modifier = { factor = 4 country = { ruling_party_ideology = populist } everyday_needs = 0.5 }
+
+modifier = { factor = 0.25 country = { ruling_party_ideology = populist } NOT = { everyday_needs = 0.5 } }
+
+modifier = { factor = 0.25 country = { ruling_party_ideology = populist } militancy = 5 }
+
+modifier = { factor = 0 NOT = { OR = { is_accepted_culture = yes is_primary_culture = yes } } }
+
+modifier = { factor = 1.25 country = { is_vassal = yes } }
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 1.0 }
+			}
+		}
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 0.9 }
+			}
+		}
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 0.8 }
+			}
+		}
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 0.7 }
+			}
+		}
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 0.6 }
+			}
+		}
+
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { rich_strata_everyday_needs = 0.5 }
+			}
+		}
+	}
+
+
+
 	fascist = {
 		factor = 1
 		modifier = {
@@ -2861,6 +2938,26 @@ issues =
 				NOT = { life_needs = 0.7 }
 			}
 		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.4
+		}  
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.3
+		}  
 		modifier = {
 			factor = 0.25
 			country = {

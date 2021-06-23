@@ -1,5 +1,7 @@
 color = { 0  147  132 }
+fascist_dictatorship = { 0 117 112 }
 graphical_culture = EuropeanGC
+proletarian_dictatorship = { 150 0 0 }
 
 party = {
 	name = "POR_conservative"

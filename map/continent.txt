@@ -122,7 +122,7 @@ north_america = {
 		2631 
 	}
 	assimilation_rate = 1
-	farm_rgo_size = 10
+	farm_rgo_size = 2
 }
 
 south_america = {
@@ -141,7 +141,7 @@ south_america = {
 		2467 2532 2549 2550 2554 2578 2600 
 	}
 	assimilation_rate = 1
-	farm_rgo_size = 10
+	farm_rgo_size = 2
 }
 
 oceania = {

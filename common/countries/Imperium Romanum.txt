@@ -1,4 +1,5 @@
 color = { 101  39  44 }
+proletarian_dicatorship = { 165 2 2 }
 graphical_culture = ItalianGC
 
 party = {

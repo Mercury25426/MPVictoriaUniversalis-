@@ -1,5 +1,5 @@
 capital = 2087
-primary_culture = british
+primary_culture = anglosouthafrican
 culture = boer
 religion = protestant
 government = colonial_company

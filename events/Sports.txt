@@ -17,7 +17,10 @@ province_event = {
 		pop_majority_culture = british
 		NOT = { province_id = 300 }
 		owner = {
+			OR = {
 			tag = ENG
+			tag = IMF
+			}
 		}
 	}
 	mean_time_to_happen = {

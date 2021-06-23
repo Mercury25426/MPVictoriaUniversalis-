@@ -1,6 +1,7 @@
 capital = 300
 primary_culture = british
 culture = welsh
+culture = north_irish
 culture = scottish
 religion = protestant
 government = hms_government

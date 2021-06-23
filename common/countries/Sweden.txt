@@ -28,7 +28,6 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
 party = {
 	name = "SWE_socialist"
 	start_date = 1848.1.1

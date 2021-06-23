@@ -215,16 +215,28 @@ political_decisions = {
 			owns = 465
 			owns = 466
 			owns = 472
+			OR = {
 			FRA = {
 				exists = yes
 				is_greater_power = yes
 			}
+			FRC = {
+				exists = yes
+				is_greater_power = yes
+			}
+		}
 		}
 		allow = {
+			OR = {
 			relation = {
 				who = FRA
 				value = 150
 			}
+			relation = {
+				who = FRC
+				value = 150
+			}
+		}
 			owns = 6
 			owns = 726
 			owns = 727
@@ -238,23 +250,55 @@ political_decisions = {
 				who = FRA
 				value = 50
 			}
-			465 = {
-				remove_core = ITA
-				remove_core = SAR
-				add_core = FRA
-				secede_province = FRA
+			relation = {
+				who = FRC
+				value = 50
 			}
-			466 = {
-				remove_core = ITA
-				remove_core = SAR
-				add_core = FRA
-				secede_province = FRA
+			any_country = {
+				limit = {
+					FRA = { exists = yes }
+				}
+				465 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRA
+					secede_province = FRA
+				}
+				466 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRA
+					secede_province = FRA
+				}
+				472 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRA
+					secede_province = FRA
+				}
 			}
-			472 = {
-				remove_core = ITA
-				remove_core = SAR
-				add_core = FRA
-				secede_province = FRA
+			any_country = {
+				limit = {
+					FRC = { exists = yes }
+				}
+				465 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRC
+					secede_province = FRC
+				}
+				466 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRC
+					secede_province = FRC
+				}
+				472 = {
+					remove_core = ITA
+					remove_core = SAR
+					add_core = FRC
+					secede_province = FRC
+				}
 			}
 			set_country_flag = cavour_has_done_his
 		}

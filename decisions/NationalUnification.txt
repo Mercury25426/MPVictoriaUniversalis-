@@ -289,6 +289,12 @@ political_decisions = {
 			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
+			CTR = {
+				all_core = { remove_core = CTR }
+			}
+			PRU = {
+				all_core = { remove_core = PRU }
+			}
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -337,6 +343,9 @@ political_decisions = {
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
+			}
+			all_core = {
+				remove_core = GER
 			}
 		}
 		ai_will_do = {

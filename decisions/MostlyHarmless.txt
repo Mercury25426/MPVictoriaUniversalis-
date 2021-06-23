@@ -1,32 +1,5 @@
 political_decisions = {
-	miskatonic_university = {
-		potential = {
-			tag = NEN
-			owns = 245
-			NOT = {
-				has_country_flag = miskatonic_u_class_of_1836
-			}
-		}
-		
-		allow = {
-			invention = romanticist_literature
-		}
-		
-		effect = {
-			245 = {
-				change_province_name = "Arkham"
-				add_province_modifier = {
-					name = miskatonic_campus
-					duration = -1
-				}
-			}
-			set_country_flag = miskatonic_u_class_of_1836
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}		
-	}
+	
 	the_greenland_purchase = {
 		potential = {
 			tag = JAN
@@ -66,4 +39,63 @@ political_decisions = {
 			factor = 0
 		}
 	}
+
+	rgo_expansions = {
+		potential = {
+			tag = JAN
+		}
+		allow = {
+			any_neighbor_country = {
+				OR = {
+					any_owned_province = {
+						has_pop_type = labourers
+						is_core = PRO
+						NOT = { has_province_modifier = mine_expansion }
+					}
+					any_owned_province = {
+						has_pop_type = farmers
+						is_core = PRO
+						NOT = { has_province_modifier = agriculture_expansion }
+					}
+				}
+			}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						any_owned_province = {
+							has_pop_type = labourers
+							is_core = PRO
+							NOT = { has_province_modifier = mine_expansion }
+						}
+						any_owned_province = {
+							has_pop_type = farmers
+							is_core = PRO
+							NOT = { has_province_modifier = agriculture_expansion }
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						has_pop_type = labourers
+						is_core = PRO
+						NOT = { has_province_modifier = mine_expansion }
+					}
+					add_province_modifier = { name = mine_expansion duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						has_pop_type = farmers
+						is_core = PRO
+						NOT = { has_province_modifier = agriculture_expansion }
+					}
+					add_province_modifier = { name = agriculture_expansion duration = -1 }
+				}
+			}
+		}
+	}
+}
+
+
 }

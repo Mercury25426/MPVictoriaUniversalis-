@@ -67,6 +67,11 @@ political_decisions = {
 			10 = { secede_province = THIS }
 			11 = { secede_province = THIS }
 			12 = { secede_province = THIS }
+			2596 = { secede_province = THIS }
+			6 = { secede_province = THIS }
+			2598 = { secede_province = THIS }
+			8 = { secede_province = THIS }
+			9 = { secede_province = THIS }
 		}
 	}
 
@@ -197,7 +202,10 @@ political_decisions = {
 	incorporate_south_island = {
 		picture = new_zealand
 		potential = {
+			OR = {
 			tag = NZL
+			tag = AST
+			}
 			NOT = { has_country_flag = incorporate_south_island }
 			2511 = { empty = yes }
 			2515 = { empty = yes }
@@ -217,38 +225,21 @@ political_decisions = {
 		}
 	}
 
-	xhosa_war = {
-		picture = xhosa_war
+	annex_nzl = {
+		picture = new_zealand
 		potential = {
-			tag = SAF
-			NOT = { has_country_flag = xhosa_war }
-			exists = XHO
+			tag = AST
+			NZL = { ai = yes }
 		}
-
 		allow = {
-			XHO = {
-				exists = yes
-				is_vassal = no
-			}
-			ENG_2096 = { owned_by = XHO }
-			war = no
-			OR = {
-				muzzle_loaded_rifles = 1
-				military_plans = 1
-				army_professionalism = 1
-				strategic_mobility = 1
-				iron_muzzle_loaded_artillery = 1
-			}
+			money = 500000
 		}
-
 		effect = {
-			set_country_flag = xhosa_war
-			war = {
-				target = XHO
-				attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-				call_ally = yes
-			}
-			ENG = { country_event = { id = 44401 days = 0 } }
+			inherit = NZL
+			badboy = 20
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 

@@ -60,10 +60,7 @@ upper_house = {
 consciousness = 4.5
 nonstate_consciousness = 4
 
-govt_flag = {
-	government = hms_government
-	flag = democracy
-}
+
 
 oob = "SPA_oob.txt"
 

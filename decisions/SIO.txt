@@ -1,0 +1,79 @@
+political_decisions = {
+
+form_GSN = {
+	picture = gsn
+	potential = {
+		tag = SIO
+	}
+	allow = {
+		THIS = { owns = 118 }
+		THIS = { owns = 160 }
+		THIS = { owns = 157 }
+		THIS = { owns = 123 }
+		THIS = { owns = 157 }
+		THIS = { owns = 122 }
+		THIS = { owns = 121 }
+	}
+	effect = {
+	USA_118 = { add_core = THIS }	
+	USA_158 = { add_core = THIS }
+	USA_162 = { add_core = THIS }
+	USA_123 = { add_core = THIS }
+	USA_121 = { add_core = THIS }
+	USA_111 = { add_core = THIS }
+	USA_116 = { add_core = THIS }
+	any_pop = {
+		limit = {
+			has_pop_culture = sioux
+			}
+		reduce_pop = 11
+		consciousness = -5
+		militancy = -5
+	}
+	any_pop = {
+		limit = {
+			has_pop_culture = crow
+			}
+		reduce_pop = 11
+		consciousness = -5
+		militancy = -5
+	}
+	any_pop = {
+		limit = {
+			has_pop_culture = ojibwe
+			}
+		reduce_pop = 11
+		consciousness = -5
+		militancy = -5
+	}
+	any_pop = {
+		limit = {
+			has_pop_culture = cheyenne
+			}
+		reduce_pop = 11
+		consciousness = -5
+		militancy = -5
+	}
+	any_pop = {
+		limit = {
+			has_pop_culture = pawnee
+			}
+		reduce_pop = 11
+		consciousness = -5
+		militancy = -5
+	}
+		change_tag = GSN
+		add_accepted_culture = ojibwe
+		add_accepted_culture = cheyenne
+		add_accepted_culture = pawnee
+		add_accepted_culture = crow
+		badboy = -20
+
+	}
+}
+
+
+
+
+
+}

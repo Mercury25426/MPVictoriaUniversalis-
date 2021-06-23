@@ -131,7 +131,7 @@ country_migration_target =
 	modifier = {
 		factor = 750
 		AND = {
-			primary_culture = british
+			primary_culture = anglosouthafrican
 			has_country_flag = african_union_formation
 		}
 		has_country_flag = african_union_formation
@@ -230,10 +230,16 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
+	modifier = {
+		factor = 10
 		OR = {
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -251,6 +257,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -512,6 +519,16 @@ migration_target =
 	}
 	modifier = {
 		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
+	}
+	modifier = {
+		factor = 0
 		OR = { 
 			unemployment_by_type = { type = farmers value = 0.05  }
 			unemployment_by_type = { type = labourers value = 0.05  }
@@ -692,41 +709,43 @@ promote_to =
 			is_accepted_culture = no
 			country = { has_country_flag = disable_non_accepted_craftsmen }
 		}
+
 		group = {
 			modifier = {
 				factor = 1
 				literacy = 0.2
 			}
+		
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.3
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.4
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.5
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.6
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.7
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.8
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.9
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				literacy = 1
 			}
 		}
@@ -761,6 +780,13 @@ promote_to =
 
 
 ideologies = {
+	
+
+
+
+
+
+
 	
 	fascist = {
 		factor = 1
@@ -2374,6 +2400,26 @@ issues =
 				civilized = no
 			}
 		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.4
+		}  
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.3
+		}  
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }

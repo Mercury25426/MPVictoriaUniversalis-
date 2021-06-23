@@ -1,6 +1,12 @@
 capital = 220
-primary_culture = yankee
+primary_culture = american
 culture = dixie
+culture = tejanos
+culture = yankee
+culture = anglo_dixie
+culture = appalachian
+culture = anglo_american
+culture = irish_american
 culture = texan
 culture = acadian
 religion = protestant

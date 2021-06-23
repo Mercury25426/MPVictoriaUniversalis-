@@ -2,6 +2,7 @@ color = { 0  83  175 }
 proletarian_dictatorship = { 229 13 44 }
 fascist_dictatorship = { 12 0 45 }
 presidential_dictatorship = { 5 20 64 }
+absolute_monarchy = { 5 5 112 }
 graphical_culture = FrenchGC
 
 party = {
@@ -17,7 +18,6 @@ party = {
 	citizenship_policy = residency
 	war_policy = pro_military
 }
-
 party = {
 	name = "FRA_liberal"
 	start_date = 1830.1.1
@@ -137,8 +137,8 @@ party = {
 
 	ideology = anarcho_liberal
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
 	war_policy = anti_military
@@ -169,7 +169,7 @@ party = {
 	trade_policy = protectionism
 	religious_policy = pro_atheism
 	citizenship_policy = limited_citizenship
-	war_policy = pacifism
+	war_policy = jingoism
 }
 
 party = {

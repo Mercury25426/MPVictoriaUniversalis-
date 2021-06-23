@@ -1,9 +1,10 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = CHO
+controller = CHO
+add_core = CHO
+add_core = TEX
 trade_goods = grain
 life_rating = 35
-colony = 2
+colony = 0
 1913.1.1 = {
 	colony = 0
 	state_building = {

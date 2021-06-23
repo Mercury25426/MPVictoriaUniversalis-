@@ -45,6 +45,7 @@ political_decisions = {
 						OR = {
 							tag = FRA
 							tag = ENG
+							tag = FRC
 						}
 					}
 				}	
@@ -60,6 +61,12 @@ political_decisions = {
 				}
 			}
 			FRA = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			FRC = {
 				relation = {
 					who = THIS
 					value = 150

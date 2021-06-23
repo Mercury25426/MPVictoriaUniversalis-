@@ -619,31 +619,69 @@ country_event = {
 	trigger = {
 		tag = SAR
 		ai = yes
+		OR = {
 		FRA = { ai = yes }
+		FRC = { ai = yes }
+		}
+		OR = {
 		FRA_451 = { owned_by = FRA }
 		FRA_467 = { owned_by = FRA }
+		FRA_451 = { owned_by = FRC }
+		FRA_467 = { owned_by = FRC }
+		}
 		NOT = { owns = 720 }
 	}
 	
 	option = {
-		465 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
+		any_country = {
+			 limit = {
+				FRA = { exists = yes }
+			 }
+			 465 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+			466 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+			472 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+
 		}
-		466 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		472 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
+
+		any_country = {
+			limit = {
+			   FRC = { exists = yes }
+			}
+			465 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+		   466 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+		   472 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+	   }
+
 	}
 }
 
@@ -657,30 +695,67 @@ country_event = {
 		tag = ITA
 		exists = ITA
 		ai = yes
+		OR = {
 		FRA = { ai = yes }
+		FRC = { ai = yes }
+		}
+		OR = {
 		FRA_451 = { owned_by = FRA }
 		FRA_467 = { owned_by = FRA }
+		FRA_451 = { owned_by = FRC }
+		FRA_467 = { owned_by = FRC }
+		}
 	}
 	
 	option = {
-		465 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		466 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		472 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
+		any_country = {
+			limit = {
+			   FRA = { exists = yes }
+			}
+			465 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+		   466 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+		   472 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+
+	   }
+
+	   any_country = {
+		   limit = {
+			  FRC = { exists = yes }
+		   }
+		   465 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+		  466 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+		  472 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+	  }
 	}
 }
 
@@ -927,22 +1002,47 @@ country_event = {
 		owns = 1897
 		civilized = no
 		has_country_flag = sub_saharan_africa
+		OR = {
 		FRA = {
 			invention = colonial_negotiations
 			ai = yes
 			is_greater_power = yes
+			}
+		FRC = {
+			invention = colonial_negotiations
+			ai = yes
+			is_greater_power = yes
+				}
 		}
 		NOT = { has_global_flag = conquest_of_ivory_coast }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_ivory_coast
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -956,22 +1056,47 @@ country_event = {
 		owns = 1919
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_dahomey }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_dahomey
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -985,22 +1110,47 @@ country_event = {
 		owns = 2573
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_senegal }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_senegal
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1014,22 +1164,47 @@ country_event = {
 		owns = 1792
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_gambia }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_gambia
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1043,22 +1218,47 @@ country_event = {
 		owns = 1879
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_guinea }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_guinea
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1072,24 +1272,50 @@ country_event = {
 		owns = 1775
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_mauritania }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_mauritania
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+
 	}
 }
 

@@ -1,7 +1,10 @@
 capital = 211
 primary_culture = dixie
+culture = anglo_dixie
 culture = texan
 culture = acadian
+culture = tejanos
+culture = appalachian
 religion = protestant
 government = democracy
 plurality = 25.1

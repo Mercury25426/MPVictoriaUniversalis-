@@ -1,8 +1,8 @@
 color = { 236  236  236 }
 fascist_dictatorship = { 180 180 180 }
-proletarian_dictatorship = { 155 78 75 }
+proletarian_dictatorship = { 155 11 25 }
 presidential_dictatorship = { 155 78 75 }
-democracy = { 155 78 75 }
+democracy = { 236  236  236 }
 graphical_culture = AustriaHungaryGC
 
 party = {
@@ -32,6 +32,9 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
+
+
+
 
 party = {
 	name = "AUS_reactionary"

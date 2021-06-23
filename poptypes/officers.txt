@@ -132,7 +132,7 @@ country_migration_target =
 	modifier = {
 		factor = 750
 		AND = {
-			primary_culture = british
+			primary_culture = anglosouthafrican
 			has_country_flag = african_union_formation
 		}
 		has_country_flag = african_union_formation
@@ -231,10 +231,16 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
+	modifier = {
+		factor = 10
 		OR = {
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -252,6 +258,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -510,6 +517,16 @@ migration_target =
 		}
 		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
+	}
+	modifier = {
+		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
 	}
 	modifier = {
 		factor = 0
@@ -1058,6 +1075,11 @@ promote_to =
 
 
 ideologies = {
+	
+
+
+
+
 	
 	fascist = {
 		factor = 1
@@ -2671,6 +2693,26 @@ issues =
 				civilized = no
 			}
 		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.4
+		}  
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.3
+		}  
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }

@@ -4,19 +4,31 @@ political_decisions = {
 			NOT = {
 				has_global_flag = statue_of_liberty_has_been_built
 			}
+			OR = {
 			tag = FRA
 			exists = FRA
+			tag = FRC
+			exists = FRC
+			}
 			exists = USA
 			USA = {
 				government = democracy
 				owns = 232
 			}
+			OR = {
 			FRA = {
 				OR = {
 					government = hms_government
 					government = democracy
 				}
 			}	
+			FRC = {
+				OR = {
+					government = hms_government
+					government = democracy
+				}
+			}
+		}
 			year = 1850
 		}
 	
@@ -65,7 +77,7 @@ walloon_autonomy = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = walloon_autonomy }
+			set_country_flag = walloon_autonomy
 			prestige = -25
 			add_accepted_culture = wallonian
 			add_accepted_culture = flemish
@@ -93,7 +105,14 @@ walloon_autonomy = {
 			BEL = { all_core = { add_core = THIS } }
 			NET = { all_core = { add_core = THIS } }
 			LUX = { all_core = { add_core = THIS } }
+			change_tag = FRC
+			all_core = {
+				remove_core = FRA
+			}
+
+
 		}
+
 		ai_will_do = { factor = 1 }
 	}
 	claim_catalonia = {
@@ -126,7 +145,7 @@ walloon_autonomy = {
 		}
 		
 		effect = {
-			FRA = { set_country_flag = claim_catalonia }
+			set_country_flag = claim_catalonia
 			badboy = 10
 			498 = { add_core = THIS }
 			499 = { add_core = THIS }
@@ -146,7 +165,10 @@ walloon_autonomy = {
 	}
 	support_french_foreign_legion = {
 		potential = {
+			OR = {
 			tag = FRA
+			tag = FRC
+			}
 			owns = 1700
 			NOT = {
 				has_country_flag = french_foreign_legion_supported
@@ -161,12 +183,16 @@ walloon_autonomy = {
 			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = two_year_draft } }
 			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
 			set_country_flag = french_foreign_legion_supported
+			add_country_modifier = { name = the_french_foreign_legion duration = -1 } 
 		}
 	}
 	
 	french_military_mission_to_japan = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			exists = JAP
 			JAP = {
 				civilized = no
@@ -202,7 +228,10 @@ walloon_autonomy = {
 			NOT = {
 				has_country_flag = palais_garnier_built
 			}
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			owns = 425
 		}
 		
@@ -221,7 +250,10 @@ walloon_autonomy = {
 			NOT = {
 				has_country_flag = lambert_has_been_chartered
 			}
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			exists = MAD
 		}
 		
@@ -231,8 +263,14 @@ walloon_autonomy = {
 			MAD = {
 				civilized = no
 				OR = {
+				OR = {
 					in_sphere = FRA
 					NOT = { part_of_sphere = yes }
+				}
+				OR = {
+					in_sphere = FRC
+					NOT = { part_of_sphere = yes }
+				}
 				}
 			}
 		}
@@ -254,6 +292,10 @@ walloon_autonomy = {
 					in_sphere = FRA
 					civilized = no
 			}
+			MAD = {
+				in_sphere = FRC
+				civilized = no
+		}
 				}
 			NOT = {
 				has_country_flag = merina_monarchy_is_over
@@ -264,11 +306,17 @@ walloon_autonomy = {
 		}
 		
 		allow = {
+			OR = {
 			MAD = {
 				in_sphere = FRA
 				civilized = no
 				war = no
 			}
+			MAD = {
+				in_sphere = FRC
+				civilized = no
+		}
+		}
 			invention = mission_to_civilize
 			invention = manifest_destiny
 			war = no
@@ -282,7 +330,10 @@ walloon_autonomy = {
 	
 	brazzas_expedition = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			owns = 1977
 			NOT = {
 				has_global_flag = brazzaville_formed
@@ -304,7 +355,10 @@ walloon_autonomy = {
 	
 	the_rhine_crisis = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			exists = PRU
 			PRU = {
 				owns = 572
@@ -354,7 +408,10 @@ walloon_autonomy = {
 	
 	build_the_eiffel_tower = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			NOT = {
 				has_country_flag = the_eiffel_tower_was_built
 			}
@@ -379,7 +436,10 @@ walloon_autonomy = {
 	
 	haussmanns_renovations = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			owns = 425
 			NOT = {
 				has_country_flag = extreme_home_makeover
@@ -412,7 +472,10 @@ walloon_autonomy = {
 	proclaim_second_empire = {
 		picture = napoleon_iii
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			NOT = {
 				has_country_flag = napoleon_iii
 			}
@@ -431,6 +494,7 @@ walloon_autonomy = {
 		}
 		
 		effect = {
+			add_country_modifier = { name = napoleon_iii duration = -1 }
 			set_country_flag = napoleon_iii
 			government = absolute_monarchy
 			political_reform = none_voting
@@ -559,7 +623,8 @@ walloon_autonomy = {
 			}
 			define_general = {
 				name = "§WNapoléon III"
-				personality = defence_2.1
+				picture = european_general_58
+				personality = defence_4.1
 				background = attack_2.1
 			}
 		}
@@ -571,7 +636,10 @@ walloon_autonomy = {
 	invade_cochinchina = {
 		picture = cochinchina_campaign
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = FRC
+				}
 			NOT = { has_country_flag = invaded_cochinchina }
 			DAI = {
 				owns = 1380

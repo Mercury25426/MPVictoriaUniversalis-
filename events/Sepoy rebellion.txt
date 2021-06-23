@@ -152,8 +152,11 @@ country_event = {
 	trigger = {
 		has_country_flag = indian
 		has_country_modifier = direct_rule
-		NOT = {
+		NOT = { 
+			OR = {
+			vassal_of = IMF
 			vassal_of = ENG
+			}
 			vassal_of = EIC
 		}
 	}
@@ -208,6 +211,7 @@ country_event = {
 		tag = EIC
 		NOT = { has_country_flag = became_gp }
 		NOT = { vassal_of = ENG }
+		NOT = { vassal_of = IMF }
 		NOT = { owns = 2133 }
 		NOT = { is_greater_power = yes }
 		NOT = { has_country_flag = dismantling_eic }
@@ -238,6 +242,9 @@ country_event = {
 		ENG = {
 			country_event = { id = 36961 days = 0 }
 		}
+		IMF = {
+			country_event = { id = 36961 days = 0 }
+		}
 	}
 }
 
@@ -253,6 +260,12 @@ country_event = {
 		name = "EVTOPTA90035"
 		release_vassal = THIS
 		ENG = {
+			diplomatic_influence = {
+				who = THIS
+				value = -300
+			}
+		}
+		IMF = {
 			diplomatic_influence = {
 				who = THIS
 				value = -300
@@ -452,10 +465,19 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
+					OR = {
 					tag = ENG
+					tag = IMF
+					}
 					tag = EIC
+					OR = {
 					vassal_of = ENG
+					vassal_of = IMF
+					}
+					OR = {
 					in_sphere = ENG
+					in_sphere = IMF
+					}
 				}
 			}
 			any_owned = {
@@ -688,10 +710,21 @@ country_event = {
 			limit = {
 				war_with = THIS
 				OR = {
+					OR = {
 					tag = ENG
+					tag = IMF
+					}
+					OR = {
 					alliance_with = ENG
+					alliance_with = IMF
+					}
+					OR = {
 					vassal_of = ENG
+					vassal_of = IMF
+					}
+
 					vassal_of = EIC
+					
 				}
 			}
 			end_war = THIS

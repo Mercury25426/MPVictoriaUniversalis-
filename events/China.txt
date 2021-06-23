@@ -218,7 +218,7 @@ country_event = {
 					activate_technology = bronze_muzzle_loaded_artillery
 				}
 			}
-			remove_country_modifier = educational_reform
+			remove_country_modifier = education_china_reforms
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences
 			remove_country_modifier = uncivilized_isolationism
@@ -525,7 +525,7 @@ country_event = {
 			}
 			civilized = yes
 		}
-			remove_country_modifier = educational_reform
+			remove_country_modifier = education_china_reforms
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences
 			remove_country_modifier = uncivilized_isolationism

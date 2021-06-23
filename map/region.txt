@@ -41,8 +41,9 @@ USA_126 = { 126 127 128 } #Kansas
 
 
 
-USA_129 = { 129 130 131 } #Oklahoma
+USA_129 = { 130 131 } #Oklahoma
 
+USA_130 = { 129 }
 
 
 USA_139 = { 139 140 141 142 } #Louisiana
@@ -557,13 +558,13 @@ ENG_294 = { 294 301 302 303 } #South East England
 
 ENG_300 = { 300 } #London
 
-ENG_254 = { 254 255 256 257 } #Ulster
+ENG_254 = { 254 255 256 } #Ulster
 
 ENG_271 = { 271 269 270 272 } #Lowlands
 
 ENG_260 = { 260 261 262 } #Munster
 
-ENG_258 = { 258 259 } #Connacht
+ENG_258 = { 258 259 257 } #Connacht
 
 ENG_263 = { 263 264 265 } #Leinster
 
@@ -639,7 +640,7 @@ SPA_512 = { 512 509 510 511 484 } #Andalucia
 
 SPA_487 = { 487 488 489 490 491 485 } #Castilla la Nueva
 
-BEL_394 = { 394 392 395 } #Wallonie
+BEL_394 = { 394 392 395 396 } #Wallonie
 
 BEL_387 = { 387 390 391 } #Brabant
 
@@ -667,7 +668,9 @@ SWI_611 = { 611 } #East Switzerland
 
 SWI_605 = { 604 606 603 605 } #West Switzerland
 
-SWI_609 = { 609 2568 } #South Switzerland
+SWI_609 = { 609 } #South Switzerland
+
+SWI_2568 = { 2568 }
 
 SWI_607 = { 607 608 } #French Switzerland
 
@@ -911,7 +914,9 @@ RUS_1102 = { 1098 1099 1100 1101 1102 1105 1106 1104 1107 1103 } #Transcaucasia
 
 RUS_1090 = { 1090 1093 1091 1092 1094 1095 1052 1053 1054 1055 1057 } #North Caucasus
 
-MON_2582 = { 2582 2583 800 2569 2577 } #Montenegro
+MON_2582 = { 2583 800 2569 2577 } #Montenegro
+
+MON_2583 = { 2582 } #Montenegro
 
 SER_794 = { 794 797 795 796 } #Northern Serbia
 
@@ -1257,7 +1262,7 @@ PRU_695 = { 695 697 698 } #OstpreuBen
 
 PRU_572 = { 570 571 573 574 } #Palatinate
 
-PRU_575 = { 575 576 577 572 396 } #West Rhineland
+PRU_575 = { 575 576 577 572 } #West Rhineland
 
 PRU_578 = { 578 579 583 2561 } #East Rhineland
 

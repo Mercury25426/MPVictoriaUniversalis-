@@ -3,7 +3,10 @@ country_event = {
 	id = 37200
 
 	trigger = {
+		OR = {
 		tag = FRA
+		tag = FRC
+		}
 		year = 1837
 		NOT = {
 			year = 1840
@@ -59,7 +62,10 @@ country_event = {
 	news_desc_short = "EVTDESC37201_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1836
 		war = no
 		NOT = {
@@ -106,7 +112,10 @@ country_event = {
 	id = 37202
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1840
 		war = no
 		NOT = {
@@ -195,7 +204,10 @@ country_event = {
 	news_desc_short = "EVTDESC37204_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1840
 		war = no
 		NOT = {
@@ -237,7 +249,10 @@ country_event = {
 	id = 37205
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1842
 		war = no
 		NOT = {
@@ -278,7 +293,10 @@ country_event = {
 	id = 37206
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1846
 		war = no
 		NOT = {
@@ -319,7 +337,10 @@ country_event = {
 	id = 37207
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1846
 		war = no
 		NOT = {
@@ -366,7 +387,10 @@ country_event = {
 	id = 37208
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1845
 		government = democracy
 		war = no
@@ -418,7 +442,10 @@ country_event = {
 	id = 37209
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1845
 		war = no
 		NOT = {
@@ -459,7 +486,10 @@ country_event = {
 	id = 37210
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1851
 		war = no
 		NOT = {
@@ -498,7 +528,10 @@ country_event = {
 	id = 37211
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1852
 		war = no
 		NOT = {
@@ -541,7 +574,10 @@ country_event = {
 	id = 37212
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1854
 		has_global_flag = PlanWorldFair
 		war = no
@@ -590,7 +626,10 @@ country_event = {
 	news_desc_short = "EVTDESC37213_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1836
 		NOT = {
 			year = 1840
@@ -635,7 +674,10 @@ country_event = {
 	id = 37215
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1857
 		NOT = {
 			year = 1860
@@ -680,7 +722,10 @@ country_event = {
 	news_desc_short = "EVTDESC37216_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		exists = GER
 		year = 1894
 		NOT = {
@@ -744,7 +789,10 @@ country_event = {
 	news_desc_short = "EVTDESC37217_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		exists = GER
 		year = 1898
 		has_country_flag = DreyfusTrial
@@ -809,7 +857,10 @@ country_event = {
 	news_desc_short = "EVTDESC37218_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		exists = GER
 		year = 1899
 		has_country_flag = DreyfusGuilty
@@ -863,7 +914,10 @@ country_event = {
 	news_desc_short = "EVTDESC37220_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1858
 		NOT = {
 			year = 1861
@@ -903,7 +957,10 @@ country_event = {
 	id = 37221
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1892
 		NOT = {
 			year = 1895
@@ -944,7 +1001,10 @@ country_event = {
 	id = 37222
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1908
 		invention = wright_n_langleys_aeroplanes
 		NOT = {
@@ -986,7 +1046,10 @@ country_event = {
 	id = 37223
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		year = 1898
 		invention = daimlers_automobile
 		NOT = {
@@ -1027,7 +1090,10 @@ country_event = {
 	id = 37224
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		invention = expressionist_art
 		invention = expressionist_music
 		year = 1909
@@ -1068,7 +1134,10 @@ country_event = {
 	id = 37225
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		invention = impressionist_art
 		year = 1863
 		NOT = {
@@ -1121,7 +1190,10 @@ country_event = {
 
 	trigger = {
 		ai = yes
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		NOT = {
 			conscription = mandatory_service
 			owns = 412
@@ -1145,7 +1217,10 @@ country_event = {
 
 	trigger = {
 		ai = no
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		NOT = { owns = 412 }
 		NOT = { has_country_flag = french_revanchism }
 	}
@@ -1229,6 +1304,7 @@ country_event = {
 			duration = -1
 		}
 	}
+}
 	#Forever Destroyed
 country_event = {
 	id = 900333
@@ -1249,4 +1325,81 @@ country_event = {
 		remove_country_modifier = complete_humiliation
 	}
 }
+
+country_event = {
+	id = 14116
+	title = "Napoleon is exiled"
+	desc = "After getting our new administration, it time to rid Napoleon."
+	picture = napoleon3
+
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
+	has_country_modifier = napoleon_iii
+	NOT = { has_global_flag = napoleon_is_dead }
+	NOT = { 
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+	}
+	}
+	option = {
+		name = "Goodbye Napoleon"
+		remove_country_modifier = napoleon_iii
+	}
 }
+country_event = {
+	id = 14117
+	picture = napoleon3
+	title = "Napoleon is Dead..."
+	desc = "After a long and tulmultious life, it turns out you can't live forever, Napoleon has passed away from causes that are still being found out at this time."
+
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
+	NOT = { has_global_flag = napoleon_is_dead }
+	has_country_flag = napoleon_iii
+	}
+	mean_time_to_happen = {
+		months = 365
+	}
+	option = {
+		name = "Rest in Peace"
+		set_global_flag = napoleon_is_dead
+		remove_country_modifier = napoleon_iii
+		add_country_modifier = { name = napoleon_iii_legacy duration = -1 }
+	}
+}
+
+
+country_event = {
+	id = 14118
+	picture = napoleon3
+	title = "Napoleon is Back!"
+	desc = "After his sudden exile, he is now back with the restoration with the monarchy, who knows how long this man will last."
+
+	trigger = {
+		NOT = { has_country_modifier = napoleon_iii }
+		has_country_flag = napoleon_iii
+		OR = {
+		tag = FRA
+		tag = FRC
+		}
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+		NOT = { has_global_flag = napoleon_is_dead }
+	}
+		option = {
+			name = "Who let him in?"
+			add_country_modifier = { name = napoleon_iii duration = -1 }
+		}
+	}

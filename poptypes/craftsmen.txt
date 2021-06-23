@@ -107,7 +107,7 @@ country_migration_target =
 	modifier = {
 		factor = 750
 		AND = {
-			primary_culture = british
+			primary_culture = anglosouthafrican
 			has_country_flag = african_union_formation
 		}
 		has_country_flag = african_union_formation
@@ -206,10 +206,16 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
+	modifier = {
+		factor = 10
 		OR = {
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -221,6 +227,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -484,6 +491,16 @@ migration_target =
 		}
 		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
+	}
+	modifier = {
+		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
 	}
 	modifier = {
 		factor = 0
@@ -1029,20 +1046,20 @@ promote_to =
 			factor = -100
 			total_pops = 1000000
 			NOT = { total_pops = 2000000 }
-			soldiers = 0.02
+			soldiers = 0.0225
 			location = { NOT = { is_core = THIS } }
 		}
 		modifier = {
 			factor = -100
 			total_pops = 2000000
 			NOT = { total_pops = 4000000 }
-			soldiers = 0.015
+			soldiers = 0.02
 			location = { NOT = { is_core = THIS } }
 		}
 		modifier = {
 			factor = -100
 			total_pops = 4000000
-			soldiers = 0.01
+			soldiers = 0.015
 			location = { NOT = { is_core = THIS } }
 		}
 		group = {
@@ -1453,6 +1470,51 @@ promote_to =
 			location = { NOT = { has_pop_type = farmers } }
 		}
 	}
+	
+	
+	serfs = {
+        factor = 0.1
+
+		modifier = {
+			factor = 1
+		}
+
+        modifier = {
+            factor = 10
+            NOT = { life_needs = 0.1 }
+        }
+
+        modifier = {
+            factor = 5
+            NOT = { life_needs = 0.2 }
+        }
+
+        modifier = {
+            factor = 2.5
+            NOT = { life_needs = 0.3 }
+        }
+
+        modifier = {
+            factor = 2
+            NOT = { life_needs = 0.4 }
+        }
+
+        modifier = {
+            factor = 0.5
+            NOT = { life_needs = 0.5 }
+        }
+
+        modifier = {
+            factor = -100
+            OR = {
+                location = {
+                    owner = { NOT = { debt_law = serfdom } }
+                }
+                serfs = 0.4
+            }
+        }
+    }
+	
 	labourers = 
 	{
 		factor = 0.01
@@ -1484,6 +1546,12 @@ promote_to =
 
 ideologies = {
 	
+
+
+
+
+
+
 	fascist = {
 		factor = 1
 		modifier = {
@@ -3096,6 +3164,26 @@ issues =
 				civilized = no
 			}
 		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = reactionary
+		}
+		modifier = {
+			factor = 0.25
+			ruling_party_ideology = conservative
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.4
+		}  
+		modifier = {
+			factor = 0.5
+			agree_with_ruling_party = 0.3
+		}  
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }

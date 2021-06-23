@@ -30,6 +30,10 @@ party = {
 	war_policy = pro_military
 }
 
+
+
+
+
 party = {
 	name = "SPA_conservative_2"
 	start_date = 1854.1.1

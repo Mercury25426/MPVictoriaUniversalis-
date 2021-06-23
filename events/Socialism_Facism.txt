@@ -2444,7 +2444,7 @@ country_event = {
 	
 	
 	option = {
-		name = "§RKill Them"
+		name = "§RJust following orders"
 		add_country_modifier = {
 			name = oppressed
 			duration = -1
@@ -2480,7 +2480,7 @@ country_event = {
 	picture = "propaganda"
 	
 	trigger = {
-		NOT = { has_country_modifier = discrimination }
+		country = { has_country_modifier = discrimination }
 		civilized = yes
 		OR = {
 		government = absolute_monarchy
@@ -2491,7 +2491,7 @@ country_event = {
 	
 	
 	option = {
-		name = "§RBeat Them"
+		name = "§R..."
 		add_country_modifier = {
 			name = discrimination
 			duration = -1
@@ -2507,7 +2507,7 @@ country_event = {
 	picture = "propaganda"
 	
 	trigger = {
-		country = { has_country_modifier = discrimination }
+		has_country_modifier = discrimination
 		civilized = yes
 		NOT = {
 			OR = {
@@ -2524,6 +2524,7 @@ country_event = {
 		remove_country_modifier = discrimination
 		}			
 		}
+	
 
 #Jim Crow
 country_event = {
@@ -2545,7 +2546,7 @@ country_event = {
 	
 	
 	option = {
-		name = "§BHose them"
+		name = "Wait"
 		add_country_modifier = {
 			name = jimcrow
 			duration = -1

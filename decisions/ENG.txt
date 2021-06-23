@@ -5,6 +5,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			NOT = {
 				has_country_flag = corn_laws_repealed_flag
@@ -32,6 +33,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			year = 1900
 			NOT = {
@@ -63,6 +65,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			NOT = {
 				has_country_flag = elementary_my_dear_watson # I know, he never says it in the books, yadiyadi.
@@ -87,6 +90,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			ION = {
 				vassal_of = ENG
@@ -143,6 +147,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			owns = 2068
 			owns = 2069
@@ -181,6 +186,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			NOT = {
 				owns = 1393
@@ -256,6 +262,7 @@ political_decisions = {
 			OR = {
 				tag = ENG
 				tag = ENL
+				tag = IMF
 			}
 			NOT = { owns = 1390 }
 			owns = 1384
@@ -341,96 +348,200 @@ reclaim_the_UK = {
 		}
 	}
 	
-	reform_the_UK = {
+	
+	annex_canada = {
+		picture = canadian_confederation
+		alert = no
 		potential = {
-			tag = ENL
-			has_country_flag = reclaimed_the_uk
-			NOT = { exists = ENG }
+			ai = no
+			OR = {
+			tag = ENG
+			tag = IMF
+			}
+			OR = {
+				CAN = {
+					exists = yes
+					vassal_of = THIS
+				}
+				RPL = {
+					exists = yes
+					vassal_of = THIS
+				}
+			}
+			NOT = { has_country_flag = canada_annexed }
 		}
-		
+
 		allow = {
-			war = no
-			owns = 300
-			269 = {
-				OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
+			CAN = { ai = yes }
+		}
+
+		effect = {
+			inherit = CAN
+			inherit = RPL
+			set_country_flag = canada_annexed
+			badboy = 15
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	annex_south_africa = {
+		picture = south_africa_union
+		alert = no
+		potential = {
+			ai = no
+			OR = {
+				tag = ENG
+				tag = IMF
 				}
+			SAF = {
+				exists = yes
+				vassal_of = THIS
 			}
-			273 = {
-				OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
+			NOT = { has_country_flag = south_africa_annexed }
+		}
+
+		allow = {
+			SAF = { ai = yes }
+			SAU = { ai = yes }
+		}
+
+		effect = {
+			inherit = SAF
+			inherit = SAU
+			set_country_flag = south_africa_annexed
+			badboy = 10
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	annex_australia = {
+		picture = australian_federation
+		alert = no
+		potential = {
+			ai = no
+			OR = {
+				tag = ENG
+				tag = IMF
 				}
+			AST = {
+				exists = yes
+				vassal_of = THIS
 			}
-			254 = {
-				OR = {
-					owned_by = THIS
-					owner = { in_sphere = THIS }
+			NOT = { has_country_flag = australia_annexed }
+		}
+
+		allow = {
+			AST = { ai = yes }
+		}
+
+		effect = {
+			inherit = AST
+			set_country_flag = australia_annexed
+			badboy = 10
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	annex_new_zealand = {
+		picture = new_zealand_proclamation
+		alert = no
+		potential = {
+			ai = no
+			OR = {
+				tag = ENG
+				tag = IMF
 				}
+			NZL = {
+				exists = yes
+				vassal_of = THIS
+			}
+			NOT = { has_country_flag = new_zealand_annexed }
+		}
+
+		allow = {
+			NZL = { ai = yes }
+		}
+
+		effect = {
+			inherit = NZL
+			set_country_flag = new_zealand_annexed
+			badboy = 5
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	form_imperial_federation = {
+		picture = impfed
+		alert = yes
+		potential = {
+			tag = ENG
+		
+		}
+	
+		allow = {
+			OR = {
+			has_country_flag = new_zealand_annexed
+			NZL = { ai = no }
+			}
+			OR = {
+			has_country_flag = australia_annexed
+			AST = { ai = no }
+			}
+			OR = {
+			has_country_flag = canada_annexed	
+			CAN = { ai = no }
+			}
+			OR = {
+			has_country_flag = south_africa_annexed
+			OR = {
+			SAF = { ai = no }
+			SAU = { ai = no }
+			}
+			revolution_n_counterrevolution = 1
 			}
 		}
-		
 		effect = {
-			prestige = 20
-			all_core = {
-				remove_core = ENL
-				add_core = ENG
-			}
-			change_tag = ENG
-			random_country = {
+			add_accepted_culture = anglo_canadian
+			add_accepted_culture = anglosouthafrican
+			add_accepted_culture = australian
+			prestige = 50
+			change_tag = IMF
+			any_pop = {
 				limit = {
-					tag = SCO
-					exists = yes
-					ai = yes
+					culture = british
 				}
-				SCO = { all_core = { add_core = ENG } }
-				THIS = { inherit = SCO }
+				militancy = -5
+				consciousness = -5
 			}
-			random_country = {
+			any_pop = {
 				limit = {
-					tag = SCO
-					exists = yes
-					ai = no
+					culture = anglo_canadian
 				}
-				country_event = 11101
+				militancy = -5
+				consciousness = -5
 			}
-			random_country = {
+			any_pop = {
 				limit = {
-					tag = WHA
-					exists = yes
-					ai = yes
+					culture = anglosouthafrican
 				}
-				THIS = { inherit = WHA }
+				militancy = -5
+				consciousness = -5
 			}
-			random_country = {
+			any_pop = {
 				limit = {
-					tag = WHA
-					exists = yes
-					ai = no
+					culture = australian
 				}
-				country_event = 11101
-			}			
-			any_country = {
-				limit = {
-					in_sphere = THIS
-					NOT = {
-						tag = THIS
-						tag = SCO
-						tag = WHA
-					}
-				}
-				any_owned = {
-					limit = {
-						OR = {
-							is_core = SCO
-							is_core = WHA
-							region = ENG_254
-						}
-					}
-					secede_province = THIS
-				}
+				militancy = -5
+				consciousness = -5
 			}
+			ENG = {
+				all_core = { remove_core = ENG }
+			}
+			set_country_flag = confederalism
+			political_reform = confederalism
+			
+
 		}
 	}
+
 }

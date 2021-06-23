@@ -9,31 +9,31 @@
 	}
 
 	officers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 250
 	}
 
 	bureaucrats = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 4125
 	}
 
 	clergymen = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 1250
 	}
 
 	artisans = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 10000
 	}
@@ -95,31 +95,31 @@
 	}
 
 	aristocrats = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 5000
 	}
 
 	soldiers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 75250
 	}
@@ -127,31 +127,31 @@
 #Armagh (274000/68500 POPS)
 256 = {
 	aristocrats = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 250
 	}
 
 	clergymen = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
-		culture = irish
+		culture = north_irish
 		religion = protestant
 		size = 43000
 	}
@@ -213,25 +213,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = north_irish
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = british
+		culture = north_irish
 		religion = protestant
 		size = 2250
 	}
 
 	soldiers = {
-		culture = british
+		culture = north_irish
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = british
+		culture = north_irish
 		religion = protestant
 		size = 16575
 	}

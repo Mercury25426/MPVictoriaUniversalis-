@@ -930,9 +930,18 @@ WLL;Wallonia;Wallonie;Wallonien;;Valonia;;;;;;;;;x;;;;
 FRA;France;France;Frankreich;;Francia;;;;;;;;;x;;;;
 IRE;Ireland;Irlande;Irland;;Irlanda;;;;;;;;;x;;;;
 NET;Netherlands;Pays-Bas;Niederlande;;Holanda;;;;;;;;;x;;;;
+NET_absolute_monarchy;Kingdom of the Netherlands;;;;;;;;;;;;x
+NET_prussian_constitutionalism;Kingdom of the Netherlands;;;;;;;;;;;;x
+NET_hms_government;Kingdom of the Netherlands;;;;;;;;;;;;x
 POR;Portugal;Portugal;Portugal;;Portugal;;;;;;;;;x;;;;
+POR_absolute_monarchy;Kingdom of Portugal;;;;;;;;;;;;x
+POR_prussian_constitutionalism;Kingdom of Portugal;;;;;;;;;;;;x
+POR_hms_government;Kingdom of Portugal;;;;;;;;;;;;x
 SCO;Scotland;Écosse;Schottland;;Escocia;;;;;;;;;x;;;;
 SPA;Spain;Espagne;Spanien;;España;;;;;;;;;x;;;;
+SPA_absolute_monarchy;Kingdom of Spain;;;;;;;;;;;;x
+SPA_prussian_constitutionalism;Kingdom of Spain;;;;;;;;;;;;x
+SPA_hms_government;Kingdom of Spain;;;;;;;;;;;;x
 PER;Persia;Perse;Persien;;Persia;;;;;;;;;x;;;;
 NEJ;Nejd;Nejd;Nejd;;Najd;;;;;;;;;x;;;;
 AFG;Afghanistan;Afghanistan;Afghanistan;;Afganistán;;;;;;;;;x;;;;
@@ -1400,7 +1409,7 @@ cree;Cree;Cri;Creeisch;;Cree;;;;;;;;;x;;;;
 navajo;Navajo;Navajo;Navajonisch;;Navajo;;;;;;;;;x;;;;
 native_american_minor;Native American Minor;Petites tribus amérindiennes;Uramerikanisch;;Nativo-americana menor;;;;;;;;;x;;;;
 neo_european_cultures;Neo European Cultures;Cultures néo-européennes;Neoeuropäisch;;Culturas neoeuropeas;;;;;;;;;x;;;;
-yankee;Yankee;Yankee;Yankee-Amerikanisch;;Yanqui;;;;;;;;;x;;;;
+yankee;German American;Yankee;Yankee-Amerikanisch;;Yanqui;;;;;;;;;x;;;;
 anglo_canadian;Anglo Canadian;Anglo-canadien;Anglokanadisch;;Anglocanadiense;;;;;;;;;x;;;;
 french_canadian;French Canadian;Franco-canadien;Frankokanadisch;;Franco-canadiense;;;;;;;;;x;;;;
 dixie;Dixie;Dixie;Dixie-Amerikanisch;;Dixie;;;;;;;;;x;;;;
@@ -10076,7 +10085,7 @@ PROV125;North Platte;North Platte;North Platte;;Platte Norte;;;;;;;;;x;;;;
 PROV126;Topeka;Topeka;Topeka;;Topeka;;;;;;;;;x;;;;
 PROV127;Goodland;Goodland;Goodland;;Goodland;;;;;;;;;x;;;;
 PROV128;Wichita;Wichita;Wichita;;Wichita;;;;;;;;;x;;;;
-PROV129;Oklahoma City;Oklahoma City;Oklahoma City;;Oklahoma City;;;;;;;;;x;;;;
+PROV129;Guymon;Oklahoma City;Oklahoma City;;Oklahoma City;;;;;;;;;x;;;;
 PROV130;Tahlequah;Tahlequah;Tahlequah;;Tahlequah;;;;;;;;;x;;;;
 PROV131;Okmulgee;Okmulgee;Okmulgee;;Okmulgee;;;;;;;;;x;;;;
 PROV132;Houston;Houston;Houston;;Houston;;;;;;;;;x;;;;

@@ -123,7 +123,7 @@ country_event = {
 	option = {
 		name = "No, I don't think I will"
 			any_pop = {
-				reduce_pop = 0.25
+				reduce_pop = 0.4
 			}
 			set_country_flag = infinitysnap
 	}
@@ -132,12 +132,15 @@ country_event = {
 
 country_event = {
 	id = 21022
-	title = "Russia Buff"
-	desc = "Sir we don't have enough pops, god help the pain"
-	picture = "disease"
+	title = "Russian Baby Boom"
+	desc = "In the 1800s, the Russian population drastically increased, mostly in part by women in Russia having extremely high birth rates"
+	picture = "february_manifesto_russia"
 	
 	trigger = {
+		OR = {
 			tag = RUS
+			tag = UBP
+		}
 		NOT = {
 			OR = {
 			has_country_flag = russiabuff
@@ -146,18 +149,31 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-		months = 6
-	}
+
 	
 	option = {
-		name = "No, I don't think I will"
-			any_pop = {
-				reduce_pop = 1.1
+		name = "This will surely improve the Russian states likelihood of survival"
+		any_owned = {
+			add_province_modifier = {
+				name = russian_baby_boom
+				duration = 25550
 			}
-			set_country_flag = russiabuff
 	}
+	set_country_flag = russiabuff
 	
+}
+} 
+
+
+country_event = {
+	id = 123345
+	is_triggered_only = yes
+	option = {
+		name = "amogus"
+		any_pop = {
+			reduce_pop = 1.1
+		}
+	}
 }
 
 #Strange Influenza

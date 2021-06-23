@@ -74,7 +74,7 @@ political_decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 	
@@ -118,7 +118,7 @@ political_decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				is_culture_group = far_east_asian

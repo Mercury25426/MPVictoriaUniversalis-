@@ -51,7 +51,10 @@ country_event = {
 		year = 1837
 		NOT = {
 			year = 1840
+			OR = {
 			war_with = FRA
+			war_with = FRC 
+			}
 			has_country_flag = LouisNapoleonExtradited
 		}
 
@@ -81,6 +84,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA31301" 
 		relation = { who = FRA value = -50 }
+		relation = { who = FRC value = -50 }
 		set_country_flag = LouisNapoleonExtradited
 	}
 }

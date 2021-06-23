@@ -46,6 +46,16 @@ promotion_focus =
 			NOT = { state_scope = { total_pops = 2000000 } }
 		}
 	}
+	
+	promote_serfs =
+	{
+		serfs = 0.30 #30% more likeley to become this type
+		icon = 33
+		outliner_show_as_percent = yes
+		limit = {
+			NOT = { state_scope = { total_pops = 2000000 } }
+		}
+	}
 
 	promote_bureaucrats =
 	{
@@ -152,6 +162,20 @@ large_promotion_focus =
 			}
 		}
 	}
+	
+		large_promote_serfs =
+	{
+		serfs = 0.20 #30% more likeley to become this type
+		icon = 33
+		outliner_show_as_percent = yes
+		limit = {
+			state_scope = {
+				total_pops = 2000000
+				NOT = { total_pops = 4000000 }
+			}
+		}
+	}
+	
 
 	large_promote_bureaucrats =
 	{
@@ -288,6 +312,21 @@ massive_promotion_focus =
 			}
 		}
 	}
+	
+	
+		massive_promote_serfs =
+	{
+		serfs = 0.10 #30% more likeley to become this type
+		icon = 33
+		outliner_show_as_percent = yes
+		limit = {
+			state_scope = {
+				total_pops = 4000000
+			}
+		}
+	}
+	
+	
 
 	massive_promote_bureaucrats =
 	{

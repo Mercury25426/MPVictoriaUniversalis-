@@ -17,13 +17,16 @@ rebel =
 	irregular = 1
 }
 
+life_needs = {
+	grain = 5
+}
 
 everyday_needs = {
 	coal = 1
 }
 
 luxury_needs = {
-	#pharmaceuticals = 1
+	pharmaceuticals = 1
 }
 
 country_migration_target =
@@ -44,6 +47,20 @@ ideologies = {
 		factor = 1
 	}
 }
+
+promote_to = {
+    serfs = {
+        factor = 1
+
+        modifier = {
+            factor = 50
+            country = { has_country_flag = slavery_disabled }
+			OR = { is_accepted_culture = yes is_primary_culture = yes }
+        }
+    }
+}
+
+
 issues = {
 	full_citizenship =  {
 		factor = 3

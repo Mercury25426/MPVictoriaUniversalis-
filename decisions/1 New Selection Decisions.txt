@@ -211,7 +211,7 @@ zcountry_increase_colonial_migration = {
 			civilized = yes
 		}
 		effect = {
-			country_event = { id = 91705 }
+			country_event = { id = 91705 days = 0 }
 		}
 	}
 	
@@ -459,7 +459,51 @@ zstate_colonial_policy = {
 		}
 	}
 }
+#########################################################################
+# 								FAKE WAR								#
+#########################################################################
+fake_war = {
+	picture = fake_war
+	alert = no
+	potential = {
+		ai = no
+		num_of_vassals = 1
+		is_vassal = no
+	}
+	allow = {
+		NOT = { war_with = FWR }
+	}
+	effect = {
+		FWR = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = status_quo }
+			}
+		}
+	}
+}
 
+end_fake_war = {
+	picture = fake_war
+	potential = {
+		OR = {
+			AND = {
+				ai = no
+				war_with = FWR
+			}
+			AND = {
+				ai = yes
+				war_with = FWR
+				is_vassal = no
+			}
+		}
+	}
+	allow = {
+	}
+	effect = {
+		end_war = FWR
+	}
+}
 
 #########################################################################
 # 							PROVINCE SUPPLY								#
@@ -2719,6 +2763,8 @@ effect = {
 							province_id = 1507
 							province_id = 1353
 							province_id = 2062
+							province_id = 2103
+							province_id = 2108
 							province_id = 1642
 							province_id = 1661
 							province_id = 1670
@@ -2747,6 +2793,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = mine_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -2806,6 +2853,7 @@ effect = {
 						province_id = 2686
 						province_id = 1130
 						province_id = 1184
+						province_id = 2108
 						province_id = 1249
 						province_id = 1272
 						province_id = 1303
@@ -2817,6 +2865,7 @@ effect = {
 						province_id = 1507
 						province_id = 1353
 						province_id = 2062
+						province_id = 2103
 						province_id = 1642
 						province_id = 1661
 						province_id = 1670
@@ -2891,6 +2940,7 @@ effect = {
 							province_id = 2686
 							province_id = 1130
 							province_id = 1184
+							province_id = 2108
 							province_id = 1249
 							province_id = 1272
 							province_id = 1303
@@ -2902,6 +2952,7 @@ effect = {
 							province_id = 1507
 							province_id = 1353
 							province_id = 2062
+							province_id = 2103
 							province_id = 1642
 							province_id = 1661
 							province_id = 1670
@@ -2930,6 +2981,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = mine_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -2989,6 +3041,8 @@ effect = {
 					province_id = 1507
 					province_id = 1353
 					province_id = 2062
+					province_id = 2103
+					province_id = 2108
 					province_id = 1642
 					province_id = 1661
 					province_id = 1670
@@ -3071,6 +3125,8 @@ effect = {
 					province_id = 1507
 					province_id = 1353
 					province_id = 2062
+					province_id = 2103
+					province_id = 2108
 					province_id = 1642
 					province_id = 1661
 					province_id = 1670
@@ -3119,10 +3175,12 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = mine_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
 	}
+
 	zstate_agriculture_expansion_500k = {
 		picture = rgo_expansion
 		potential = {
@@ -3163,10 +3221,14 @@ effect = {
 				}
 				state_scope = {
 					any_owned = {
+						limit = {
+							NOT = { has_pop_type = labourers }
+						}
 						add_province_modifier = {
 							name = agriculture_expansion
 							duration = -1
 						}
+						add_core = PRO
 						province_selector = -1
 					}
 				}
@@ -3217,10 +3279,14 @@ effect = {
 				}
 				state_scope = {
 					any_owned = {
+						limit = {
+							NOT = { has_pop_type = labourers }
+						}
 						add_province_modifier = {
 							name = agriculture_expansion
 							duration = -1
 						}
+						add_core = PRO
 						province_selector = -1
 					}
 				}
@@ -3271,10 +3337,14 @@ effect = {
 				}
 				state_scope = {
 					any_owned = {
+						limit = {
+							NOT = { has_pop_type = labourers }
+						}
 						add_province_modifier = {
 							name = agriculture_expansion
 							duration = -1
 						}
+						add_core = PRO
 						province_selector = -1
 					}
 				}
@@ -3326,10 +3396,14 @@ effect = {
 				}
 				state_scope = {
 					any_owned = {
+						limit = {
+							NOT = { has_pop_type = labourers }
+						}
 						add_province_modifier = {
 							name = agriculture_expansion
 							duration = -1
 						}
+						add_core = PRO
 						province_selector = -1
 					}
 				}
@@ -3377,16 +3451,21 @@ effect = {
 				}
 				state_scope = {
 					any_owned = {
+						limit = {
+							NOT = { has_pop_type = labourers }
+						}
 						add_province_modifier = {
 							name = agriculture_expansion
 							duration = -1
 						}
+						add_core = PRO
 						province_selector = -1
 					}
 				}
 			}
 		}
 	}
+
 	zprovince_agriculture_expansion = {
 		picture = rgo_expansion
 		potential = {
@@ -3414,6 +3493,7 @@ effect = {
 					has_building = province_selector
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3467,6 +3547,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3523,6 +3604,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3579,6 +3661,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3635,6 +3718,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3691,6 +3775,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3747,6 +3832,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3803,6 +3889,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3859,6 +3946,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3915,6 +4003,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3971,6 +4060,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -3986,7 +4076,7 @@ effect = {
 			}
 		}	
 		allow = {
-			money = 1500000
+			money = 1200000
 			any_owned_province = { 
 				has_building = province_selector
 				total_pops = 1000000
@@ -4005,7 +4095,7 @@ effect = {
 			}
 		}
 		effect = {
-			money = -1500000
+			money = -1200000
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -4022,6 +4112,7 @@ effect = {
 					}
 				}
 				add_province_modifier = { name = agriculture_expansion duration = -1 }
+				add_core = PRO
 				province_selector = -1
 			}
 		}
@@ -5250,11 +5341,62 @@ effect = {
 # 							PROVINCE MIGRATION							#
 #########################################################################
 
-	zprovince_migration = {
+zprovince_migration = {
+	picture = attract_immigrants
+	potential = {
+		ai = no
+		has_country_flag = domestic_idea
+		capital_scope = {
+			NOT = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+	}	
+	allow = {
+		any_owned_province = { 
+			has_building = province_selector
+			is_colonial = no
+		}
+		NOT = {
+			OR = {
+				any_owned_province = { 
+					has_province_modifier = province_attract_immigrants
+				}
+				any_owned_province = { 
+					has_province_modifier = new_world_province_attract_immigrants
+				}
+			}
+		}
+	}
+	effect = {
+		set_country_flag = province_migration
+		random_owned = {
+			limit = {
+				has_building = province_selector
+				NOT = { has_province_modifier = province_attract_immigrants }
+				is_colonial = no
+			}
+			add_province_modifier = { name = province_attract_immigrants duration = -1 }
+			province_selector = -1
+		}
+	}
+}
+	zprovince_migration_new_world = {
 		picture = attract_immigrants
 		potential = {
 			ai = no
 			has_country_flag = domestic_idea
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+			}
 		}	
 		allow = {
 			any_owned_province = { 
@@ -5262,8 +5404,13 @@ effect = {
 				is_colonial = no
 			}
 			NOT = {
-				any_owned_province = { 
-					has_province_modifier = province_attract_immigrants
+				OR = {
+					any_owned_province = { 
+						has_province_modifier = new_world_province_attract_immigrants
+					}
+					any_owned_province = { 
+						has_province_modifier = province_attract_immigrants
+					}
 				}
 			}
 		}
@@ -5272,15 +5419,14 @@ effect = {
 			random_owned = {
 				limit = {
 					has_building = province_selector
-					NOT = { has_province_modifier = province_attract_immigrants }
+					NOT = { has_province_modifier = new_world_province_attract_immigrants }
 					is_colonial = no
 				}
-				add_province_modifier = { name = province_attract_immigrants duration = -1 }
+				add_province_modifier = { name = new_world_province_attract_immigrants duration = -1 }
 				province_selector = -1
 			}
 		}
 	}
-	
 	zprovince_migration_reset = {
 		picture = attract_immigrants
 		alert = no
@@ -5291,6 +5437,9 @@ effect = {
 				any_owned_province = {
 					has_province_modifier = province_attract_immigrants
 				}
+				any_owned_province = {
+					has_province_modifier = new_world_province_attract_immigrants
+				}
 				has_country_flag = province_migration
 			}
 		}	
@@ -5298,6 +5447,9 @@ effect = {
 			OR = {
 				any_owned_province = {
 					has_province_modifier = province_attract_immigrants
+				}
+				any_owned_province = {
+					has_province_modifier = new_world_province_attract_immigrants
 				}
 				has_country_flag = province_migration
 			}
@@ -5309,6 +5461,12 @@ effect = {
 					has_province_modifier = province_attract_immigrants
 				}
 				remove_province_modifier = province_attract_immigrants
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = new_world_province_attract_immigrants
+				}
+				remove_province_modifier = new_world_province_attract_immigrants
 			}
 		}
 	}
@@ -5335,4 +5493,48 @@ effect = {
 		}
 	}
 
+
+
+
+	allow_slavery_for_accepted = {
+		alert = no
+		picture = slavery
+		potential = {
+			has_country_flag = slavery_disabled
+			ai = no
+
+		}
+		allow = {
+			ai = no
+			has_country_flag = slavery_disabled
+		}
+		effect = {
+			clr_country_flag = slavery_disabled
+		}
+	}
+
+	disable_slavery_for_accepted = {
+		alert = no
+		picture = slavery
+		potential = {
+			NOT = { has_country_flag = slavery_disabled }
+			ai = no
+
+		}
+		allow = {
+			ai = no
+			NOT = { has_country_flag = slavery_disabled }
+		}
+		effect = {
+			set_country_flag = slavery_disabled
+		}
+	}
+
+
+
 }
+
+
+
+
+

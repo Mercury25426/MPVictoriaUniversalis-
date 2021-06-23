@@ -7,7 +7,7 @@ plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.10
 non_state_culture_literacy = 0.03
-
+civilized = yes
 ruling_party = LIB_conservative_2
 last_election = 1822.1.1
 upper_house = {

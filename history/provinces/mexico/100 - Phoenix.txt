@@ -1,4 +1,5 @@
-owner = MEXcontroller = MEXadd_core = MEX
+owner = APA
+controller = APA
 add_core = DES
 trade_goods = iron
 life_rating = 35
@@ -6,5 +7,15 @@ life_rating = 35
 	controller = USA
 	owner = USA
 	add_core = USA
-	remove_core = MEX	state_building = {		level = 1		building = canned_food_factory		upgrade = yes	}	state_building = {		level = 1		building = steel_factory		upgrade = yes	}
+	remove_core = MEX
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
 }

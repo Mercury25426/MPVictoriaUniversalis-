@@ -434,13 +434,13 @@ PS_unlocked = {
 #	effect = {
 #	}
 #}
-army_supply_idea_invention = {
+military_supplies_idea_invention = {
 	limit = { early_classical_theory_and_critique = 1 }
 	chance = {
 		base = 0
 		modifier = {
 			factor = 100
-			has_country_flag = army_supply_idea
+			has_country_flag = military_supplies_idea
 		}
 	}
 	effect = {

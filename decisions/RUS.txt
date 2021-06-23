@@ -377,6 +377,7 @@ political_decisions = {
 					OR = {
 						type = farmers
 						type = labourers
+						type = serfs
 					}
 				}
 				militancy = -2
