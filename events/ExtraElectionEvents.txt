@@ -3371,6 +3371,38 @@ country_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
+			}
+		}
+	}
 	
 	option = {
 		name = "EVTOPTD999010"
@@ -3534,6 +3566,37 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
+			}
+		}
+	}
 	
 	option = {
 		name = "EVTOPTD999010"
@@ -3694,6 +3757,38 @@ country_event = {
 			modifier = {
 				factor = 2
 				ruling_party_ideology = socialist
+			}
+		}
+	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
 			}
 		}
 	}
@@ -3885,6 +3980,38 @@ country_event = {
 			modifier = {
 				factor = 2
 				ruling_party_ideology = socialist
+			}
+		}
+	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
 			}
 		}
 	}
@@ -4108,6 +4235,38 @@ country_event = {
 			modifier = {
 				factor = 2
 				ruling_party_ideology = socialist
+			}
+		}
+	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
 			}
 		}
 	}
@@ -4370,6 +4529,38 @@ country_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
+			}
+		}
+	}
 	
 	option = {
 		name = "EVTOPTD999010"
@@ -4562,6 +4753,38 @@ country_event = {
 			modifier = {
 				factor = 2
 				ruling_party_ideology = socialist
+			}
+		}
+	}
+
+	option = {
+		name = "Support the Anarchists"
+		add_country_modifier = {
+			name = election_cooldown
+			duration = 30 
+		} 
+		any_pop = {
+			limit = {
+				location = { is_colonial = no }
+			}
+			ideology = {
+				value = anarchist
+				factor = 0.05
+			}
+			scaled_consciousness = {
+				ideology = anarchist
+				factor = 2
+			}
+		}
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2
+				ruling_party_ideology = anarchist
+			}
+			modifier = {
+				factor = 0.5
+				ruling_party_ideology = anarchist
 			}
 		}
 	}

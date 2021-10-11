@@ -102,9 +102,9 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				OR = {
+
 					continent = africa
-				}
+
 				NOT = { life_rating = 21 }
 			}
 			life_rating = 15
@@ -1018,6 +1018,15 @@ country_event = {
 				}
 			}
 			FRA = {
+				is_greater_power = no
+				exists = no
+				OR = {
+					total_amount_of_divisions = 1
+					is_mobilised = yes
+					war = yes
+				}
+			}
+			FRC = {
 				is_greater_power = no
 				exists = no
 				OR = {
@@ -3853,11 +3862,13 @@ country_event = {
 	option = {
 		name = "EVTOPTA91327"
 		set_global_flag = enable_crisis
+		country_event = { id = 14999 days = 0 }
 	}
 
 	option = {
 		name = "EVTOPTB91327"
 		set_global_flag = disable_crisis
+		country_event = { id = 14999 days = 0 }
 	}
 }
 
@@ -3925,6 +3936,7 @@ country_event = {
 						is_sphere_leader_of = THIS
 						vassal_of = THIS
 						is_our_vassal = THIS
+						truce_with = FROM
 					}
 				}
 			}
@@ -3944,6 +3956,7 @@ country_event = {
 						is_sphere_leader_of = THIS
 						vassal_of = THIS
 						is_our_vassal = THIS
+						truce_with = FROM
 					}
 				}
 			}

@@ -486,7 +486,10 @@ country_event = {
 	title = "EVTNAME37710"
 
 	trigger = {
+		OR = {
 		tag = POR
+		tag = PBM
+		}
 		year = 1869
 		ai = yes
 		OR = {

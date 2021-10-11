@@ -284,6 +284,18 @@ political_decisions = {
 					owns = 3260
 					3260 = { is_colonial = yes }
 				}
+				AND = {
+					owns = 1499
+					1499 = { is_colonial = yes }
+				}
+				AND = {
+					owns = 1608
+					1608 = { is_colonial = yes }
+				}
+				AND = {
+					owns = 1482
+					1482 = { is_colonial = yes }
+				}
 			}
 		}
 		allow = {
@@ -322,6 +334,18 @@ political_decisions = {
 						}
 						AND = {
 							province_id = 3260
+							is_colonial = yes
+						}
+						AND = {
+							province_id = 1499
+							is_colonial = yes
+						}
+						AND = {
+							province_id = 1608
+							is_colonial = yes
+						}
+						AND = {
+							province_id = 1482
 							is_colonial = yes
 						}
 					}

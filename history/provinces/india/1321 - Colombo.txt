@@ -1,6 +1,7 @@
 owner = EIC
 controller = EIC
 add_core = SRI
+add_core = MUG
 trade_goods = fish
 life_rating = 32
 1913.1.1 = {

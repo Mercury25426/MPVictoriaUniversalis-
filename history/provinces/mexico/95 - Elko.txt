@@ -1,4 +1,6 @@
-owner = MEXcontroller = MEXadd_core = MEX
+owner = SHO
+controller = SHO
+add_core = SHO
 add_core = DES
 trade_goods = iron
 life_rating = 35

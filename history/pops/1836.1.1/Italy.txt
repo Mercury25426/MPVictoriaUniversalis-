@@ -188,7 +188,7 @@
 		size = 65200
 	}
 }
-#Liguria Region (960000)
+#Liafricania Region (960000)
 #under the rule of Sardinia in 1836
 #Genoa (644000/161000 POPS)
 724 = {
@@ -1458,6 +1458,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 6750
+	}
+	craftsmen = {
+		culture = roman
+		religion = catholic
+		size = 500
 	}
 
 	bureaucrats = {

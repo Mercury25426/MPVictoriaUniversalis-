@@ -1,13 +1,12 @@
 capital = 1887
 primary_culture = afro_american
-culture = kru
 religion = protestant
 government = democracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.10
 non_state_culture_literacy = 0.03
-
+civilized = yes
 ruling_party = LIB_conservative_2
 last_election = 1822.1.1
 upper_house = {
@@ -19,6 +18,7 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+set_country_flag = black_conversion
 
 slavery = no_slavery
 upper_house_composition = appointed

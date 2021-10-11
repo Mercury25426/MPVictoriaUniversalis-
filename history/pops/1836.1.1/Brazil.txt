@@ -2154,7 +2154,7 @@
 		size = 9000
 	}
 }
-#Porto Seguro (120000/30000 POPS)
+#Porto Seafricano (120000/30000 POPS)
 2439 = {
 	aristocrats = {
 		culture = brazilian

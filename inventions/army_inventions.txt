@@ -42,6 +42,13 @@ cuirassier_activation = {
 			factor = -2
 			not = { civilized = yes }
 		}
+		modifier = {
+			factor = -100
+			OR = {
+			ai = yes
+			civilized = no
+			}
+		}		
 	}
 	effect = {
 		activate_unit = cuirassier
@@ -55,6 +62,13 @@ dragoon_activation = {
 			factor = -2
 			not = { civilized = yes }
 		}
+		modifier = {
+			factor = -100
+			OR = {
+			ai = yes
+			civilized = no
+			}
+		}		
 	}
 	effect = {
 		activate_unit = dragoon
@@ -68,6 +82,13 @@ hussar_activation = {
 			factor = -2
 			not = { civilized = yes }
 		}
+		modifier = {
+			factor = -100
+			OR = {
+			ai = yes
+			civilized = no
+			}
+		}		
 	}
 	effect = {
 		activate_unit = hussar 
@@ -97,6 +118,9 @@ signal_detachments = {
 		engineer = {
 			defence = 1
 			siege = 1
+		}
+		cuirassier = {
+			reconnaissance = 1
 		}
 		dragoon = {
 			defence = 1
@@ -281,7 +305,7 @@ trench_systemsI = {
 		}
 	}
 	effect = {
-		dig_in_cap = 5
+		dig_in_cap = 3
 		army_base = {
 			supply_consumption = 0.1
 		}
@@ -297,7 +321,7 @@ trench_systemsII = {
 			}
 	}
 	effect = {
-		dig_in_cap = 5
+		dig_in_cap = 3
 		army_base = {
 			supply_consumption = 0.05
 		}
@@ -314,7 +338,7 @@ trench_systemsIII = {
 			}
 		}
 	effect = {
-		dig_in_cap = 5
+		dig_in_cap = 3
 		army_base = {
 			supply_consumption = 0.05
 		}
@@ -925,6 +949,7 @@ synchronized_heavy_support = {
 	effect = {
 		artillery = {
 			defence = 1
+			supply_consumption = 0.1
 		}
 	}
 }
@@ -945,6 +970,7 @@ flexible_firepower = {
 	effect = {
 		artillery = {
 			defence = 1
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -957,6 +983,7 @@ ammunition_area_effect_calculations = {
 	effect = {
 		artillery = {
 			defence = 1
+			supply_consumption = 0.05
 		}
 	}
 }
@@ -1015,6 +1042,7 @@ creeping_barrage = {
 	effect = {
 		artillery = {
 			attack = 1
+			supply_consumption = 0.15
 		}
 	}
 }
@@ -1035,6 +1063,7 @@ grand_battle_plan_vs_superior_firepower = {
 	effect = {
 		artillery = {
 			defence = 1
+			supply_consumption = 0.25
 		}
 	}
 }
@@ -1045,6 +1074,7 @@ mob1 = {
 		base = 5	
 	}
 	effect = {
+		mobilisation_economy_impact = 0.2
 	}
 }
 
@@ -1084,6 +1114,7 @@ mob2 = {
 		}	
 	}
 	effect = {
+		mobilisation_economy_impact = 0.1
 	}
 }
 
@@ -1097,6 +1128,7 @@ mob3 = {
 		}	
 	}
 	effect = {
+		mobilisation_economy_impact = 0.1
 	}
 }
 
@@ -1115,6 +1147,7 @@ mob4 = {
 		}
 	}
 	effect = {
+		mobilisation_economy_impact = 0.1
 	}	
 }
 
@@ -1175,6 +1208,7 @@ mob5 = {
 		}	
 	}
 	effect = {
+		mobilisation_economy_impact = 0.2
 	}
 }
 
@@ -1559,6 +1593,7 @@ army_alternative_plans = {
 	effect = {
 		army_base = {
 			maximum_speed = 1
+			supply_consumption = 0.05
 		}
 		cuirassier = {
 			maximum_speed = 1
@@ -1572,6 +1607,7 @@ army_alternative_plans = {
 		cavalry = {
 			maximum_speed = 1
 		}
+		
 	}
 }
 
@@ -1590,6 +1626,9 @@ saddle_orders = {
 	}
 	effect = {
 		morale = 0.15
+		army_base = {
+			supply_consumption = 0.05
+		}
 	}
 }
 
@@ -1628,6 +1667,7 @@ nco_field_training = {
 		}
 	}
 	effect = {
+		morale = 0.05
 		army_base = {
 			maximum_speed = 1
 		}
@@ -1648,7 +1688,7 @@ army_nco_tactical_training = {
 		}
 	}
 	effect = {
-		morale = 0.15
+		morale = 0.1
 		stormtrooper = {
 			attack = 4 
 		}
@@ -1675,6 +1715,7 @@ army_independent_command = {
 			}
 		army_base = {
 			default_organisation = 2.5
+			supply_consumption = 0.15
 						
 		}
 	}
@@ -1693,6 +1734,7 @@ army_wargames = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
+			supply_consumption = 0.2
 		}
 	}
 }

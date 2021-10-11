@@ -811,49 +811,6 @@ national_idea5_invented;5 National Ideas;;;;;;;;;;;;;;
 national_idea6;§GNational Idea;;;;;;;;;;;;;;
 national_idea6_desc;This invention unlocks another national idea.;;;;;;;;;;;;;;
 national_idea6_invented;6 National Ideas;;;;;;;;;;;;;;
-army_morale_idea;Army Morale National Idea;;;;;;;;;;;;;;
-army_morale_idea_desc;This effect is additive, e.g. if your army morale is 200%, this will raise it to 250%.;;;;;;;;;;;;;;
-army_organisation_idea;Army Organisation National Idea;;;;;;;;;;;;;;
-army_organisation_idea_desc;This effect is multiplicative. The max organization of a land unit is (base organization of unit + army organization from techs) * (1 + land organization). An infantry brigade has a base organization of 30, so without any techs researched the max org it will have with this modifier is (30 + 0) * (1 + 0.2) = 36.;;;;;;;;;;;;;;
-military_supplies;Military Supplies National Idea\n§WSupply Consumption §G-15%;;;;;;;;;;;;;;
-military_supplies_desc;This reduces supply consumption for all units by 15%.;;;;;;;;;;;;;;
-military_supplies_idea;Military Supplies National Idea;;;;;;;;;;;;;;
-military_supplies_idea_desc;This gives -15% Supply Consumption Bonus. For example, if the base supply consumption of your armies is increased to 200% from techs, this will lower it to 170%.;;;;;;;;;;;;;;
-military_hospitals_idea;Military Hospital Idea\n§WMilitary Hospitals: §G+20%;;;;;;;;;;;;;;
-military_hospitals_idea_desc;This bonus reduces POP deaths from combat casualties to a rate of 1 to 0.208, down from a base rate of 1 to 0.25. POP deaths from combat casualties is calculated as SOLDIER_TO_POP_DAMAGE/(1 + military_hospital modifier). The base SOLDIER_TO_POP_DAMAGE in this mod is 0.25, so a military hospital modifier of 20% or 0.2, reduces POP deaths to 0.25/(1 + 0.2) = 0.208.;;;;;;;;;;;;;;
-military_hospitals_idea_invention;Military Hospitals National Idea;;;;;;;;;;;;;;
-military_hospitals_idea_invention_desc;This bonus reduces POP deaths from combat casualties to a rate of 1 to 0.208, down from a base rate of 1 to 0.25. POP deaths from combat casualties is calculated as SOLDIER_TO_POP_DAMAGE/(1 + military_hospital modifier). The base SOLDIER_TO_POP_DAMAGE in this mod is 0.25, so a military hospital modifier of 20% (0.2), reduces POP deaths to 0.25/(1 + 0.2) = 0.208.;;;;;;;;;;;;;;
-army_experience_idea;Army Experience National Idea;;;;;;;;;;;;;;
-army_experience_idea_desc;Each point of experience lowers the damage taken during combat at the same rate as one point of military tactics.;;;;;;;;;;;;;;
-reinforce_rate_idea;Reinforce Rate Idea\n§WReinforcement: §G+15%;;;;;;;;;;;;;;
-reinforce_rate_idea_desc;This bonus increases reinforce rate by +15%. No matter the reinforce rate however, your units' reinforce rate is multiplied by the amount of supplies they are getting, so if your armies aren't getting any supplies they won't reinforce even with a large reinforce rate bonus.;;;;;;;;;;;;;;
-reinforce_rate_idea_invention;Reinforce Rate Idea;;;;;;;;;;;;;;
-reinforce_rate_idea_invention_desc;Your units' reinforce rate is multiplied by the amount of supplies they are getting, so if your armies aren't getting any supplies they won't reinforce even with a large reinforce rate bonus.;;;;;;;;;;;;;;
-leadership_idea;Leadership National Idea;;;;;;;;;;;;;;
-leadership_idea_desc;Increased Monthly Base Leadership.;;;;;;;;;;;;;;
-prestige_idea;Prestige National Idea;;;;;;;;;;;;;;
-prestige_idea_desc;Increased Monthly Base Prestige.;;;;;;;;;;;;;;
-navy_build_speed_idea;Navy Build Speed National Idea\n§WNavies: Build Time §G-30%\n§WLocal Ship Repair Speed: §G+50%;;;;;;;;;;;;;;
-navy_build_speed_idea_desc;Base build time of ships is reduced by 30% and repair is 50% faster. The base build time reduction stacks with base build time reductions from port levels and other techs.;;;;;;;;;;;;;;
-navy_build_speed_idea_modifier;Naval Build Speed National Idea;;;;;;;;;;;;;;
-navy_organisation_idea;Navy Organisation National Idea;;;;;;;;;;;;;;
-navy_organisation_idea_desc;This effect is multiplicative. The max organization of a naval unit is (base organization of unit + navy organization from techs) * (1 + navy organization). For example, a frigate has a base org of 30, and if it has +18 org from techs, the max org it will have with this modifier is (30 + 18) * (1 + 0.15) = 55.2.;;;;;;;;;;;;;;
-expansion_idea;Expansion National Idea;;;;;;;;;;;;;;
-expansion_idea_desc;Increased Monthly Infamy Decay.;;;;;;;;;;;;;;
-assimilation_idea;Assimilation National Idea;;;;;;;;;;;;;;
-assimilation_idea_desc;Assimilation rate is multiplied by the assimilation chance to determine the amount of assimilation in a POP. If either assimilation rate or chance is 0, or there is no assimilation target, then no assimilation will take place. POPs will never assimilate in a province they have a core in, so e.g. Romanian POPs in Romanian cored land won't assimilate but Romanian POPs in non Romanian land will assimilate.;;;;;;;;;;;;;;
-farming_idea;Farming National Idea;;;;;;;;;;;;;;
-farming_idea_desc;+Increased Farming Efficiency.;;;;;;;;;;;;;;
-mining_idea;Mining National Idea;;;;;;;;;;;;;;
-mining_idea_desc;Increased Mining Efficiency.;;;;;;;;;;;;;;
-consumer_goods_idea;Consumer Goods National Idea;;;;;;;;;;;;;;
-consumer_goods_idea_desc;Provides an output bonus to various factory produced consumer goods.;;;;;;;;;;;;;;
-industrial_goods_idea;Industrial Goods National Idea;;;;;;;;;;;;;;
-industrial_goods_idea_desc;Provides an output bonus to various factory produced industrial goods.;;;;;;;;;;;;;;
-domestic_idea;Unlock Migration Attraction National Idea;;;;;;;;;;;;;;
-domestic_idea_desc;Unlocks Migration Attraction decision, which redirects incoming immigrants and internal migrants to the targetted province. This does NOT increase the amount of outside POPs that immigrate to your country.;;;;;;;;;;;;;;
-education_idea;Education National Idea;;;;;;;;;;;;;;
-education_idea_desc;Increased Education Efficiency.;;;;;;;;;;;;;;
 government_mobilization;Government Mobilization;;;;;;;;;;;;;;
 humanistic_psychology;Humanistic Psychology;;;;;;;;;;;;;;
 modern_power_generation;Modern Power Generation;;;;;;;;;;;;;;
@@ -981,7 +938,7 @@ JAP_1662;Kagoshima;;;;;;;;;;;;;x
 CHI_1472;North Anhui;;;;;;;;;;;;;x
 CHI_1473;South Anhui;;;;;;;;;;;;;x
 CHI_1487;East Canton;;;;;;;;;;;;;x
-CHI_1499;West Canton;;;;;;;;;;;;;x
+CHI_1493;West Canton;;;;;;;;;;;;;x
 CHI_1508;East Henan;;;;;;;;;;;;;x
 CHI_1511;West Henan;;;;;;;;;;;;;x
 CHI_1527;South Hunan;;;;;;;;;;;;;x
@@ -1184,7 +1141,7 @@ blockaded_desc;Immigrants are unable to reach our shores due to the ongoing bloc
 establish_small_protectorate_casus_belli;Establish Small Protectorate;;;;;;;;;;;;;;;;;;;;x
 establish_small_protectorate_casus_belli_setup;Establish Small Protectorate;;;;;;;;;;;;;;;;;;;;x
 establish_small_protectorate_casus_belli_short;Establish Small Protectorate;;;;;;;;;;;;;;;;;;;;x
-establish_small_protectorate_casus_bellidesc;Annex an uncivilized nation with less than 150k POPs.;;;;;;;;;;;;;;;;;;;;x
+establish_small_protectorate_casus_belli_desc;Annex an uncivilized nation with less than 150k POPs.;;;;;;;;;;;;;;;;;;;;x
 NORMAL_WAR_BLOCKADE_NAME;$ORDER$$FIRST$ Blockade of $SECOND$;;;;;;;;;;;;;;;;;;;;x
 AGRESSION_WAR_BLOCKADE_NAME;$ORDER$$FIRST$ Blockade of $SECOND$;;;;;;;;;;;;;;;;;;;;x
 free_balkans;Liberate the Balkans;;;;;;;;;;;;;x
@@ -1388,7 +1345,7 @@ zcountry_increase_healthcare_desc;Raises your healthcare reform by one level and
 zcountry_increase_conscription_title;Increase Draft Laws;;;;;;;;;x;;;;
 zcountry_increase_conscription_desc;Raises your draft law by one level and gives the reactionary surge modifier for several years. This modifier gives negative tax efficiency, increased militancy, and pushes your POPs to become more reactionary. If your government type is a fascist or communist dictatorship, or you are currently involved in a great war, the draft law will skip to service by requirement.;;;;;;;;;x;;;;
 zcountry_suppression_title;§YMartial Law;;;;;;;;;x;;;;
-zcountry_suppression_desc;Add or remove the martial law modifier which gives -0.07 militancy/consciousness, -0.05% tax efficiency, and a debuff to POP promotion.;;;;;;;;;x;;;;
+zcountry_suppression_desc;Add or remove the martial law modifier which gives -0.1 militancy/consciousness, -0.05% tax efficiency, and a debuff to POP promotion.;x
 zcountry_decrease_rnd_title;§YDecrease Research and Development;;;;;;;;;x;;;;
 zcountry_decrease_rnd_desc;Lowers current R&D to the lowest level.;;;;;;;;;x;;;;
 zcountry_increase_rnd_title;§YIncrease Research and Development;;;;;;;;;x;;;;
@@ -2842,10 +2799,10 @@ annex_congo_free_state_title;Annex the Congo Free State;;;;;;;;;;;;x
 annex_congo_free_state_desc;Recent news of the horrific brutality and slaughter that the Force Publique have inflicted on the Congolese have given us a justification to abolish the Free State and assume direct control of the Congo basin.;;;;;;;;;;;;x
 form_pakistan_title;Form Pakistan;;;;;;;;;;;;x
 form_pakistan_desc;Our dominant position among our muslim and cultural brethren puts us in a position to form Pakistan.;;;;;;;;;;;;x
-low_appease_the_people_title;Apease the People Low;;;;;;;;;;;;x
-low_appease_the_people_desc;We must find ways to appease our people to show that accepting new technology will benefit us all;;;;;;;;;;;;x
+low_appease_the_people_title;Instigate Helicopter Money;;;;;;;;;;;;x
+low_appease_the_people_desc;Giving the population sweaves of money, will hopefully shut them up;;;;;;;;;;;;x
 high_appease_the_people_title;Apease the People Low;;;;;;;;;;;;x
-high_appease_the_people_desc;We must find ways to appease our people to show that accepting new technology will benefit us all;;;;;;;;;;;;x
+high_appease_the_people_desc;Giving the population sweaves of money, will hopefully shut them up;;;;;;;;;;;;x
 reclaim_tibet_title;Reclaim Tibet;;;;;;;;;;;;x
 reclaim_tibet_desc;It is time that we reclaim what was once ours;;;;;;;;;;;;x
 accept_the_coast_title;Appease the South;;;;;;;;;;;;x

@@ -3,6 +3,7 @@ controller = EIC
 add_core = KRN
 add_core = HYD
 add_core = HND
+add_core = MUG
 trade_goods = fruit
 life_rating = 32
 fort = 1

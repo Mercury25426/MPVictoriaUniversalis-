@@ -2308,7 +2308,7 @@
 		size = 3000
 	}
 }
-#Tarakan (96000/24000 POPS)
+#Tarafrican (96000/24000 POPS)
 1425 = {
 	aristocrats = {
 		culture = asian_minor

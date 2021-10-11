@@ -12,7 +12,10 @@ political_decisions = {
 					tag = KUK
 				}
 			}
+			OR = {
 			exists = FRA
+			exists = FRC
+			}
 		}
 
 		allow = {
@@ -38,6 +41,9 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			FRA = {
+				country_event = { id=19200 days=0 }
+			}
+			FRC = {
 				country_event = { id=19200 days=0 }
 			}
 			set_country_flag = ems_dispatch_sent
@@ -82,7 +88,10 @@ political_decisions = {
 					tag = KUK
 				}
 			}
+			OR = {
 			exists = FRA
+			exists = FRC
+			}
 		}
 
 		allow = {
@@ -108,6 +117,24 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			FRA = {
+				country_event = { id=19200 days=0 }
+				relation = {
+					who = RUS
+					value = -200
+				}
+				relation = {
+					who = AUS
+					value = -200
+				}
+				relation = {
+					who = KUK
+					value = -200
+				}
+				leave_alliance = RUS
+				leave_alliance = AUS
+				leave_alliance = KUK
+			}
+			FRC = {
 				country_event = { id=19200 days=0 }
 				relation = {
 					who = RUS
@@ -229,17 +256,29 @@ political_decisions = {
 				tag = PRU
 				tag = GRA
 			}
+			OR = {
 			FRA = { exists = yes }
 			FRA = { has_country_flag = crisis_on_the_rhine }
+			FRC = { exists = yes }
+			FRC = { has_country_flag = crisis_on_the_rhine }
+			}
 			NOT = { has_country_flag = watching_the_rhine }
 		}
 		allow = {
+			OR = {
 			NOT = {
 				relation = {
 					who = FRA
 					value = 0
 				}
 			}
+			NOT = {
+				relation = {
+					who = FRC
+					value = 0
+				}
+			}
+		}
 		}
 		effect = {
 			add_country_modifier = { name = die_wacht_am_rhein duration = 365 }
@@ -486,6 +525,7 @@ political_decisions = {
 		effect = {
 			define_general = {
 				name = "§WHelmuth von Moltke the Elder"
+				picture = european_general_36
 				personality = defence_4.1
 				background = attack_4.1
 			}

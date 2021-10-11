@@ -152,8 +152,11 @@ country_event = {
 	trigger = {
 		has_country_flag = indian
 		has_country_modifier = direct_rule
-		NOT = {
+		NOT = { 
+			OR = {
+			vassal_of = IMF
 			vassal_of = ENG
+			}
 			vassal_of = EIC
 		}
 	}
@@ -208,9 +211,11 @@ country_event = {
 		tag = EIC
 		NOT = { has_country_flag = became_gp }
 		NOT = { vassal_of = ENG }
+		NOT = { vassal_of = IMF }
 		NOT = { owns = 2133 }
 		NOT = { is_greater_power = yes }
 		NOT = { has_country_flag = dismantling_eic }
+		
 	}
 
 	immediate = {
@@ -229,6 +234,7 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { tag = HND }
+				NOT = { tag = MUG }
 				any_core = {
 					owned_by = THIS
 				}
@@ -238,7 +244,53 @@ country_event = {
 		ENG = {
 			country_event = { id = 36961 days = 0 }
 		}
+		IMF = {
+			country_event = { id = 36961 days = 0 }
+		}
+		set_country_flag = dismantling_eic
+		set_country_flag = dis_eic
 	}
+
+	
+}
+
+
+country_event = {
+	id = 900366
+	title = "Mughal Pretenders Take over Delhi"
+	desc = "Oh no, ..... ALLAH ALLAH"
+	picture = "british_india"
+trigger = {
+	has_country_flag = dis_eic
+	NOT = { has_country_flag = dismantled_eic }
+
+}
+	option = {
+		name = "EVTOPTA90036"
+		EIC = {
+			any_owned = {
+				limit = { 
+					is_core = THIS
+					NOT = { tag = MUG }
+			 }
+				secede_province = THIS
+			}
+		}
+		change_tag = MUG
+		set_country_flag = dismantled_eic
+		primary_culture = hazara
+		add_accepted_culture = telegu
+		add_accepted_culture = panjabi
+		add_accepted_culture = marathi
+		add_accepted_culture = rajput
+		add_accepted_culture = gujarati
+		add_accepted_culture = baluchi
+		add_accepted_culture = pashtun
+		add_accepted_culture = tajik
+		add_accepted_culture = kashmiri
+		government = absolute_monarchy
+	}
+
 }
 
 country_event = {
@@ -258,9 +310,17 @@ country_event = {
 				value = -300
 			}
 		}
+		IMF = {
+			diplomatic_influence = {
+				who = THIS
+				value = -300
+			}
+		}
 		EIC = {
 			any_owned = {
-				limit = { is_core = THIS }
+				limit = { is_core = THIS
+				NOT = { tag = MUG }
+			 }
 				secede_province = THIS
 			}
 		}
@@ -279,7 +339,10 @@ country_event = {
 		name = "EVTOPTA90036"
 		EIC = {
 			any_owned = {
-				limit = { is_core = THIS }
+				limit = { 
+					is_core = THIS
+					NOT = { tag = MUG }
+			 }
 				secede_province = THIS
 			}
 		}
@@ -402,6 +465,7 @@ country_event = {
 		inherit = JAI
 		inherit = MEW
 		inherit = KRN
+		inherit = MUG
 		any_country = {
 			limit = {
 				vassal_of = EIC
@@ -452,16 +516,24 @@ country_event = {
 		any_country = {
 			limit = {
 				OR = {
+					OR = {
 					tag = ENG
+					tag = IMF
+					}
 					tag = EIC
+					OR = {
 					vassal_of = ENG
+					vassal_of = IMF
+					}
+					OR = {
 					in_sphere = ENG
+					in_sphere = IMF
+					}
 				}
 			}
 			any_owned = {
 				limit = {
 					OR = {
-						is_core = MUG
 						is_core = AWA
 						is_core = JOD
 						is_core = MEW
@@ -688,10 +760,21 @@ country_event = {
 			limit = {
 				war_with = THIS
 				OR = {
+					OR = {
 					tag = ENG
+					tag = IMF
+					}
+					OR = {
 					alliance_with = ENG
+					alliance_with = IMF
+					}
+					OR = {
 					vassal_of = ENG
+					vassal_of = IMF
+					}
+
 					vassal_of = EIC
+					
 				}
 			}
 			end_war = THIS

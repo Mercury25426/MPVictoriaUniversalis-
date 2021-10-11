@@ -68,6 +68,7 @@ political_decisions = {
 				2088 = { secede_province = THIS add_core = THIS }
 				2093 = { secede_province = THIS add_core = THIS }
 				2558 = { secede_province = THIS add_core = THIS }
+				
 			}
 		}
 		annex_natalia = {
@@ -239,6 +240,26 @@ political_decisions = {
 				set_country_flag = expand_north_colony
 				2094 = { secede_province = THIS add_core = THIS }
 				2095 = { secede_province = THIS add_core = THIS }
+				2078 = { secede_province = THIS add_core = THIS }
+				2079 = { secede_province = THIS add_core = THIS }
+				2080 = { secede_province = THIS add_core = THIS }
+				2082 = { secede_province = THIS add_core = THIS }
+				2076 = { secede_province = THIS add_core = THIS }
+				2077 = { secede_province = THIS add_core = THIS }
+				2074 = { secede_province = THIS add_core = THIS }
+				2574 = { secede_province = THIS add_core = THIS }
+				2075 = { secede_province = THIS add_core = THIS }
+				2071 = { secede_province = THIS add_core = THIS }
+				2073 = { secede_province = THIS add_core = THIS }
+				2072 = { secede_province = THIS add_core = THIS }
+				2069 = { secede_province = THIS add_core = THIS }
+				2070 = { secede_province = THIS add_core = THIS }
+				2068 = { secede_province = THIS add_core = THIS }
+				2635 = { secede_province = THIS add_core = THIS }
+
+
+
+
 			}
 		}
 		form_south_african_union = {

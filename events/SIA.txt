@@ -49,6 +49,7 @@ country_event = {
         ai_will_do = {
         factor = 10
         }
+    }
     option = {
         name = "No"
         INC = {
@@ -56,7 +57,7 @@ country_event = {
 			}
         }
     }
-}
+
     
 
 #####################################
@@ -69,6 +70,23 @@ country_event = {
 
 	option = {
 		name = "Success"
+        IMF = {
+            1343 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1344 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1388 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1386 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1384 = {secede_province = THIS
+                    secede_province = INC
+                }
+        }
         ENG = {
             1343 = {secede_province = THIS
                     secede_province = INC
@@ -198,6 +216,23 @@ country_event = {
 
 	option = {
 		name = "Success"
+        IMF = {
+            1343 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1344 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1388 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1386 = {secede_province = THIS
+                    secede_province = INC
+                }
+            1384 = {secede_province = THIS
+                    secede_province = INC
+                }
+        }
         ENG = {
             1343 = {secede_province = THIS
                     secede_province = BUI
@@ -294,7 +329,7 @@ country_event = {
 country_event = {
 	id = 90843
 	title = "Education Reform Lost"
-	desc = "Education Buff was removed cause you have met the following requirements on 50% Literacy Siam/Indochina or on Civilizing"
+	desc = "Education reforms was removed because you have met the following requirements on 50% Literacy Siam/Indochina or on Civilizing"
 	picture = "dungan_rebellion_qinghai"
 
 	trigger = {
@@ -306,11 +341,12 @@ country_event = {
 		OR = {
             tag = SIA
             tag = INC
+            tag = BUI
         }
 	}
 
 	option = {
-		name = "Goodbye Enducation Reform"
+		name = "These reforms were helpful, Thank you."
 		remove_country_modifier = education_siam_reforms
 	}
 }

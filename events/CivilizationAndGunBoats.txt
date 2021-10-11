@@ -121,6 +121,10 @@ country_event = {
 
 		prestige = 10
 			random_owned = {
+				owner = { activate_technology = post_napoleonic_thought
+				}
+			}
+			random_owned = {
 				limit = {
 					owner = { land_reform = yes_land_reform }
 				}

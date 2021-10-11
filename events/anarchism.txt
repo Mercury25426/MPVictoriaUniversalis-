@@ -1,0 +1,53 @@
+####################################Anarchist Events##################################
+country_event = {
+	id = 14888
+	title = "Anarchism Knows No Borders"
+	desc = "We have overthrown the oppressors, the great liberations of the world is at stake"
+	picture = napoleon3
+
+	trigger = {
+	government = anarchist_society
+	NOT = { has_country_modifier = anarchist_economy }
+	
+	}
+	option = {
+		name = "§bMother Anarchy Loves Her Sons §RThe world doesn't look too happy due to our change of plans"
+		add_country_modifier = { name = anarchist_economy duration = -1 }
+	}
+}
+
+country_event = {
+	id = 14999
+	picture = napoelon3
+	title = "Enable or Disable anarchists and rebellions"
+	desc = "Selecting no will disable any pops to become anarchists, disables anarchist events and will stop any anarchist rebellions ever from forming."
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Disable Anarchism"
+		set_global_flag = anarchism_disabled
+	}
+	option = {
+		name = "Enable Anarchism"
+	}
+
+
+}
+
+country_event = {
+	id = 14889
+	picture = napoleon3
+	title = "Anarchism has been exiled from this land"
+	desc = "After some sort of civil war or abnormality, we have lost our anarchist ways"
+
+	trigger = {
+		NOT = { government = anarchist_society } 
+		has_country_modifier = anarchist_economy
+	}
+		option = {
+			name = "Tis of Thee"
+			remove_country_modifier = anarchist_economy
+			country_event = 96010
+		}
+	}

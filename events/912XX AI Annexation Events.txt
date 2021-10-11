@@ -399,12 +399,373 @@ country_event = {
 		}
 		revolution_n_counterrevolution = 1
 		capital_scope = { NOT = { continent = asia } }
+		EGY = { NOT = { civilized = yes }}
 	}
 	
 	option = {
 		inherit = EGY
 	}
 }
+
+#Annex the Sub
+country_event = {
+	id = 912266
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = SOK
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	
+		
+		
+	
+	
+	option = {
+		name = "Lets Stroll on in"
+		inherit = SOK
+					# is_sphere_leader_of = SOK
+					# is_sphere_leader_of = OYO
+					# is_sphere_leader_of = BEN
+					# is_sphere_leader_of = ARO
+					# is_sphere_leader_of = WRI
+					# is_sphere_leader_of = ASH
+					# is_sphere_leader_of = DAH
+					# is_sphere_leader_of = KNG
+					# is_sphere_leader_of = JAL
+					# is_sphere_leader_of = MOS
+					# is_sphere_leader_of = MAS
+					# is_sphere_leader_of = DAM
+					# is_sphere_leader_of = KBO
+					# is_sphere_leader_of = TOO
+					# is_sphere_leader_of = GBU
+					# is_sphere_leader_of = SEG
+					# is_sphere_leader_of = KON
+					# is_sphere_leader_of = WOL
+					# is_sphere_leader_of = LOA
+					# is_sphere_leader_of = TRZ
+					# is_sphere_leader_of = ADR
+					# is_sphere_leader_of = BAG
+					# is_sphere_leader_of = WAD
+
+
+
+		}
+}
+
+#Annex the Sub
+country_event = {
+	id = 912267
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = OYO
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = OYO
+		}
+}
+country_event = {
+	id = 912268
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = BEN
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = BEN
+		}
+}
+country_event = {
+	id = 912269
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = ARO
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = ARO
+		}
+}
+country_event = {
+	id = 912270
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = WRI
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = WRI
+		}
+}
+country_event = {
+	id = 912271
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = ASH
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = ASH
+		}
+}
+country_event = {
+	id = 912272
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = DAH
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = DAH
+		}
+}
+country_event = {
+	id = 912273
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = KNG
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = KNG
+		}
+}
+country_event = {
+	id = 912274
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = JAL
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = JAL
+		}
+}
+country_event = {
+	id = 912275
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = MOS
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = MOS
+		}
+}
+country_event = {
+	id = 912276
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = MAS
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = MAS
+		}
+}
+country_event = {
+	id = 912277
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = DAM
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = DAM
+		}
+}
+country_event = {
+	id = 912278
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = GBU
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = GBU
+		}
+}
+country_event = {
+	id = 912279
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = KBO
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = KBO
+		}
+}
+country_event = {
+	id = 912280
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = TOO
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = TOO
+		}
+}
+country_event = {
+	id = 912281
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = SEG
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = SEG
+		}
+}
+country_event = {
+	id = 912282
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = KON
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = KON
+		}
+}
+country_event = {
+	id = 912283
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = WOL
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = WOL
+		}
+}
+country_event = {
+	id = 912284
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = LOA
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = LOA
+		}
+}
+country_event = {
+	id = 912285
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = TRZ
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = TRZ
+		}
+}
+country_event = {
+	id = 912286
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = BAG
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = BAG
+		}
+}
+country_event = {
+	id = 912287
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = ADR
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = ADR
+		}
+}
+country_event = {
+	id = 912288
+	title = "Annex Subsaharan Africans Which are in your Sphere"
+	trigger = {
+		is_greater_power = yes
+		is_sphere_leader_of = WAD
+		revolution_n_counterrevolution = 1
+		capital_scope = { NOT = { continent = asia } }
+			}
+	option = {
+		name = "Lets Stroll on in"
+		inherit = WAD
+		}
+}
+
+
 
 #Annex Luang Prabang
 #country_event = {
@@ -619,31 +980,69 @@ country_event = {
 	trigger = {
 		tag = SAR
 		ai = yes
+		OR = {
 		FRA = { ai = yes }
+		FRC = { ai = yes }
+		}
+		OR = {
 		FRA_451 = { owned_by = FRA }
 		FRA_467 = { owned_by = FRA }
+		FRA_451 = { owned_by = FRC }
+		FRA_467 = { owned_by = FRC }
+		}
 		NOT = { owns = 720 }
 	}
 	
 	option = {
-		465 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
+		any_country = {
+			 limit = {
+				FRA = { exists = yes }
+			 }
+			 465 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+			466 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+			472 = {
+				add_core = FRA
+				remove_core = ITA
+				remove_core = SAR
+				secede_province = FRA
+			}
+
 		}
-		466 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		472 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
+
+		any_country = {
+			limit = {
+			   FRC = { exists = yes }
+			}
+			465 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+		   466 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+		   472 = {
+			   add_core = FRC
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRC
+		   }
+	   }
+
 	}
 }
 
@@ -657,30 +1056,67 @@ country_event = {
 		tag = ITA
 		exists = ITA
 		ai = yes
+		OR = {
 		FRA = { ai = yes }
+		FRC = { ai = yes }
+		}
+		OR = {
 		FRA_451 = { owned_by = FRA }
 		FRA_467 = { owned_by = FRA }
+		FRA_451 = { owned_by = FRC }
+		FRA_467 = { owned_by = FRC }
+		}
 	}
 	
 	option = {
-		465 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		466 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
-		472 = {
-			add_core = FRA
-			remove_core = ITA
-			remove_core = SAR
-			secede_province = FRA
-		}
+		any_country = {
+			limit = {
+			   FRA = { exists = yes }
+			}
+			465 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+		   466 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+		   472 = {
+			   add_core = FRA
+			   remove_core = ITA
+			   remove_core = SAR
+			   secede_province = FRA
+		   }
+
+	   }
+
+	   any_country = {
+		   limit = {
+			  FRC = { exists = yes }
+		   }
+		   465 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+		  466 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+		  472 = {
+			  add_core = FRC
+			  remove_core = ITA
+			  remove_core = SAR
+			  secede_province = FRC
+		  }
+	  }
 	}
 }
 
@@ -927,22 +1363,47 @@ country_event = {
 		owns = 1897
 		civilized = no
 		has_country_flag = sub_saharan_africa
+		OR = {
 		FRA = {
 			invention = colonial_negotiations
 			ai = yes
 			is_greater_power = yes
+			}
+		FRC = {
+			invention = colonial_negotiations
+			ai = yes
+			is_greater_power = yes
+				}
 		}
 		NOT = { has_global_flag = conquest_of_ivory_coast }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_ivory_coast
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -956,22 +1417,47 @@ country_event = {
 		owns = 1919
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_dahomey }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_dahomey
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -985,22 +1471,47 @@ country_event = {
 		owns = 2573
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_senegal }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_senegal
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1014,22 +1525,47 @@ country_event = {
 		owns = 1792
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_gambia }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_gambia
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1043,22 +1579,47 @@ country_event = {
 		owns = 1879
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_guinea }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_guinea
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
 	}
@@ -1072,24 +1633,50 @@ country_event = {
 		owns = 1775
 		civilized = no
 		has_country_flag = sub_saharan_africa
-		FRA = {
-			invention = colonial_negotiations
-			ai = yes
-			is_greater_power = yes
-		}
+		OR = {
+			FRA = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+				}
+			FRC = {
+				invention = colonial_negotiations
+				ai = yes
+				is_greater_power = yes
+					}
+			}
 		NOT = { has_global_flag = conquest_of_mauritania }
 	}
 	
 	option = {
 		set_global_flag = conquest_of_mauritania
-		FRA = {
-			war = {
-				target = THIS
-				attacker_goal = { casus_belli = european_african_conquest }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = no
+		any_country = {
+			limit = {
+				FRA = { exists = yes }
+			}
+			FRA = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
 			}
 		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+
 	}
 }
 
@@ -1104,6 +1691,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1134,6 +1722,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1167,6 +1756,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1206,6 +1796,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1246,6 +1837,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1277,6 +1869,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1314,6 +1907,7 @@ country_event = {
 		OR = {
 			civilized = no
 			tag = POR
+			tag = PBM
 		}
 		ai = yes
 		OR = {
@@ -1358,6 +1952,7 @@ country_event = {
 		year = 1880
 		OR = {
 			civilized = no
+			tag = PBM
 			tag = POR
 		}
 		ai = yes

@@ -87,9 +87,16 @@ basic_chemistry = 1
 consciousness = 4.5
 nonstate_consciousness = 4
 
-govt_flag = {
+
+
+
+govt_flag = 
+{
 	government = hms_government
-	flag = democracy
+	flag = absolute_monarchy
+
+	government = prussian_constitutionalism
+	flag = absolute_monarchy
 }
 
 oob = "SPA_oob.txt"

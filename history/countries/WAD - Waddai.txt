@@ -1,7 +1,6 @@
 1836.1.2 = {
 	capital = 1821
-	primary_culture = fur
-	culture = teda
+	primary_culture = african
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0
@@ -63,7 +62,7 @@
 1836.1.1 = {
 	capital = 1821
 	primary_culture = fur
-	culture = teda
+	culture = african
 	religion = sunni
 	government = absolute_monarchy
 	plurality = 0.0

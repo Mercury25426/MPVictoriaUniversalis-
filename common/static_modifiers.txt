@@ -111,8 +111,12 @@ has_siege = {
 }
 
 occupied = {
-	population_growth = -0.05
-	immigrant_attract = -1
+	pop_militancy_modifier = 0.1
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.5
+	population_growth = -0.01
 }
 
 
@@ -139,7 +143,6 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
-	war_exhaustion = -0.5
 	badboy = -0.033
 }
 
@@ -215,14 +218,14 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.2			#increased by war exhaustion.
+	war_exhaustion = 0.3			#increased by war exhaustion.
 	global_population_growth = -0.0001
 	import_cost = 0.5
 	prestige = -0.1				#increased by war exhaustion.
 }
 
 total_blockaded = {
-	war_exhaustion = 1	#increased by war exhaustion.  
+	war_exhaustion = 0.4	#increased by war exhaustion.  
 	global_population_growth = -0.0001
 	import_cost = 1
 	prestige = -0.1				#increased by war exhaustion.  

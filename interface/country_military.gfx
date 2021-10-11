@@ -266,6 +266,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\leaders\\no_leader.tga"
 		norefcount = yes
 	}
+
 	
 	
 	spriteType = {

@@ -114,6 +114,10 @@ country_event = {
 		civilized = yes
 		upper_house_composition = party_appointed
 		ruling_party_ideology = fascist
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = underground_parties
 	}
 	
 	mean_time_to_happen = {
@@ -151,6 +155,10 @@ country_event = {
 	option = {
 		name = "Oh fuck"
 		government = proletarian_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = underground_parties
 	}
 }
 country_event = {
@@ -163,7 +171,6 @@ country_event = {
 		OR = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
-			government = bourgeois_dictatorship
 			government = fascist_dictatorship
 		}
 		civilized = yes
@@ -181,6 +188,46 @@ country_event = {
 	option = {
 		name = "EVTOPTA60050"
 		government = democracy
+	}
+
+	option = {
+		name = "EVTOPTA60050"
+		government = hms_government
+	}
+}
+
+country_event = {
+	id = 600500
+	title = "EVTNAME60050"
+	desc = "EVTDESC60050"
+	picture = "Unite"
+	
+	trigger = {
+		OR = {
+			government = bourgeois_dictatorship
+		}
+		civilized = yes
+		upper_house_composition = population_equal_weight
+		NOT = {
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA60050"
+		government = democracy
+	}
+
+	option = {
+		name = "EVTOPTA60050"
+		government = hms_government
 	}
 }
 
@@ -286,17 +333,39 @@ country_event = {
 		government = presidential_dictatorship
 	}
 }
+
+country_event = {
+	id = 366346
+	title = "Anarchists Storm the Capital"
+	desc = "Anarchy and the Anarchy"
+	picture = "Administration"
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "Death to the state!"
+		government = anarchist_society
+	}
+}
 country_event = {
 	id = 989898
-	title = "EVTNAME989898"
+	title = "The Crowning of a King"
 	desc = "EVTDESC989898"
 	picture = "Administration"
 	
 	trigger = {
 		government = presidential_dictatorship
-		vote_franschise = none_voting		
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = underground_parties	
 		ruling_party_ideology = reactionary
 		civilized = yes
+
 	}
 	
 	mean_time_to_happen = {
@@ -357,6 +426,10 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = proletarian_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = underground_parties
 	}
 }
 
@@ -380,6 +453,10 @@ country_event = {
 	option = {
 		name = "EVTOPTA60080"
 		government = fascist_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = underground_parties
 	}
 }
 
@@ -522,3 +599,14 @@ country_event = {
 		government = absolute_monarchy
 	}
 }
+
+
+
+
+
+
+
+
+
+
+	

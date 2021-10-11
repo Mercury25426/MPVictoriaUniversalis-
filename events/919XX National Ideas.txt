@@ -380,6 +380,26 @@ country_event = {
 }
 
 country_event = {
+	id = 91970
+	title = "Economy National Idea"
+	desc = "This national idea is special, while it doesn't give you any direct buffs, it does give you highly increased chances to get events like: bull market, local stock exchange, and decreased time to get out of recessions and depressions."
+	picture = factory
+
+
+	trigger = {
+		has_country_flag = choosing_economy
+		NOT = { has_country_flag = economy_national_idea }
+	}
+
+	option = {
+		name = "Great!"
+		set_country_flag = economy_national_idea
+		clr_country_flag = choosing_economy
+		add_country_modifier = { name = economy_idea duration = -1 }
+	}
+}
+
+country_event = {
 	id = 91669
 	title = "Navy Build Speed National Idea"
 	desc = "This event gives +30% ship build speed and +50% repair to every province with a naval base."
@@ -405,3 +425,4 @@ country_event = {
 		}
 	}
 }
+

@@ -218,7 +218,7 @@ country_event = {
 					activate_technology = bronze_muzzle_loaded_artillery
 				}
 			}
-			remove_country_modifier = educational_reform
+			remove_country_modifier = education_china_reforms
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences
 			remove_country_modifier = uncivilized_isolationism
@@ -497,6 +497,7 @@ country_event = {
 		tag = YNN
 		tag = XBI
 		tag = MGL
+		tag = TPG
 		}
 	}
 
@@ -518,6 +519,9 @@ country_event = {
 		CHI = {
 			country_event = { id=90904 days=0 }
 		}
+		TPG = {
+			country_event = { id=21021 days=0 }
+		}
 		prestige = 10
 		any_country = {
 			limit = {
@@ -525,7 +529,7 @@ country_event = {
 			}
 			civilized = yes
 		}
-			remove_country_modifier = educational_reform
+			remove_country_modifier = education_china_reforms
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences
 			remove_country_modifier = uncivilized_isolationism
@@ -3633,9 +3637,6 @@ country_event = {
 			CHI_1577 = {
 				NOT = { has_province_modifier = chinese_farm_size }
 			}
-			CHI_1499 = {
-				NOT = { has_province_modifier = chinese_farm_size }
-			}
 			CHI_1487 = {
 				NOT = { has_province_modifier = chinese_farm_size }
 			}
@@ -3725,9 +3726,6 @@ country_event = {
 			add_province_modifier = { name = chinese_farm_size duration = -1 }
 		}
 		CHI_1577 = {
-			add_province_modifier = { name = chinese_farm_size duration = -1 }
-		}
-		CHI_1499 = {
 			add_province_modifier = { name = chinese_farm_size duration = -1 }
 		}
 		CHI_1487 = {

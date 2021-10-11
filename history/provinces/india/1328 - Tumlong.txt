@@ -2,6 +2,7 @@ owner = SIK
 controller = SIK
 add_core = SIK
 add_core = HND
+add_core = MUG
 trade_goods = wool
 life_rating = 35
 1913.1.1 = {

@@ -1,7 +1,10 @@
 political_decisions = {
 	sign_treaty_of_london = {
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			exists = BEL
 			NOT = {
 				has_country_flag = signed_treay_of_london
@@ -45,6 +48,7 @@ political_decisions = {
 						OR = {
 							tag = FRA
 							tag = ENG
+							tag = FRC
 						}
 					}
 				}	
@@ -60,6 +64,12 @@ political_decisions = {
 				}
 			}
 			FRA = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			FRC = {
 				relation = {
 					who = THIS
 					value = 150
@@ -107,7 +117,10 @@ political_decisions = {
 	annex_luxembourg = {
 		picture = annex_luxembourg
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			NOT = { has_country_flag = luxembourg_annexed }
 			LUX = { vassal_of = THIS }
 		}
@@ -129,7 +142,10 @@ political_decisions = {
 	abolish_cultuurstelsel = {
 		picture = cultuurstelsel
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			NOT = { has_country_flag = cultuurstelsel_abolished }
 			any_owned_province = { has_province_modifier = cultuurstelsel }
 		}
@@ -222,7 +238,10 @@ political_decisions = {
 	end_the_javanese_sultanates = {
 		picture = map_java
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			JAV = {
 				vassal_of = THIS 
 				exists = yes
@@ -252,7 +271,10 @@ political_decisions = {
 	the_short_declaration = {
 		picture = moluccan_map
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			OR = {
 				MAL = { vassal_of = THIS exists = yes civilized = no }
 				SAK = { vassal_of = THIS exists = yes civilized = no }
@@ -325,7 +347,10 @@ political_decisions = {
 	the_aceh_question = {
 		picture = the_aceh
 		potential = {
-			tag = NET
+			OR = {
+				tag = NET
+				tag = BOG
+				}
 			ATJ = { civilized = no }
 			neighbour = ATJ
 			NOT = { has_country_flag = made_aceh_proposal }

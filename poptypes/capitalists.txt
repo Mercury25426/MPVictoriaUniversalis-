@@ -630,6 +630,8 @@ promote_to =
 
 ideologies = {
 	
+
+
 	fascist = {
 		factor = 1
 		modifier = {
@@ -2179,6 +2181,7 @@ issues =
 				civilized = no
 			}
 		}
+
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }
@@ -4423,18 +4426,18 @@ issues =
 		}
 	}
 	trinket_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = trinket_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1855 }
 			}	
 		}
 		modifier = {
-			factor = 2 
+			factor = 2
 			is_next_reform = trinket_health_care
 		}		
 		modifier = {
@@ -4497,18 +4500,18 @@ issues =
 		}
 	}
 	low_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = low_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1870 }
 			}	
 		}
 		modifier = {
-			factor = 2 
+			factor = 2
 			is_next_reform = low_health_care
 		}		
 			modifier = {
@@ -4571,18 +4574,18 @@ issues =
 		}
 	}
 	acceptable_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = acceptable_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1885 }
 			}	
 		}
 		modifier = {
-			factor = 2 
+			factor = 3
 			is_next_reform = acceptable_health_care
 		}		
 	modifier = {
@@ -4645,18 +4648,18 @@ issues =
 		}
 	}
 	good_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = good_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1900 }
 			}	
 		}
 		modifier = {
-			factor = 2 
+			factor = 3
 			is_next_reform = good_health_care
 		}		
 	modifier = {
@@ -4719,14 +4722,14 @@ issues =
 		}
 	}
 	universal_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = universal_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1915 }
 			}	
 		}
 		modifier = {

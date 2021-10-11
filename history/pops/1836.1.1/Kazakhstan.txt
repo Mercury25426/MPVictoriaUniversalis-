@@ -1,6 +1,6 @@
 #Western Kazakh Steppes Region (72000)
 #under the rule of Russia in 1836
-#Guryev (19000/4750 POPS)
+#africanyev (19000/4750 POPS)
 1182 = {
 	bureaucrats = {
 		culture = russian

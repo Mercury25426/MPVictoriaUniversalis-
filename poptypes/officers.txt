@@ -132,7 +132,7 @@ country_migration_target =
 	modifier = {
 		factor = 750
 		AND = {
-			primary_culture = british
+			primary_culture = anglosouthafrican
 			has_country_flag = african_union_formation
 		}
 		has_country_flag = african_union_formation
@@ -231,10 +231,16 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
+	modifier = {
+		factor = 10
 		OR = {
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -252,6 +258,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -510,6 +517,16 @@ migration_target =
 		}
 		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
+	}
+	modifier = {
+		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
 	}
 	modifier = {
 		factor = 0
@@ -820,6 +837,160 @@ promote_to =
 			clergymen = 0.04
 		}
 	}
+	clerks = {
+		factor = 0.01
+	
+			modifier = {
+				factor =  -50
+				not = { literacy = 0.50 }
+			}
+		group = {
+			modifier = {
+				factor = 4
+				literacy = 0.5
+			}
+			modifier = {
+				factor = 4
+				literacy = 0.6
+			}
+			modifier = {
+				factor = 4
+				literacy = 0.7
+			}
+			modifier = {
+				factor = 4
+				literacy = 0.8
+			}
+			modifier = {
+				factor = 4
+				literacy = 0.9
+			}
+			modifier = {
+				factor = 4
+				literacy = 1
+			}
+		}
+		group = {		
+			modifier = {
+				factor = 1
+				clergymen = 0.004
+			}
+			modifier = {
+				factor = 1
+				clergymen = 0.008
+			}
+			modifier = {
+				factor = 1
+				clergymen = 0.012
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.016
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.02
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.024
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.028
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.032
+			}			
+			modifier = {
+				factor = 1
+				clergymen = 0.036
+			}							
+		}
+		group = {
+			modifier = {
+				factor = 1
+				state_scope = { bureaucrats = 0.01 }
+			}
+			modifier = {
+				factor = 1
+				state_scope = { bureaucrats = 0.02 }
+			}
+			modifier = {
+				factor = 1
+				state_scope = { bureaucrats = 0.03 }
+			}
+			modifier = {
+				factor = 1
+				state_scope = { bureaucrats = 0.04 }
+			}
+			modifier = {
+				factor = 1
+				state_scope = { bureaucrats = 0.05 }
+			}
+		}
+		group = {
+		modifier = {
+			factor = 2
+			soldiers = 0.01
+		}
+		modifier = {
+			factor = 2
+			soldiers = 0.02
+		}
+		modifier = {
+			factor = 2
+			soldiers = 0.03
+		}
+		modifier = {
+			factor = 2
+			soldiers = 0.04
+		}
+		modifier = {
+			factor = 2
+			soldiers = 0.05
+		}
+		}
+		modifier = {
+			factor = -100
+			NOT = {
+				state_scope = {
+					work_available = {
+						worker = clerks
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			not = { luxury_needs = 0.1 }
+		}
+		modifier = {
+			factor = 2
+			literacy = 0.50
+		}
+		modifier = {
+			factor = -40
+			AND = {
+				state_scope = {
+					has_factories = no
+				}
+				can_build_factory = no
+			}
+		}
+		modifier = {
+			factor = -100
+			OR = {
+				location = {
+					is_colonial = yes
+				}
+				country = {
+					civilized = no
+				}
+			}
+		}
+	}
 	bureaucrats =
 	{
 		factor = 0.01
@@ -1058,6 +1229,11 @@ promote_to =
 
 
 ideologies = {
+	
+
+
+
+
 	
 	fascist = {
 		factor = 1
@@ -1508,6 +1684,74 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.2
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.3
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.4
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.5
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.6
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.7
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.8
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.9
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 1
+		}
+	}
+
+	communist = {
+		factor = 1
+		modifier = {
+			factor = 2
+			country = { has_country_flag = communist_influence }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { militancy = 6 }
+			NOT = { government = proletarian_dictatorship }
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+			nationalvalue = nv_equality
+			nationalvalue = nv_supremacy
+			nationalvalue = nv_fraternity
+			nationalvalue = nv_unity
+			nationalvalue = nv_freedom
+			nationalvalue = nv_liberty
+			}
+		}
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = communist
 		}
 		modifier = {
 			factor = 1.1
@@ -2671,6 +2915,7 @@ issues =
 				civilized = no
 			}
 		}
+
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }
@@ -4915,14 +5160,14 @@ issues =
 		}
 	}
 	trinket_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = trinket_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1855 }
 			}	
 		}
 		modifier = {
@@ -4989,14 +5234,14 @@ issues =
 		}
 	}
 	low_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = low_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1870 }
 			}	
 		}
 		modifier = {
@@ -5063,14 +5308,14 @@ issues =
 		}
 	}
 	acceptable_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = acceptable_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1885 }
 			}	
 		}
 		modifier = {
@@ -5137,14 +5382,14 @@ issues =
 		}
 	}
 	good_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = good_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1900 }
 			}	
 		}
 		modifier = {
@@ -5211,14 +5456,14 @@ issues =
 		}
 	}
 	universal_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = universal_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1915 }
 			}	
 		}
 		modifier = {

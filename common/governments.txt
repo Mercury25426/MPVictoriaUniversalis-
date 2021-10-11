@@ -1,8 +1,7 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new forms of governemnts, make sure they are uniquely named.
 
-theocracy =
-{
+theocracy = {
 	#which ideology of parties.
 	reactionary = yes
 	
@@ -10,8 +9,7 @@ theocracy =
 	appoint_ruling_party = yes
 }
 
-tribal_society =
-{
+tribal_society = {
 	#which ideology of parties.
 	conservative = yes
 	reactionary = yes
@@ -20,8 +18,7 @@ tribal_society =
 	appoint_ruling_party = yes
 }
 
-colonial_company =
-{
+colonial_company = {
 	#which ideology of parties.
 	liberal = yes
 	conservative = yes
@@ -31,8 +28,7 @@ colonial_company =
 	appoint_ruling_party = yes
 }
 
-proletarian_dictatorship =
-{
+proletarian_dictatorship = {
 	#which ideology of parties.
 	communist = yes
 	
@@ -41,9 +37,16 @@ proletarian_dictatorship =
 	flagType = communist
 }
 
+anarchist_society = {
+	#which ideology of parties.
+	anarchist = yes
+	
+	election = no
+	appoint_ruling_party = yes
+}
 
-presidential_dictatorship =
-{
+
+presidential_dictatorship = {
 	#which ideology of parties.
 	reactionary = yes
 	
@@ -52,8 +55,7 @@ presidential_dictatorship =
 	flagType = republic
 }
  
-bourgeois_dictatorship =
-{
+bourgeois_dictatorship = {
 	#which ideology of parties.
 	anarcho_liberal = yes
 	
@@ -62,8 +64,7 @@ bourgeois_dictatorship =
 	flagType = republic
 }
 
-fascist_dictatorship =
-{
+fascist_dictatorship = {
 	#which ideology of parties.
 	fascist = yes
 	
@@ -125,6 +126,7 @@ democracy = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
+	flagType = republic
 }
  
 

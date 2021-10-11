@@ -197,7 +197,10 @@ country_event = {
 	picture = zaian_revolt
 	
 	trigger = {
+		OR = {
 		tag = FRA
+		tag = FRC
+		}
 		war = yes
 		has_global_flag = ww1_bookmark
 		year = 1914
@@ -253,7 +256,10 @@ country_event = {
 	picture = zaian_revolt
 	
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = FRC
+			}
 		war = yes
 		has_global_flag = ww1_bookmark
 		has_global_flag = senussi_jihad
@@ -305,7 +311,10 @@ country_event = {
 	picture = zaian_revolt
 	
 	trigger = {
+		OR = {
 		tag = FRA
+		tag = FRC
+		}
 		war = yes
 		has_global_flag = ww1_bookmark
 		NOT = { has_global_flag = volta_bani_war }
@@ -318,6 +327,19 @@ country_event = {
 	immediate = {
 		set_global_flag = volta_bani_war
 		FRA = {
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 1902
+						province_id = 1903
+						province_id = 1905
+						province_id = 1906
+					}
+				}
+				secede_province = MOS
+			}
+		}
+		FRC = {
 			any_owned = {
 				limit = {
 					OR = {
@@ -818,6 +840,7 @@ country_event = {
 		GRE = { prestige = 50 }
 		any_owned = {
 			limit = {
+				FRA = { exists = yes }
 				OR = {
 					province_id = 897
 					province_id = 900
@@ -836,6 +859,28 @@ country_event = {
 			}
 			remove_core = TUR
 			secede_province = FRA
+		}
+		any_owned = {
+			limit = {
+				FRC = { exists = yes }
+				OR = {
+					province_id = 897
+					province_id = 900
+					province_id = 901
+					province_id = 904
+					province_id = 905
+					province_id = 907
+					province_id = 903
+					province_id = 912
+					province_id = 914
+					province_id = 913
+					province_id = 915
+					province_id = 902
+					province_id = 906
+				}
+			}
+			remove_core = TUR
+			secede_province = FRC
 		}
 		any_owned = {
 			limit = {
@@ -1032,6 +1077,12 @@ country_event = {
 				secede_province = GER
 			}
 		}
+		FRC = {
+			any_owned = {
+				limit = { is_core = GER }
+				secede_province = GER
+			}
+		}
 		any_owned = {
 			limit = {
 				is_core = DEN
@@ -1041,13 +1092,25 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				OR = {
+					FRA = { exists = yes }
 					is_core = FRA
 					province_id = 1914
 					province_id = 1917
 					province_id = 1918
 				}
-			}
+			
+			remove_core = GER
+			secede_province = FRA
+		}
+		any_owned = {
+			limit = {
+					FRC = { exists = yes }
+					is_core = FRC
+					province_id = 1914
+					province_id = 1917
+					province_id = 1918
+				}
+			
 			remove_core = GER
 			secede_province = FRA
 		}
@@ -1145,6 +1208,11 @@ country_event = {
 			inherit = NIG
 			inherit = MOS
 		}
+		FRC = {
+			inherit = MOR
+			inherit = NIG
+			inherit = MOS
+		}
 		CYR = {
 			all_core = {
 				add_core = TRI
@@ -1183,9 +1251,16 @@ country_event = {
 		name = "We've been stabbed in the back."
 		prestige = -300
 		FRA = { prestige = 100 }
+		FRC = { prestige = 100 }
 		ENG = { prestige = 100 }
 		POL = { prestige = 100 }
 		FRA = {
+			any_owned = {
+				limit = { is_core = GER }
+				secede_province = GER
+			}
+		}
+		FRC = {
 			any_owned = {
 				limit = { is_core = GER }
 				secede_province = GER
@@ -2654,6 +2729,7 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = FRA
+			tag = FRC
 			tag = BEL
 			tag = SER
 			tag = ROM
@@ -2685,6 +2761,7 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = FRA
+			tag = FRC
 			tag = BEL
 			tag = SER
 			tag = ROM

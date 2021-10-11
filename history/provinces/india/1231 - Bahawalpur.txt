@@ -3,6 +3,7 @@ controller = BHP
 add_core = BHP
 add_core = PNJ
 add_core = HND
+add_core = MUG
 trade_goods = tea_leaves
 life_rating = 32
 1913.1.1 = {

@@ -17,8 +17,10 @@ country_event = {
 		set_country_flag = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTB91700"
@@ -29,8 +31,10 @@ country_event = {
 		set_country_flag = conservative_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTA91700"
@@ -41,6 +45,20 @@ country_event = {
 		set_country_flag = reactionary_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
+		remove_country_modifier = anarchist_influence
+		clr_country_flag = liberal_influence
+		clr_country_flag = conservative_influence
+		clr_country_flag = anarchist_influence
+	}
+	option = {
+		name = "Anarchist"
+		add_country_modifier = {
+			name = anarchist_influence
+			duration = -1
+		}
+		set_country_flag = anarchist_influence
+		remove_country_modifier = liberal_influence
+		remove_country_modifier = conservative_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 	}
@@ -49,9 +67,11 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 }
 
@@ -75,9 +95,11 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTC91700"
@@ -89,9 +111,11 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTB91700"
@@ -103,9 +127,11 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTA91700"
@@ -117,9 +143,25 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
+		clr_country_flag = anarchist_influence
+	}
+	option = {
+		name = "Anarchist"
+		add_country_modifier = {
+			name = anarchist_influence
+			duration = -1
+		}
+		set_country_flag = anarchist_influence
+		remove_country_modifier = anarcho_liberal_influence
+		remove_country_modifier = liberal_influence
+		remove_country_modifier = conservative_influence
+		clr_country_flag = liberal_influence
+		clr_country_flag = conservative_influence
+		clr_country_flag = anarcho_liberal_influence
 	}
 	option = {
 		name = "EVTOPTZ91700"
@@ -127,10 +169,12 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 }
 
@@ -155,10 +199,12 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTD91700"
@@ -171,10 +217,12 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTC91700"
@@ -187,10 +235,12 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTB91700"
@@ -203,10 +253,12 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTA91700"
@@ -219,13 +271,35 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTZ91700"
+		remove_country_modifier = socialist_influence
+		remove_country_modifier = anarcho_liberal_influence
+		remove_country_modifier = liberal_influence
+		remove_country_modifier = conservative_influence
+		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
+		clr_country_flag = socialist_influence
+		clr_country_flag = anarcho_liberal_influence
+		clr_country_flag = liberal_influence
+		clr_country_flag = conservative_influence
+		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
+	}
+	option = {
+		name = "Anarchist"
+		add_country_modifier = {
+			name = anarchist_influence
+			duration = -1
+		}
+		set_country_flag = anarchist_influence
 		remove_country_modifier = socialist_influence
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
@@ -261,11 +335,13 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTE91700"
@@ -279,11 +355,13 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTD91700"
@@ -297,11 +375,13 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTC91700"
@@ -315,11 +395,13 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTB91700"
@@ -333,11 +415,13 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTA91700"
@@ -351,14 +435,21 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
-		name = "EVTOPTZ91700"
+		name = "Anarchist"
+		add_country_modifier = {
+			name = anarchist_influence
+			duration = -1
+		}
+		set_country_flag = anarchist_influence
 		remove_country_modifier = communist_influence
 		remove_country_modifier = socialist_influence
 		remove_country_modifier = anarcho_liberal_influence
@@ -371,6 +462,23 @@ country_event = {
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+	}
+	option = {
+		name = "EVTOPTZ91700"
+		remove_country_modifier = communist_influence
+		remove_country_modifier = socialist_influence
+		remove_country_modifier = anarcho_liberal_influence
+		remove_country_modifier = liberal_influence
+		remove_country_modifier = conservative_influence
+		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
+		clr_country_flag = communist_influence
+		clr_country_flag = socialist_influence
+		clr_country_flag = anarcho_liberal_influence
+		clr_country_flag = liberal_influence
+		clr_country_flag = conservative_influence
+		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 }
 
@@ -397,12 +505,14 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTF91700"
@@ -417,12 +527,14 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTE91700"
@@ -437,12 +549,14 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTD91700"
@@ -457,12 +571,14 @@ country_event = {
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTC91700"
@@ -477,12 +593,14 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = conservative_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTB91700"
@@ -497,12 +615,14 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
 		name = "EVTOPTA91700"
@@ -517,15 +637,22 @@ country_event = {
 		remove_country_modifier = anarcho_liberal_influence
 		remove_country_modifier = liberal_influence
 		remove_country_modifier = conservative_influence
+		remove_country_modifier = anarchist_influence
 		clr_country_flag = fascist_influence
 		clr_country_flag = communist_influence
 		clr_country_flag = socialist_influence
 		clr_country_flag = anarcho_liberal_influence
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
+		clr_country_flag = anarchist_influence
 	}
 	option = {
-		name = "EVTOPTZ91700"
+		name = "Anarchist"
+		add_country_modifier = {
+			name = anarchist_influence
+			duration = -1
+		}
+		set_country_flag = anarchist_influence
 		remove_country_modifier = fascist_influence
 		remove_country_modifier = communist_influence
 		remove_country_modifier = socialist_influence
@@ -540,6 +667,25 @@ country_event = {
 		clr_country_flag = liberal_influence
 		clr_country_flag = conservative_influence
 		clr_country_flag = reactionary_influence
+	}
+	option = {
+		name = "EVTOPTZ91700"
+		remove_country_modifier = fascist_influence
+		remove_country_modifier = communist_influence
+		remove_country_modifier = socialist_influence
+		remove_country_modifier = anarcho_liberal_influence
+		remove_country_modifier = liberal_influence
+		remove_country_modifier = conservative_influence
+		remove_country_modifier = reactionary_influence
+		remove_country_modifier = anarchist_influence
+		clr_country_flag = fascist_influence
+		clr_country_flag = communist_influence
+		clr_country_flag = socialist_influence
+		clr_country_flag = anarcho_liberal_influence
+		clr_country_flag = liberal_influence
+		clr_country_flag = conservative_influence
+		clr_country_flag = reactionary_influence
+		clr_country_flag = anarchist_influence
 	}
 }
 

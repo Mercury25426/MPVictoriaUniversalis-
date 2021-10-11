@@ -89,6 +89,8 @@ political_decisions = {
 			}
 		}
 	}
+
+
 	
 	enact_female_suffrage = {
 		picture = enact_female_suffrage
@@ -913,6 +915,7 @@ political_decisions = {
 		NOT = { has_country_modifier = prussian1_general_staff }
 		NOT = {
 		OR = {
+		tag = IMF
 		tag = NWG
 		tag = TUR
 		tag = TKG
@@ -959,6 +962,7 @@ political_decisions = {
 		tag = NZL
 		tag = AST
 		tag = SCO
+		tag = FRC
 		}
 	}
 }
@@ -1040,6 +1044,7 @@ political_decisions = {
 				government = absolute_monarchy
 				}
 				OR = {
+				tag = IMF
 				tag = ENG
 				tag = ENL
 				tag = SAF
@@ -1204,6 +1209,7 @@ political_decisions = {
 			tag = FRS
 			tag = CTR
 			tag = FRA
+			tag = FRC
 			tag = INC
 			tag = LOU
 			tag = QUE
@@ -1503,4 +1509,116 @@ political_decisions = {
 	}
 		
 	
-}
+
+
+	become_democracy = {
+		picture = attract_immigrants
+		potential = {
+			NOT = {
+				government = democratic
+			}
+			government = hms_government
+		}
+		
+		allow = {
+			OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+			}
+		}
+		
+		effect = {
+		government = democracy
+			}
+
+			ai_will_do = {
+				factor = 0
+
+			}
+		}
+	
+
+	fund_patriots = {
+		picture = turkish_general_staff
+		potential = {
+			NOT = {
+				THIS = { all_core = { owned_by = THIS }}
+			}
+
+			NOT = { has_country_modifier = foreign_terrorist_brigades }
+		}
+		
+		allow = {
+			money = 500000
+		}
+		effect = {
+				add_country_modifier = { name = foreign_terrorist_brigades duration = 2555 }
+				treasury = -500000
+				random_country = {
+					limit = {
+						neighbour = THIS
+						any_owned_province = {
+							is_core = THIS
+							any_neighbor_province = { owned_by = THIS }
+							NOT = { has_province_modifier = nationalist_agitation }
+						}
+						NOT = {
+							is_sphere_leader_of = THIS
+							is_cultural_union = THIS
+							alliance_with = THIS
+							war_with = THIS
+							truce_with = THIS
+							relation = {
+								who = THIS
+								value = 100
+							}
+						}
+					}
+					any_owned = {
+						limit = {
+							is_core = THIS
+						}
+						add_province_modifier = {
+							name = nationalist_agitation
+							duration = 1825
+						}
+						add_province_modifier = {
+							name = foreign_terrorist_brigades1
+							duration = 1825
+						}
+					}
+					any_pop = {
+						limit = {
+							location = { is_core = THIS }
+							is_primary_culture = no
+							is_accepted_culture = no
+						}
+						militancy = 5
+					}
+					relation = {
+						who = THIS
+						value = -50
+					}
+					random = {
+						chance = 25
+						country_event = 800101 #Discovered
+					}			
+				}						
+				ai_chance = {
+					factor = 60
+					modifier = {
+						factor = 0.5
+						badboy = 0.8
+					}
+					modifier = {
+						factor = 0.5
+						war_policy = pro_military
+					}
+				}
+			}
+		}
+	}
+
+
+
+

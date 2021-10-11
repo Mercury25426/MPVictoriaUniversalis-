@@ -1,5 +1,6 @@
 owner = NEP
 controller = NEP
 add_core = NEP
+add_core = MUG
 trade_goods = grain
 life_rating = 35

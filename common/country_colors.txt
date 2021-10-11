@@ -312,6 +312,13 @@ FRA = {
     color3= { 121 162 109  }
 }
 
+# French Empire
+FRC = {
+    color1= { 33 95 84  }
+    color2= { 99 147 95  }
+    color3= { 91 132 79  }
+}
+
 # Anhalt FIXED
 ANH = {
     color1= { 134 224 126  }

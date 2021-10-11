@@ -3,37 +3,37 @@
 #Boffa (192000/48000 POPS) #now part of Guinea
 1879 = {
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 450
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 250
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 950
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 350
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 30000
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 3000
     }
@@ -44,79 +44,79 @@
 #from here one they were african minor
 1880 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 875
     }
 
     bureaucrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 187
     }
 
     officers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 37
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 187
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 787
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 48200
     }
 
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 900
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 487
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 2400
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 512
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 10000
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 3000
     }
@@ -124,103 +124,103 @@
 #Dinguiraye (272000/68000 POPS)
 1881 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 282
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 150
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 582
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 14450
     }
 
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 282
     }
 
     officers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 57
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 150
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 750
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 150
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 10112
     }
 
     aristocrats = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 37
     }
 
     artisans = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 225
     }
 
     soldiers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 37
     }
 
     farmers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 4125
     }
 
     slaves = {
-        culture = mande
+        culture = african
         religion = animist
         size = 5000
     }
@@ -230,97 +230,97 @@
 #Kankan (236000/59000 POPS)
 1882 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 195
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 57
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 300
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 75
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 4725
     }
 
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 357
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 187
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 937
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 512
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 18045
     }
 
     aristocrats = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 75
     }
 
     clergymen = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 37
     }
 
     artisans = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 225
     }
 
     soldiers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 57
     }
 
     farmers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 4107
     }
 
     slaves = {
-        culture = mande
+        culture = african
         religion = animist
         size = 2250
     }
@@ -329,67 +329,67 @@
 #Beyla (184000/46000 POPS)
 1883 = {
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 400
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 200
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 5687
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 212
     }
 
     labourers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 1500
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 50
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 11400
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 50
     }
 
     labourers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 2500
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 1000
     }

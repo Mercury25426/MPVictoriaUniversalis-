@@ -1,9 +1,14 @@
 capital = 1236
-primary_culture = panjabi
+primary_culture = hazara
 culture = telegu
+culture = panjabi
 culture = marathi
 culture = rajput
 culture = gujarati
+culture = baluchi
+culture = pashtun
+culture = tajik
+culture = kashmiri
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

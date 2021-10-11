@@ -117,10 +117,7 @@ country_event = {
 			any_owned = {
 				limit = {
 					is_colonial = yes
-					OR = {
 					has_province_modifier = settlement
-					has_country_flag = burgundian_genocide
-					}
 				}
 				any_pop = {
 					limit = {
@@ -144,15 +141,16 @@ province_event = {
 		owner = {
 			invention = national_idea1
 			NOT = { has_country_flag = national_idea1 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea1 }
 	}
 
 	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -164,7 +162,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -176,7 +174,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -188,7 +186,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -200,7 +198,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -212,7 +210,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -224,7 +222,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -235,23 +233,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -263,7 +248,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -275,7 +260,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -287,7 +272,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -299,7 +284,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -315,7 +300,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -331,7 +316,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -347,7 +332,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -363,7 +348,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
+		name = "Unlock Domestic Migration Attraction Decision"
 		owner = { set_country_flag = choosing_domestic }
 		ai_chance = {
 			factor = 0
@@ -371,7 +356,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -381,7 +366,79 @@ province_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916011
+		owner = { set_country_flag = page2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page2
+			}
+		}
+	}
+
 }
+
+province_event = {
+	id = 916011
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page2
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91601 
+		owner = { clr_country_flag = page2 }
+		owner = { clr_country_flag = national_idea1 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page2
+			}
+		}
+	}
+}
+
+
 
 province_event = {
 	id = 91602
@@ -393,23 +450,16 @@ province_event = {
 		owner = {
 			invention = national_idea2
 			NOT = { has_country_flag = national_idea2 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea2 }
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
-		owner = { set_country_flag = choosing_domestic }
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -421,7 +471,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -433,7 +483,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -445,7 +495,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -457,7 +507,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -469,7 +519,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -481,7 +531,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -492,23 +542,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -520,7 +557,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -532,7 +569,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -544,7 +581,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -556,7 +593,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -572,7 +609,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -588,7 +625,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -604,7 +641,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -620,7 +657,15 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "Unlock Domestic Migration Attraction Decision"
+		owner = { set_country_flag = choosing_domestic }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -630,8 +675,77 @@ province_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916022
+		owner = { set_country_flag = page2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page3
+			}
+		}
+	}
+
 }
 
+province_event = {
+	id = 916022
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page3
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page3 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page3 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91602 
+		owner = { clr_country_flag = page3 }
+		owner = { clr_country_flag = national_idea2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page2
+			}
+		}
+	}
+}
 province_event = {
 	id = 91603
 	title = "EVTNAME91601"
@@ -642,23 +756,16 @@ province_event = {
 		owner = {
 			invention = national_idea3
 			NOT = { has_country_flag = national_idea3 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea3 }
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
-		owner = { set_country_flag = choosing_domestic }
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -670,7 +777,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -682,7 +789,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -694,7 +801,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -706,7 +813,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -718,7 +825,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -730,7 +837,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -741,23 +848,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -769,7 +863,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -781,7 +875,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -793,7 +887,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -805,7 +899,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -821,7 +915,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -837,7 +931,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -853,7 +947,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -869,7 +963,15 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "Unlock Domestic Migration Attraction Decision"
+		owner = { set_country_flag = choosing_domestic }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -879,8 +981,77 @@ province_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916033
+		owner = { set_country_flag = page4 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page4
+			}
+		}
+	}
+
 }
 
+province_event = {
+	id = 916033
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page4
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page4 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91603
+		owner = { clr_country_flag = page4 }
+		owner = { clr_country_flag = national_idea3 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page2
+			}
+		}
+	}
+}
 province_event = {
 	id = 91604
 	title = "EVTNAME91601"
@@ -891,23 +1062,16 @@ province_event = {
 		owner = {
 			invention = national_idea4
 			NOT = { has_country_flag = national_idea4 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea4 }
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
-		owner = { set_country_flag = choosing_domestic }
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -919,7 +1083,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -931,7 +1095,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -943,7 +1107,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -955,7 +1119,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -967,7 +1131,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -979,7 +1143,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -990,23 +1154,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -1018,7 +1169,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -1030,7 +1181,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1042,7 +1193,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1054,7 +1205,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -1070,7 +1221,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -1086,7 +1237,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -1102,7 +1253,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -1118,13 +1269,91 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "Unlock Domestic Migration Attraction Decision"
+		owner = { set_country_flag = choosing_domestic }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 0
 				has_country_flag = education_idea
+			}
+		}
+	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916044
+		owner = { set_country_flag = page5 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page5
+			}
+		}
+	}
+
+}
+
+province_event = {
+	id = 916044
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page5
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page5 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page5 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91604
+		owner = { clr_country_flag = page5 }
+		owner = { clr_country_flag = national_idea4 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page5
 			}
 		}
 	}
@@ -1140,23 +1369,16 @@ province_event = {
 		owner = {
 			invention = national_idea5
 			NOT = { has_country_flag = national_idea5 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea5 }
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
-		owner = { set_country_flag = choosing_domestic }
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -1168,7 +1390,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -1180,7 +1402,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -1192,7 +1414,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -1204,7 +1426,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -1216,7 +1438,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -1228,7 +1450,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -1239,23 +1461,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -1267,7 +1476,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -1279,7 +1488,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1291,7 +1500,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1303,7 +1512,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -1319,7 +1528,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -1335,7 +1544,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -1351,7 +1560,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -1367,13 +1576,91 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "Unlock Domestic Migration Attraction Decision"
+		owner = { set_country_flag = choosing_domestic }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 0
 				has_country_flag = education_idea
+			}
+		}
+	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916055
+		owner = { set_country_flag = page2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page6
+			}
+		}
+	}
+
+}
+
+province_event = {
+	id = 916055
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page6
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page6 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page6 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91605 
+		owner = { clr_country_flag = page6 }
+		owner = { clr_country_flag = national_idea5 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page6
 			}
 		}
 	}
@@ -1389,23 +1676,16 @@ province_event = {
 		owner = {
 			invention = national_idea6
 			NOT = { has_country_flag = national_idea6 }
+			}
 		}
-	}
+	
 
 	immediate = {
 		owner = { set_country_flag = national_idea6 }
 	}
 
 	option = {
-		name = "Domestic Migration Attraction"
-		owner = { set_country_flag = choosing_domestic }
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = {
-		name = "Army Morale"
+		name = "+50% Army Morale"
 		owner = { set_country_flag = choosing_army_morale }
 		ai_chance = {
 			factor = 10
@@ -1417,7 +1697,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Organisation"
+		name = "+20% Army Organisation"
 		owner = { set_country_flag = choosing_army_organisation }
 		ai_chance = {
 			factor = 10
@@ -1429,7 +1709,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Supplies"
+		name = "-15% Military Supplies"
 		owner = { set_country_flag = choosing_military_supplies }
 		ai_chance = {
 			factor = 10
@@ -1441,7 +1721,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Military Hospitals"
+		name = "+20% Military Hospitals"
 		owner = { set_country_flag = choosing_military_hospitals }
 		ai_chance = {
 			factor = 10
@@ -1453,7 +1733,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Army Experience"
+		name = "+15% Army Experience"
 		owner = { set_country_flag = choosing_army_experience }
 		ai_chance = {
 			factor = 10
@@ -1465,7 +1745,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Reinforce Rate"
+		name = "+15% Reinforce Rate"
 		owner = { set_country_flag = choosing_reinforce_rate }
 		ai_chance = {
 			factor = 10
@@ -1477,7 +1757,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Leadership"
+		name = "+2 Monthly Leadership"
 		owner = { set_country_flag = choosing_leadership }
 		ai_chance = {
 			factor = 10
@@ -1488,23 +1768,10 @@ province_event = {
 		}
 	}
 
-	option = {
-		name = "Prestige"
-		owner = { set_country_flag = choosing_prestige }
-		ai_chance = {
-			factor = 0
-			modifier = {
-				factor = 0
-				OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
-			}
-		}
-	}
+
 
 	option = {
-		name = "Navy Build Speed"
+		name = "+30% Navy Build Speed & +50% Ship Repair"
 		owner = { set_country_flag = choosing_navy_build_speed }
 		ai_chance = {
 			factor = 10
@@ -1516,7 +1783,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Navy Organisation"
+		name = "+20% Navy Organisation"
 		owner = { set_country_flag = choosing_navy_organisation }
 		ai_chance = {
 			factor = 10
@@ -1528,7 +1795,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Expansion"
+		name = "-0.06 Infamy Decay"
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1540,7 +1807,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Assimilation"
+		name = "+0.06 Assimilation Chance & +50% Rate"
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1552,7 +1819,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Farming"
+		name = "+20% Farming Efficiency"
 		owner = { set_country_flag = choosing_farming }
 		ai_chance = {
 			factor = 10
@@ -1568,7 +1835,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Mining"
+		name = "+20% Mining Efficiency"
 		owner = { set_country_flag = choosing_mining }
 		ai_chance = {
 			factor = 10
@@ -1584,7 +1851,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Consumer Goods"
+		name = "+8% Consumer Goods Factory Output"
 		owner = { set_country_flag = choosing_consumer_goods }
 		ai_chance = {
 			factor = 10
@@ -1600,7 +1867,7 @@ province_event = {
 	}
 
 	option = {
-		name = "Industrial Goods"
+		name = "+8% Industrial Goods Factory Output"
 		owner = { set_country_flag = choosing_industrial_goods }
 		ai_chance = {
 			factor = 10
@@ -1616,7 +1883,15 @@ province_event = {
 	}
 
 	option = {
-		name = "Education Efficiency"
+		name = "Unlock Domestic Migration Attraction Decision"
+		owner = { set_country_flag = choosing_domestic }
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = "+15% Education Efficiency"
 		owner = { set_country_flag = choosing_education }
 		ai_chance = {
 			factor = 10
@@ -1626,11 +1901,80 @@ province_event = {
 			}
 		}
 	}
+
+	option = {
+		name = "Next Page"
+		country_event = 916066
+		owner = { set_country_flag = page7 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page7
+			}
+		}
+	}
+
 }
 
+province_event = {
+	id = 916066
+	title = "EVTNAME91601"
+	desc = "EVTDESC91601"
+
+
+	trigger = {
+		owner = {
+			has_country_flag = page7
+
+		}
+	}
+
+
+	option = {
+		name = "§GIncreased Chance of Economical Events"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_economy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "+0.3 Monthly Prestige"
+		owner = { clr_country_flag = page7 }
+		owner = { set_country_flag = choosing_prestige }
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = prestige_idea
+					owner = { is_culture_group = germanic }
+				}
+			}
+		}
+	}
+	option = {
+		name = "Back Page"
+		country_event = 91606 
+		owner = { clr_country_flag = page7 }
+		owner = { clr_country_flag = national_idea6 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = page7
+			}
+		}
+	}
+}
 country_event = {
 	id = 91651
-	title = "Army Morale"
+	title = "+50% Army Morale"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1651,7 +1995,7 @@ country_event = {
 
 country_event = {
 	id = 91652
-	title = "Army Organisation"
+	title = "+20% Army Organisation"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1672,7 +2016,7 @@ country_event = {
 
 country_event = {
 	id = 91653
-	title = "Military Supplies"
+	title = "-15% Military Supplies"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1693,7 +2037,7 @@ country_event = {
 
 country_event = {
 	id = 91654
-	title = "Military Hospitals"
+	title = "+20% Military Hospitals"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1714,7 +2058,7 @@ country_event = {
 
 country_event = {
 	id = 91655
-	title = "Army Experience"
+	title = "+15% Army Experience"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1735,7 +2079,7 @@ country_event = {
 
 country_event = {
 	id = 91656
-	title = "Reinforce Rate"
+	title = "+15% Reinforce Rate"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1756,7 +2100,7 @@ country_event = {
 
 country_event = {
 	id = 91657
-	title = "Leadership"
+	title = "+2 Monthly Leadership"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1777,17 +2121,14 @@ country_event = {
 
 country_event = {
 	id = 91658
-	title = "Prestige"
+	title = "+0.3 Monthly Prestige"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
 
 	trigger = {
 		has_country_flag = choosing_prestige
-		OR = {
-					has_country_flag = prestige_idea
-					is_culture_group = germanic
-				}
+		has_country_flag = prestige_idea
 	}
 
 	option = {
@@ -1801,7 +2142,7 @@ country_event = {
 
 country_event = {
 	id = 91659
-	title = "Navy Build Speed"
+	title = "+30% Navy Build Speed & +50% Ship Repair"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1822,7 +2163,7 @@ country_event = {
 
 country_event = {
 	id = 91660
-	title = "Navy Organisation"
+	title = "+20% Navy Organisation"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1843,7 +2184,7 @@ country_event = {
 
 country_event = {
 	id = 91661
-	title = "Expansion"
+	title = "-0.06 Infamy Decay"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1864,7 +2205,7 @@ country_event = {
 
 country_event = {
 	id = 91662
-	title = "Assimilation"
+	title = "+0.06 Assimilation Chance & +50% Rate"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1885,7 +2226,7 @@ country_event = {
 
 country_event = {
 	id = 91663
-	title = "Farming"
+	title = "+20% Farming Efficiency"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1906,7 +2247,7 @@ country_event = {
 
 country_event = {
 	id = 91664
-	title = "Mining"
+	title = "+20% Mining Efficiency"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1927,7 +2268,7 @@ country_event = {
 
 country_event = {
 	id = 91665
-	title = "Consumer Goods"
+	title = "+8% Consumer Goods Factory Output"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1948,7 +2289,7 @@ country_event = {
 
 country_event = {
 	id = 91666
-	title = "Industrial Goods"
+	title = "+8% Industrial Goods Factory Output"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1969,7 +2310,7 @@ country_event = {
 
 country_event = {
 	id = 91667
-	title = "Domestic Migration Attraction"
+	title = "Unlock Domestic Migration Attraction Decision"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -1990,7 +2331,7 @@ country_event = {
 
 country_event = {
 	id = 91668
-	title = "Education"
+	title = "+15% Education Efficiency"
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -2007,4 +2348,29 @@ country_event = {
 			province_event = { id = 91601 days = 0 }
 		}
 	}
+	
+}
+
+country_event = {
+	id = 916699
+	title = "§GIncreased Chance of Economical Events"
+	desc = "We already have this national idea."
+	picture = national_idea_choice
+
+
+	trigger = {
+		has_country_flag = choosing_economy
+		has_country_flag = economy_national_idea
+	}
+
+	option = {
+		name = "Take me back to the national idea list."
+		clr_country_flag = choosing_economy
+		random_owned = {
+			province_event = { id = 91601 days = 0 }
+		}
+	}
+	
+
+	
 }

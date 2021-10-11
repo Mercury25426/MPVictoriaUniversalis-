@@ -1,7 +1,5 @@
 capital = 1775
-primary_culture = maures
-culture = fulbe
-culture = wolof
+primary_culture = african
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

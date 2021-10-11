@@ -56,6 +56,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = claimed_greater_serbia
+			add_accepted_culture = slovene
 			add_accepted_culture = bosniak
 			AUS_777 = { add_core = THIS }
 			MON_2582 = { add_core = THIS }

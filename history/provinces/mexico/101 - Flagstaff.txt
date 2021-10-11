@@ -1,7 +1,8 @@
-owner = MEX
-controller = MEX
-add_core = MEX
+owner = APA
+controller = APA
+add_core = APA
 add_core = DES
+colonial = 0
 trade_goods = cattle
 life_rating = 35
 1913.1.1 = {

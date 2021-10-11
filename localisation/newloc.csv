@@ -11,7 +11,8 @@ welsh;Welsh;x
 british;English;x
 WHA;Wales;x
 rhenish;Rhenish;x
-FRA_monarchy;French Empire;x
+roman;Roman;x
+FRA_monarchy;The French Empire;x
 walloon_autonomy;West of the Rhine;x
 GRA;Deutsches Kaiserreich;x
 GRA_fascist_dictatorship;Großgermanisches Reich;x
@@ -170,6 +171,7 @@ USA_247;New Hampshire;x
 USA_248;Maine;x
 USA_222;Delaware;x
 MEX_94;Nevada;x
+chinese_farm_size1;Hainan Treaty Port;x
 RUS_719;Bialystock;x
 RUS_711;Southern Posen;x
 AUS_Fuckoff;Eastern Sudetenland;x
@@ -334,3 +336,287 @@ complete_humiliation_desc;After losing to the Germans far too many times, this i
 form_BOG_title;Form Burgundy;x
 form_BOG_desc;We have finally sealed it, the return of the great kingdom, maybe even soon empire, but not rest, we need to expand further.;x
 UBP_354;Latvia;x
+NORMAL_WAR_DISMANTLE_NAME;$ORDER$$FIRST$ War to Dismantle the $SECOND$ Empire;Grande Guerre $ORDER$$FIRST$-$SECOND$;$ORDER$$FIRST$-$SECOND$ Größer Krieg;Baza;Base:;Base:;Alap:;Základna:;;;;;;;x;;;;;;;;;;;;;;,,,
+AGRESSION_WAR_DISMANTLE_NAME;$ORDER$ War of $FIRST$ Aggression;$ORDER$ Offensive Militaire $FIRST$;$ORDER$ $FIRST$ Angriffskrieg;Wojna $ORDER$$FIRST$-$SECOND$;Guerra $ORDER$$FIRST$-$SECOND$;$ORDER$ Guerra $FIRST$-$SECOND$;$ORDER$$FIRST$-$SECOND$ hábor?$ORDER$$FIRST$-$SECOND$ válka;;;;;;;x;;;;;;;;;;;;;;,,,
+no_more_war;No More War;x
+no_more_war_desc;Our people are tired of war, millions dead, destinies altered, the world will forever be different.;x
+german_revolutionaries_name;German Revolutionaries;;;;;;;;;x;;
+german_revolutionaries_desc;The German revolutionaries were revolutionaries from the 1848 liberal revolutions that wanted a united German confederation, these liberals wanted a consitutional monarchy with little or less monarch power;x
+crownfromgutter;§W"Puts on crown";x
+EVTOPTB194555;Our people, the vast Germanic people within the German confederation have raise up their fists with anger, they have demanded a true one rightful Germanic state, before this moment, our government has been slaughtering the men who have been demanding this, but it looks like we have no choice;x
+BLA;Blackfoot;x
+BLA_ADJ;Blackfoot;x
+sioux;Sioux;
+blackfoot;Blackfoot;x
+SIO;Sioux;x
+SIO_ADJ;Sioux;
+PAW;Pawnee;x
+pawnee;Pawnee;x
+cheyenne;Cheyenne;x
+CHO;Cheyenne;x
+shoshone;Shoshone;x
+SHO;Shoshone;x
+PAW_ADJ;Pawnee;x
+OJI;Ojibwe;x
+OJI_ADJ;Ojibwe;x
+ojibwe;Ojibwe;x
+CRW;Crow;x
+CRW_ADJ;Crow;x
+crow;Crow;x
+nez;Nez Perce;x
+NEZ;Nez Perce;
+NEZ_ADJ;Nez Perce;xAPA;Apache;x
+APA_ADJ;Apache;x
+apache;Apache;x
+APA;Apache;x
+native_conquest;Native Conquest;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+native_conquest_desc;Conquer and annex the native tribes;Install the fascist puppet government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+native_conquest_setup;Native Conquest;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+native_conquest_short;Native Conquest;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+native_conquest_acquire;Native Acquire State;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+native_conquest_acquire_desc;Conquer and take bits of the native tribes;Install the fascist puppet government.;Installer le gouvernement communiste.;Setzt die kommunistische Regierung ein.;;;;;;;;;;;x
+native_conquest_acquire_setup;Native Acquire State;Installer le gouvernement communiste. En cas de réussite, le pays sera automatiquement ajouté à notre sphère d'influence.;Setzt die kommunistische Regierung ein. Sobald dies erreicht wurde, wird das Land automatisch unserer Sphäre zugefügt. ;;;;;;;;;;;x
+native_conquest_acquire_short;Native Acquire State;Installer le Communisme;Kommunismus einsetzen;;;;;;;;;;;x
+NAE;Native American Empire;x
+NAE_proletarian_dictatorship;Native American Commune
+NAE_ADJ;Native American;x
+native_american;Native American;x
+anglosouthafrican;Anglo South African;x
+treaty_of_guadalupe_hidalgo_title;Treaty of Guadalupe Hidalgo;x
+treaty_of_guadalupe_hidalgo_desc;This treaty will cease all Mexican land that is in the way of lady liberty.;x	
+refute_manifest_destiny_title;Refute Manifest Destiny;x
+refute_manifest_destiny_desc;We have managed to beat back the American menace, send them back to DC HURRAH HURRAH.;x
+gadsden_purchase_title;Gadsden Purchase;x
+gadsden_purchase_desc;The Mexicans still own a piece of land we need for our transcontinental railroad, lets hope they it to us.;x
+annexokl_title;Annex the Indian Territory;x
+annexokl_desc;The Indian territory was made in order for the Indians to move to a safe territory, unfortunately we need that land;x
+OKL;Indian Territory;x
+OKL_ADJ;Cherokee;x
+trail_of_tears;Trail of Tears;x
+trail_of_tears_desc;Under the indian removal act, and the creation of the indian territory west of the mississippi river, it is only natural that the natives will be moved there.;x
+appalachian;Appalachian;x
+anglo_american;Yankee;x
+anglo_dixie;Coastal Dixie;x
+american;American;x
+tejanos;Tejanos;x
+irish_american;Irish American;x
+send_them_all_back_to_africa_title;Send them all back to Africa;x
+send_them_all_back_to_africa_desc;A proposed idea to deal with these vermin, is to send them all to a place where they can't stomp on our people no longer, the place they all came from.;x
+integrate_the_african_swine_title;Integrate the Blacks;x
+integrate_the_african_swine_desc;After winning the civil war, emancipating the slaves, its time to fully accept them.;x
+form_GSN_title;Form the Great Sioux Nation;x
+form_GSN_desc;The great Sioux nation was a confederacy organized by several different tribes, this political structure had the Sioux at its forfront, and now that we have control over these tribes, we are able to create a great confederacy under its name, additionally a good number of American settlers are willing to join in order to fight to keep slavery, namely dixie soldiers.;x
+GSN_ADJ;Sioux;x
+GSN;Great Sioux Nation;x
+napoleon_iii;Napoleon III;x
+napoleon_iii_desc;Napoleon III (Charles Louis Napoléon Bonaparte 20 April 1808 – 9 January 1873) was the first President of France (as Louis-Napoléon Bonaparte) from 1848 to 1852 and Emperor of the French from 1852 to 1870. A nephew of Napoleon I, he was the last monarch to reign over France. Elected to the presidency of the Second Republic in 1848, he seized power by force in 1851, when he could not constitutionally be reelected he later proclaimed himself Emperor of the French. He founded the Second Empire, reigning until the defeat of the French Army and his capture by Prussia and its allies at the Battle of Sedan in 1870. Napoleon III was a popular monarch, who used plebiscites to guide his actions, oversaw the modernisation of the French economy and worked to have the centre of Paris rebuilt following Napoleon III style guidelines. He expanded the French overseas empire and made the French merchant navy the second largest in the world, engaged in the Crimean War, the Second Italian War of Independence, the Second Franco-Mexican War, as well as the disastrous Franco-Prussian War, in which he served alongside his soldiers during the fight, an uncommon action for a head of state in the modern era.;x
+napoleon_iii_legacy;Napoleon The Third's Legacy;x
+napoleon_iii_legacy_desc;Napoleon wasn't the best, wasn't perfect, but he has led us for a good duration of time fighting against adversaries, and ensuring the French State would be strong enough to fight a united Germany/Prussia, now that hes gone, its best to preserve his reign and existance.;x
+GER_absolute_monarchy;German Empire;x
+call_for_the_men_title;Recruit the Generals;x
+call_for_the_men_desc;The civil war is about to begin its time to recruit some generals.;x
+disable_slavery_for_accepted_title;§YDisable Accepted Pops to Become Slaves;x
+disable_slavery_for_accepted_desc;This will make it so slaves who are accepted pops will immediately promote to serfs.;x
+allow_slavery_for_accepted_title;§YEnable Accepted Pops to Become Slaves;x
+allow_slavery_for_accepted_desc;This decision will make it so your accepted pops can become and stay as slaves;x
+populist;Populist;x
+populist_focus;Party loyalty towards §YPopulist §BIdeology;x
+populist_uh;Populists are generally people who are against the elite establishment, rich people, and are willing to make changing through majority, rather then plurality.;x
+promote_serfs;Encourage Serfs;x
+large_promote_serfs;Encourage Serfs;x
+massive_promote_serfs;Encourage Serfs;x
+SAU_ADJ;South African;x
+canadian;Canadian;x
+german_revolutionaries_army;German Revolutionaries;x
+south_africa_immigrant_attract;South African Immigration Boom;x
+south_africa_immigrant_attract_desc;With the formation of the new South African State, it is now necessary to lure in Europeans to move to South Africa, to increase prosperity within our great nation.;x
+MON_2583;Austrian Montenegro;x
+fund_rebels_on_title;Enable Fund Rebels Decisions;x
+army_morale_idea;Army Morale National Idea;;;;;;;;;;;;;;
+army_morale_idea_desc;This effect is additive, e.g. if your army morale is 200%, this will raise it to 250%.;;;;;;;;;;;;;;
+army_organisation_idea;Army Organisation National Idea;;;;;;;;;;;;;;
+army_organisation_idea_desc;This effect is multiplicative. The max organization of a land unit is (base organization of unit + army organization from techs) * (1 + land organization). An infantry brigade has a base organization of 30, so without any techs researched the max org it will have with this modifier is (30 + 0) * (1 + 0.2) = 36.;;;;;;;;;;;;;;
+military_supplies;Military Supplies National Idea\n§WSupply Consumption §G-15%;;;;;;;;;;;;;;
+military_supplies_desc;This reduces supply consumption for all units by 15%.;;;;;;;;;;;;;;
+military_supplies_idea_invention;Military Supplies National Idea;;;;;;;;;;;;;;
+military_supplies_idea_invention_desc;This gives -15% Supply Consumption Bonus. For example, if the base supply consumption of your armies is increased to 200% from techs, this will lower it to 170%.;;;;;;;;;;;;;;
+military_hospitals_idea;Military Hospital Idea\n§WMilitary Hospitals: §G+20%;;;;;;;;;;;;;;
+military_hospitals_idea_desc;This bonus reduces POP deaths from combat casualties to a rate of 1 to 0.208, down from a base rate of 1 to 0.25. POP deaths from combat casualties is calculated as SOLDIER_TO_POP_DAMAGE/(1 + military_hospital modifier). The base SOLDIER_TO_POP_DAMAGE in this mod is 0.25, so a military hospital modifier of 20% or 0.2, reduces POP deaths to 0.25/(1 + 0.2) = 0.208.;;;;;;;;;;;;;;
+military_hospitals_idea_invention;Military Hospitals National Idea;;;;;;;;;;;;;;
+military_hospitals_idea_invention_desc;This bonus reduces POP deaths from combat casualties to a rate of 1 to 0.208, down from a base rate of 1 to 0.25. POP deaths from combat casualties is calculated as SOLDIER_TO_POP_DAMAGE/(1 + military_hospital modifier). The base SOLDIER_TO_POP_DAMAGE in this mod is 0.25, so a military hospital modifier of 20% (0.2), reduces POP deaths to 0.25/(1 + 0.2) = 0.208.;;;;;;;;;;;;;;
+army_experience_idea;Army Experience National Idea;;;;;;;;;;;;;;
+army_experience_idea_desc;Each point of experience lowers the damage taken during combat at the same rate as one point of military tactics.;;;;;;;;;;;;;;
+reinforce_rate_idea;Reinforce Rate Idea\n§WReinforcement: §G+15%;;;;;;;;;;;;;;
+reinforce_rate_idea_desc;This bonus increases reinforce rate by +15%. No matter the reinforce rate however, your units' reinforce rate is multiplied by the amount of supplies they are getting, so if your armies aren't getting any supplies they won't reinforce even with a large reinforce rate bonus.;;;;;;;;;;;;;;
+reinforce_rate_idea_invention;Reinforce Rate Idea;;;;;;;;;;;;;;
+reinforce_rate_idea_invention_desc;Your units' reinforce rate is multiplied by the amount of supplies they are getting, so if your armies aren't getting any supplies they won't reinforce even with a large reinforce rate bonus.;;;;;;;;;;;;;;
+leadership_idea;Leadership National Idea;;;;;;;;;;;;;;
+leadership_idea_desc;Increased Monthly Base Leadership.;;;;;;;;;;;;;;
+prestige_idea;Prestige National Idea;;;;;;;;;;;;;;
+prestige_idea_desc;Increased Monthly Base Prestige.;;;;;;;;;;;;;;
+navy_build_speed_idea;Navy Build Speed National Idea\n§WNavies: Build Time §G-30%\n§WLocal Ship Repair Speed: §G+50%;;;;;;;;;;;;;;
+navy_build_speed_idea_desc;Base build time of ships is reduced by 30% and repair is 50% faster. The base build time reduction stacks with base build time reductions from port levels and other techs.;;;;;;;;;;;;;;
+navy_build_speed_idea_modifier;Naval Build Speed National Idea;;;;;;;;;;;;;;
+navy_organisation_idea;Navy Organisation National Idea;;;;;;;;;;;;;;
+navy_organisation_idea_desc;This effect is multiplicative. The max organization of a naval unit is (base organization of unit + navy organization from techs) * (1 + navy organization). For example, a frigate has a base org of 30, and if it has +18 org from techs, the max org it will have with this modifier is (30 + 18) * (1 + 0.15) = 55.2.;;;;;;;;;;;;;;
+expansion_idea;Expansion National Idea;;;;;;;;;;;;;;
+expansion_idea_desc;Increased Monthly Infamy Decay.;;;;;;;;;;;;;;
+assimilation_idea;Assimilation National Idea;;;;;;;;;;;;;;
+assimilation_idea_desc;Assimilation rate is multiplied by the assimilation chance to determine the amount of assimilation in a POP. If either assimilation rate or chance is 0, or there is no assimilation target, then no assimilation will take place. POPs will never assimilate in a province they have a core in, so e.g. Romanian POPs in Romanian cored land won't assimilate but Romanian POPs in non Romanian land will assimilate.;;;;;;;;;;;;;;
+farming_idea;Farming National Idea;;;;;;;;;;;;;;
+farming_idea_desc;+Increased Farming Efficiency.;;;;;;;;;;;;;;
+mining_idea;Mining National Idea;;;;;;;;;;;;;;
+mining_idea_desc;Increased Mining Efficiency.;;;;;;;;;;;;;;
+consumer_goods_idea;Consumer Goods National Idea;;;;;;;;;;;;;;
+consumer_goods_idea_desc;Provides an output bonus to various factory produced consumer goods.;;;;;;;;;;;;;;
+industrial_goods_idea;Industrial Goods National Idea;;;;;;;;;;;;;;
+industrial_goods_idea_desc;Provides an output bonus to various factory produced industrial goods.;;;;;;;;;;;;;;
+domestic_idea;Unlock Migration Attraction National Idea;;;;;;;;;;;;;;
+domestic_idea_desc;Unlocks Migration Attraction decision, which redirects incoming immigrants and internal migrants to the targetted province. This does NOT increase the amount of outside POPs that immigrate to your country.;;;;;;;;;;;;;;
+education_idea;Education National Idea;;;;;;;;;;;;;;
+education_idea_desc;Increased Education Efficiency.;;;;;;;;;;;;;;
+zprovince_migration_new_world_title;§GMigration Attraction;;;;;;;;;x;;;;
+zprovince_migration_new_world_desc;Gives a large bonus to migration to the targeted province. This decision does not increase the chance of receiving immigrants from other countries, it only redirects them to the targetted province. If a province has more than 5% RGO unemployment then the modifier will stop working and should be reset.;;;;;;;;;x;;;;
+annex_canada_title;Annex the Province of Canada;;;;;;;;;;;;x
+annex_canada_desc;Revoke the autonomy of the Province of Canada and rule Canada directly.;;;;;;;;;;;;x
+annex_south_africa_title;Annex Cape Colony;;;;;;;;;;;;x
+annex_south_africa_desc;Revoke the autonomy of Cape Colony and rule South Africa directly.;;;;;;;;;;;;x
+annex_australia_title;Annex South Australian Company;;;;;;;;;;;;x
+annex_australia_desc;Revoke the autonomy of the South Australian Company and rule Australia directly.;;;;;;;;;;;;x
+annex_new_zealand_title;Annex the New Zealand Company;;;;;;;;;;;;x
+annex_new_zealand_desc;Revoke the autonomy of the New Zealand Company and rule New Zealand directly.;;;;;;;;;;;;x
+new_world_province_attract_immigrants;Immigration Focus;;;;;;;;;;;;;x
+liberate_puppet;Liberate And Puppet Country;x
+liberate_puppet_desc;Liberate and puppet an §Yentire country§W from its oppressors\n\n§YNOTE: §RDo not use it with normal Free people or Liberate Country CBs for other non existent countries.§W;;Befreit ein §Yganzes Land§W von seinen Unterdrückern;;;;;;;;x;;;;
+liberate_puppet_short;$THIRD$ acquires $STATE$ and becomes a puppet;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;$THIRD$ adquiere $STATE$;;;;;;;;;x;
+liberate_puppet_setup;Puppet and return $STATE$ to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Gebt $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;Arrebatar el estado de $STATE$ de manos de $RECIPIENT$ y devolvérselo a $THIRD$;;;;;;;;;x;
+dismantle_factories_desc;Dismantle factories and cancel all constructions and recruitments.\n\n§YNOTE: §RBecause of coding limitations this CB only works with one country at a time, if you are going to add it for more than one country then make sure to peace out separately.§W;;Reißt Forts und Marinestützpunkte ab.;;;;;;;;x;;;;
+dismantle_factories;Dismantle Industry;;Reißt Forts ab;;;;;;;;x;;;;
+dismantle_factories_short;Dismantle industry in $STATE$;;Reißt Bauten in $STATE$ ab;;;;;;;;x;;;;
+dismantle_factories_setup;Dismantle factories and cancel all constructions and recruitments in $STATE$;;Reißt Forts und Marinestützpunkte in $STATE$ ab;;;;;;;;x;;;;
+demand_reparations_humiliate_desc;Takes reparations from victim country, and humiliates them for all the world to see;Reißt Forts und Marinestützpunkte ab.;;;;;;;;x;;;;
+demand_reparations_humiliate;Humiliate and Demand Reparations;Reißt Forts ab;;;;;;;;x;;;;
+demand_reparations_humiliate_short;Humiliate and get money from the enemy;;Reißt Bauten in $STATE$ ab;;;;;;;;x;;;;
+demand_reparations_humiliate_setup;You will get money and prestige from ther ;Reißt Forts und Marinestützpunkte in $STATE$ ab;;;;;;;;x;;;;
+IMF;The Imperial Federation;x
+IMF_bourgeois_dictatorship;The Imperial Capitalist Utopia;x
+IMF_absolute_monarchy;The Imperial Empire;x
+IMF_proletarian_dictatorship;The International Commune;x
+IMF_absolute_monarchy;The Imperial Anglo Empire;x
+IMF_ADJ;Imperial;x
+north_irish;Northern Irish;x
+russian_baby_boom;Russian Fertility;x
+russian_baby_boom_desc;During the 1800s at to the early 1910s the Russian women was on average producing 6-7 children, it was a sight to be seen, and is going to be responsible for our success.;x
+PBA;Portugal-Brazil;;;;;;;;;;;;x 
+PBA_ADJ;Lusitanian;;;;;;;;;;;;x
+PBA_absolute_monarchy;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x
+PBA_prussian_constitutionalism;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x
+PBA_hms_government;United Kingdom of Portugal,Brazil and Algarve;;;;;;;;;;;;x 
+PBA_democracy;Luso-Brazilian Republic;;;;;;;;;;;;x
+PBA_presidential_dictatorship;Luso-Brazilian Republic;;;;;;;;;;;;x
+PBA_proletarian_dictatorship;Luso-Brazilian Socialist Union;;;;;;;;;;;;x
+PBA_fascist_dictatorship;Lusitania;;;;;;;;;;;;x
+become_democracy_title;Get rid of the Monarchy;x
+become_democracy_desc;We need to get rid of any imperialist trace within our system, and this is the way to do it;x
+fund_patriots_title;§RAid Local Resistance Groups;x
+fund_patriots_desc;In order to have a fighting chance at getting our land back, we've create partisan resistance groups to terrorize civilians, additionally these groups, are being called "terrorists" by our foes, how idiotic. §RFor this decision to work correctly, you need to not have a truce with the random target nation you have cores in, be sphered by them, allied with them, war with them, or be of the same cultural union at that nation.;x
+foreign_terrorist_brigades_desc;Our government is currently funding, training, and managing nationalist partisans that are ready to kill some filthy foreign oppressors that currently hold our land. These "terrorists" will help anger the local population.;x
+foreign_terrorist_brigades;Foreign Terrorist Brigades;x
+foreign_terrorist_brigades1_desc;Our government is currently funding, training, and managing nationalist partisans that are ready to kill some filthy foreign oppressors that currently hold our land. These "terrorists" will help anger the local population.;x
+foreign_terrorist_brigades1;Foreign Terrorist Brigades;x
+KOR_proletarian_dictatorship;Democratic People's Republic of Korea;x
+patriot_uprising;Patriot Uprising;x
+PRO;§WProvince RGO Expansion Flag\n§YIn Victoria 2, when a province changes owners, all old province modifiers are automatically removed. This flag allows RGO expansions to be remembered and transferred if a province changes ownership.;;;;;;;;;;;;;x
+fake_war_title;§YDeclare Fake War;;;;;;;;;;;;;x
+fake_war_desc;Declares war on a non-existant country and allows the player to take control of puppet troops when not in a real war. The Fake War can be ended by decision at any time.;;;;;;;;;;;;;x
+end_fake_war_title;§YEnd Fake War;;;;;;;;;;;;;x
+end_fake_war_desc;Ends the current fake war.;;;;;;;;;;;;;x
+peace_ottomans_title;Negotiate with Ottomans;;;;;;;;;;;;;x
+peace_ottomans_desc;The war is going badly for us, maybe the Ottomans will accept a peace deal if we agree to give up our claims in the Levant.;;;;;;;;;;;;;x
+conquest_of_western_desert_title;Conquest of the Western Desert;;;;;;;;;;;;x
+conquest_of_western_desert_desc;It is time colonize the rest of the Western Desert.;;;;;;;;;;;;x
+conquest_of_kordofan_title;Conquest of Kordofan;;;;;;;;;;;;x
+conquest_of_kordofan_desc;It is time to take control over the rest of Kordofan.;;;;;;;;;;;;x
+conquest_of_fulah_title;Conquest of Fulah;;;;;;;;;;;;x
+conquest_of_fulah_desc;It is time to take control of Fulah.;;;;;;;;;;;;x
+conquest_of_lindi_title;Conquest of Lindi;;;;;;;;;;;;x
+conquest_of_lindi_desc;It is time to take control of Lindi.;;;;;;;;;;;;x
+annex_nzl_title;Buy New Zealand;x
+annex_nzl_desc;They talk like us, they look like us, they act like us, why don't we just buy the islands entirely?;x
+economy_idea;Economy National idea;x
+economy_idea_desc;This national idea is special, while it doesn't give you any direct buffs, it does give you highly increased chances to get events like: bull market, local stock exchange, and decreased time to get out of recessions and depressions. §GAdditionally you can get economic booms at the start now if you have this idea.;x
+FRA_bourgeois_dictatorship;Francois Republic;x
+KUK_proletarian_dictatorship;Danubian People's Republic;x
+DNB_proletarian_dictatorship;Danubian People's Republic;x
+AUS_proletarian_dictatorship;Austrian People's Republic;x										  
+FRC;L'empire Français;x
+FRC;fascist_dictatorship;L'Etat Français;x
+FRC;proletarian_dictatorship;La Commune de Français;x
+FRC;bourgeois_dictatorship;La République Bourgeoise Française;x
+buy_canada_title;Buy Canada;x
+buy_canada_desc;Ever since the revolutionary war, us, the Americans, have been trying to get our hands on all of British North America, we have fought multiplayer wars with no avail, maybe we should just ask and pay a price?;x
+anarchist;Anarchist;x
+anarchist_society;Anarchist Society;x
+anarchism;Anarchism;x
+anarchism_desc;Anarchism is an ideology defined as not having a state, or in this case, actively trying to spread it as far as possible throughout the world.;x
+anarchist_economy;Anarchist Society;x
+anarchist_economy_desc;Mother Anarchy Loves Her Sons, but much of the world doesn't understand, we must teach them. Addtionally we cannot import anything from foreign "states", so we have to create them ourselves, as we should, just keep in mind that everyone wants us dead.;x
+closed_economy;Closed Economy;x
+closed_economy_desc;No trade occurs between this nation and any others;x
+RUS_anarchist_society;Black Guard Occupied Russia;x
+anarchist_conquest;Anarchist Conquest;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
+anarchist_conquest_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+anarchist_conquest_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+anarchist_conquest_desc;Anarchism Will Rule the World;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+blackguard_rebels_name;Anarchist Rebels;x
+blackguard_rebels_army;Anarchist Rebel Army;x
+UKR_anarchist_society;Revolutionary Insurrectionary Army of Ukraine;x
+FRA_anarchist_society;French Black Guard Revolutionary Army;x
+anarchist_influence_desc;Anarchist agitators are spreading their ideology among the people;x
+anarchist_influence;Anarchist Influence;x
+CHI_anarchist_society;Black China;x
+KMT_anarchist_society;Black China;x
+GER_anarchist_society;German Anarchist Guard;x
+AUS_anarchist_society;Austrian Black Guard;x
+DNB_anarchist_society;Danubian People's Anarchist Republic;x
+KUK_anarchist_society;Austro-Hungarian Anarchist Commune;x
+ENG_anarchist_society;The World Anarchist Empire;x
+ukrainian_blackguard_rebels_name;Ukrainian Black Guards;x
+ukrainian_blackguard_rebels_army;Ukrainian Black Guard Army;x
+blackguard_rebels_desc;Anarchists are generally those who are completely against the idea of a state, and will attempt to destroy that state;x;x
+ukrainian_blackguard_desc;Ukrainian Black Guards were a armed well trained military that sweared to kill anyone that opposed an anarchial society.;x
+african;African;x
+black_conversion;Black Conversion;x
+african_union_formation;South African Union Formation;x
+USA_anarchist_society;Founding Fathers American Anarchist Council;x
+IMF_anarchist_society;World Imperial Anarchist Republic;x
+PRU_anarchist_society;German Anarchist Commune;x
+ITA_anarchist_society;Italian Black Guard Army;x
+IMP_anarchist_society;European Anarchist Commune;x
+SPA_anarchist_society;Spanish Anarchist Council;x
+SPC_anarchist_society;Carlist Anarchist Peninsula;x
+IBR_anarchist_society;Iberian Anarchist Commune;x
+TUR_anarchist_society;Anatolian Anarchist Commune;x
+canada_annexed;Canada is Already Annexed;x
+AGRESSION_WAR_HUMILIATE_NAME;War of Death;x
+pan_ottomanism;Pan Ottomanism;x
+pan_ottomanism_desc;As us, the Ottoman Empire, we are trying to create a national identity, and culture, our subjects and non-turkish cultures will be extremely angry about this indeavor as they are being converted into grateful turks;x
+NET_anarchist_society;Dutch Anarchists;x
+rude_anarchist_boy;Contain the Anarchist Threat;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
+rude_anarchist_boy_setup;Contain $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+rude_anarchist_boy_short;Contain $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+rude_anarchist_boy_desc;§RThis dismantles their entire empire and is basically a great war capitulation CB;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+FRC_ADJ;Francois;x
+CWR;American Crow Republic;x
+CWR_democracy;American Crow Republic;x
+CWR_fascist_dictatorship;Jim Crow;x
+CWR_proletarian_dictatorship;Black Crow Lives Matter;x
+CWR_absolute_monarchy;American Crow 50 States of America Empire;x
+CWR_anarchist_society;Black Crow Guards;x
+form_crow_america_title;Form the Crow American Empire;x
+form_crow_america_desc;God Bless America;x
+CWR_ADJ;Crow;x
+anarchist_society_ruler;People;x
+punitive_effects;Punitive Effects;x
+CHI_1493;West Canton;x
+zprovince_agriculture_expansion_900k_desc;Costs 900,000 pounds to give a permanent boost to farm size in this province.

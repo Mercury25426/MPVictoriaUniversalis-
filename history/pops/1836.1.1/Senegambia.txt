@@ -1,40 +1,40 @@
 #Senegambia.txt includes modern Senegal and Gambia
 #Senegambia Region (444000)
-#uncolonized in 1836/ruled by Damel of Wolof
+#uncolonized in 1836/ruled by Damel of african
 #Dakar (8000/2000 POPS)
 1783 = {
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     officers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 17800
     }
@@ -60,67 +60,67 @@
 #Linguere (216000/54000 POPS)
 1786 = {
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 275
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 112
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 537
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 1375
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 19250
     }
 
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 275
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 112
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 537
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 375
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1250
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 4000
     }
@@ -128,37 +128,37 @@
 #Diourbel (88000/22000 POPS)
 1787 = {
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 200
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 450
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 125
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 8125
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 2000
     }
@@ -166,67 +166,67 @@
 #Kaolack (160000/40000 POPS) #kingdom of the Sereer
 1788 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 250
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 50
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 50
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1000
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 500
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 4000
     }
 
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 125
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 325
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 17700
     }
@@ -234,49 +234,49 @@
 #Mboul (144000/36000 POPS)
 2573 = {
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 325
     }
 
     bureaucrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 25
     }
 
     officers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 175
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 75
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 20650
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 3500
     }
@@ -285,67 +285,67 @@
 #Saint-Louis (24000/6000 POPS)
 1784 = {
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 150
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 13700
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 1100
     }
 
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 50
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 150
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 700
     }
@@ -372,169 +372,169 @@
 #Banjul (108000/27000 POPS) #now part of Gambia
 1785 = {
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 100
     }
 
     officers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 500
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 200
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 12446
     }
 
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     officers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 500
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 200
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 5021
     }
 
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     officers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 500
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 200
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 2834
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 100
     }
 
     officers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 100
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 850
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 100
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 500
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 200
     }
 
     farmers = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 1549
     }
@@ -544,79 +544,79 @@
 #Podor (348000/87000 POPS)
 1789 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 825
     }
 
     bureaucrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 37
     }
 
     officers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 75
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 450
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1762
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 850
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 32000
     }
 
     slaves = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 6000
     }
 
     aristocrats = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     clergymen = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 50
     }
 
     soldiers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 350
     }
 
     farmers = {
-        culture = wolof
+        culture = african
         religion = sunni
         size = 500
     }
@@ -624,37 +624,37 @@
 #Matam (216000/54000 POPS)
 1790 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 487
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 262
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 1087
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 662
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 17000
     }
 
     slaves = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 7500
     }
@@ -662,61 +662,61 @@
 #Bakel (140000/35000 POPS)
 1791 = {
     aristocrats = {
-        culture = bambara
+        culture = african
         religion = sunni
         size = 287
     }
 
     clergymen = {
-        culture = bambara
+        culture = african
         religion = sunni
         size = 150
     }
 
     artisans = {
-        culture = bambara
+        culture = african
         religion = sunni
         size = 587
     }
 
     soldiers = {
-        culture = bambara
+        culture = african
         religion = sunni
         size = 150
     }
 
     farmers = {
-        culture = bambara
+        culture = african
         religion = sunni
         size = 9325
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 150
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 50
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 11287
     }
 
     slaves = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 3000
     }
@@ -726,67 +726,67 @@
 #Ziguinchour (240000/60000 POPS)
 1792 = {
     aristocrats = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 575
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 250
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = western_nigritic
+        culture = african
         religion = sunni
         size = 15812
     }
 
     aristocrats = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 50
     }
 
     clergymen = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 250
     }
 
     soldiers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 150
     }
 
     farmers = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 15000
     }
 
     slaves = {
-        culture = western_nigritic
+        culture = african
         religion = animist
         size = 1737
     }
@@ -794,37 +794,37 @@
 #Velingara (104000/26000 POPS
 1793 = {
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 250
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 125
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 525
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 137
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 9962
     }
 
     slaves = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 2000
     }

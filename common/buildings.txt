@@ -801,7 +801,7 @@ fort = {
 
 railroad = {   
 	type = infrastructure
-	cost = 250
+	cost = 500
 	goods_cost =
 	{
 		lumber = 400

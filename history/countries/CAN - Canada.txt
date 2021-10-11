@@ -1,6 +1,7 @@
 capital = 57
-primary_culture = anglo_canadian
+primary_culture = canadian
 culture = french_canadian
+culture = anglo_canadian
 religion = protestant
 government = colonial_company
 plurality = 25

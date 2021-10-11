@@ -1,5 +1,5 @@
 capital = 1911
-primary_culture = ibo
+primary_culture = african
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

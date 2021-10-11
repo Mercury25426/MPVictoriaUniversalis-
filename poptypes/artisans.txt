@@ -191,7 +191,11 @@ country_migration_target =
 		has_global_flag = circassian_genocide_in_progress
 		THIS = { has_pop_culture = north_caucasian }
 	}
-	
+	modifier = {
+		factor = 10
+		primary_culture = cherokee
+		THIS = { has_pop_culture = cherokee }
+	}
 	modifier = {
 		factor = 100
 		AND = {
@@ -204,7 +208,7 @@ country_migration_target =
 	modifier = {
 		factor = 750
 		AND = {
-			primary_culture = british
+			primary_culture = anglosouthafrican
 			has_country_flag = african_union_formation
 		}
 		has_country_flag = african_union_formation
@@ -216,6 +220,7 @@ country_migration_target =
 			primary_culture = australian
 			primary_culture = anglo_canadian
 			primary_culture = british
+			primary_culture = anglosouthafrican
 		}
 		NOT = { continent = europe }
 		THIS = { has_pop_culture = british }
@@ -233,6 +238,7 @@ country_migration_target =
 				primary_culture = australian
 				primary_culture = anglo_canadian
 				primary_culture = british
+				primary_culture = anglosouthafrican
 			}
 		}
 		THIS = { has_pop_culture = british }
@@ -491,6 +497,16 @@ migration_target =
 		}
 		THIS = { has_pop_culture = north_caucasian }
 		country = { has_global_flag = circassian_genocide_in_progress }
+	}
+	modifier = {
+		factor = 0
+		NOT = {
+			OR = {
+				state_id = 129
+			}
+		}
+		THIS = { has_pop_culture = cherokee }
+		country = { has_global_flag = marching_on_the_trail_of_tears }
 	}
 	modifier = {
 		factor = 1.2
@@ -773,35 +789,6 @@ promote_to =
 			}			
 		}
 		modifier = {
-			factor = -20
-			total_pops = 1000000
-			NOT = { total_pops = 2000000 }
-			OR = {
-				is_culture_group = east_asian
-				is_culture_group = south_asian
-			}
-			soldiers = 0.01
-		}	
-		modifier = {
-			factor = -20
-			total_pops = 2000000
-			NOT = { total_pops = 4000000 }
-			OR = {
-				is_culture_group = east_asian
-				is_culture_group = south_asian
-			}
-			soldiers = 0.007
-		}	
-		modifier = {
-			factor = -20
-			total_pops = 4000000
-			OR = {
-				is_culture_group = east_asian
-				is_culture_group = south_asian
-			}
-			soldiers = 0.005
-		}
-		modifier = {
 			factor = -100
 			total_pops = 1000000
 			NOT = { total_pops = 2000000 }
@@ -828,74 +815,23 @@ promote_to =
 			factor = -100
 			total_pops = 1000000
 			NOT = { total_pops = 2000000 }
-			soldiers = 0.02
+			soldiers = 0.0225
 			location = { NOT = { is_core = THIS } }
 		}
 		modifier = {
 			factor = -100
 			total_pops = 2000000
 			NOT = { total_pops = 4000000 }
-			soldiers = 0.015
+			soldiers = 0.02
 			location = { NOT = { is_core = THIS } }
 		}
 		modifier = {
 			factor = -100
 			total_pops = 4000000
-			soldiers = 0.01
+			soldiers = 0.015
 			location = { NOT = { is_core = THIS } }
 		}
-		group = {
-			modifier = {
-				factor = 1
-				literacy = 0.1
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.2
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.3
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.4
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.5
-				military_spending = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.6
-				military_spending = 0.6
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.7
-				military_spending = 0.7
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.8
-				military_spending = 0.8
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.9
-				military_spending = 0.9
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.99
-				military_spending = 0.99
-			}
-		}
+
 	}
 	clerks = {
 		factor = 0.01
@@ -908,34 +844,39 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 1
+				literacy = 0.2
+			}
+		
+			modifier = {
+				factor = 3
 				literacy = 0.3
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.4
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.5
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.6
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.7
 			}
 			modifier = {
-				factor = 1
+				factor = 3
 				literacy = 0.8
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				literacy = 0.9
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				literacy = 1
 			}
 		}
@@ -1390,6 +1331,31 @@ promote_to =
 			}
 		}
 		modifier = {
+			factor = -5
+			not = { literacy = 0.1 }
+		}
+		modifier = {
+			factor = -3
+			not = { literacy = 0.15 }
+		}
+		modifier = {
+			factor = -2
+			not = { literacy = 0.2 }
+		}
+		modifier = {
+			factor = -2
+			not = { literacy = 0.25 }
+		}
+		modifier = {
+			factor = -2
+			not = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = 10
+			state_scope = { has_factories = yes }
+			NOT = { state_scope = { unemployment_by_type = { type = craftsmen value = 0.5 } } }
+		}
+		modifier = {
 			factor = -40
 			state_scope = {
 				has_factories = no
@@ -1440,6 +1406,9 @@ promote_to =
 
 ideologies = {
 	
+	
+
+
 	fascist = {
 		factor = 1
 		modifier = {
@@ -1889,6 +1858,79 @@ ideologies = {
 		modifier = {
 			factor = 1.5
 			ruling_party_ideology = communist 
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.2
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.3
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.4
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.5
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.6
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.7
+		}
+		modifier = {
+			factor = 1.1	
+			social_reform_want = 0.8
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.9
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 1
+		}
+	}
+	anarchist = {
+		factor = 1
+
+		
+		modifier = {
+			factor = -100
+			country = { has_global_flag = anarchism_disabled  }
+		}
+		
+		
+		modifier = {
+			factor = 2
+			country = { has_country_flag = anarchist_influence }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { militancy = 6 }
+			NOT = { government = anarchist_society }
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_equality
+				nationalvalue = nv_supremacy
+				nationalvalue = nv_fraternity
+				nationalvalue = nv_unity
+				}
+		}
+		modifier = {
+			factor = 1.5
+			ruling_party_ideology = anarchist
 		}
 		modifier = {
 			factor = 1.1
@@ -3052,6 +3094,7 @@ issues =
 				civilized = no
 			}
 		}
+
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }
@@ -5296,14 +5339,14 @@ issues =
 		}
 	}
 	trinket_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = trinket_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1855 }
 			}	
 		}
 		modifier = {
@@ -5370,14 +5413,14 @@ issues =
 		}
 	}
 	low_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = low_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1870 }
 			}	
 		}
 		modifier = {
@@ -5444,14 +5487,14 @@ issues =
 		}
 	}
 	acceptable_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = acceptable_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1885 }
 			}	
 		}
 		modifier = {
@@ -5518,14 +5561,14 @@ issues =
 		}
 	}
 	good_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = good_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1900 }
 			}	
 		}
 		modifier = {
@@ -5592,14 +5635,14 @@ issues =
 		}
 	}
 	universal_health_care = { 
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0 
 			OR = {
 				NOT = {
 					is_next_reform = universal_health_care
 				}
-				NOT = { is_ideology_enabled = socialist }
+				NOT = { year = 1915 }
 			}	
 		}
 		modifier = {

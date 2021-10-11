@@ -1,9 +1,9 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = SHO
+controller = SHO
+add_core = SHO
 trade_goods = coal
 life_rating = 35
-colony = 2
+colony = 0
 1913.1.1 = {
 	colony = 0
 }

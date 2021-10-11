@@ -161,6 +161,201 @@ country_event = {
 		}
 	}
 }
+#German Revolution event
+country_event = {
+	title = "Crown from the Gutter"
+	desc = "EVTOPTB194555"
+	picture = "Celebration"
+
+	id = 194555
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "crownfromgutter"
+		change_tag = GER
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		political_reform = universal_voting
+		political_reform = proportional_representation
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = state_controlled
+		political_reform = secret_ballots
+		government = democracy
+		CTR = {
+			all_core = { remove_core = CTR }
+		}
+		PRU = {
+			all_core = { remove_core = PRU }
+		}
+		NGF = {
+			all_core = { remove_core = NGF }
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = { id=11101 days=0 }
+		}
+
+	
+		prestige = 10
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+	}
+	option = {
+		name = "Kill whoever sent this to me"
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		any_pop = {
+			militancy = 2
+		}
+	}
+
+
+}
+
+
+#German Revolution event
+country_event = {
+	title = "Crown from the Gutter"
+	desc = "EVTOPTB194555"
+	picture = "Celebration"
+
+	id = 1945555
+
+	trigger = {
+		has_global_flag = form_germany
+		is_culture_group = germanic
+		is_greater_power = yes
+			NOT = {
+				tag = AUS
+				tag = KUK
+				tag = DNB
+			}
+			NOT = { has_global_flag = germany_formed }
+	}
+
+	option = {				# Accept inheritance
+		name = "crownfromgutter"
+		change_tag = GER
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		political_reform = universal_voting
+		political_reform = proportional_representation
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = state_controlled
+		political_reform = secret_ballots
+		government = democracy
+		set_global_flag = germany_formed
+		CTR = {
+			all_core = { remove_core = CTR }
+		}
+		PRU = {
+			all_core = { remove_core = PRU }
+		}
+		NGF = {
+			all_core = { remove_core = NGF }
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				num_of_cities = 1
+			}
+			country_event = { id=11101 days=0 }
+		}
+
+	
+		prestige = 10
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+	}
+	option = {
+		name = "Kill whoever sent this to me"
+		prestige = 5
+		set_country_flag = does_not_want_to_be_unified
+		any_pop = {
+			militancy = 2
+		}
+	}
+
+
+}
+
+
+
+#German Revolution send event
+country_event = {
+	title = "Send the King the Message"
+	desc = "EVTOPTB194555"
+	picture = "Celebration"
+
+	id = 194556
+
+	is_triggered_only = yes
+
+	option = {				# Accept inheritance
+		name = "Send them the message"
+		
+	any_country = {
+		limit = {
+			is_culture_group = THIS
+			is_greater_power = yes
+				NOT = {
+					tag = AUS
+					tag = KUK
+					tag = DNB
+				}
+		}
+		country_event = { id=194555 days=0 }
+	}
+	set_global_flag = form_germany
+			
+	
+
+}
+		prestige = 10
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
 #Israel Events
 country_event = {
 	title = "EVTNAME11104"

@@ -897,14 +897,14 @@ CHI_democracy;Republic of China;;;;;;;;;;;;;x
 CHI_absolute_monarchy;Qing Empire;;;;;;;;;;;;;x
 CHI;China;;;;;;;;;;;;;x
 CHI_ADJ;Chinese;;;;;;;;;;;;;x
-CHO;Chugoku;;;;;;;;;;;;;x
-CHO_ADJ;Chugokuan;;;;;;;;;;;;;x
-CHO_absolute_monarchy;Choshu;;;;;;;;;;;;;x
-CHO_prussian_constitutionalism;Choshu;;;;;;;;;;;;;x
-CHO_hms_government;Choshu;;;;;;;;;;;;;x
-CHO_absolute_monarchy_ADJ;Mori;;;;;;;;;;;;;x
-CHO_prussian_constitutionalism_ADJ;Mori;;;;;;;;;;;;;x
-CHO_hms_government_ADJ;Mori;;;;;;;;;;;;;x
+CHO;Cheyenne;;;;;;;;;;;;;x
+CHO_ADJ;Cheyenne;;;;;;;;;;;;;x
+CHO_absolute_monarchy;Cheyenne;;;;;;;;;;;;;x
+CHO_prussian_constitutionalism;Cheyenne;;;;;;;;;;;;;x
+CHO_hms_government;Cheyenne;;;;;;;;;;;;;x
+CHO_absolute_monarchy_ADJ;Cheyenne;;;;;;;;;;;;;x
+CHO_prussian_constitutionalism_ADJ;Cheyenne;;;;;;;;;;;;;x
+CHO_hms_government_ADJ;Cheyenne;;;;;;;;;;;;;x
 POR_conservative;Cartismo;;;;;;;;;;;;;;;;;;x;;;;
 CHP;Chiapas;;;;;;;;;;;;;x
 CHP_ADJ;Chiapan;;;;;;;;;;;;;x
@@ -3001,8 +3001,8 @@ SEG_anarcho_liberal;Freedom Faction;Faction de liberté;Freiheits Fraktion;;;;;;;
 SEG_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SEG_fascist;New Empire Faction;Faction pour le nouvel empire;Neue Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-SHO;Shonaland;Shona;Shona;;Shona;;;;;;;;;;x;;;;;;;;;;;;;;
-SHO_ADJ;Shona;Shona;Shona;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SHO;Shoshone;Shona;Shona;;Shona;;;;;;;;;;x;;;;;;;;;;;;;;
+SHO_ADJ;Shoshone;Shona;Shona;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SHO_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SHO_liberal;Reform Faction;Faction de réforme;Verbesserung Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 SHO_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

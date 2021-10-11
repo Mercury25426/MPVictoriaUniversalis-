@@ -97,7 +97,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 10
+			prestige = 50
 			any_country = {
 				limit = {
 					primary_culture = south_german
@@ -110,22 +110,11 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
-					OR = {
-						culture = south_german
-						province_id = 412
-					}
 					is_core = GER
-					NOT = {
-						is_core = AUS
-					}
 				}
 				add_core = SGF
 			}
-			release_vassal = SGF
-			diplomatic_influence = {
-				who = SGF
-				value = 300
-			}
+			change_tag = SGF
 		}
 		ai_will_do = {
 			factor = 1
@@ -289,6 +278,12 @@ political_decisions = {
 			change_tag = GER
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
+			CTR = {
+				all_core = { remove_core = CTR }
+			}
+			PRU = {
+				all_core = { remove_core = PRU }
+			}
 			any_country = {
 				limit = {
 					is_culture_group = germanic
@@ -329,14 +324,16 @@ political_decisions = {
 			political_reform = federalism
 			prestige = 200
 			change_tag = GRA
-			add_accepted_culture = flemish
-			add_accepted_culture = dutch
+			add_accepted_culture = burgundian
 			any_country = {
 				limit = {
 					is_culture_group = germanic
 					in_sphere = THIS
 				}
 				country_event = { id=11101 days=0 }
+			}
+			all_core = {
+				remove_core = GER
 			}
 		}
 		ai_will_do = {
@@ -370,9 +367,6 @@ political_decisions = {
 		FRA_413 = { owned_by = THIS }
 		FRA_399 = { owned_by = THIS }
 		FRA_404 = { owned_by = THIS }
-		FRA_415 = { owned_by = THIS }
-		FRA_403 = { owned_by = THIS }
-		FRA_407 = { owned_by = THIS }
 		}
 	
 		AND = {
@@ -457,6 +451,16 @@ political_decisions = {
 			add_accepted_culture = albanian
 			add_accepted_culture = greek
 			add_accepted_culture = croat
+			add_accepted_culture = slovene
+			add_accepted_culture = catalan
+			add_accepted_culture = maghrebi
+			add_accepted_culture = misri
+			any_pop = {
+				limit = { 
+					culture = roman
+				}
+				reduce_pop = 10000
+			}
 			any_country = {
 				limit = {
 					is_culture_group = italian

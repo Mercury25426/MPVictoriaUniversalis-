@@ -317,7 +317,10 @@ political_decisions = {
 			OR = {
 				invention = colonial_negotiations
 				AND = {
+					OR = {
 					tag = NET
+					tag = BOG
+					}
 					year = 1870
 				}
 			}

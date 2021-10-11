@@ -5,9 +5,11 @@ REB 	= 	"countries/rebels.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
+IMF		= "countries/Imperial Federation.txt"
 ENL		= "countries/England.txt"
 RUS		= "countries/Russia.txt"
 FRA		= "countries/France.txt"
+FRC		= "countries/Empire francais.txt"
 PRU		= "countries/Prussia.txt"
 GER		= "countries/Germany.txt"
 GRA		= "countries/Deutsches Kaiserreich.txt"
@@ -36,6 +38,7 @@ IBR		= "countries/Iberia.txt"
 IRE		= "countries/Ireland.txt"
 NET		= "countries/Netherlands.txt"
 POR		= "countries/Portugal.txt"
+PBA		= "countries/PortugalBrazil.txt"
 SCO		= "countries/Scotland.txt"
 SPA		= "countries/Spain.txt"
 WLL		= "countries/Wallonia.txt"
@@ -43,6 +46,7 @@ WLL		= "countries/Wallonia.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"
+BRT		= "countries/Brittany.txt"
 BAD		= "countries/Baden.txt"
 BAV		= "countries/Bavaria.txt"
 BRA		= "countries/Braunschweig.txt"
@@ -249,6 +253,18 @@ PNM		="countries/Panama.txt"
 QUE		="countries/Quebec.txt"
 TEX		="countries/Texas.txt"
 UCA		="countries/United States of Central America.txt"
+BLA		="countries/Blackfoot.txt"
+SIO		="countries/Sioux.txt"
+PAW		="countries/Pawnee.txt"
+CHO		="countries/Cheyenne.txt"
+SHO		="countries/Shoshone.txt"
+OJI		="countries/Ojibwe.txt"
+NEZ		="countries/Nez Perce.txt"
+CRW		="countries/Crow.txt"
+APA 	="countries/Apache.txt"
+OKL		="countries/Indian Territory.txt"
+GSN		="countries/Great Sioux Nation.txt"
+CWR		="countries/American Crow Empire.txt"
 
 # South America
 ARG		="countries/Argentina.txt"
@@ -289,9 +305,10 @@ JAN 	= "countries/JanMayen.txt"
 ########## Victoria Universalis ##########
 
 ##Utility Tags
+FWR		= "countries/Fake War.txt"
 CIV		= "countries/Civilizing.txt"
 GHO		= "countries/Ghost Country.txt"
-
+PRO		= "countries/Province Flag.txt"
 ##Sub-Saharan Africa
 ARO		= "countries/Aro.txt"
 ADR		= "countries/Adrar.txt"

@@ -1,9 +1,5 @@
 capital = 1898
-primary_culture = dyula
-culture = senufo
-culture = mande
-culture = akan
-culture = western_nigritic
+primary_culture = african
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

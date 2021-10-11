@@ -50,6 +50,7 @@ political_decisions = {
 				annex_to = THIS
 			}
 			set_global_flag = carlist_victory
+			set_country_flag = carlist_victory
 			capital = 487
 		}
 	}
@@ -89,7 +90,10 @@ political_decisions = {
 	reconquista_mex = {
 		picture = reconquista_mex
 		potential = {
+			OR = {
 			tag = SPC
+			has_country_flag = carlist_victory
+		}
 			government = absolute_monarchy
 			NOT = { has_country_flag = mex_reconquista'd }
 		}
@@ -102,6 +106,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -121,6 +129,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -135,6 +147,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 				}
@@ -152,6 +165,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 					OR = {
@@ -177,7 +191,10 @@ political_decisions = {
 	reconquista_gco = {
 		picture = reconquista_gco
 		potential = {
+			OR = {
 			tag = SPC
+			has_country_flag = carlist_victory
+			}
 			government = absolute_monarchy
 			NOT = { has_country_flag = gco_reconquista'd }
 		}
@@ -189,6 +206,10 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
 								vassal_of = THIS
 							}
 						}
@@ -201,6 +222,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 				}
@@ -218,6 +240,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 					primary_culture = north_andean
@@ -238,7 +261,10 @@ political_decisions = {
 	reconquista_pbc = {
 		picture = reconquista_pbc
 		potential = {
+			OR = {
 			tag = SPC
+			has_country_flag = carlist_victory
+			}
 			government = absolute_monarchy
 			NOT = { has_country_flag = pbc_reconquista'd }
 		}
@@ -250,6 +276,10 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
 								vassal_of = THIS
 							}
 						}
@@ -263,6 +293,10 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
 								vassal_of = THIS
 							}
 						}
@@ -276,6 +310,10 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
 								vassal_of = THIS
 							}
 						}
@@ -288,6 +326,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 				}
@@ -315,6 +354,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 					primary_culture = south_andean
@@ -338,7 +378,10 @@ political_decisions = {
 	reconquista_lpl = {
 		picture = reconquista_lpl
 		potential = {
+			OR = {
 			tag = SPC
+			has_country_flag = carlist_victory
+			}
 			government = absolute_monarchy
 			NOT = { has_country_flag = lpl_reconquista'd }
 		}
@@ -351,6 +394,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -366,6 +413,10 @@ political_decisions = {
 						OR = {
 							tag = THIS
 							OR = {
+								AND = {
+									in_sphere = THIS
+									ai = yes
+								}
 								vassal_of = THIS
 							}
 						}
@@ -376,14 +427,21 @@ political_decisions = {
 				OR = {
 					exists = no
 					all_core = {
-						owner = {
-							war = no
-							OR = {
-								tag = THIS
+						OR = {
+							owner = {
+								war = no
 								OR = {
-									vassal_of = THIS
+									tag = THIS
+									OR = {
+										AND = {
+											in_sphere = THIS
+											ai = yes
+										}
+										vassal_of = THIS
+									}
 								}
 							}
+							province_id = 2131
 						}
 					}
 				}
@@ -398,6 +456,10 @@ political_decisions = {
 								OR = {
 									tag = THIS
 									OR = {
+										AND = {
+											in_sphere = THIS
+											ai = yes
+										}
 										vassal_of = THIS
 									}
 								}
@@ -416,6 +478,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -432,6 +498,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -448,6 +518,10 @@ political_decisions = {
 							OR = {
 								tag = THIS
 								OR = {
+									AND = {
+										in_sphere = THIS
+										ai = yes
+									}
 									vassal_of = THIS
 								}
 							}
@@ -461,6 +535,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 				}
@@ -488,6 +563,7 @@ political_decisions = {
 			any_country = {
 				limit = {
 					OR = {
+						in_sphere = THIS
 						vassal_of = THIS
 					}
 					primary_culture = platinean
@@ -658,6 +734,8 @@ political_decisions = {
 			}
 		}
 	}		
+
+		
 			SPC = {
 					all_core = {
 						OR = {

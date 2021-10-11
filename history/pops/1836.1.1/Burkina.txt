@@ -1,51 +1,51 @@
 #Volta Region (1212000)
-#under the rule of Mossi in 1836
+#under the rule of african in 1836
 #Wagadugu (440000/110000 POPS)
 1901 = {
     aristocrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1100
     }
 
     bureaucrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 200
     }
 
     officers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 562
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 2750
     }
 
     soldiers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1100
     }
 
     farmers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 33412
     }
 
     slaves = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 16000
     }
@@ -53,85 +53,85 @@
 #Wahiguya (332000/83000 POPS)
 1902 = {
     aristocrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 475
     }
 
     clergymen = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 262
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 10000
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 8012
     }
 
     soldiers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1100
     }
 
     labourers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 500
     }
 
     slaves = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1000
     }
 
     aristocrats = {
-        culture = gur
+        culture = african
         religion = animist
         size = 325
     }
 
     clergymen = {
-        culture = gur
+        culture = african
         religion = animist
         size = 162
     }
 
     artisans = {
-        culture = gur
+        culture = african
         religion = animist
         size = 10000
     }
 
     artisans = {
-        culture = gur
+        culture = african
         religion = animist
         size = 8850
     }
 
     soldiers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 162
     }
 
     labourers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 500
     }
 
     slaves = {
-        culture = gur
+        culture = african
         religion = animist
         size = 500
     }
@@ -139,73 +139,73 @@
 #Dori (268000/67000 POPS)
 1903 = {
     aristocrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 325
     }
 
     clergymen = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 175
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 675
     }
 
     soldiers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1100
     }
 
     farmers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 7650
     }
 
     slaves = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 1500
     }
 
     aristocrats = {
-        culture = gur
+        culture = african
         religion = animist
         size = 325
     }
 
     clergymen = {
-        culture = gur
+        culture = african
         religion = animist
         size = 175
     }
 
     artisans = {
-        culture = gur
+        culture = african
         religion = animist
         size = 850
     }
 
     soldiers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 175
     }
 
     farmers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 15475
     }
 
     slaves = {
-        culture = gur
+        culture = african
         religion = animist
         size = 6000
     }
@@ -213,67 +213,67 @@
 #Fada Ngoura (172000/43000 POPS)
 1904 = {
     aristocrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 125
     }
 
     clergymen = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 350
     }
 
     soldiers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 6375
     }
 
     slaves = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 3500
     }
 
     aristocrats = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 275
     }
 
     clergymen = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 150
     }
 
     artisans = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 575
     }
 
     soldiers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 150
     }
 
     farmers = {
-        culture = fulbe
+        culture = african
         religion = sunni
         size = 9850
     }
@@ -283,109 +283,109 @@
 #Bobo Dioulasso (140000/35000 POPS)
 1905 = {
     aristocrats = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 25
     }
 
     bureaucrats = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 12
     }
 
     officers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 25
     }
 
     clergymen = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 37
     }
 
     artisans = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 62
     }
 
     soldiers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 12
     }
 
     farmers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 825
     }
 
     aristocrats = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 225
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 125
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 550
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 125
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = sunni
         size = 9775
     }
 
     aristocrats = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 62
     }
 
     clergymen = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 37
     }
 
     artisans = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 175
     }
 
     soldiers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 37
     }
 
     farmers = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 3187
     }
 
     slaves = {
-        culture = mossi
+        culture = african
         religion = animist
         size = 2500
     }
@@ -393,127 +393,127 @@
 #Orodaro (360000/90000 POPS)
 1906 = {
     aristocrats = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 75
     }
 
     clergymen = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 175
     }
 
     soldiers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 1050
     }
 
     farmers = {
-        culture = dyula
+        culture = african
         religion = sunni
         size = 1650
     }
 
     aristocrats = {
-        culture = mande
+        culture = african
         religion = animist
         size = 275
     }
 
     clergymen = {
-        culture = mande
+        culture = african
         religion = animist
         size = 150
     }
 
     artisans = {
-        culture = mande
+        culture = african
         religion = animist
         size = 550
     }
 
     soldiers = {
-        culture = mande
+        culture = african
         religion = animist
         size = 150
     }
 
     farmers = {
-        culture = mande
+        culture = african
         religion = animist
         size = 7875
     }
 
     aristocrats = {
-        culture = bambara
+        culture = african
         religion = animist
         size = 375
     }
 
     clergymen = {
-        culture = bambara
+        culture = african
         religion = animist
         size = 200
     }
 
     artisans = {
-        culture = bambara
+        culture = african
         religion = animist
         size = 1000
     }
 
     soldiers = {
-        culture = bambara
+        culture = african
         religion = animist
         size = 200
     }
 
     farmers = {
-        culture = bambara
+        culture = african
         religion = animist
         size = 18225
     }
 
     aristocrats = {
-        culture = gur
+        culture = african
         religion = animist
         size = 125
     }
 
     clergymen = {
-        culture = gur
+        culture = african
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = gur
+        culture = african
         religion = animist
         size = 350
     }
 
     soldiers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = gur
+        culture = african
         religion = animist
         size = 6375
     }
 
     slaves = {
-        culture = senufo
+        culture = african
         religion = animist
         size = 6000
     }

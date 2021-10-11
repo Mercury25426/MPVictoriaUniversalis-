@@ -2,6 +2,7 @@ owner = BER
 controller = BER
 add_core = BER
 add_core = HND
+add_core = MUG
 trade_goods = cotton
 life_rating = 32
 1913.1.1 = {

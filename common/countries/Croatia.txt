@@ -1,4 +1,5 @@
 color = { 174  227  95 }
+anarchist_society = { 0 0 0 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -28,7 +29,19 @@ party = {
 	citizenship_policy = full_citizenship
 	war_policy = pacifism
 }
+party = {
+	name = "Black Guards"
+	start_date = 1830.1.1
+	end_date = 9999.1.1
 
+	ideology = anarchist
+
+	economic_policy = anarchism
+	trade_policy = closed_economy
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
 party = {
 	name = "CRO_reactionary"
 	start_date = 1820.1.1

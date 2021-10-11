@@ -17,10 +17,10 @@ political_decisions = {
 			political_parties = secret_ballots
 			citizens_rights = all_voting_pops
 			revolution_n_counterrevolution = 1
+			government = democracy
 		}
 		effect = {
 			prestige = 25
-			government = democracy
 			political_reform = federalism
 			clr_country_flag = confederalism
 			add_accepted_culture = slovak

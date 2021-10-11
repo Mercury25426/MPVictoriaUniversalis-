@@ -1194,31 +1194,31 @@
 	}
 	
 	aristocrats = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 350
 	}
 
 	artisans = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 725
 	}
 
 	soldiers = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 16650
 	}
 
 	slaves = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 10000
 	}
@@ -1294,7 +1294,7 @@
 	}
 
 	slaves = {
-		culture = teda
+		culture = african
 		religion = sunni
 		size = 4000
 	}
@@ -1332,7 +1332,7 @@
 	}
 
 	slaves = {
-		culture = teda
+		culture = african
 		religion = sunni
 		size = 10400
 	}
@@ -1400,61 +1400,61 @@
 	}
 
 	aristocrats = {
-		culture = ubangian
+		culture = african
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = ubangian
+		culture = african
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = ubangian
+		culture = african
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = ubangian
+		culture = african
 		religion = animist
 		size = 5525
 	}
 
 	slaves = {
-		culture = ubangian
+		culture = african
 		religion = animist
 		size = 4000
 	}
 
 	aristocrats = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 10150
 	}
 
 	slaves = {
-		culture = nuba
+		culture = african
 		religion = animist
 		size = 7000
 	}
@@ -1605,31 +1605,31 @@
 	}
 
 	aristocrats = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 450
 	}
 
 	artisans = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 325
 	}
 
 	farmers = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 21100
 	}
 
 	slaves = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 8000
 	}
@@ -1643,25 +1643,25 @@
 #Lado (244000/61000 POPS)
 1846 = {
 	aristocrats = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 450
 	}
 
 	artisans = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 1200
 	}
 
 	soldiers = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = azande
+		culture = african
 		religion = animist
 		size = 22100
 	}
