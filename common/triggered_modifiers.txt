@@ -713,7 +713,17 @@ sphereling_tax_bonus = {
 		trade_policy = protectionism
 		NOT = { has_country_flag = jan_mayen }
 	}
-	tax_efficiency = 0.07
+	tax_efficiency = 0.1
+	icon = 9
+}
+
+sphereling_tax_bonus1 = {
+	trigger = {
+		part_of_sphere = yes
+		trade_policy = free_trade
+		NOT = { has_country_flag = jan_mayen }
+	}
+	tax_efficiency = 0.05
 	icon = 9
 }
 

@@ -2,7 +2,7 @@ stormtrooper = {
 	icon = 23
 	
 	type = land
-	sprite = stormtrooper
+	sprite = Tank
 	active = no
 	unit_type = infantry
 	primary_culture = yes

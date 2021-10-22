@@ -666,15 +666,15 @@ pops = {
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
-	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 7.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_RISEING = 0.5, -- After a pop spawns a rebellion, its militancy will be reduced this much
+	REDUCTION_AFTER_DEFEAT = 0.3, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficieny of an artisan
 	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
 	
-	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
+	MIL_HIT_FROM_CONQUEST = 6, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.1, -- con boost from over-buying luxuary goods
 	INVENTION_IMPACT_ON_DEMAND = 0.004, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
@@ -682,11 +682,11 @@ pops = {
 	ISSUE_MOVEMENT_LEAVE_LIMIT = 7,
 	MOVEMENT_CON_FACTOR = 0.15,
 	MOVEMENT_LIT_FACTOR = 0.3,
-	MIL_ON_REB_MOVE = 8,
+	MIL_ON_REB_MOVE = 10,
 	POPULATION_SUPPRESSION_FACTOR = 0.0, -- controls base pop size for factor of supression/radicalness cost. zero  disables the feature and jsut uses radicalness
 	POPULATION_MOVEMENT_RADICAL_FACTOR = 300,
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
-	MOVEMENT_SUPPORT_UH_FACTOR = 1, --  3x means 30% country support equals full UH support
+	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
 	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
 	LARGE_POPULATION_LIMIT = 7000000,
 	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,

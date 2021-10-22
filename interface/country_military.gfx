@@ -134,6 +134,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_unit_folder_army_12_railway_artillery"
+		texturefile = "gfx\\interface\\unit_folder_army_12_railway_artillery.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_unit_folder_navy_0_clipper_transport"
 		texturefile = "gfx\\interface\\unit_folder_navy_0_clipper_transport.dds"
 		noOfFrames = 2

@@ -796,6 +796,34 @@ province_event = {
 	}
 }
 
+province_event = {
+	id = 915200
+	title = "Genocide Policy"
+	desc = "EVNT9152000desc"
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Start the Genocide"
+		state_scope = {
+			any_owned = {
+				add_province_modifier = { name = genocide_policy duration = -1 }
+			}
+		}
+	}
+
+	option = {
+		name = "Halt the Genocide"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = { name = genocide_policy duration = -1 }
+			}
+		}
+	}
+}
+
+
 country_event = {
 	id = 91521
 	title = "EVTNAME91521"

@@ -1134,6 +1134,14 @@ assimilation_chance =
 		country = { primary_culture = greek }
 		culture = turkish
 	}
+		modifier = {
+		factor = 10000
+		country = { primary_culture = roman }
+		OR = {
+		culture = north_italian
+		culture = south_italian
+		}
+	}
 
 	modifier = {
 		factor = -10

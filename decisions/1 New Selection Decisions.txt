@@ -459,6 +459,27 @@ zstate_colonial_policy = {
 		}
 	}
 }
+
+zstate_genocide_policy = {
+	picture = colonial_policy
+	potential = {
+		ai = no
+	}
+	allow = {
+		any_owned_province = {
+			has_building = province_selector
+		}
+	}
+	effect = {
+
+			random_owned = {
+				limit = { has_building = province_selector }
+				province_event = { id = 915200 days = 0 }
+				province_selector = -1
+			}
+		
+	}
+}
 #########################################################################
 # 								FAKE WAR								#
 #########################################################################

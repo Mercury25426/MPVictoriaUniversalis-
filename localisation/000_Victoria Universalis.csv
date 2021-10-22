@@ -1197,6 +1197,7 @@ hegemon_desc;Our hegemony will persist so long as we remain the 1st ranked great
 hegemony_countdown;Hegemony Countdown;;;;;;;;;;;;;x
 hegemony_countdown_desc;If we do not regain #1 rank by the time this timer runs out, the Hegemon modifier will be removed from this country and given to the new #1 great power.;;;;;;;;;;;;;x
 sphereling_tax_bonus;Sphereling Tax Buff;;;;;;;;;;;;;x
+sphereling_tax_bonus1;Sphereling Tax Buff;;;;;;;;;;;;;x
 great_power_immigration;GP Immigration Attract Bonus;;;;;;;;;;;;;x
 save_the_nation0.5;Revanchism;;;;;;;;;;;;;x
 save_the_nation1;Revanchism;;;;;;;;;;;;;x

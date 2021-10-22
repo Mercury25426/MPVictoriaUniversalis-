@@ -717,6 +717,11 @@ iron_muzzle_loaded_artillery = {
 		support = 0.5
 		supply_consumption = 0.05
 	}
+	railway_artillery = {
+		attack = 0.8
+		support = 1
+		supply_consumption = 0.1
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -761,6 +766,11 @@ iron_breech_loaded_artillery = {
 		support = 0.5
 		supply_consumption = 0.1
 	}
+	railway_artillery = {
+		attack = 0.8
+		support = 1
+		supply_consumption = 0.2
+	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -799,6 +809,11 @@ steel_breech_loaded_artillery = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
+	railway_artillery = {
+		attack = 1.5
+		support = 1
+		supply_consumption = 0.2
+	}
 	artillery = {
 		attack = 0.7
 		support = 0.5
@@ -894,6 +909,12 @@ creeping_barrage = {
 		support = 0.5
 		supply_consumption = 0.15
 	}
+	railway_artillery = {
+		attack = 2
+		defence = 1
+		support = 1
+		supply_consumption = 0.3
+	}
 	
 	ai_chance = {
 		factor = 1.05
@@ -938,6 +959,12 @@ railway_gun = {
 		defence = 1
 		support = 0.5
 		supply_consumption = 0.25
+	}
+	railway_artillery = {
+		attack = 4
+		defence = 3
+		support = 2
+		supply_consumption = 1
 	}
 	
 	ai_chance = {

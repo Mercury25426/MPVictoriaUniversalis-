@@ -1459,7 +1459,7 @@
 		religion = catholic
 		size = 6750
 	}
-	craftsmen = {
+	farmers = {
 		culture = roman
 		religion = catholic
 		size = 500

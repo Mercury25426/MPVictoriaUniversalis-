@@ -1534,7 +1534,7 @@ nationalist_rebels = {
 	}
 	
 	
-	defection = none			# (Was 'culture') If the country seeks independence, defection specifies what type of provinces it wants.
+	defection = none		# (Was 'culture') If the country seeks independence, defection specifies what type of provinces it wants.
 	independence = culture 		# (Was 'culture')Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
 	defect_delay = 12			# Can spontaneously declare independence after X months (earliest)
 	
@@ -1544,7 +1544,7 @@ nationalist_rebels = {
 	
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = yes					# Does use generals
+	general = no					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
@@ -1552,10 +1552,10 @@ nationalist_rebels = {
 
 	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
 	will_rise = {
-		factor = 0.3
+		factor = 0.15
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.1
 		}
 		modifier = {
 			war_exhaustion = 4
@@ -4163,7 +4163,7 @@ separatist_rebels = {
 	ideology = liberal
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = yes					# Does use generals
+	general = no					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do remain after enforcing demands.
 	
@@ -4174,7 +4174,7 @@ separatist_rebels = {
 		factor = 0.25
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.1
 		}
 		modifier = {
 			war_exhaustion = 4
@@ -4200,7 +4200,7 @@ separatist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 3
+		factor = 1.5
 		modifier = {
 			factor = 0
 			is_primary_culture = yes

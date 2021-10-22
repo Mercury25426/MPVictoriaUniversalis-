@@ -35,6 +35,7 @@ FRA_proletarian_dictatorship;Commune of France;x
 FRA_democracy;French Republic;x
 EVTNAME91521;Choosing a Colonial Policy;;;;;;;;;x;;;;
 EVTDESC91521;We must decide how to govern our newly acquired colonies. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Colonial Policy" decision.;;;;;;;;;x;;;;
+EVNT9152000desc;We must genocide our non accepted people's within our great reich. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Genocide Policy" decision.;x
 zcountry_decrease_colonial_migration_title;§YDecrease Colonial Migration;;;;;;;;;x;;;;
 zcountry_decrease_colonial_migration_desc;Decrease Colonial Migration reform level by one;;;;;;;;;x;;;;
 zcountry_increase_colonial_migration_title;§YIncrease Colonial Migration;;;;;;;;;x;;;;
@@ -396,7 +397,7 @@ trail_of_tears;Trail of Tears;x
 trail_of_tears_desc;Under the indian removal act, and the creation of the indian territory west of the mississippi river, it is only natural that the natives will be moved there.;x
 appalachian;Appalachian;x
 anglo_american;Yankee;x
-anglo_dixie;Coastal Dixie;x
+anglo_dixie;Tidewater;x
 american;American;x
 tejanos;Tejanos;x
 irish_american;Irish American;x
@@ -619,4 +620,17 @@ CWR_ADJ;Crow;x
 anarchist_society_ruler;People;x
 punitive_effects;Punitive Effects;x
 CHI_1493;West Canton;x
-zprovince_agriculture_expansion_900k_desc;Costs 900,000 pounds to give a permanent boost to farm size in this province.
+zprovince_agriculture_expansion_900k_desc;Costs 900,000 pounds to give a permanent boost to farm size in this state.
+genocide_policy;Genocide§W/Annual Non-Accepted Population Growth: §R-5%;x
+zstate_genocide_policy_title;§RGenocide Policy§W/Annual Non-Accepted Population Growth: §R-5%;x
+zstate_genocide_policy_desc;Starts killing the population of the selected province, §R5% of non accepted pops die per year in the state.;x
+TUR_823;West Thrace;x
+byzantine_bureaucracy;Byzantine Bureaucracy;x
+byzantine_bureaucracy_desc;The Byzantine Empire had a complex system of aristocracy and bureaucracy, which was inherited from the Roman Empire. At the apex of the hierarchy stood the emperor, yet "Byzantium was a republican absolute monarchy and not primarily a monarchy by divine right".[1] There were no codified laws regarding imperial succession and the Roman Republic was never formally abolished, hence the Emperor was still to be elected, formally, by both Senate (Synkletos) and the Army. In reality, Senatorial power was severely curtailed over time and the Army practically had a monopoly regarding election. Also, while being a semi-republican entity, Emperors usually managed to secure succession for their children by indirect means, such as appointing them as co-Emperors, for example. The absence of codified succession laws and procedures, as well as the militarized state of the Empire, led to numerous coups and revolts, leading to several disastrous results, such as defeat at Manzikert. Beneath the emperor, a multitude of officials and court functionaries operated the complex administrative machinery that was necessary to run the empire. In addition to those officials, a large number of honorific titles existed, which the emperor awarded to his subjects or to friendly foreign rulers. Over the more than a thousand years of the empire's existence, different titles were adopted and discarded, and many lost or gained prestige. At first the various titles of the empire were the same as those in the late Roman Empire. However, by the time that Heraclius was emperor (r. 610–641), many of the titles had become obsolete. By the time of Alexios I (r. 1082–1118), many of the positions were either new or drastically changed. However, from that time on they remained essentially the same until the fall of the Byzantine Empire in 1453.;x
+railway_artillery;Heavy Artillery;x
+the_great_leap_forward_title;The Great Leap Forward;x
+the_great_leap_forward_desc;The Great Leap Forward (Second Five Year Plan) of the People's Republic of China (PRC) was an economic and social campaign led by the Chinese Communist Party (CCP) from 1958 to 1962. Chairman Mao Zedong launched the campaign to reconstruct the country from an agrarian economy into a communist society through the formation of people's communes. Mao decreed increased efforts to multiply grain yields and bring industry to the countryside. Local officials were fearful of Anti-Rightist Campaigns and competed to fulfill or over-fulfill quotas based on Mao's exaggerated claims, collecting "surpluses" that in fact did not exist and leaving farmers to starve. Higher officials did not dare to report the economic disaster caused by these policies, and national officials, blaming bad weather for the decline in food output, took little or no action. The Great Leap resulted in tens of millions of deaths, with estimates ranging between 15 and 55 million deaths, making the Great Chinese Famine the largest famine in human history.
+
+Chief changes in the lives of rural Chinese people included the incremental introduction of mandatory agricultural collectivization. Private farming was prohibited, and those engaged in it were persecuted and labeled counter-revolutionaries. Restrictions on rural people were enforced through public struggle sessions and social pressure, although people also experienced forced labor.[8] Rural industrialization, while officially a priority of the campaign, saw "its development ... aborted by the mistakes of the Great Leap Forward".[9] The Great Leap was one of two periods between 1953 and 1976 in which China's economy shrank.[10] Economist Dwight Perkins argues that "enormous amounts of investment produced only modest increases in production or none at all. ... In short, the Great Leap was a very expensive disaster".[11]
+
+In 1959, Mao Zedong ceded day-to-day leadership to pragmatic moderates like Liu Shaoqi and Deng Xiaoping and the CCP studied the damage done at conferences in 1960 and 1962, especially at the "Seven Thousand Cadres Conference". Mao did not retreat from his policies and instead blamed problems on bad implementation and "rightists" for opposing him. He initiated the Socialist Education Movement in 1963 and the Cultural Revolution in 1966 in order to remove opposition and re-consolidate his power. In addition, dozens of dams constructed in Zhumadian, Henan during the Great Leap Forward collapsed in 1975 (under the influence of Typhoon Nina) and resulted in the 1975 Banqiao Dam failure, with an estimated death toll between tens of thousands to 240,000.[12][13];x
