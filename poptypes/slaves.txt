@@ -17,6 +17,9 @@ rebel =
 	irregular = 1
 }
 
+life_needs = {
+	grain = 5
+}
 
 
 everyday_needs = {
@@ -24,7 +27,7 @@ everyday_needs = {
 }
 
 luxury_needs = {
-	#pharmaceuticals = 1
+	pharmaceuticals = 1
 }
 
 country_migration_target =

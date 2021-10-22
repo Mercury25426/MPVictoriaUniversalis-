@@ -22,7 +22,11 @@ sea_starts = {
 	3224 3225 3226 3227 3228 3229 3230 3231 3232 3233 3234 3235 3236 3237 3238 3239 3240 3241 3242 3243 3244 3245 3247 3248
 }
     
+<<<<<<< HEAD
 definitions = "../mod/MPVictoriaUniversalis 2.5.1 Mother Anarchy Loves Her Sons/map/definition.csv"
+=======
+definitions = "../mod/MPVictoriaUniversalis 2.4 The Guerilla Update/map/definition.csv"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 #definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"

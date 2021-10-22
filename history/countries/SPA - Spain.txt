@@ -88,6 +88,7 @@ consciousness = 4.5
 nonstate_consciousness = 4
 
 
+<<<<<<< HEAD
 
 
 govt_flag = 
@@ -98,6 +99,8 @@ govt_flag =
 	government = prussian_constitutionalism
 	flag = absolute_monarchy
 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 oob = "SPA_oob.txt"
 

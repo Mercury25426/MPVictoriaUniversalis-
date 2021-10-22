@@ -1,5 +1,8 @@
 color = {92 166 65}
+<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = Generic
 
 party = {
@@ -29,6 +32,7 @@ party = {
 	citizenship_policy = residency
 	war_policy = anti_military
 }
+<<<<<<< HEAD
 party = {
 	name = "Black Guards"
 	start_date = 1830.1.1
@@ -42,6 +46,9 @@ party = {
 	citizenship_policy = residency
 	war_policy = jingoism
 }
+=======
+
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 party = {
 	name = "CHE_conservative_2"
 	start_date = 1848.1.1

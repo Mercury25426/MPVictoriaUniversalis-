@@ -1,7 +1,10 @@
 color = { 0  147  132 }
 fascist_dictatorship = { 0 117 112 }
 graphical_culture = EuropeanGC
+<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 proletarian_dictatorship = { 150 0 0 }
 
 party = {

@@ -124,7 +124,11 @@ country_event = {
 	option = {
 		name = "No, I don't think I will"
 			any_pop = {
+<<<<<<< HEAD
 				reduce_pop = 0.3
+=======
+				reduce_pop = 0.4
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			set_country_flag = infinitysnap
 	}
@@ -157,7 +161,11 @@ country_event = {
 		any_owned = {
 			add_province_modifier = {
 				name = russian_baby_boom
+<<<<<<< HEAD
 				duration = 19710
+=======
+				duration = 25550
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 	}
 	set_country_flag = russiabuff

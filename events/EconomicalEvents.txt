@@ -757,7 +757,11 @@ country_event = {
 			mutual_funds = 1
 		}
 		modifier = {
+<<<<<<< HEAD
 			factor = 100
+=======
+			factor = 0.6
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			has_country_flag = economy_national_idea
 		}
 		modifier = {
