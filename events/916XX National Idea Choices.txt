@@ -305,7 +305,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -317,7 +321,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -614,7 +622,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -626,7 +638,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -920,7 +936,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -932,7 +952,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1226,7 +1250,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1238,7 +1266,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1533,7 +1565,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1545,7 +1581,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -1840,7 +1880,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "-0.06 Infamy Decay"
+=======
+		name = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = { set_country_flag = choosing_expansion }
 		ai_chance = {
 			factor = 10
@@ -1852,7 +1896,11 @@ province_event = {
 	}
 
 	option = {
+<<<<<<< HEAD
 		name = "+0.06 Assimilation Chance & +50% Rate"
+=======
+		name = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		owner = {  set_country_flag = choosing_assimilation }
 		ai_chance = {
 			factor = 10
@@ -2229,7 +2277,11 @@ country_event = {
 
 country_event = {
 	id = 91661
+<<<<<<< HEAD
 	title = "-0.06 Infamy Decay"
+=======
+	title = "-0.03 Infamy Decay"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 
@@ -2250,7 +2302,11 @@ country_event = {
 
 country_event = {
 	id = 91662
+<<<<<<< HEAD
 	title = "+0.06 Assimilation Chance & +50% Rate"
+=======
+	title = "+0.05 Assimilation Chance & +50% Rate"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	desc = "We already have this national idea."
 	picture = national_idea_choice
 

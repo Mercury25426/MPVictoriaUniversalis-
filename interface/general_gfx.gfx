@@ -14,7 +14,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_modifier_icons"
 		texturefile = "gfx\\interface\\modifiers.tga"
+<<<<<<< HEAD
 		noOfFrames = 25
+=======
+		noOfFrames = 24
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		loadType = "INGAME"
 	}
 	

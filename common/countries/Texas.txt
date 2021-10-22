@@ -1,5 +1,8 @@
 color = { 153 0 0 }
+<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = Generic
 
 party = {

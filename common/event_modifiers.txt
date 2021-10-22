@@ -15,6 +15,7 @@ Bull_market = {
 	global_population_growth = 0.004
 	education_efficiency_modifier = 0.4
 	icon = 9
+<<<<<<< HEAD
 }
 deciding_grant = {
 	icon = 9
@@ -34,6 +35,9 @@ pan_ottomanism = {
 	non_accepted_pop_militancy_modifier = 0.1
 	icon = 18
 }
+=======
+}
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 foreign_terrorist_brigades = {
 	core_pop_consciousness_modifier = 0.05
 	icon = 18
@@ -1297,7 +1301,11 @@ country_suppression = {
 }
 
 province_attract_immigrants = {
+<<<<<<< HEAD
 	immigrant_attract = 500
+=======
+	immigrant_attract = 100
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	immigrant_push = -1000
 	icon = 9
 }
