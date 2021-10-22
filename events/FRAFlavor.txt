@@ -726,10 +726,14 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
+<<<<<<< HEAD
 		OR = {
 			exists = GER
 			exists = GRA
 		}
+=======
+		exists = GER
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1894
 		NOT = {
 			year = 1897
@@ -796,10 +800,14 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
+<<<<<<< HEAD
 			OR = {
 				exists = GER
 				exists = GRA
 			}
+=======
+		exists = GER
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1898
 		has_country_flag = DreyfusTrial
 		NOT = {
@@ -867,10 +875,14 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
+<<<<<<< HEAD
 			OR = {
 				exists = GER
 				exists = GRA
 			}
+=======
+		exists = GER
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1899
 		has_country_flag = DreyfusGuilty
 		NOT = {

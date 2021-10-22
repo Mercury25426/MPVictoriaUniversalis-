@@ -3,7 +3,11 @@ controller = CRW
 add_core = CRW
 trade_goods = cattle
 life_rating = 35
+<<<<<<< HEAD
 colony = 0
+=======
+colony = 2
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 1913.1.1 = {
 	colony = 0
 	state_building = {

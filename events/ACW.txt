@@ -1069,8 +1069,11 @@ country_event = {
 		set_country_flag = oregon_treaty
 		USA_78 = { add_core = USA }
 		ENG = { country_event = 44151 }
+<<<<<<< HEAD
 		RPL = { country_event = 44151 }
 		CAN = { country_event = 44151 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		any_pop = {
 			scaled_consciousness = {
 				issue = jingoism
@@ -1753,8 +1756,11 @@ country_event = {
 	}
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 country_event = {
 	id = 44157
 	title = "EVTNAME44157" #UK Gets Colombia from HBC
@@ -1924,6 +1930,7 @@ country_event = {
 
 		}
 	}
+<<<<<<< HEAD
 	country_event = {
 		id = 150013
 		title = "You can now conquer the natives with a conquer casus belli"
@@ -1946,6 +1953,8 @@ country_event = {
 				name = "Nice"
 			}
 		}
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 	country_event = {
 		id = 150012
@@ -1984,6 +1993,7 @@ country_event = {
 			75 = { secede_province = USA }
 			74 = { secede_province = USA }
 			2625 = { secede_province = USA }
+<<<<<<< HEAD
 			ENG_58 = {secede_province = USA }
 			ENG_46 = {secede_province = USA }
 			ENG_36 = {secede_province = USA }
@@ -1999,6 +2009,8 @@ country_event = {
 			ENG_43 = {secede_province = USA }
 			ENG_68 = {secede_province = USA }
 			ENG_69 = {secede_province = USA }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		}
 		option = {
 			name = "No"

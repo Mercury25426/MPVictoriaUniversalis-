@@ -3,6 +3,10 @@ controller = AUS
 add_core = AUS
 add_core = CRO
 add_core = SER
+<<<<<<< HEAD
+=======
+add_core = SER
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 add_core = YUG
 trade_goods = fish
 life_rating = 35

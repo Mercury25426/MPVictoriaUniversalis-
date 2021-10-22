@@ -1661,6 +1661,7 @@ country_event = {
 					defender_goal = { casus_belli = status_quo }
 					call_ally = no
 				}
+<<<<<<< HEAD
 			}
 		}
 		any_country = {
@@ -1676,6 +1677,23 @@ country_event = {
 				}
 			}
 		}
+=======
+			}
+		}
+		any_country = {
+			limit = {
+				FRC = { exists = yes }
+			}
+			FRC = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = european_african_conquest }
+					defender_goal = { casus_belli = status_quo }
+					call_ally = no
+				}
+			}
+		}
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 	}
 }

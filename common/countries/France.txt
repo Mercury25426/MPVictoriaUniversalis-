@@ -3,7 +3,10 @@ proletarian_dictatorship = { 229 13 44 }
 fascist_dictatorship = { 12 0 45 }
 presidential_dictatorship = { 5 20 64 }
 absolute_monarchy = { 5 5 112 }
+<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = FrenchGC
 
 party = {

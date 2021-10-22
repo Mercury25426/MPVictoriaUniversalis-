@@ -11,7 +11,10 @@ welsh;Welsh;x
 british;English;x
 WHA;Wales;x
 rhenish;Rhenish;x
+<<<<<<< HEAD
 roman;Roman;x
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 FRA_monarchy;The French Empire;x
 walloon_autonomy;West of the Rhine;x
 GRA;Deutsches Kaiserreich;x
@@ -554,6 +557,7 @@ FRC;fascist_dictatorship;L'Etat Français;x
 FRC;proletarian_dictatorship;La Commune de Français;x
 FRC;bourgeois_dictatorship;La République Bourgeoise Française;x
 buy_canada_title;Buy Canada;x
+<<<<<<< HEAD
 buy_canada_desc;Ever since the revolutionary war, us, the Americans, have been trying to get our hands on all of British North America, we have fought multiplayer wars with no avail, maybe we should just ask and pay a price?;x
 anarchist;Anarchist;x
 anarchist_society;Anarchist Society;x
@@ -620,3 +624,6 @@ anarchist_society_ruler;People;x
 punitive_effects;Punitive Effects;x
 CHI_1493;West Canton;x
 zprovince_agriculture_expansion_900k_desc;Costs 900,000 pounds to give a permanent boost to farm size in this province.
+=======
+buy_canada_desc;Ever since the revolutionary war, us, the Americans, have been trying to get our hands on all of British North America, we have fought multiplayer wars with no avail, maybe we should just ask and pay a price?;x
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa

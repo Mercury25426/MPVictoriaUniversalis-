@@ -881,12 +881,15 @@ RGO_template_large_labourers = {
             amount = 1
 			effect_multiplier = 2
         }
+<<<<<<< HEAD
 		{
             poptype = slaves
             effect = throughput
             amount = 1
 			effect_multiplier = 3
         }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	type = rgo
@@ -912,12 +915,15 @@ RGO_template_small_labourers = {
             amount = 1
 			effect_multiplier = 2
         }
+<<<<<<< HEAD
 		{
             poptype = slaves
             effect = throughput
             amount = 1
 			effect_multiplier = 3
         }
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	type = rgo

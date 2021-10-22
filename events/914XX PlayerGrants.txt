@@ -60,20 +60,32 @@ country_event = {
 				money = 100000
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91402 days = 0}
 		}
 	}
 	option = {
+<<<<<<< HEAD
 		name = "Ask for 250,000"
+=======
+		name = "Ask_0.25M_Grant"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		any_country = {
 			limit = {
 				ai = no
 				money = 250000
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91403 days = 0}
 		}
@@ -86,7 +98,11 @@ country_event = {
 				money = 500000
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91404 days = 0}
 		}
@@ -99,7 +115,11 @@ country_event = {
 				money = 1000000
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91405 days = 0}
 		}
@@ -115,7 +135,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 	
 	option = {
@@ -124,9 +148,11 @@ country_event = {
 		FROM = {
 			treasury = 100000
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -139,18 +165,32 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
 	}
 	
 	option = {
 		name = "Give them 250,000"
+=======
+		set_country_flag = deciding_grant
+	}
+	
+	option = {
+		name = "Give_0.25M_Grant"
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		treasury = -250000
 		FROM = {
 			treasury = 250000
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
+<<<<<<< HEAD
 		name = "No."
+=======
+		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 }
 
@@ -163,7 +203,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 	
 	option = {
@@ -172,9 +216,11 @@ country_event = {
 		FROM = {
 			treasury = 500000
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -187,7 +233,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 	
 	option = {
@@ -196,9 +246,11 @@ country_event = {
 		FROM = {
 			treasury = 1000000
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -218,7 +270,11 @@ country_event = {
 				ammunition = 500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91407 days = 0}
 		}
@@ -231,7 +287,11 @@ country_event = {
 				ammunition = 2500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91408 days = 0}
 		}
@@ -247,7 +307,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -256,9 +320,11 @@ country_event = {
 		FROM = {
 			ammunition = 500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -271,7 +337,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -304,7 +374,11 @@ country_event = {
 				artillery = 500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91410 days = 0}
 		}
@@ -333,7 +407,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -342,9 +420,11 @@ country_event = {
 		FROM = {
 			artillery = 500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -357,7 +437,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -366,9 +450,11 @@ country_event = {
 		FROM = {
 			artillery = 2500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -388,7 +474,11 @@ country_event = {
 				canned_food = 500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91413 days = 0}
 		}
@@ -401,7 +491,11 @@ country_event = {
 				canned_food = 2500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91414 days = 0}
 		}
@@ -417,7 +511,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -426,9 +524,11 @@ country_event = {
 		FROM = {
 			canned_food = 500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -441,7 +541,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -450,9 +554,11 @@ country_event = {
 		FROM = {
 			canned_food = 2500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -472,7 +578,11 @@ country_event = {
 				small_arms = 500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91416 days = 0}
 		}
@@ -485,7 +595,11 @@ country_event = {
 				small_arms = 2500
 				NOT = { has_country_flag = deny_grant }
 				NOT = { war_with = THIS }
+<<<<<<< HEAD
 				NOT = { has_country_modifier = deciding_grant }
+=======
+				NOT = { has_country_flag = deciding_grant }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			country_event = {id = 91417 days = 0}
 		}
@@ -501,7 +615,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -510,9 +628,11 @@ country_event = {
 		FROM = {
 			small_arms = 500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }
 
@@ -525,7 +645,11 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+<<<<<<< HEAD
 		add_country_modifier = { name = deciding_grant duration = 5 }
+=======
+		set_country_flag = deciding_grant
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	option = {
@@ -534,8 +658,10 @@ country_event = {
 		FROM = {
 			small_arms = 2500
 		}
+		clr_country_flag = deciding_grant
 	}
 	option = {
 		name = "Give_No_Grant"
+		clr_country_flag = deciding_grant
 	}
 }

@@ -66,6 +66,7 @@ political_decisions = {
 			set_country_flag = usstatehood_we_have_applied
 				USA = {
 					country_event = { id=16400 days=0 }
+<<<<<<< HEAD
 				}
 			}
 			ai_will_do = {
@@ -102,9 +103,15 @@ political_decisions = {
 						type = cut_down_to_size
 						months = 24
 					}
+=======
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				}
 			}
+			ai_will_do = {
+				factor = 1
+			}
 		}
+<<<<<<< HEAD
 		
 	# USA	
 		trail_of_tears = {
@@ -113,10 +120,21 @@ political_decisions = {
 				NOT = {
 					has_global_flag = marching_on_the_trail_of_tears
 					has_country_flag = marching_on_the_trail_of_tears
+=======
+	
+	# CSA
+		king_cotton = {
+			potential = {
+				tag = CSA
+				war_with = USA
+				not = {
+					has_country_flag = haskingcotton
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				}
 			}
 			
 			allow = {
+<<<<<<< HEAD
 				owns = 129
 				owns = 130
 				owns = 131
@@ -330,6 +348,701 @@ political_decisions = {
 				owns = 122
 				year = 1874
 			}
+			
+			allow = {
+				122 = {
+					units_in_province = 1
+				}
+			}
+			
+			effect = {
+				prestige = 1
+				set_country_flag = custers_expedition_sent
+			}
+		}
+		
+		enact_the_homestead_act = {
+			potential = {
+				tag = USA
+				government = democracy
+				NOT = {
+					has_country_flag = homestead_enacted
+				}
+			}
+			
+			allow = {
+				prestige = 40
+				nationalism_n_imperialism = 1
+			}
+			
+			effect = {
+				set_country_flag = homestead_enacted
+				add_country_modifier = {
+					name = the_homestead_act
+					duration = -1
+=======
+				cotton = 500
+			}
+			
+			effect = {
+				set_country_flag = haskingcotton
+				prestige = 5
+				cotton = -500
+				any_greater_power = {
+					limit = {
+						NOT = {
+							tag = USA
+						}
+					}
+					casus_belli = {
+						target = USA
+						type = cut_down_to_size
+						months = 24
+					}
+				}
+			}
+		}
+		
+	# USA	
+		trail_of_tears = {
+			potential = {
+				tag = USA
+				NOT = {
+					has_global_flag = marching_on_the_trail_of_tears
+				}
+			}
+			
+			allow = {
+				owns = 129
+				owns = 130
+				owns = 131
+				average_consciousness = 3
+			}
+			
+			effect = {
+				any_pop = {
+					limit = {
+						has_pop_culture = cherokee
+						NOT = {
+							location = {
+								OR = {
+									province_id = 130
+									province_id = 131
+									province_id = 129
+								}
+							}
+						}
+					}
+					move_pop = 130
+					reduce_pop = 0.80
+					consciousness = 2
+					militancy = -1
+				}
+				130 = {
+					add_core = CHE
+				}
+				131 = {
+					add_core = CHE
+				}
+				129 = {
+					add_core = CHE
+				}
+				145 = {
+					remove_core = CHE
+				}
+				143 = {
+					remove_core = CHE
+				}
+				add_accepted_culture = cherokee
+				set_global_flag = marching_on_the_trail_of_tears
+				USA_129 = { add_core = OKL }
+				release = OKL
+				create_vassal = OKL
+				release = OKL
+				create_vassal = OKL
+				diplomatic_influence = {
+					who = OKL
+					value = 300
+				}
+				add_country_modifier = { name = trail_of_tears duration = 1095 }
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	
+		#accept yankee
+		integrate_the_african_swine = {
+			picture = blacks
+			potential = {
+				has_country_flag = emancipation
+				NOT = {
+					has_global_flag = send_them_all_back_to_africa
+				}
+				NOT = {
+					has_global_flag = integrate_blacks
+				}
+				has_country_flag = emancipation
+				OR = {
+					tag = USA
+					tag = CSA
+					}
+					has_global_flag = american_civil_war_has_happened
+			}
+			allow = {
+				war = no
+				OR = {
+				NOT = { CSA = { exists = yes } }
+				NOT = { USA = { exists = yes } }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
+				}
+				any_owned = {
+					limit = {
+						owned_by = THIS
+						OR = {
+							province_id = 78
+							province_id = 79
+							province_id = 80
+							province_id = 81
+							province_id = 82
+							province_id = 83
+							province_id = 84
+							province_id = 85
+							province_id = 86
+							province_id = 87
+							province_id = 88
+							province_id = 89
+							province_id = 90
+							province_id = 91
+							province_id = 92
+							province_id = 93
+							province_id = 94
+							province_id = 95
+							province_id = 96
+							province_id = 97
+							province_id = 98
+							province_id = 99
+							province_id = 100
+							province_id = 101
+							province_id = 102
+							province_id = 103
+							province_id = 104
+							province_id = 105
+							province_id = 106
+							province_id = 107
+							province_id = 108
+							province_id = 109
+							province_id = 110
+							province_id = 111
+							province_id = 112
+							province_id = 113
+							province_id = 114
+							province_id = 115
+							province_id = 116
+							province_id = 117
+							province_id = 118
+							province_id = 119
+							province_id = 120
+							province_id = 121
+							province_id = 122
+							province_id = 123
+							province_id = 124
+							province_id = 125
+							province_id = 126
+							province_id = 127
+							province_id = 128
+							province_id = 129
+							province_id = 130
+							province_id = 131
+							province_id = 132
+							province_id = 133
+							province_id = 134
+							province_id = 135
+							province_id = 136
+							province_id = 137
+							province_id = 138
+							province_id = 143
+							province_id = 144
+							province_id = 145
+							province_id = 151
+							province_id = 152
+							province_id = 153
+							province_id = 154
+							province_id = 155
+							province_id = 156
+							province_id = 157
+							province_id = 158
+							province_id = 173
+							province_id = 174
+							province_id = 175
+							province_id = 176
+							province_id = 177
+							province_id = 198
+							province_id = 199
+							province_id = 200
+						}
+					}
+					add_province_modifier = { name = homestead duration = -1 }
+				}
+				any_owned = {
+					limit = {
+						owned_by = THIS
+						OR = {
+							province_id = 139
+							province_id = 140
+							province_id = 141
+							province_id = 142
+							province_id = 146
+							province_id = 147
+							province_id = 148
+							province_id = 149
+							province_id = 150
+							province_id = 159
+							province_id = 160
+							province_id = 161
+							province_id = 162
+							province_id = 169
+							province_id = 170
+							province_id = 171
+							province_id = 172
+							province_id = 178
+							province_id = 179
+							province_id = 180
+							province_id = 181
+							province_id = 182
+							province_id = 183
+							province_id = 184
+							province_id = 185
+							province_id = 186
+							province_id = 187
+							province_id = 188
+							province_id = 189
+							province_id = 190
+							province_id = 191
+							province_id = 192
+							province_id = 193
+							province_id = 194
+							province_id = 195
+							province_id = 196
+							province_id = 197
+							province_id = 201
+							province_id = 202
+							province_id = 204
+							province_id = 205
+							province_id = 206
+							province_id = 2555
+							province_id = 2556
+							province_id = 207
+							province_id = 208
+							province_id = 209
+							province_id = 210
+							province_id = 211
+							province_id = 212
+							province_id = 213
+							province_id = 214
+							province_id = 215
+							province_id = 216
+							province_id = 217
+							province_id = 218
+							province_id = 219
+							province_id = 220
+							province_id = 221
+							province_id = 222
+							province_id = 223
+							province_id = 224
+							province_id = 225
+							province_id = 226
+							province_id = 227
+							province_id = 228
+							province_id = 229
+							province_id = 230
+							province_id = 231
+							province_id = 232
+							province_id = 233
+							province_id = 234
+							province_id = 235
+							province_id = 236
+							province_id = 237
+							province_id = 238
+							province_id = 239
+							province_id = 240
+							province_id = 241
+							province_id = 242
+							province_id = 243
+							province_id = 244
+							province_id = 245
+							province_id = 246
+							province_id = 247
+							province_id = 248
+							province_id = 249
+							province_id = 250
+						}
+					}
+					add_province_modifier = { name = westward_migration duration = -1 }
+				}
+			}
+<<<<<<< HEAD
+		}
+				
+		bixby_letter = {
+			potential = {
+				tag = USA
+				not = {
+					has_country_flag = bixby_letter_sent
+				}
+				war_with = CSA
+			}
+			
+			allow = {
+				war_exhaustion = 6
+			}
+			
+			effect = {
+				set_country_flag = bixby_letter_sent
+				war_exhaustion = -2
+			}
+		}
+		
+		enact_anaconda_plan = {
+			potential = {
+				tag = USA
+				war_with = CSA
+				NOT = {
+					has_global_flag = anaconda_plan_active
+=======
+	
+			effect = {
+				add_accepted_culture = afro_american
+				add_accepted_culture = creole
+				militancy = 2
+				consciousness = 2
+			}
+	
+		}
+	
+	
+		send_them_all_back_to_africa = {
+			picture = send_them_all_back_to_africa
+			potential = {
+				has_country_flag = emancipation
+				OR = {
+				tag = USA
+				tag = CSA
+				}
+				has_global_flag = american_civil_war_has_happened
+				war = no
+				NOT = {
+					has_global_flag = send_them_all_back_to_africa
+				}
+				NOT = {
+					has_global_flag = integrate_blacks
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
+				}
+			}
+			
+			allow = {
+<<<<<<< HEAD
+				CSA = {
+					blockade = 0.8
+=======
+				war = no
+				OR = {
+				NOT = { CSA = { exists = yes } }
+				NOT = { USA = { exists = yes } }
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
+				}
+			}
+			
+			effect = {
+<<<<<<< HEAD
+				CSA = {
+					add_country_modifier = {
+						name = anaconda_plan
+						duration = -1
+					}
+				}
+				set_global_flag = anaconda_plan_active
+			}
+		}
+		
+		shermans_march_to_the_sea = {
+			potential = {
+				tag = USA
+				war_with = CSA
+				NOT = {
+					has_country_flag = sherman_marched_to_the_sea
+=======
+				any_pop = {
+					limit = {
+						has_pop_culture = afro_american
+						NOT = {
+							location = {
+								OR = {
+									province_id = 1888
+									province_id = 1887
+								}
+							}
+						}
+					}
+					move_pop = 1887
+					reduce_pop = 0.99
+					consciousness = 4
+					militancy = -5
+				}
+					any_pop = {
+						limit = {
+							has_pop_culture = creole
+							NOT = {
+								location = {
+									OR = {
+										province_id = 1888
+										province_id = 1887
+									}
+								}
+							}
+						}
+					move_pop = 1887
+					reduce_pop = 0.99
+					consciousness = 4
+					militancy = -5
+					}
+	
+	
+					move_pop = 1887
+					reduce_pop = 0.99
+					consciousness = 4
+					militancy = -5
+					prestige = 200
+				
+				set_global_flag = send_them_all_back_to_africa
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		annexokl = {
+			picture = okl
+			potential = {
+				nationalism_n_imperialism = 1
+				tag = USA
+				OKL = { exists = yes }
+				NOT = {
+					has_global_flag = annexedindianterritory
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
+				}
+			}		
+			allow = {
+				controls = 201
+				controls = 2555
+				controls = 204
+			}
+			
+<<<<<<< HEAD
+			effect = {
+				set_country_flag = sherman_marched_to_the_sea
+				201 = {
+					any_pop = {
+						reduce_pop = 0.70
+					}
+				}
+				2555 = {
+					any_pop = {
+						reduce_pop = 0.90
+					}
+				}
+				204 = {
+					any_pop = {
+						reduce_pop = 0.90
+					}
+				}
+				CSA = {
+					war_exhaustion = 4
+=======
+			allow = {
+				OKL = { owns = 131 }
+				OKL = { owns = 130 }
+			}
+			
+			effect = {
+				set_global_flag = annexedindianterritory
+				130 = {
+					secede_province = THIS
+				}
+				131 = {
+					secede_province = THIS
+				}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+		
+		custers_expedition = {
+			potential = {
+				tag = USA
+				NOT = {
+					has_country_flag = custers_expedition_sent
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
+				}
+				owns = 122
+				year = 1874
+			}
+<<<<<<< HEAD
+		}
+	
+		emancipation_proclamation = {
+			potential = {
+				tag = USA
+				NOT = {
+					has_country_flag = emancipation
+				}
+				OR = {
+					war_with = CSA
+					AND = {
+						NOT = {
+							exists = CSA
+						}
+						has_global_flag = american_civil_war_has_happened
+					}
+				}
+			}
+			allow = {
+				OR = {
+					CSA = {
+						national_provinces_occupied = 0.40
+					}
+					NOT = {
+						exists = CSA
+					}
+				}
+				prestige = 35
+			}
+			effect = {
+				set_country_flag = emancipation
+				prestige = 5
+				political_reform = no_slavery
+				any_pop = {
+					limit = {
+						has_pop_culture = yankee
+					}
+					consciousness = -5
+					militancy = -5
+				}
+				any_greater_power = {
+					relation = {
+						who = USA
+						value = 30
+					}
+				}
+			}
+		}		
+		manifest_destiny = {
+			potential = {
+				tag = USA
+				NOT = {
+					has_country_flag = hasmanifestdestiny
+				}
+			}
+			allow = {
+				romanticism = 1
+				prestige = 50
+				NOT = {
+					exists = TEX
+					133 = {
+						owned_by = MEX # Austin
+						}
+				}
+			}
+			effect = {
+				set_country_flag = hasmanifestdestiny
+				diplomatic_influence = {
+					who = MEX
+					value = -500
+				}
+				relation = {
+					who = MEX
+					value = -250
+				}
+				any_pop = {
+					consciousness = 2
+				}
+				TEX_132 = {
+					add_core = USA
+				}
+				MEX_103 = {
+					add_core = USA
+				}
+				USA_129 = {
+					add_core = USA
+				}
+				USA_106 = {
+					add_core = USA
+				}
+				USA_81 = {
+					add_core = USA
+				}
+				MEX_94 = {
+					add_core = USA
+				}
+				MEX_85 = {
+					add_core = USA
+				}
+				100 = {
+					add_core = USA
+				}
+				101 = {
+					add_core = USA
+				}
+				MEX_97 = {
+					add_core = USA
+				}
+		
+			}
+		}
+		gag_rule = {
+			potential = {
+				tag = USA
+				average_consciousness = 1
+				slavery = yes_slavery
+				NOT = {
+					has_country_flag = house_gag_rule_enacted
+					has_global_flag = american_civil_war_has_happened
+				}
+			}
+			
+			allow = {
+				average_consciousness = 3
+			}
+			
+			effect = {
+				any_pop = {
+					consciousness = -1
+				}
+				set_country_flag = house_gag_rule_enacted
+			}
+		}
+	
+		clay_and_douglas_draft = {
+			
+			potential = {
+				tag = USA
+				average_consciousness = 3
+				slavery = yes_slavery
+				NOT = {
+					has_country_flag = clay_and_douglas_draft_enacted
+					has_global_flag = american_civil_war_has_happened
+				}
+			}
+			
+			allow = {
+				average_consciousness = 4
+			}
+			
+			effect = {
+=======
 			
 			allow = {
 				122 = {
@@ -663,6 +1376,7 @@ political_decisions = {
 				set_country_flag = emancipation
 				prestige = 5
 				political_reform = no_slavery
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				any_pop = {
 					limit = {
 						has_pop_culture = yankee
@@ -676,7 +1390,21 @@ political_decisions = {
 						value = 30
 					}
 				}
+				set_country_flag = clay_and_douglas_draft_enacted
 			}
+<<<<<<< HEAD
+		}
+		
+		corwin_amendment = {
+			
+			potential = {
+				tag = USA
+				average_consciousness = 4
+				slavery = yes_slavery
+				NOT = {
+					has_country_flag = corwin_amendment_enacted
+					has_global_flag = american_civil_war_has_happened
+=======
 		}		
 		manifest_destiny = {
 			potential = {
@@ -759,9 +1487,17 @@ political_decisions = {
 			effect = {
 				any_pop = {
 					consciousness = -1
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				}
 				set_country_flag = house_gag_rule_enacted
 			}
+<<<<<<< HEAD
+			
+			allow = {
+				average_consciousness = 7
+			}
+			
+=======
 		}
 	
 		clay_and_douglas_draft = {
@@ -780,27 +1516,58 @@ political_decisions = {
 				average_consciousness = 4
 			}
 			
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			effect = {
 				any_pop = {
 					consciousness = -2
 				}
+<<<<<<< HEAD
+				set_country_flag = corwin_amendment_enacted
+			}
+		}
+		
+		fugitive_slave_act = {
+=======
 				set_country_flag = clay_and_douglas_draft_enacted
 			}
 		}
 		
 		corwin_amendment = {
 			
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			potential = {
 				tag = USA
 				average_consciousness = 4
 				slavery = yes_slavery
 				NOT = {
+<<<<<<< HEAD
+					has_country_flag = fugitive_slave_act_enacted
+=======
 					has_country_flag = corwin_amendment_enacted
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 					has_global_flag = american_civil_war_has_happened
 				}
 			}
 			
 			allow = {
+<<<<<<< HEAD
+				average_consciousness = 5
+			}
+			
+			effect = {
+				any_state = {
+					limit = {
+						is_slave = yes
+					}
+					any_pop = {
+						consciousness = -2
+					}
+				}
+				set_country_flag = fugitive_slave_act_enacted
+			}
+		}
+		
+=======
 				average_consciousness = 7
 			}
 			
@@ -840,6 +1607,7 @@ political_decisions = {
 			}
 		}
 		
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		nashville_convention = {
 			potential = {
 				tag = USA
@@ -983,10 +1751,17 @@ political_decisions = {
 				any_state = {
 					limit = {
 						is_slave = yes
+<<<<<<< HEAD
 					}
 					any_pop = {
 						consciousness = 1
 					}
+=======
+					}
+					any_pop = {
+						consciousness = 1
+					}
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				}
 				set_country_flag = wilmot_proviso_providing
 			}
@@ -1403,6 +2178,7 @@ political_decisions = {
 					factor = 0
 					NOT = { year = 1842 }
 				}
+<<<<<<< HEAD
 			}
 		}	
 
@@ -1424,6 +2200,26 @@ political_decisions = {
 			allow = {
 				OR = {
 				has_global_flag = canada_annexed
+=======
+			}
+		}
+
+		buy_canada = {
+			picture = canadian_confederation
+			potential = {
+				tag = USA
+				NOT = { has_country_flag = ripcanada }
+				OR = {
+				CAN = { vassal_of = ENG }
+				AND = { 
+				CAN = { vassal_of = ENG }
+				RPL = { vassal_of = ENG }
+					}
+				}
+			}
+			allow = {
+				OR = {
+>>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				CAN = { vassal_of = ENG }
 				IMF = { exists = yes }
 				AND = { 
