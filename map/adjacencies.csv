@@ -123,6 +123,7 @@
 1449;1450;sea;2853;0;#Ambon to Ceram
 1450;1453;sea;2853;0;#Ceram to Sorong
 1453;1451;sea;2862;0;#Sorong to Aru
+1454;1452;sea;2856;0;#Merah to Biak
 1430;1439;sea;2810;0;#Makassar to Flores
 1445;1443;sea;2809;0;#Kaupeng to Roti
 1443;1441;sea;2809;0;#Roti to Sumba
@@ -172,7 +173,7 @@
 1328;1592;impassable;0;0;scary mountain
 1225;1594;impassable;0;0;scary mountain
 1226;1594;impassable;0;0;scary mountain
-#2927;3246;impassable;0;0;world bank
+2927;3246;impassable;0;0;world bank
 
 #
 # The canals  
@@ -562,6 +563,7 @@
 2772;821;sea;0;0;#Aegean Sea
 2772;822;sea;0;0;#Aegean Sea
 2772;823;sea;0;0;#Aegean Sea
+
 2772;829;sea;0;0;#Aegean Sea
 2772;830;sea;0;0;#Aegean Sea
 2772;832;sea;0;0;#Aegean Sea

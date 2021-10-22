@@ -191,7 +191,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA60050"
+		name = "Bring back the Monarchy"
 		government = hms_government
 	}
 }

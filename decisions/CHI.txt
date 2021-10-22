@@ -246,6 +246,134 @@ political_decisions = {
 		}
 	}
 
+
+
+
+
+	the_great_leap_forward = {
+		picture = greatleap
+		potential = {
+			OR = {
+				tag = CHI
+				tag = KMT
+			}
+
+			NOT = { has_country_flag = great_leap_forward }
+
+		}
+		allow = {
+			civilized = yes
+			government = proletarian_dictatorship
+		}
+		effect = {
+			add_country_modifier = { name = the_great_leap_forward duration = 18250 }
+			any_pop = { ideology = { factor = 0.3 value = communist } }
+			plurality = -25
+			political_reform = totalitarianism
+			add_country_modifier = {
+				name = totalitarian_system
+				duration = -1
+			}
+			any_pop = { limit = { agree_with_ruling_party = 0.40 } militancy = -5 consciousness = -9 }
+			any_pop = { ideology = { factor = 0.1 value = communist } }
+			any_pop = { 
+				limit = { 
+					OR = {
+						pop_majority_ideology = conservative
+						pop_majority_ideology = liberal
+						pop_majority_ideology = socialist
+						}
+					}
+				random_list = { 50 = { reduce_pop = 0.96 } 50 = { reduce_pop = 0.97 } }
+			}
+			any_pop = { 
+				limit = { OR = { social_movement = yes political_movement = yes } } 
+				militancy = -7
+				random_list = { 50 = { reduce_pop = 0.8 } 50 = { reduce_pop = 0.75 } }
+			}
+			any_pop = {
+				limit = {
+					OR = { type = soldiers type = officers }
+					NOT = { pop_majority_ideology = communist }
+					}
+					militancy = -9 ideology = { factor = 0.35 value = communist }
+					random_list = { 50 = { reduce_pop = 0.7 } 50 = { reduce_pop = 0.75 } }
+				}
+			any_pop = { limit = { pop_majority_ideology = communist } reduce_pop = 0.99 }
+			any_pop = { limit = { pop_majority_ideology = socialist } ideology = { factor = 0.5 value = communist } }
+			
+			any_pop = { limit = { pop_majority_ideology = fascist } random_list = { 50 = { reduce_pop = 0.7 } 50 = { reduce_pop = 0.75 } } }
+			any_pop = { limit = { pop_majority_ideology = anarcho_liberal } reduce_pop = 0.2 }
+			any_pop = { limit = { pop_majority_ideology = reactionary } random_list = { 50 = { reduce_pop = 0.7 } 50 = { reduce_pop = 0.75 } } }
+			
+			any_pop = {
+				scaled_consciousness = {
+					factor = 9
+					ideology = fascist
+				}
+				scaled_militancy = {
+					factor = 9
+					ideology = fascist
+				}
+				
+				scaled_consciousness = {
+					factor = 9
+					ideology = anarcho_liberal
+				}
+				scaled_militancy = {
+					factor = 9
+					ideology = anarcho_liberal
+				}
+				
+				scaled_consciousness = {
+					factor = 8
+					ideology = reactionary
+				}
+				scaled_militancy = {
+					factor = 8
+					ideology = reactionary
+				}
+				
+				scaled_consciousness = {
+					factor = 8
+					ideology = liberal
+				}
+				scaled_militancy = {
+					factor = 8
+					ideology = liberal
+				}
+				
+				scaled_consciousness = {
+					factor = 4
+					ideology = conservative
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = conservative
+				}
+				
+				scaled_consciousness = {
+					factor = 4
+					ideology = socialist
+				}
+				scaled_militancy = {
+					factor = 4
+					ideology = socialist
+				}
+				
+				scaled_consciousness = {
+					factor = -9
+					ideology = communist
+				}
+				scaled_militancy = {
+					factor = -9
+					ideology = communist
+				}
+			}
+			set_country_flag = great_leap_forward
+		}
+
+	}
 	chinese_treaty_port = {
 		picture = treaty_port
 		potential = {

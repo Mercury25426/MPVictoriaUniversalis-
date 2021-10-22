@@ -448,6 +448,8 @@ political_decisions = {
 			political_reform = unitary
 			prestige = 200
 			change_tag = IMP
+			primary_culture = roman
+			remove_accepted_culture = south_italian
 			add_accepted_culture = albanian
 			add_accepted_culture = greek
 			add_accepted_culture = croat
@@ -455,11 +457,12 @@ political_decisions = {
 			add_accepted_culture = catalan
 			add_accepted_culture = maghrebi
 			add_accepted_culture = misri
+			remove_accepted_culture = north_italian
 			any_pop = {
 				limit = { 
 					culture = roman
 				}
-				reduce_pop = 10000
+				reduce_pop = 1000
 			}
 			any_country = {
 				limit = {

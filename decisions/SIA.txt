@@ -72,9 +72,6 @@ political_decisions = {
          }
             early_industrilization = yes_early_industrilization
             SIA = {
-				is_our_vassal = CHK
-                is_our_vassal = CAM
-                is_our_vassal = LUA
                 OR = {
                     is_our_vassal = JOH
                     SIA = {
@@ -82,6 +79,8 @@ political_decisions = {
                         owns = 1390
                         owns = 1387
                         owns = 1385
+                        owns = 1356
+                        owns = 1381
                     }
                 }
                 
@@ -122,9 +121,6 @@ political_decisions = {
             has_country_flag = cambodian_vassal
             early_industrilization = yes_early_industrilization
             SIA = {
-				is_our_vassal = CHK
-                is_our_vassal = CAM
-                is_our_vassal = LUA
                 OR = {
                     is_our_vassal = JOH
                     SIA = {
@@ -132,6 +128,8 @@ political_decisions = {
                         owns = 1390
                         owns = 1387
                         owns = 1385
+                        owns = 1356
+                        owns = 1381
                     }
                 }
                 

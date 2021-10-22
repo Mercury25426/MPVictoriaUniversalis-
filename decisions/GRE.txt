@@ -54,11 +54,6 @@ political_decisions = {
 	form_byzantine_empire = {
 		potential = {
 			tag = GRE
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
 			has_country_flag = greece_has_got_a_brand_new_bag		
 		}
 		
@@ -69,10 +64,20 @@ political_decisions = {
 		}
 		
 		effect = {
+			add_country_modifier = { name = byzantine_bureaucracy duration = -1 }
 			change_tag = BYZ
 			capital = 860
 			860 = {
 				change_province_name = "Constantinople"
+			}
+			869 = {
+				change_province_name = "Smyrna"
+			}
+			862 = {
+				change_province_name = "Nicomedia"
+			}
+			863 = {
+				change_province_name = "Nicaea"
 			}
 			TUR_863 = {
 				add_core = BYZ

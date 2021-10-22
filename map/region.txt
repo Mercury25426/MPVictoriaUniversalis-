@@ -762,7 +762,9 @@ TUR_806 = { 806 807 } #North Macedonia
 
 TUR_832 = { 832 831 833 825 824 } #Thessalia
 
-TUR_821 = { 805 819 820 821 822 823 829 830 } #Macedonia
+TUR_821 = { 805 819 820 821 822 } #Macedonia
+
+TUR_823 = {  823 829 830 } #West Thrace
 
 TUR_809 = { 808 809 815 816 817 } #Rumelia
 

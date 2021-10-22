@@ -951,6 +951,10 @@ synchronized_heavy_support = {
 			defence = 1
 			supply_consumption = 0.1
 		}
+		railway_artillery = {
+			attack = 0.3
+			supply_consumption = 0.2
+		}
 	}
 }
 #iron_muzzle_loaded_artillery
@@ -972,6 +976,10 @@ flexible_firepower = {
 			defence = 1
 			supply_consumption = 0.05
 		}
+		railway_artillery = {
+			attack = 0.3
+			supply_consumption = 0.1
+		}
 	}
 }
 #iron_breech_loaded_artillery
@@ -985,8 +993,23 @@ ammunition_area_effect_calculations = {
 			defence = 1
 			supply_consumption = 0.05
 		}
+		railway_artillery = {
+			attack = 0.3
+			supply_consumption = 0.1
+		}
 	}
 }
+
+heavy_artillery = {
+	limit = { iron_breech_loaded_artillery = 1 }
+	chance = {
+		base = 2
+	}
+	effect = {
+		activate_unit = railway_artillery 
+	}
+}
+
 #steel_breech_loaded_artillery
 low_echelon_fire_support = {
 	limit = { steel_breech_loaded_artillery = 1 }
@@ -1010,6 +1033,10 @@ low_echelon_fire_support = {
 			defence = 1
 			supply_consumption = 0.10
 		}
+		railway_artillery = {
+			attack = 0.5
+			supply_consumption = 0.2
+		}
 	}
 }
 #indirect_artillery_fire
@@ -1027,6 +1054,10 @@ counter_battery_fire = {
 			defence = 1
 			supply_consumption = 0.10
 		}
+		railway_artillery = {
+			attack = 0.5
+			supply_consumption = 0.2
+		}
 	}
 }
 #creeping_barrage
@@ -1043,6 +1074,10 @@ creeping_barrage = {
 		artillery = {
 			attack = 1
 			supply_consumption = 0.15
+		}
+		railway_artillery = {
+			attack = 3
+			supply_consumption = 0.75
 		}
 	}
 }
@@ -1064,6 +1099,11 @@ grand_battle_plan_vs_superior_firepower = {
 		artillery = {
 			defence = 1
 			supply_consumption = 0.25
+		}
+		railway_artillery = {
+			attack = 5
+			support = 1
+			supply_consumption = 1.5
 		}
 	}
 }

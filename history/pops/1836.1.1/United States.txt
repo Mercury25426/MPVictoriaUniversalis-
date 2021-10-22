@@ -8421,7 +8421,7 @@
 	}
 
 	farmers = {
-		culture = anglo_dixie
+		culture = american
 		religion = protestant
 		size = 18125
 	}
@@ -8445,7 +8445,7 @@
 	}
 
 	slaves = {
-		culture = afro_american
+		culture = american
 		religion = protestant
 		size = 26000
 	}

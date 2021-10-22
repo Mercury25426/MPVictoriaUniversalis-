@@ -131,6 +131,51 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 916000
+	title = "EVTNAME91600"
+	desc = "EVTDESC91600"
+
+
+	trigger = {
+		tag = JAN
+		year = 1837
+		NOT = { has_country_modifier = admin1_counter }
+	}
+
+	
+	immediate = {
+		add_country_modifier = {
+			name = admin1_counter
+			duration = 362
+		}
+	}
+	
+	option = {
+		name = EVTOPTA91600
+			
+		any_country = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = genocide_policy
+				}
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = genocide_policy
+				}
+				any_pop = {
+					limit = {
+						is_accepted_culture = no
+						is_primary_culture = no
+					}
+					reduce_pop = 0.95
+				}
+			}
+		}
+	
+}
+}
 province_event = {
 	id = 91601
 	title = "EVTNAME91601"
