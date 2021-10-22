@@ -3,10 +3,7 @@ fascist_dictatorship = { 180 180 180 }
 proletarian_dictatorship = { 155 11 25 }
 presidential_dictatorship = { 155 78 75 }
 democracy = { 236  236  236 }
-<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = AustriaHungaryGC
 
 party = {
@@ -36,9 +33,6 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
-
-
-
 
 party = {
 	name = "Black Guards"

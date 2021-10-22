@@ -237,10 +237,6 @@ political_decisions = {
 				value = 150
 			}
 		}
-<<<<<<< HEAD
-=======
-			owns = 6
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			owns = 726
 			owns = 727
 			owns = 728

@@ -1,6 +1,7 @@
 
 add_core = DES
 trade_goods = iron
+colony = 0
 life_rating = 35
 1913.1.1 = {
 	controller = USA

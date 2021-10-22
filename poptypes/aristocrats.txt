@@ -2680,30 +2680,6 @@ issues =
 		}
 	
 		modifier = {
-			factor = 0.25
-			ruling_party_ideology = reactionary
-		}
-		modifier = {
-			factor = 0.25
-			ruling_party_ideology = conservative
-		}
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.5
-		}
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.4
-		}  
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.3
-		}  
-		modifier = {
-			factor = 0.25
-			ideology = reactionary
-		}
-		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }
 		}

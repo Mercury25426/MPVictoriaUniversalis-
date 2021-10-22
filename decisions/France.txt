@@ -478,7 +478,7 @@ walloon_autonomy = {
 				tag = FRC
 				}
 			NOT = {
-				has_country_flag = napoleon_iii
+				has_global_flag = napoleon_iii
 			}
 			NOT = {
 				government = absolute_monarchy
@@ -496,7 +496,7 @@ walloon_autonomy = {
 		
 		effect = {
 			add_country_modifier = { name = napoleon_iii duration = -1 }
-			set_country_flag = napoleon_iii
+			set_global_flag = napoleon_iii
 			government = absolute_monarchy
 			political_reform = none_voting
 			political_reform = appointed

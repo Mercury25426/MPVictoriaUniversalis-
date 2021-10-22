@@ -247,11 +247,8 @@ country_event = {
 		IMF = {
 			country_event = { id = 36961 days = 0 }
 		}
-<<<<<<< HEAD
 		set_country_flag = dismantling_eic
 		set_country_flag = dis_eic
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	}
 
 	

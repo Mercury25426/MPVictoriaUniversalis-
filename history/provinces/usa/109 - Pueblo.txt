@@ -1,5 +1,6 @@
 trade_goods = cattle
 add_core = TEX
+colony = 0
 life_rating = 35
 1913.1.1 = {
 owner = USA

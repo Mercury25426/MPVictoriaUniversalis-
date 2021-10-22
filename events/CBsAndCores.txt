@@ -18,22 +18,16 @@ province_event = {
 					is_accepted_culture = yes
 				}
 			}
-<<<<<<< HEAD
 			AND = {
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			any_neighbor_province = {
 				is_core = THIS
 				controlled_by = THIS
 			}
-<<<<<<< HEAD
 			OR = {
 				is_primary_culture = yes
 				is_accepted_culture = yes
 			}
 			}
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		}
 		owner = { tag = THIS }
 	}
@@ -92,7 +86,6 @@ province_event = {
 	}
 }
 
-<<<<<<< HEAD
 country_event = {
 	id = 25612
 	title = "Losing our core claims"
@@ -110,8 +103,6 @@ country_event = {
 		}
 	}
 }
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 country_event = {
 	id = 26522

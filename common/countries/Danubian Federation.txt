@@ -1,9 +1,6 @@
 color = { 47  47  20 }
 proletarian_dictatorship = { 155 11 25 }
-<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = AustriaHungaryGC
 
 party = {

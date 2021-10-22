@@ -98,7 +98,7 @@ war_exhaustion = 0.1
 }
 
 no_adjacent_controlled = {
-supply_limit = -3
+supply_limit = -4
 }
 
 
@@ -108,6 +108,8 @@ core = {
 has_siege = {
 	farm_rgo_eff = -0.5
 	mine_rgo_eff = -0.5
+	immigration_push = 1
+	population_growth = -0.01
 }
 
 occupied = {
@@ -116,11 +118,7 @@ occupied = {
 	local_rgo_output = -0.25
 	immigrant_attract = -0.25
 	immigrant_push = 0.5
-<<<<<<< HEAD
 	population_growth = -0.01
-=======
-	population_growth = -0.001
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 }
 
 
@@ -222,22 +220,14 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-<<<<<<< HEAD
 	war_exhaustion = 0.3			#increased by war exhaustion.
-=======
-	war_exhaustion = 0.4			#increased by war exhaustion.
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	global_population_growth = -0.0001
 	import_cost = 0.5
 	prestige = -0.1				#increased by war exhaustion.
 }
 
 total_blockaded = {
-<<<<<<< HEAD
 	war_exhaustion = 0.4	#increased by war exhaustion.  
-=======
-	war_exhaustion = 0.5	#increased by war exhaustion.  
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	global_population_growth = -0.0001
 	import_cost = 1
 	prestige = -0.1				#increased by war exhaustion.  

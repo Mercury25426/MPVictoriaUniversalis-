@@ -507,51 +507,31 @@
 #Klamath Falls (4000/1000 POPS)
 83 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -1010,51 +990,31 @@
 #Boise (8000/2000 POPS)
 91 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 1800
 	}
@@ -1062,51 +1022,31 @@
 #Coeur d'Alene (4000/1000 POPS)
 92 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = nez
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = nez
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = nez
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = nez
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = nez
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -1114,51 +1054,31 @@
 #Pocatello (12000/3000 POPS)
 93 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 2700
 	}
@@ -1168,51 +1088,31 @@
 #Carson City (4000/1000 POPS)
 94 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 900
 	}
@@ -1220,51 +1120,31 @@
 #Elko (4000/1000 POPS)
 95 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 900
 	}
@@ -1306,51 +1186,31 @@
 #Salt Lake City (8000/2000 POPS)
 97 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 1800
 	}
@@ -1424,51 +1284,31 @@
 #Phoenix (12000/3000 POPS)
 100 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 2700
 	}
@@ -1476,51 +1316,31 @@
 #Flagstaff (12000/3000 POPS)
 101 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -1757,51 +1577,31 @@
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = apache
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -1833,11 +1633,7 @@
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = tejanos
-=======
-		culture = native_american_minor
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = protestant
 		size = 900
 	}
@@ -1977,51 +1773,31 @@
 #native_american_minor (8000/2000 POPS)
 110 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2029,51 +1805,31 @@
 #Cody (12000/3000 POPS)
 111 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = shoshone
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 2700
 	}
@@ -2081,51 +1837,31 @@
 #Casper (8000/2000 POPS)
 112 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25	
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2135,51 +1871,31 @@
 #Bozeman (8000/2000 POPS)
 113 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = blackfoot
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = blackfoot
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = blackfoot
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = blackfoot
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = blackfoot
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2281,101 +1997,61 @@
 #Billings (12000/3000 POPS)
 116 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = crow
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2385,51 +2061,31 @@
 #Bismarck (8000/2000 POPS)
 117 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2437,101 +2093,61 @@
 #Minot (8000/2000 POPS)
 118 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -2603,101 +2219,61 @@
 #native_american_minor Falls (8000/2000 POPS)
 120 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -2705,51 +2281,31 @@
 #Dupree (8000/2000 POPS)
 121 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -2757,101 +2313,61 @@
 #Rapid City (8000/2000 POPS)
 122 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -2861,101 +2377,61 @@
 #Omaha (8000/2000 POPS)
 123 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -2963,51 +2439,31 @@
 #Alliance (4000/1000 POPS)
 124 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = cheyenne
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -4886,51 +4342,31 @@
 #native_american_minor City (8000/2000 POPS)
 154 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -4940,101 +4376,61 @@
 #Minneapolis (8000/2000 POPS)
 155 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -5042,51 +4438,31 @@
 #Granite Falls (8000/2000 POPS)
 156 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 1800
 	}
@@ -5094,101 +4470,61 @@
 #Moorhead (8000/2000 POPS)
 157 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}
@@ -5196,91 +4532,55 @@
 #Duluth (8000/2000 POPS)
 158 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 40
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 90
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 20
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 5
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 5100
 	}
 
 	labourers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 300
 	}
@@ -5316,51 +4616,31 @@
 #Eau Claire (4000/1000 POPS)
 160 = {
 	aristocrats = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-<<<<<<< HEAD
 		culture = native_american_minor
-=======
-		culture = ojibwe
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		religion = animist
 		size = 900
 	}

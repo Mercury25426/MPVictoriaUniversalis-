@@ -24,17 +24,12 @@ form_GSN = {
 	USA_116 = { add_core = THIS }
 	any_pop = {
 		limit = {
-<<<<<<< HEAD
 			has_pop_culture = native_american_minor
-=======
-			has_pop_culture = sioux
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 		reduce_pop = 11
 		consciousness = -5
 		militancy = -5
 	}
-<<<<<<< HEAD
 		change_tag = GSN
 		badboy = -20
 
@@ -71,59 +66,13 @@ form_crow_america = {
 	any_pop = {
 		limit = {
 			has_pop_culture = native_american_minor
-=======
-	any_pop = {
-		limit = {
-			has_pop_culture = crow
 			}
 		reduce_pop = 11
 		consciousness = -5
 		militancy = -5
 	}
-	any_pop = {
-		limit = {
-			has_pop_culture = ojibwe
-			}
-		reduce_pop = 11
-		consciousness = -5
-		militancy = -5
-	}
-	any_pop = {
-		limit = {
-			has_pop_culture = cheyenne
-			}
-		reduce_pop = 11
-		consciousness = -5
-		militancy = -5
-	}
-	any_pop = {
-		limit = {
-			has_pop_culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
-			}
-		reduce_pop = 11
-		consciousness = -5
-		militancy = -5
-	}
-<<<<<<< HEAD
 		change_tag = CWR
 		badboy = -20
 	}
 }
-=======
-		change_tag = GSN
-		add_accepted_culture = ojibwe
-		add_accepted_culture = cheyenne
-		add_accepted_culture = pawnee
-		add_accepted_culture = crow
-		badboy = -20
-
-	}
-}
-
-
-
-
-
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 }

@@ -16,6 +16,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		min_build_railroad = 1
+		max_attrition = 20
 	}
 
 	farmlands = {
@@ -76,6 +77,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 2
+		max_attrition = 10
 		
 		combat_width = -0.66
 		
@@ -91,6 +93,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 8
+		max_attrition = 5
 
 	}
 	plains = {
@@ -129,6 +132,7 @@ categories =  {
 		supply_limit = 1
 		min_build_railroad = 2
 		combat_width = -0.25
+		max_attrition = 10
 	}
 	
 	desert = {
@@ -140,6 +144,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0
 		min_build_railroad = 2
+		max_attrition = 10
 	}
 	
 	coastal_desert = {

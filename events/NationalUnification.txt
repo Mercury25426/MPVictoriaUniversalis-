@@ -189,7 +189,6 @@ country_event = {
 		PRU = {
 			all_core = { remove_core = PRU }
 		}
-<<<<<<< HEAD
 		NGF = {
 			all_core = { remove_core = NGF }
 		}
@@ -270,8 +269,6 @@ country_event = {
 		NGF = {
 			all_core = { remove_core = NGF }
 		}
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		any_country = {
 			limit = {
 				NOT = {
@@ -321,7 +318,6 @@ country_event = {
 	option = {				# Accept inheritance
 		name = "Send them the message"
 		
-<<<<<<< HEAD
 	any_country = {
 		limit = {
 			is_culture_group = THIS
@@ -339,13 +335,6 @@ country_event = {
 	
 
 }
-=======
-
-			country_event = { id=194555 days=0 }
-	
-
-	
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		prestige = 10
 		ai_chance = {
 			factor = 100
@@ -354,26 +343,16 @@ country_event = {
 				exists = no
 			}
 		}
-<<<<<<< HEAD
 	
-=======
-	}
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 }
 
 
 
-<<<<<<< HEAD
 
 
 
 
-=======
-ENG = {
-	country_event = { id = 90845 days = 0 }
-}
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 
 

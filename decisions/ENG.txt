@@ -379,10 +379,7 @@ reclaim_the_UK = {
 			inherit = CAN
 			inherit = RPL
 			set_country_flag = canada_annexed
-<<<<<<< HEAD
 			set_global_flag = canada_annexed
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			badboy = 15
 		}
 		ai_will_do = { factor = 0 }
@@ -494,10 +491,7 @@ reclaim_the_UK = {
 			OR = {
 			has_country_flag = canada_annexed	
 			CAN = { ai = no }
-<<<<<<< HEAD
 			has_country_flag = ripcanada
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			}
 			OR = {
 			has_country_flag = south_africa_annexed
@@ -505,14 +499,9 @@ reclaim_the_UK = {
 			SAF = { ai = no }
 			SAU = { ai = no }
 			}
-<<<<<<< HEAD
 			
 			}
 			revolution_n_counterrevolution = 1
-=======
-			revolution_n_counterrevolution = 1
-			}
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		}
 		effect = {
 			add_accepted_culture = anglo_canadian

@@ -419,14 +419,14 @@ demotion_chance =
 		state_scope = { is_colonial = yes }
 		strata = poor
 	}
-#	modifier = {
-#		factor = 5
-#		country = { slavery = yes_slavery }
-#	}
-#	modifier = {
-#		factor = 2.5
-#		country = { debt_law = serfdom }
-#	}
+	modifier = {
+		factor = 1
+		country = { slavery = yes_slavery }
+	}
+	modifier = {
+		factor = 0.5
+		country = { debt_law = serfdom }
+	}
 	modifier = {
 		factor = -0.1
 		state_scope = {
@@ -1210,10 +1210,7 @@ assimilation_chance =
 			NOT = { has_culture_core = yes }
 			NOT = { culture = afro_american }
 			NOT = { culture = creole }
-<<<<<<< HEAD
 			NOT = { country = { primary_culture = native_american_minor }}
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 			OR = {
 				location = { continent = north_america }
 				location = { continent = south_america }

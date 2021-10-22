@@ -1038,39 +1038,35 @@ promote_to =
 			}
 		
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.3
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.4
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.5
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.6
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.7
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.8
 			}
 			modifier = {
-				factor = 3
+				factor = 1
 				literacy = 0.9
 			}
 			modifier = {
-<<<<<<< HEAD
 				factor = 1
-=======
-				factor = 3
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 				literacy = 1
 			}
 		}
@@ -1148,64 +1144,6 @@ promote_to =
 ideologies = {
 	
 
-<<<<<<< HEAD
-=======
-populist = { 		
-		factor = 1 
-		
-modifier = { factor = 4 country = { ruling_party_ideology = populist } everyday_needs = 0.5 }
-
-modifier = { factor = 0.25 country = { ruling_party_ideology = populist } NOT = { everyday_needs = 0.5 } }
-
-modifier = { factor = 0.25 country = { ruling_party_ideology = populist } militancy = 5 }
-
-modifier = { factor = 0 NOT = { OR = { is_accepted_culture = yes is_primary_culture = yes } } }
-
-modifier = { factor = 1.25 country = { is_vassal = yes } }
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 1.0 }
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 0.9 }
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 0.8 }
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 0.7 }
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 0.6 }
-			}
-		}
-
-		modifier = {
-			factor = 1.1
-			state_scope = {
-				NOT = { rich_strata_everyday_needs = 0.5 }
-			}
-		}
-	}
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 	fascist = {
 		factor = 1
@@ -2889,26 +2827,6 @@ issues =
 			}
 		}
 
-		modifier = {
-			factor = 0.25
-			ruling_party_ideology = reactionary
-		}
-		modifier = {
-			factor = 0.25
-			ruling_party_ideology = conservative
-		}
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.5
-		}
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.4
-		}  
-		modifier = {
-			factor = 0.5
-			agree_with_ruling_party = 0.3
-		}  
 		modifier = {
 			factor = 1.25
 			NOT = { agree_with_ruling_party = 1 }

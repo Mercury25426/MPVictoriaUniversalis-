@@ -3,10 +3,7 @@ proletarian_dictatorship = { 179 33 52 }
 fascist_dictatorship = { 12 0 45 }
 presidential_dictatorship = { 5 20 64 }
 absolute_monarchy = { 5 6 80 }
-<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 color = { 66  94  193 }
 
 party = {
@@ -36,7 +33,6 @@ party = {
 	citizenship_policy = limited_citizenship
 	war_policy = jingoism
 }
-<<<<<<< HEAD
 party = {
 	name = "Black Guards"
 	start_date = 1830.1.1
@@ -50,9 +46,6 @@ party = {
 	citizenship_policy = residency
 	war_policy = jingoism
 }
-=======
-
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 party = {
 	name = "USA_liberal_2"
 	start_date = 1833.1.1

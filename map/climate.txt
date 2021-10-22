@@ -20,7 +20,7 @@ harsh_climate =
 	farm_rgo_eff = 0.0
 	mine_rgo_size = 0.0
 	mine_rgo_eff = 0.0
-	max_attrition = 5
+	max_attrition = 15
 }
 
 inhospitable_climate =
@@ -29,7 +29,7 @@ inhospitable_climate =
 	farm_rgo_eff = 0.0
 	mine_rgo_size = 0.0
 	mine_rgo_eff = 0.0
-	max_attrition = 10
+	max_attrition = 20
 }
 
 mild_climate = {

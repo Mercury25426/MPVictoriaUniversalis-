@@ -1,9 +1,5 @@
 capital = 143
-<<<<<<< HEAD
 primary_culture = native_american_minor
-=======
-primary_culture = pawnee
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 religion = animist
 government = democracy
 plurality = 5.0

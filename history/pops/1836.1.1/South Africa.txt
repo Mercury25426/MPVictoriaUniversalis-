@@ -5,81 +5,49 @@
 #Cape Town (173000/43250 POPS)
 2087 = {
     aristocrats = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 300
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 50
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 750
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 1100
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 9050
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 50
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 750
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 14825
     }
@@ -257,31 +225,19 @@
 #Swettenham (69700/17425 POPS)
 2090 = {
     clergymen = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 75
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 200
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = protestant
         size = 100
     }
@@ -341,11 +297,7 @@
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = anglosouthafrican
-=======
-        culture = khoisan
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 14675
     }
@@ -848,51 +800,31 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 860
     }
@@ -928,11 +860,7 @@
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
@@ -1037,51 +965,31 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 750
     }
@@ -1283,11 +1191,7 @@
 #Transorangia Region (509000)
 #uncolonized in 1836/dominated by the Sotho in 1836
 #Boer POPs represent post-Great Trek migration
-<<<<<<< HEAD
 #Bloemafricantein (194000/48500 POPS)
-=======
-#Bloemfontein (194000/48500 POPS)
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 2101 = {
     aristocrats = {
         culture = boer
@@ -1418,11 +1322,7 @@
     }
 
     slaves = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1750
     }
@@ -1434,51 +1334,31 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 3625
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     labourers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1200
     }
@@ -1812,41 +1692,25 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 275
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 300
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 9225
     }
@@ -1881,51 +1745,31 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 75
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 200
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 8000
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 26625
     }
@@ -1994,31 +1838,19 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 225
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 650
     }
@@ -2030,21 +1862,13 @@
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 150
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 81850
     }
@@ -2077,111 +1901,67 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 150
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 4700
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     slaves = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = southern_bantu
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1350
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 175
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1750
     }
@@ -2333,11 +2113,7 @@
     }
 
     slaves = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 712
     }
@@ -2454,11 +2230,7 @@
     }
 
     slaves = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1376
     }
@@ -2497,71 +2269,43 @@
     }
 
     aristocrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 500
     }
 
     bureaucrats = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 100
     }
 
     clergymen = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 250
     }
 
     artisans = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1300
     }
 
     soldiers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 1000
     }
 
     farmers = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 22950
     }
 
     slaves = {
-<<<<<<< HEAD
         culture = african
-=======
-        culture = nguni
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
         religion = animist
         size = 2450
     }

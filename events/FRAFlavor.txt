@@ -726,14 +726,10 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
-<<<<<<< HEAD
 		OR = {
 			exists = GER
 			exists = GRA
 		}
-=======
-		exists = GER
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1894
 		NOT = {
 			year = 1897
@@ -800,14 +796,10 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
-<<<<<<< HEAD
 			OR = {
 				exists = GER
 				exists = GRA
 			}
-=======
-		exists = GER
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1898
 		has_country_flag = DreyfusTrial
 		NOT = {
@@ -875,14 +867,10 @@ country_event = {
 			tag = FRA
 			tag = FRC
 			}
-<<<<<<< HEAD
 			OR = {
 				exists = GER
 				exists = GRA
 			}
-=======
-		exists = GER
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 		year = 1899
 		has_country_flag = DreyfusGuilty
 		NOT = {
@@ -1285,7 +1273,7 @@ country_event = {
 	picture = "paris_commune"
 
 	trigger = {
-		has_country_flag = napoleon_iii
+		has_global_flag = napoleon_iii
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -1385,7 +1373,7 @@ country_event = {
 			tag = FRC
 			}
 	NOT = { has_global_flag = napoleon_is_dead }
-	has_country_flag = napoleon_iii
+	has_global_flag = napoleon_iii
 	}
 	mean_time_to_happen = {
 		months = 365
@@ -1407,7 +1395,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_modifier = napoleon_iii }
-		has_country_flag = napoleon_iii
+		has_global_flag = napoleon_iii
 		OR = {
 		tag = FRA
 		tag = FRC

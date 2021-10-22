@@ -1,10 +1,7 @@
 color = { 57  160  101 }
 fascist_dictatorship = { 27 130 71 }
 proletarian_dictatorship = { 150 0 0 }
-<<<<<<< HEAD
 anarchist_society = { 0 0 0 }
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 graphical_culture = EuropeanGC
 
 party = {
@@ -36,7 +33,6 @@ party = {
 }
 
 party = {
-<<<<<<< HEAD
 	name = "Black Guards"
 	start_date = 1830.1.1
 	end_date = 9999.1.1
@@ -51,8 +47,6 @@ party = {
 }
 
 party = {
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 	name = "POR_liberal_2"
 	start_date = 1854.1.1
 	end_date = 1876.1.1

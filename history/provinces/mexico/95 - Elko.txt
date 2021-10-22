@@ -1,6 +1,7 @@
 owner = SHO
 controller = SHO
 add_core = SHO
+colony = 0
 add_core = DES
 trade_goods = iron
 life_rating = 35

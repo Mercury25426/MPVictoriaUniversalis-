@@ -264,10 +264,7 @@ CRW		="countries/Crow.txt"
 APA 	="countries/Apache.txt"
 OKL		="countries/Indian Territory.txt"
 GSN		="countries/Great Sioux Nation.txt"
-<<<<<<< HEAD
 CWR		="countries/American Crow Empire.txt"
-=======
->>>>>>> 962c0c0f094e6eab4f29ac19bf4a7c78f7b870aa
 
 # South America
 ARG		="countries/Argentina.txt"
