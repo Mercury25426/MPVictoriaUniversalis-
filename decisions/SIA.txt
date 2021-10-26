@@ -79,7 +79,6 @@ political_decisions = {
                         owns = 1390
                         owns = 1387
                         owns = 1385
-                        owns = 1356
                         owns = 1381
                     }
                 }
@@ -117,25 +116,38 @@ political_decisions = {
 		    tag = SIA
 	    }
         allow = {
-            has_country_flag = vietnam_annexed
-            has_country_flag = cambodian_vassal
-            early_industrilization = yes_early_industrilization
-            SIA = {
-                OR = {
-                    is_our_vassal = JOH
-                    SIA = {
-                        owns = 2575
-                        owns = 1390
-                        owns = 1387
-                        owns = 1385
-                        owns = 1356
-                        owns = 1381
-                    }
+            OR = {
+                has_country_flag = vietnam_annexed
+                AND = { 
+                    owns = 1369
+                    owns = 1375
+                    owns = 1379
                 }
-                
-            }
-            war = no
-            state_n_government = 1
+             }
+                OR = {  
+                has_country_flag = cambodian_vassal
+                AND = {
+                    owns = 1356
+                    owns = 1362
+                    owns = 1364
+                }
+             }
+                early_industrilization = yes_early_industrilization
+                SIA = {
+                    OR = {
+                        is_our_vassal = JOH
+                        SIA = {
+                            owns = 2575
+                            owns = 1390
+                            owns = 1387
+                            owns = 1385
+                            owns = 1381
+                        }
+                    }
+                    
+                }
+                war = no
+                state_n_government = 1
         }
     
         effect = {
@@ -213,10 +225,7 @@ political_decisions = {
     indochina_expansion_inc = {
         picture = indochina_formation
         potential = {
-            OR = {
 		    tag = INC
-            tag = BUI
-            }
             NOT = {
                 has_country_flag = indochina_expansion
             }
@@ -258,10 +267,7 @@ political_decisions = {
     yunnan_expansion_inc = {
         picture = indochina_formation
         potential = {
-            OR = {
 		    tag = INC
-            tag = BUI
-            }
             exists = CHI
             NOT = {
                 has_country_flag = yunnan_expansion
@@ -296,10 +302,7 @@ political_decisions = {
     yunnan_expansion_inc2 = {
         picture = indochina_formation
         potential = {
-            OR = {
 		    tag = INC
-            tag = BUI
-            }
             exists = KMT
             NOT = {
                 has_country_flag = yunnan_expansion
@@ -326,6 +329,45 @@ political_decisions = {
             KMT = {
                 country_event = { id = 90848 days = 0 }
             }
+        }
+        ai_will_do = {
+			factor = 0
+		}
+    }
+
+    indochina_expansion_bui = {
+        picture = indochina_formation
+        potential = {
+		    tag = BUI
+            NOT = {
+                has_country_flag = indochina_expansion
+            }
+            OR = {
+            has_country_flag = indochina_formed_french
+            has_country_flag = indochina_formed_german
+            }
+	    }
+        allow = {
+            has_country_flag = vietnam_annexed
+            OR = {
+            has_country_flag = indochina_formed_german
+            has_country_flag = indochina_formed_french
+            }
+            BUI = {
+				all_core = {
+                    owned_by = THIS
+                }
+            }
+            civilized = yes
+            war = no
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+            set_country_flag = indochina_expansion
+            BUR_1339 = { add_core = THIS }
+            BUR_1334 = { add_core = THIS }
+            BUR_1330 = { add_core = THIS }
+
         }
         ai_will_do = {
 			factor = 0

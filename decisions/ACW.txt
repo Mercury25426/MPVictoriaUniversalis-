@@ -78,7 +78,7 @@ political_decisions = {
 			potential = {
 				tag = CSA
 				war_with = USA
-				not = {
+				NOT = {
 					has_country_flag = haskingcotton
 				}
 			}
@@ -89,7 +89,7 @@ political_decisions = {
 			
 			effect = {
 				set_country_flag = haskingcotton
-				prestige = 5
+				prestige = 25
 				cotton = -500
 				any_greater_power = {
 					limit = {
@@ -189,10 +189,7 @@ political_decisions = {
 					has_global_flag = integrate_blacks
 				}
 				has_country_flag = emancipation
-				OR = {
 					tag = USA
-					tag = CSA
-					}
 					has_global_flag = american_civil_war_has_happened
 			}
 			allow = {
@@ -219,10 +216,7 @@ political_decisions = {
 			picture = send_them_all_back_to_africa
 			potential = {
 				has_country_flag = emancipation
-				OR = {
 				tag = USA
-				tag = CSA
-				}
 				has_global_flag = american_civil_war_has_happened
 				war = no
 				NOT = {
@@ -1181,7 +1175,7 @@ political_decisions = {
 				
 				add_country_modifier = {
 					name = the_bonnie_blue_flag
-					duration = 365
+					duration = 3650
 				}
 				
 				set_country_flag = bonnie_blue_flag
@@ -1238,6 +1232,13 @@ political_decisions = {
 			effect = {
 				MEX_2138 = { add_core = THIS }
 				MEX_2142 = { add_core = THIS }
+				MEX_2146 = { add_core = THIS }
+				MEX_2151 = { add_core = THIS }
+				MEX_2161 = { add_core = THIS }
+				MEX_2162 = { add_core = THIS }
+				MEX_2170 = { add_core = THIS }
+				MEX_2173 = { add_core = THIS }
+				MEX_2183 = { add_core = THIS }
 				set_country_flag = csa_destiny_manifested
 			}
 		}

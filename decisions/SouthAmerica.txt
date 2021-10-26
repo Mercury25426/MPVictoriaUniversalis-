@@ -41,6 +41,22 @@ political_decisions = {
 						}
 					}
 				}
+				RIO = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+						all_core = {
+							OR = {
+								owned_by = THIS
+								owner = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+								province_id = 2131
+							}
+						}
+					}
+				}
 				ARC = {
 					OR = {
 						in_sphere = THIS

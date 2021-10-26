@@ -915,6 +915,7 @@ political_decisions = {
 		NOT = { has_country_modifier = prussian1_general_staff }
 		NOT = {
 		OR = {
+		tag = CSA
 		tag = IMF
 		tag = NWG
 		tag = TUR

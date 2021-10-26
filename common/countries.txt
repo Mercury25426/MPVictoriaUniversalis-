@@ -20,6 +20,7 @@ JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
 LOU     = "countries/Louisiania.txt"
+RIO		= "countries/Rio De La Plata.txt"
 
 
 # Scandinavia

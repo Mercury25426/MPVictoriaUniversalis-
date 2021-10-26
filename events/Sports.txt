@@ -57,7 +57,10 @@ country_event = {
 		tag = URU
 		year = 1930
 		month = 6
+		OR = {
+		exists = RIO
 		exists = ARG
+		}
 	}
 	mean_time_to_happen = {
 		months = 1

@@ -124,6 +124,7 @@ political_decisions = {
 		picture = argentianian_constitution
 		potential = {
 			OR = {
+				tag = RIO
 				tag = ARG
 				tag = ARC
 				tag = SBA
@@ -245,7 +246,11 @@ political_decisions = {
 
 	law_1420_of_general_common_education = {
 		potential = {
-			tag = ARG
+			OR = {
+				tag = ARG
+				tag = RIO
+			}
+			
 			NOT = {
 				has_country_flag = 1420_passed
 			}
@@ -283,4 +288,40 @@ political_decisions = {
 			set_country_flag = 1420_passed
 		}
 	}
+
+form_RIO = {
+	picture = argentina
+	potential = {
+		tag = ARG
+	}
+	allow = {
+		war = no
+		owns = 2344
+		owns = 2338
+		owns = 2342
+		owns = 2333
+		owns = 2328
+		owns = 2324
+		owns = 2305
+		owns = 2315
+	}
+	effect = {
+		prestige = 50
+		change_tag = RIO
+		all_core = { remove_core = ARG }
+		militancy = -5
+		consciousness = -5
+		add_country_modifier = { name = land_of_argentina duration = -1 }
+		add_country_modifier = { name = migrating duration = 3650 }
+		primary_culture = argentinian
+		2348 = {
+			add_province_modifier = {
+				name = nationalist_missions
+				duration = 3650
+			}
+
+	}
+		set_country_flag = migrating
+}
+
 }

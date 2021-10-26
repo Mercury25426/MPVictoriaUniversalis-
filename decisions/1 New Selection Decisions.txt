@@ -480,6 +480,61 @@ zstate_genocide_policy = {
 		
 	}
 }
+
+enslave_state = {
+	picture = slavery
+	alert = no
+	potential = {
+		ai = no
+		slavery = yes_slavery
+	}
+	allow = {
+		any_owned_province = {
+			has_building = province_selector
+		}
+	}
+	effect = {
+		random_owned = {
+			limit = { has_building = province_selector }
+			state_scope = { is_slave = yes }
+			province_selector = -1
+			}
+			
+		}
+	}
+
+	deslave_state = {
+		picture = slavery
+		alert = no
+		potential = {
+			ai = no
+			slavery = yes_slavery
+		}
+		allow = {
+			OR = {
+			any_owned_province = {
+				has_building = province_selector
+			}
+			AND = {
+				tag = USA
+				has_global_flag = american_civil_war_has_happened
+				any_owned_province = {
+					has_building = province_selector
+				}
+			}
+			}
+		}
+		
+		effect = {
+			random_owned = {
+				limit = { has_building = province_selector }
+				state_scope = { is_slave = no }
+				province_selector = -1
+				}
+				
+			}
+		}
+
 #########################################################################
 # 								FAKE WAR								#
 #########################################################################

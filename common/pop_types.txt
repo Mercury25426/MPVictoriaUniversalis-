@@ -687,6 +687,14 @@ migration_chance =
 		has_pop_culture = turkish
 		country = { has_country_flag = embraced_ottomanism }
 	}
+	modifier = {
+		factor = 0.2
+		has_pop_culture = argentinian
+		country = { has_country_flag = migrating }
+	}
+
+	
+
 }
 
 #general colonial migration mtth, same for all pops
@@ -862,6 +870,10 @@ emigration_chance =
 		location = {
 			NOT = { total_pops = 1000 }
 		}
+	}
+	modifier = { 
+		factor = 1
+		country = { has_country_flag = great_leap_forward }
 	}
 	modifier = {
 		factor = -2.0
@@ -1144,8 +1156,24 @@ assimilation_chance =
 	}
 
 	modifier = {
+		factor = 10000
+		country = { primary_culture = argentinian }
+		OR = {
+		culture = south_andean
+		culture = platinean
+		culture = guarani
+		culture = aimara
+		}
+	}
+
+	modifier = {
 		factor = -10
 		culture = roman
+	}
+
+	modifier = {
+		factor = -10
+		culture = argentinian
 	}
 
 	###LITERACY###

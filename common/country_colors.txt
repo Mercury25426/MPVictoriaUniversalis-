@@ -213,6 +213,12 @@ ARG = {
     color2= { 255 255 255  }
     color3= { 80 79 88  }
 }	
+# Argentina
+RIO = {
+	color1= { 112 145 181  }
+    color2= { 255 255 255  }
+    color3= { 80 79 88  }
+}	
 	
 # Uruguay
 URU = {

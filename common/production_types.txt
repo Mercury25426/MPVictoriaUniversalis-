@@ -8,8 +8,7 @@ factory_template = {
 		lumber = 0.5			#1	total cost = 8.825
 	}
 	
-	owner =
-	{
+	owner = {
 		poptype = capitalists 
 		effect = input
 		effect_multiplier = -2.5
@@ -802,8 +801,7 @@ fertilizer_factory = {
 ### RGOs #####################################################################################
 
 RGO_template_farmers = {
-	owner =
-	{
+	owner = {
 		poptype = aristocrats 
 		effect = output
 	}
@@ -833,8 +831,7 @@ RGO_template_farmers = {
 }
 
 RGO_template_money = {
-	owner =
-	{
+	owner = {
 		poptype = aristocrats 
 		effect = output
 	}
@@ -894,8 +891,7 @@ RGO_template_large_labourers = {
 }
 
 RGO_template_small_labourers = {
-	owner =
-	{
+	owner = {
 		poptype = aristocrats 
 		effect = output
 	}

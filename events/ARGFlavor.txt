@@ -157,3 +157,19 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	title = "Argentinian Migration over"
+	desc = "The migration of Argentinians from Buenos Aires has ended"
+
+	trigger = {
+		has_country_flag = migrating
+		NOT = { has_country_modifier = migrating }
+		NOT = { has_country_flag = migration_ended }
+	}
+	option = {
+		name = "Ok"
+		clr_country_flag = migrating
+		set_country_flag = migration_ended
+	}
+}

@@ -926,7 +926,7 @@ social_reforms = {
 		}
 		
 		punitive_labour = {
-			RGO_throughput = 0.01
+			RGO_throughput = 0.05
 		}
 		
 		incarceration = {

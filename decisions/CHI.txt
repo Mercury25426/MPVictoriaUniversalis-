@@ -284,12 +284,12 @@ political_decisions = {
 						pop_majority_ideology = socialist
 						}
 					}
-				random_list = { 50 = { reduce_pop = 0.96 } 50 = { reduce_pop = 0.97 } }
+				random_list = { 50 = { reduce_pop = 0.80 } 50 = { reduce_pop = 0.70 } }
 			}
 			any_pop = { 
 				limit = { OR = { social_movement = yes political_movement = yes } } 
 				militancy = -7
-				random_list = { 50 = { reduce_pop = 0.8 } 50 = { reduce_pop = 0.75 } }
+				random_list = { 50 = { reduce_pop = 0.95 } 50 = { reduce_pop = 0.98 } }
 			}
 			any_pop = {
 				limit = {

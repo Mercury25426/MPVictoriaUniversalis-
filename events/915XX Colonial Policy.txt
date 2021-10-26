@@ -817,7 +817,7 @@ province_event = {
 		name = "Halt the Genocide"
 		state_scope = {
 			any_owned = {
-				remove_province_modifier = { name = genocide_policy duration = -1 }
+				remove_province_modifier = genocide_policy
 			}
 		}
 	}
