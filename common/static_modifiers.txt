@@ -109,7 +109,7 @@ has_siege = {
 	farm_rgo_eff = -0.5
 	mine_rgo_eff = -0.5
 	immigration_push = 1
-	population_growth = -0.01
+	population_growth = -0.005
 }
 
 occupied = {

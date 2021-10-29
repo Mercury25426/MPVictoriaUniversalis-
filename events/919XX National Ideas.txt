@@ -398,6 +398,25 @@ country_event = {
 		add_country_modifier = { name = economy_idea duration = -1 }
 	}
 }
+country_event = {
+	id = 91971
+	title = "Militancy National Idea"
+	desc = "Lowers your militancy across the board by -0.07"
+	picture = factory
+
+
+	trigger = {
+		has_country_flag = choosing_militancy
+		NOT = { has_country_flag = militancy_national_idea }
+	}
+
+	option = {
+		name = "Great!"
+		set_country_flag = militancy_national_idea
+		clr_country_flag = choosing_militancy
+		add_country_modifier = { name = militancy_idea duration = -1 }
+	}
+}
 
 country_event = {
 	id = 91669

@@ -1221,6 +1221,7 @@ political_decisions = {
 			potential = {
 				tag = CSA
 				war = no
+				has_global_flag = american_civil_war_has_happened
 				NOT = { has_country_flag = csa_destiny_manifested }
 			}
 			
@@ -1248,6 +1249,7 @@ political_decisions = {
 			potential = {
 				tag = CSA
 				war = no
+				has_global_flag = american_civil_war_has_happened
 				NOT = { has_country_flag = the_golden_circle }
 				has_country_flag = csa_destiny_manifested
 			}

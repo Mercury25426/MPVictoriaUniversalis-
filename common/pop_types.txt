@@ -899,6 +899,14 @@ emigration_chance =
 	}
 
 	modifier = {
+		factor = 10
+		has_pop_culture = cherokee
+		country = {
+			NOT = { primary_culture = cherokee }
+		}
+	}
+
+	modifier = {
 		factor = -0.2
 		country = { has_country_flag = indochina_formed_german  }
 		}
@@ -1235,7 +1243,10 @@ assimilation_chance =
 		}
 		modifier = {
 			factor = 1.5
+			OR = {
 			NOT = { has_culture_core = yes }
+			culture = native_american_minor
+			}
 			NOT = { culture = afro_american }
 			NOT = { culture = creole }
 			NOT = { country = { primary_culture = native_american_minor }}

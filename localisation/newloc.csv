@@ -644,7 +644,15 @@ RIO_ADJ;Silver River;x
 nationalist_missions;Nationalist Missions;x
 enslave_state_title;§GEnslave State;x
 deslave_state_title;§GBan Slavery in State;x
-deslave_state_desc;Wherever the province selector is located, is going to be the place where slavery will be made legal;x
+enslave_state_desc;Wherever the province selector is located, is going to be the place where slavery will be made legal;x
 deslave_state_desc;Wherever the province selector is located, is going to be the place where slavery will be made illegal;x
 indochina_expansion_bui_title;Expand the Aryan people to the Northwest;x
 indochina_expansion_bui_desc;We must expand the great ARYAN race;x
+towar_title;§GStartup the war economy!;x
+towar;War Economy;x
+towar_desc;Total war is warfare that includes any and all civilian-associated resources and infrastructure as legitimate military targets, mobilizes all of the resources of society to fight the war, and gives priority to warfare over non-combatant needs. The term has been defined as "A war that is unrestricted in terms of the weapons used, the territory or combatants involved, or the objectives pursued, especially one in which the laws of war are disregarded."[1] In the mid-19th century, scholars identified total war as a separate class of warfare. In a total war, the differentiation between combatants and non-combatants diminishes due to the capacity of opposing sides to consider nearly every human, including non-combatants, as resources that are used in the war effort.[2];x
+great_depression_desc;"The bell rings" the bell's pitch get lower and lower until it crashes to the ground.;x
+stormtroopers_desc;Stormtroopers are elite infantry who rush the infantry and swarm them, this is the way of the future.;x
+syndicalism;Syndicalism;x
+militancy_idea;Militancy Idea;x
+militancy_idea;Lowers your overall militancy by 0.07;x

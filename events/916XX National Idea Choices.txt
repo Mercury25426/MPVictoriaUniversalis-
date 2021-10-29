@@ -454,6 +454,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
+			}
+		}
+	}
+	option = {
 		name = "+0.3 Monthly Prestige"
 		owner = { clr_country_flag = page2 }
 		owner = { set_country_flag = choosing_prestige }
@@ -763,6 +775,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page3 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
+			}
+		}
+	}
+	option = {
 		name = "+0.3 Monthly Prestige"
 		owner = { clr_country_flag = page3 }
 		owner = { set_country_flag = choosing_prestige }
@@ -1058,13 +1082,25 @@ province_event = {
 
 	option = {
 		name = "§GIncreased Chance of Economical Events"
-		owner = { clr_country_flag = page2 }
+		owner = { clr_country_flag = page4 }
 		owner = { set_country_flag = choosing_economy }
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 0
 				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page4 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
 			}
 		}
 	}
@@ -1371,6 +1407,18 @@ province_event = {
 			modifier = {
 				factor = 0
 				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page5 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
 			}
 		}
 	}
@@ -1682,6 +1730,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page6 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
+			}
+		}
+	}
+	option = {
 		name = "+0.3 Monthly Prestige"
 		owner = { clr_country_flag = page6 }
 		owner = { set_country_flag = choosing_prestige }
@@ -1978,13 +2038,25 @@ province_event = {
 
 	option = {
 		name = "§GIncreased Chance of Economical Events"
-		owner = { clr_country_flag = page2 }
+		owner = { clr_country_flag = page7 }
 		owner = { set_country_flag = choosing_economy }
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 0
 				has_country_flag = economy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "§GMilitancy -0.07"
+		owner = { clr_country_flag = page7 }
+		owner = { set_country_flag = choosing_militancy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = militancy_national_idea
 			}
 		}
 	}
@@ -2419,3 +2491,27 @@ country_event = {
 
 	
 }
+country_event = {
+	id = 916698
+	title = "§GMilitancy -0.07"
+	desc = "We already have this national idea."
+	picture = national_idea_choice
+
+
+	trigger = {
+		has_country_flag = choosing_militancy
+		has_country_flag = militancy_national_idea
+	}
+
+	option = {
+		name = "Take me back to the national idea list."
+		clr_country_flag = choosing_militancy
+		random_owned = {
+			province_event = { id = 91601 days = 0 }
+		}
+	}
+	
+
+	
+}
+
