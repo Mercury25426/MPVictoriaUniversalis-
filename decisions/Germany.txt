@@ -50,6 +50,9 @@ political_decisions = {
 			409 = { add_core = GER }
 			410 = { add_core = GER }
 			412 = { add_core = GER }
+			409 = { add_core = NGF }
+			410 = { add_core = NGF }
+			412 = { add_core = NGF }
 		}
 
 		ai_will_do = {

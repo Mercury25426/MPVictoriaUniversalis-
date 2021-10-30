@@ -655,4 +655,6 @@ great_depression_desc;"The bell rings" the bell's pitch get lower and lower unti
 stormtroopers_desc;Stormtroopers are elite infantry who rush the infantry and swarm them, this is the way of the future.;x
 syndicalism;Syndicalism;x
 militancy_idea;Militancy Idea;x
-militancy_idea;Lowers your overall militancy by 0.07;x
+militancy_idea;Lowers your overall militancy by §G0.07§W;x
+diplomacy_idea;Influence National Idea;x
+diplomacy_idea_desc;Increases your influence points by §G50%§W;x

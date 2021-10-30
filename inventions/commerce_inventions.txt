@@ -538,6 +538,19 @@ industrial_goods_idea = {
 		}
 	}
 }
+diplomacy_idea = {
+	limit = { early_classical_theory_and_critique = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 100
+			has_country_flag = diplomacy_idea
+		}
+	}
+	effect = {
+		influence = 0.5
+	}
+}
 #late_classical_theory
 #AP2 = {
 #	limit = { late_classical_theory = 1 }

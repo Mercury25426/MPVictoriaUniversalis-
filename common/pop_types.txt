@@ -1246,6 +1246,7 @@ assimilation_chance =
 			OR = {
 			NOT = { has_culture_core = yes }
 			culture = native_american_minor
+			culture = cherokee
 			}
 			NOT = { culture = afro_american }
 			NOT = { culture = creole }

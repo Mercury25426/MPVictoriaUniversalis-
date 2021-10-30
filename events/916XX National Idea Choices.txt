@@ -466,6 +466,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GDiplomatic Influence +50%"
+		owner = { clr_country_flag = page2 }
+		owner = { set_country_flag = choosing_diplomacy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = diplomacy_idea
+			}
+		}
+	}
+	option = {
 		name = "+0.3 Monthly Prestige"
 		owner = { clr_country_flag = page2 }
 		owner = { set_country_flag = choosing_prestige }
@@ -787,6 +799,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GDiplomatic Influence +50%"
+		owner = { clr_country_flag = page3 }
+		owner = { set_country_flag = choosing_diplomacy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = diplomacy_idea
+			}
+		}
+	}
+	option = {
 		name = "+0.3 Monthly Prestige"
 		owner = { clr_country_flag = page3 }
 		owner = { set_country_flag = choosing_prestige }
@@ -1101,6 +1125,17 @@ province_event = {
 			modifier = {
 				factor = 0
 				has_country_flag = militancy_national_idea
+			}
+		}
+	}	option = {
+		name = "§GDiplomatic Influence +50%"
+		owner = { clr_country_flag = page4 }
+		owner = { set_country_flag = choosing_diplomacy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = diplomacy_idea
 			}
 		}
 	}
@@ -1438,6 +1473,18 @@ province_event = {
 		}
 	}
 	option = {
+		name = "§GDiplomatic Influence +50%"
+		owner = { clr_country_flag = page5 }
+		owner = { set_country_flag = choosing_diplomacy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = diplomacy_idea
+			}
+		}
+	}
+	option = {
 		name = "Back Page"
 		country_event = 91604
 		owner = { clr_country_flag = page5 }
@@ -1738,6 +1785,18 @@ province_event = {
 			modifier = {
 				factor = 0
 				has_country_flag = militancy_national_idea
+			}
+		}
+	}
+	option = {
+		name = "§GDiplomatic Influence +50%"
+		owner = { clr_country_flag = page6 }
+		owner = { set_country_flag = choosing_diplomacy }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = diplomacy_idea
 			}
 		}
 	}
@@ -2483,6 +2542,29 @@ country_event = {
 	option = {
 		name = "Take me back to the national idea list."
 		clr_country_flag = choosing_economy
+		random_owned = {
+			province_event = { id = 91601 days = 0 }
+		}
+	}
+	
+
+	
+}
+country_event = {
+	id = 916697
+	title = "§GIncreased Chance of Economical Events"
+	desc = "We already have this national idea."
+	picture = national_idea_choice
+
+
+	trigger = {
+		has_country_flag = choosing_diplomacy
+		has_country_flag = diplomacy_idea
+	}
+
+	option = {
+		name = "Take me back to the national idea list."
+		clr_country_flag = choosing_diplomacy
 		random_owned = {
 			province_event = { id = 91601 days = 0 }
 		}

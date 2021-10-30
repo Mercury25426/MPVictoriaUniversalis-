@@ -19,6 +19,9 @@ Bull_market = {
 deciding_grant = {
 	icon = 9
 }
+diplomacy_idea = {
+	icon = 13
+}
 militancy_idea = {
 	global_pop_militancy_modifier = -0.07
 	icon = 17
@@ -41,7 +44,7 @@ towar = {
 	factory_input = 0.5
 	supply_consumption = -0.4
 
-	
+
 	icon = 17
 }
 
@@ -85,7 +88,7 @@ the_three_realms = {
 }
 purge_the_rot = {
 	global_assimilation_rate = 1
-	non_accepted_pop_consciousness_modifier = 0.3 
+	non_accepted_pop_consciousness_modifier = 0.3
 	non_accepted_pop_militancy_modifier = 0.3
 	icon = 18
 }
@@ -100,7 +103,7 @@ burgundianconversion = {
 }
 oppressed = {
 	badboy = 0.02
-	non_accepted_pop_consciousness_modifier = 0.1 
+	non_accepted_pop_consciousness_modifier = 0.1
 	non_accepted_pop_militancy_modifier = 0.1
 	icon = 18
 }
@@ -112,14 +115,14 @@ discrimination = {
 }
 jimcrow = {
 	badboy = 0.01
-	culture = { 
-		afro_american = { 	
+	culture = {
+		afro_american = {
 		non_accepted_pop_consciousness_modifier = 0.1
 		non_accepted_pop_militancy_modifier = 0.1
 		}
 	 }
-	 culture = { 
-		creole = { 	
+	 culture = {
+		creole = {
 		non_accepted_pop_consciousness_modifier = 0.1
 		non_accepted_pop_militancy_modifier = 0.1
 		}
@@ -232,7 +235,7 @@ local_stock_exchange = {
 }
 
 economic_boom = {
-	
+
 	factory_throughput = 1.2
 	RGO_throughput = 1.2
 	loan_interest = -0.5
@@ -495,7 +498,7 @@ anarchist_economy = {
 	badboy = -0.1
 	suppression_points_modifier = -20
 	administrative_efficiency_modifier = -1
-	supply_consumption = -10 
+	supply_consumption = -10
 	icon = 23
 }
 
@@ -780,7 +783,7 @@ fascist_welfare = {
 }
 
 beer_hall_putsch = {
-	population_growth = -0.001	
+	population_growth = -0.001
 	pop_militancy_modifier = 0.2
 	icon = 18
 }
@@ -1026,11 +1029,11 @@ local_stock_exchange = {
  CB_gen_plus = {
 	cb_generation_speed_modifier = 0.25
  }
- 
+
   CB_gen_minus = {
 	cb_generation_speed_modifier = -0.25
  }
- 
+
  ##more event modifiers
  recent_safari = {
 	prestige = 0.001
@@ -1038,22 +1041,22 @@ local_stock_exchange = {
  recent_safari2 = {
 	prestige = 0.001
  }
- 
+
  free_press_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
+
  yes_meeting_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
+
  trade_unions_promised = {
 	prestige = 0.001
 	icon = 17
  }
- 
+
  ##
  meiji_restoration_boost = {
 	research_points_modifier = 0.3
@@ -1077,7 +1080,7 @@ nationalist_agitation = {
 }
 
 apache_raiders	= {
-	population_growth = -0.002	
+	population_growth = -0.002
 	pop_militancy_modifier = 0.2
 	icon = 18
 }
@@ -1696,7 +1699,7 @@ french_high_command = {
 }
 burgundian_high_command = {
 	badboy = 0.05
-	leadership = 3 
+	leadership = 3
 	mobilisation_size = 0.03
 	icon = 15
 }
@@ -2178,7 +2181,7 @@ late_qing_reforms = {
 	icon = 3
 }
 appeased = {
-	
+
 }
 chinese_farm_size = {
 	farm_rgo_size = -0.6
@@ -2239,7 +2242,7 @@ jihad = {
 cultuurstelsel = {
 	local_RGO_throughput = 0.1
 	pop_militancy_modifier = 0.03
-	pop_consciousness_modifier = 0.03 
+	pop_consciousness_modifier = 0.03
 	icon = 11
 }
 

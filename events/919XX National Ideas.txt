@@ -417,6 +417,25 @@ country_event = {
 		add_country_modifier = { name = militancy_idea duration = -1 }
 	}
 }
+country_event = {
+	id = 919712
+	title = "Diplomatic Influence National Idea"
+	desc = "Increases your influence speed by 30%"
+	picture = national_idea_choice
+
+
+	trigger = {
+		has_country_flag = choosing_diplomacy
+		NOT = { has_country_flag = diplomacy_idea }
+	}
+
+	option = {
+		name = "Great!"
+		set_country_flag = diplomacy_idea
+		clr_country_flag = choosing_diplomacy
+		add_country_modifier = { name = diplomacy_idea duration = -1 }
+	}
+}
 
 country_event = {
 	id = 91669
