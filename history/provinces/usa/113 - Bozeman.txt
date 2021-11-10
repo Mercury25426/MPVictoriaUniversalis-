@@ -1,8 +1,9 @@
-owner = BLA
-controller = BLA
+owner = USA
+controller = USA
+add_core = USA
 add_core = BLA
 trade_goods = cattle
-colony = 0
+colony = 2
 life_rating = 35	
 1913.1.1 = {
 	colony = 0

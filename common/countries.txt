@@ -431,6 +431,17 @@ SUL		= "countries/Sulu.txt"
 SWK		= "countries/Sarawak.txt"
 TMR		= "countries/Timor.txt"
 
+
+
+#zombies bruv innit
+REB 		= "countries/rebels.txt"
+ZOM		= "countries/Zombieland.txt"
+Z01 		= "countries/Zombeurope.txt"
+Z02		= "countries/Zombasia.txt"
+Z03		= "countries/Zombafrica.txt"
+Z04		= "countries/North_Zomberica.txt"
+Z05		= "countries/South_Zomberica.txt"
+Z06		= "countries/Zombeania.txt"
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
 D01		= "countries/D01.txt"

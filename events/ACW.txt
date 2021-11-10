@@ -92,6 +92,23 @@ country_event = {
 	}
 }
 
+
+country_event = {
+	id = 6959
+	title = "add core gadsden ai"
+	desc = "You don't see this"
+
+	trigger = {
+		ai = yes
+		NOT = { has_country_flag = gadsdenp }
+		year = 1854
+	}
+	effect = {
+		102 = { add_core = USA }
+		set_country_flag = gadsden
+	}
+}
+
 country_event = {
 	id = 16001
 	title = "EVTNAME16001"
@@ -150,6 +167,7 @@ province_event = {
 			state_id = 217
 			state_id = 185 
 			state_id = 146
+			state_id = 222
 		}
 		owner = {
 			tag = USA
@@ -175,6 +193,7 @@ province_event = {
 					NOT = { state_id = 217 }
 					NOT = { state_id = 185 }
 					NOT = { state_id = 146 }
+					NOT = { state_id = 222 }
 				}
 				add_core = CSA
 				any_pop = {
@@ -1917,28 +1936,28 @@ country_event = {
 
 		}
 	}
-	country_event = {
-		id = 150013
-		title = "You can now conquer the natives with a conquer casus belli"
-		desc = "Just letting you know"
+	# country_event = {
+	# 	id = 150013
+	# 	title = "You can now conquer the natives with a conquer casus belli"
+	# 	desc = "Just letting you know"
 	
 	
-		trigger = {
-				OR = {
-					tag = USA
-					tag = ENG
-					tag = CAN
-				}
-				breech_loaded_rifles = 1
-				realism = 1
-				NOT = { has_country_flag = USnatives }
+	# 	trigger = {
+	# 			OR = {
+	# 				tag = USA
+	# 				tag = ENG
+	# 				tag = CAN
+	# 			}
+	# 			breech_loaded_rifles = 1
+	# 			realism = 1
+	# 			NOT = { has_country_flag = USnatives }
 				
-			}
-			option = {
-				set_country_flag = USnatives
-				name = "Nice"
-			}
-		}
+	# 		}
+	# 		option = {
+	# 			set_country_flag = USnatives
+	# 			name = "Nice"
+	# 		}
+	# 	}
 
 	country_event = {
 		id = 150012

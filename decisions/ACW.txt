@@ -205,6 +205,7 @@ political_decisions = {
 				add_accepted_culture = creole
 				militancy = 2
 				consciousness = 2
+				set_global_flag = integrate_blacks
 			}
 			ai_will_do = {
 				factor = 1
@@ -705,10 +706,22 @@ political_decisions = {
 				TEX_132 = {
 					add_core = USA
 				}
+				USA_112 = {
+					add_core = USA
+				}
+				USA_106 = {
+					add_core = USA
+				}
+				USA_129 = {
+					add_core = USA
+				}
 				MEX_103 = {
 					add_core = USA
 				}
 				USA_129 = {
+					add_core = USA
+				}
+				USA_130 = {
 					add_core = USA
 				}
 				USA_106 = {

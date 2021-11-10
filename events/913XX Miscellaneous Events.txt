@@ -3848,7 +3848,7 @@ country_event = {
 }
 
 #########################################################################
-# 							DISABLE CRISIS								#
+# 							DISABLE CRISIS/Zombies								#
 #########################################################################
 
 country_event = {
@@ -3872,6 +3872,23 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 913277
+	title = "Enable or Disable Zombies"
+	desc = "Zombies are extremely devestating and can kill your game, also they happen 'late game' "
+	picture = upper_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Enable"
+	}
+
+	option = {
+		name = "Disable"
+		set_global_flag = zombies_enabled_no
+	}
+}
 country_event = {
 	id = 91328
 	title = "Crisis Cooldown"

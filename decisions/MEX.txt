@@ -208,6 +208,7 @@ political_decisions = {
 			}
 			
 			effect = {
+				102 = { add_core = USA }
 				set_country_flag = gadsden_negotiations
 				random_country = {
 				limit = { primary_culture = mexican owns = 102 } 

@@ -2,5 +2,6 @@ owner = ENG
 controller = ENG
 add_core = ENG
 add_core = ENL
+add_core = ENL
 trade_goods = fish
 life_rating = 40

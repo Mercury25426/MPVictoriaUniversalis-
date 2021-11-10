@@ -27,9 +27,11 @@ country_event = {
 	option = {
 		name = "Disable Anarchism"
 		set_global_flag = anarchism_disabled
+		country_event = { id = 913277 days = 0 }
 	}
 	option = {
 		name = "Enable Anarchism"
+		country_event = { id = 913277 days = 0 }
 	}
 
 

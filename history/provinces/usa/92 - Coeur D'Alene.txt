@@ -1,8 +1,8 @@
-owner = NEZ
-controller = NEZ
+
 add_core = NEZ
 add_core = COL
 trade_goods = timber
+colony = 2
 life_rating = 35
 
 1913.1.1 = {

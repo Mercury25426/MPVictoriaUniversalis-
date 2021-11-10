@@ -276,6 +276,8 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			change_tag = GER
+			clr_country_flag = confederalism
+			political_reform = federalism
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german
 			CTR = {
@@ -320,8 +322,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			clr_country_flag = confederalism
-			political_reform = federalism
+			clr_country_flag = federalism
+			political_reform = unitary
 			prestige = 200
 			change_tag = GRA
 			add_accepted_culture = burgundian

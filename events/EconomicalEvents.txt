@@ -1338,7 +1338,7 @@ country_event = {
 	
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 200
 		modifier = {
 			factor = 0.8
 			war = yes

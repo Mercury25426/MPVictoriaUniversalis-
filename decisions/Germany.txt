@@ -434,8 +434,10 @@ political_decisions = {
 
 	the_heligoland_question = {
 		potential = {
+			OR = {
 			tag = GER
 			tag = GRA
+			}
 			NOT = {
 				has_country_flag = has_questioned_heligoland
 			}

@@ -2113,7 +2113,7 @@ american_cultures = {
 	}
 
 	american = {
-		color = {0 0 128}
+		color = {65 65 129}
 		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
 				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 

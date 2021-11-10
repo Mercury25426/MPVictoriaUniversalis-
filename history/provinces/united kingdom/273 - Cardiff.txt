@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = ENG
+add_core = ENL
 add_core = WHA
 trade_goods = coal
 naval_base = 2

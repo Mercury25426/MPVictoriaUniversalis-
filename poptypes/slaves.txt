@@ -3,7 +3,6 @@ strata = poor
 allowed_to_vote = no
 unemployment = yes
 is_slave = yes
-can_be_recruited = yes
 color = { 17 17 17 }
 
 rebel =

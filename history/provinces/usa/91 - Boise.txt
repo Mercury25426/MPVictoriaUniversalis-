@@ -1,9 +1,7 @@
 trade_goods = wool
 life_rating = 35
-owner = SHO
-controller = SHO
 add_core = SHO
-colony = 0
+colony = 2
 1913.1.1 = {
 	colonial = 0
 	state_building = {

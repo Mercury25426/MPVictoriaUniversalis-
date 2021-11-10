@@ -1,5 +1,6 @@
-owner = CHO
-controller = CHO
+owner = MEX
+controller = MEX
+add_core = MEX
 add_core = CHO
 add_core = TEX
 trade_goods = grain

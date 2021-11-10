@@ -1,5 +1,6 @@
-owner = APA
-controller = APA
+owner = MEX
+controller = MEX
+add_core = MEX
 add_core = APA
 colonial = 0
 trade_goods = cattle

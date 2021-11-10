@@ -1,0 +1,962 @@
+#Outbreak
+country_event = {
+	id = 99001
+	title = "EVTNAME99001"
+	desc = "EVTDESC99001"
+	picture = disease
+
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+		NOT = {
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA99001"
+		random_country = {
+			limit = {
+				NOT = { tag = SOK }
+				number_of_states = 3
+			}
+			country_event = 99002
+		}
+	}
+}
+
+#Country to Province
+country_event = {
+	id = 99002
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = disease
+
+	trigger = {
+		any_neighbor_country = {
+			has_country_flag = zombie_outbreak
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+		NOT = {
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = "EVTOPTA99002"
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Province to Country
+country_event = {
+	id = 99003
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = disease
+
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = zombie_outbreak
+		}
+		NOT = {
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+		}
+	}
+}
+
+#Japan to China
+country_event = {
+	id = 99004
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = CHI
+		JAP = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#China to Japan
+country_event = {
+	id = 99005
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = JAP
+		CHI = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			year = 1900
+			NOT = { has_global_flag = zombies_enabled_no }
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Madagascar to France
+country_event = {
+	id = 99006
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = FRA
+		MAD = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#France to Madagascar
+country_event = {
+	id = 99007
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = MAD
+		FRA = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Caribbean to United States
+country_event = {
+	id = 99008
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = USA
+		OR = {
+			CUB = {	
+				has_country_flag = zombie_outbreak
+				any_owned_province = {
+					is_coastal = yes
+					is_colonial = no
+					is_overseas = no
+					has_province_modifier = zombie_outbreak
+				}
+			}
+
+			HAI = {
+				has_country_flag = zombie_outbreak
+				any_owned_province = {
+					is_coastal = yes
+					is_colonial = no
+					is_overseas = no
+					has_province_modifier = zombie_outbreak
+				}
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#United States to Caribbean
+country_event = {
+	id = 99009
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		OR = {
+			tag = CUB
+			tag = HAI
+		}
+		USA = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Oceania to United Kingdom
+country_event = {
+	id = 99010
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = ENG
+		OR = {
+			AST = {	
+				has_country_flag = zombie_outbreak
+				any_owned_province = {
+					is_coastal = yes
+					is_colonial = no
+					is_overseas = no
+					has_province_modifier = zombie_outbreak
+				}
+			}
+
+			NZL = {
+				has_country_flag = zombie_outbreak
+				any_owned_province = {
+					is_coastal = yes
+					is_colonial = no
+					is_overseas = no
+					has_province_modifier = zombie_outbreak
+				}
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#United Kingdom to Oceania
+country_event = {
+	id = 99011
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		OR = {
+			tag = AST
+			tag = NZL
+		}
+		ENG = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Iceland to Denmark
+country_event = {
+	id = 99012
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = DEN
+		ICL = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Denmark to Iceland
+country_event = {
+	id = 99013
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = emigration
+
+	trigger = {
+		tag = DEN
+		ICL = {
+			any_owned_province = {
+				is_coastal = yes
+				is_colonial = no
+				is_overseas = no
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak
+			has_country_flag = zombie_outbreak_defeat
+			has_country_flag = zombie_outbreak_victory
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "Uh oh."
+		set_country_flag = zombie_outbreak
+		any_pop = {
+			consciousness = 1
+			militancy = -2
+		}
+		random_province = {
+			limit = {
+				is_capital = no
+				is_colonial = no
+				is_overseas = no
+			}
+			add_province_modifier = {
+				name = zombie_outbreak
+				duration = -1
+			}
+			any_pop = {
+				reduce_pop = 0.8
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+#Province Victory
+province_event = {
+	id = 99014
+	title = "EVTNAME99014"
+	desc = "EVTDESC99014"
+
+	trigger = {
+		has_province_modifier = zombie_outbreak
+		NOT = {
+			controlled_by = REB
+			country_units_in_province = REB
+		}
+		units_in_province = 1
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 1.25
+			any_neighbor_province = {
+				has_province_modifier = zombie_outbreak
+			}
+		}
+	}
+
+	option = {
+		name = "Excellent."
+		remove_province_modifier = zombie_outbreak
+		any_pop = {
+			consciousness = 2
+			militancy = -8
+		}
+	}
+}
+
+#Country Victory
+country_event = {
+	id = 99015
+	title = "EVTNAME99015"
+	desc = "EVTDESC99015"
+	picture = prosper
+
+	trigger = {
+		has_country_flag = zombie_outbreak
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = zombie_outbreak
+			}
+			has_country_flag = zombie_outbreak_victory
+			num_of_revolts = 1
+		}
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Excellent."
+		clr_country_flag = zombie_outbreak
+		set_country_flag = zombie_outbreak_victory
+		any_pop = {
+			consciousness = -5
+			militancy = -8
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Global Defeat
+country_event = {
+	id = 99024
+	title = "EVTNAME99024"
+	desc = "EVTDESC99024"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Oh uh."
+		clr_country_flag = zombie_outbreak
+		set_country_flag = zombie_outbreak_defeat
+		any_pop = {
+			reduce_pop = 0.1
+			consciousness = -5
+			militancy = -10
+		}
+		any_owned_province = {
+			remove_province_modifier = zombie_outbreak
+		}
+	}
+}
+
+##Terra Nullius
+#province_event = {
+#	id = 99025
+#	title = "EVTNAME99025"
+#	desc = "EVTDESC99025"
+#
+#	trigger = {
+#		has_province_modifier = zombie_outbreak
+#		controlled_by = REB
+#		NOT = {
+#			country_units_in_province = THIS
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 18
+#		modifier = {
+#			factor = 0.5
+#			any_neighbor_province = {
+#				has_province_modifier = zombie_outbreak
+#			}
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_empty_adjacent_province = yes
+#		}
+#	}
+#
+#	option = {
+#		name = "Uh oh."
+#		any_pop = {
+#			reduce_pop = 0.4
+#			militancy = 8
+#			consciousness = -3
+#		}
+#		#add_core = this
+#		change_controller = THIS
+#		secede_province = FROM
+#		#trade_goods = fish
+#	}
+#}
+
+##### Added 12/18/11 #####
+
+#Add State of Emergency Modifier
+
+
+#Remove State of Emergency Modifier
+
+
+#The Zombies are back!
+country_event = {
+	id = 99028
+	title = "EVTNAME99028"
+	desc = "EVTDESC99028"
+	picture = disease
+
+	trigger = {
+		any_owned_province = {
+			has_province_modifier = zombie_outbreak
+		}
+		has_country_flag = zombie_outbreak_victory
+		year = 1900
+		NOT = { has_global_flag = zombies_enabled_no }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Oh no!"
+		clr_country_flag = zombie_outbreak_victory
+		set_country_flag = zombie_outbreak
+		any_owned_province = {
+			limit = {
+				has_province_modifier = zombie_outbreak
+			}
+			any_pop = {
+				reduce_pop = 0.90
+				consciousness = -3
+				militancy = 10
+			}
+		}
+	}
+}
+
+		

@@ -57,7 +57,6 @@ zcountry_increase_colonial_migration = {
 	picture = pioneers
 	alert = no
 	potential = {
-		ai = no
 		colonial_nation = yes
 		NOT = { colonial_migration = high_colonial_migration }
 	}
@@ -83,6 +82,12 @@ zcountry_increase_colonial_migration = {
 			owner = { political_reform = low_colonial_migration }
 		}
 	}
+	ai_will_do = { 
+	factor = 1 
+	modifier = {
+		factor = 0
+		NOT = { tag = USA }
+	}}
 }
 
 #########################################################################
